@@ -1,5 +1,5 @@
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://instituto-frauches-blog.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://institutofrauches.blog";
 
 export const SITE_NAME = "Instituto Frauches";
 
