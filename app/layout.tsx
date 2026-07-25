@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Blog | Instituto Frauches",
   description:
     "Conteúdo educativo sobre transplante capilar FUE, tricologia e calvície, assinado pelo Dr. Vitor Frauches.",
+  verification: {
+    google: "xWPxYfpzRIg4Z-iynPZShG3nYBxgpZthHYdluABAo0I",
+  },
 };
 
 export default function RootLayout({
