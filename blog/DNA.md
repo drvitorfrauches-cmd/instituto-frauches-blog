@@ -164,13 +164,20 @@ uma etapa do procedimento ou um conceito ficar mais claro ilustrado.
 - linha frontal capilar
 - transplante capilar dói
 - transplante capilar natural
+- preço transplante capilar
+- quem pode fazer transplante capilar
+- FUE ou FUT
+- melhor clínica transplante capilar
+- exames transplante capilar
+- calvície tem cura
 
 ### Secundárias (apoio quando o tema permitir)
 
 alopecia androgenética, entradas capilares, coroa capilar, densidade capilar,
 folículo piloso, non-shave FUE, sedação em transplante capilar, pós-operatório
 capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
-barba, transplante de sobrancelha, PRP capilar.
+barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
+implanter, superextração capilar.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -184,6 +191,13 @@ barba, transplante de sobrancelha, PRP capilar.
 - "Área doadora do transplante capilar pode se esgotar?"
 - "Qual a diferença entre FUE e FUT?"
 - "Preciso raspar a cabeça para fazer transplante capilar?"
+- "Quanto custa um transplante capilar?"
+- "Transplante capilar é definitivo?"
+- "Calvície tem cura?"
+- "Minoxidil funciona?"
+- "Finasterida faz mal?"
+- "PRP funciona para queda de cabelo?"
+- "Boné causa calvície?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
