@@ -1,0 +1,95 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
+import { SITE_NAME, SITE_URL } from "@/lib/blog/site";
+
+export async function generateStaticParams() {
+  return getAllPosts().map((post) => ({ slug: post.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const meta = getPostMeta(slug);
+  if (!meta) return {};
+
+  return {
+    title: `${meta.title} | ${SITE_NAME}`,
+    description: meta.description,
+    alternates: { canonical: `${SITE_URL}/blog/${meta.slug}` },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: "article",
+      publishedTime: meta.publishedAt,
+      authors: [meta.author.name],
+      url: `${SITE_URL}/blog/${meta.slug}`,
+    },
+  };
+}
+
+export default async function BlogPostPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const meta = getPostMeta(slug);
+  const load = getPostComponent(slug);
+
+  if (!meta || !load) {
+    notFound();
+  }
+
+  const { default: Content } = await load();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    headline: meta.title,
+    description: meta.description,
+    datePublished: meta.publishedAt,
+    author: {
+      "@type": "Person",
+      name: meta.author.name,
+      jobTitle: meta.author.role,
+    },
+    publisher: {
+      "@type": "MedicalOrganization",
+      name: SITE_NAME,
+    },
+    mainEntityOfPage: `${SITE_URL}/blog/${meta.slug}`,
+  };
+
+  return (
+    <main className="mx-auto max-w-2xl px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <Link href="/blog" className="mb-8 inline-block text-sm text-neutral-500 hover:underline">
+        ← Voltar para o blog
+      </Link>
+
+      <span className="mb-2 block text-xs font-medium uppercase tracking-wide text-neutral-500">
+        {meta.category} · {meta.readingTime} min de leitura
+      </span>
+      <h1 className="mb-4 text-3xl font-bold text-neutral-900">{meta.title}</h1>
+      <p className="mb-10 text-sm text-neutral-500">
+        Por {meta.author.name}, {meta.author.role} · publicado em{" "}
+        {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
+          timeZone: "UTC",
+        })}
+      </p>
+
+      <article>
+        <Content />
+      </article>
+    </main>
+  );
+}
