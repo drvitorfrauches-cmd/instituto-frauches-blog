@@ -1,6 +1,7 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
 import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "transplante-capilar-doi",
@@ -99,7 +100,10 @@ export default function Article() {
       <P>
         Quer entender como seria o seu procedimento e tirar essa e outras
         dúvidas com o Dr. Vitor Frauches?{" "}
-        <Strong>[AGENDAR AVALIAÇÃO]</Strong>
+        <a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer">
+          <Strong>Agende sua avaliação pelo WhatsApp</Strong>
+        </a>
+        .
       </P>
     </>
   );

@@ -30,9 +30,15 @@ fundada pelo Dr. Vitor Frauches e pelo Dr. Bruno Frauches. O blog fala em nome d
   matéria publicada em maio de 2026).
 - Presença digital: Instagram do Dr. Vitor ("Transplante Capilar FUE" em Vitória) e
   Instagram do Instituto Frauches.
-- **CTA de agendamento**: `[LINK DE AGENDAMENTO — TODO: Dr. Vitor vai fornecer]`.
-  Enquanto esse link não for definido, use um placeholder visível `[AGENDAR AVALIAÇÃO]`
-  no texto e **não invente** um número de WhatsApp, URL ou e-mail.
+- **CTA de agendamento (canal primário: WhatsApp)**: todo artigo termina com um
+  link para o WhatsApp `https://wa.me/5527992858541`, com uma mensagem
+  pré-preenchida curta pedindo avaliação (ex.: `?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20transplante%20capilar.`).
+  Use `WHATSAPP_URL` exportado de `lib/blog/site.ts` para montar o link, nunca
+  digite o número solto no corpo do artigo.
+- **Canal secundário**: Instagram do Dr. Vitor, `https://instagram.com/drvitorfrauches`
+  (`INSTAGRAM_URL` em `lib/blog/site.ts`). Use quando o CTA for mais sobre
+  acompanhar conteúdo/casos do que agendar direto (ex.: menção ao final de um
+  artigo educativo, sem forçar).
 
 ### Narrativa central de marca
 

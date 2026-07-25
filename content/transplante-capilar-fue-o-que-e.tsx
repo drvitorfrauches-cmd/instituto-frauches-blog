@@ -1,5 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import { P, H2, UL, OL, LI, Strong, Callout } from "@/components/article-ui";
+import { WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "transplante-capilar-fue-o-que-e",
@@ -138,7 +139,11 @@ export default function Article() {
       <P>
         Se você quer entender se é candidato à técnica FUE e como seria o
         planejamento no seu caso, o primeiro passo é uma avaliação médica com
-        o Dr. Vitor Frauches. <Strong>[AGENDAR AVALIAÇÃO]</Strong>
+        o Dr. Vitor Frauches.{" "}
+        <a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer">
+          <Strong>Agende sua avaliação pelo WhatsApp</Strong>
+        </a>
+        .
       </P>
     </>
   );

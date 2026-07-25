@@ -50,9 +50,12 @@ Leia por inteiro, nesta ordem:
 - Inclua 1-3 links internos (`<Link href="/blog/<slug-existente>">`) para
   artigos já publicados, quando fizer sentido — sem forçar.
 - Termine com um `Callout` de disclaimer médico (mesmo texto do artigo de
-  exemplo, adaptado) e uma chamada para agendar avaliação usando o CTA
-  definido em `blog/DNA.md` (hoje é o placeholder `[AGENDAR AVALIAÇÃO]`; se o
-  DNA já tiver um link real quando você rodar isso, use o link real).
+  exemplo, adaptado) e uma chamada para agendar avaliação linkando para
+  `WHATSAPP_URL` (exportado de `lib/blog/site.ts`), como já é feito nos dois
+  artigos publicados. Não digite o número de WhatsApp solto no texto, sempre
+  importe a constante. Use `INSTAGRAM_URL` só como menção secundária, quando
+  fizer sentido (ex.: "acompanhe mais casos no Instagram"), nunca como CTA
+  principal de agendamento.
 
 ## Passo 4 — Humanizar
 
