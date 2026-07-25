@@ -19,26 +19,6 @@ existir ainda) e um briefing (os pontos que o Dr. Vitor quer que o artigo
 cubra — use como roteiro das seções H2, não precisa ser 1 H2 por bullet
 exatamente, mas todos os pontos devem aparecer no texto).
 
-### 2. Quanto custa um transplante capilar em 2026?
-- **Objetivo SEO**: preço transplante capilar
-- **Briefing**: o que influencia o valor; número de folículos; complexidade
-  do caso; tecnologia utilizada; por que desconfiar de preços muito baixos.
-
-### 3. Quem é candidato ao transplante capilar?
-- **Objetivo SEO**: quem pode fazer transplante capilar
-- **Briefing**: idade; grau da calvície; área doadora; mulheres; casos que
-  devem tratar antes da cirurgia.
-
-### 4. Quanto tempo demora para nascer o cabelo transplantado?
-- **Objetivo SEO**: resultado transplante capilar
-- **Briefing**: linha do tempo mês a mês; queda inicial; crescimento;
-  resultado final; quando o paciente deve se preocupar.
-
-### 5. Transplante capilar dura para sempre?
-- **Objetivo SEO**: transplante capilar é definitivo
-- **Briefing**: conceito de área segura; durabilidade dos fios; importância
-  do tratamento clínico complementar; envelhecimento natural.
-
 ### 6. O que é a técnica FUE?
 - **Objetivo SEO**: FUE
 - **Briefing**: como funciona; diferenças da FUT; cicatrizes; recuperação;
@@ -48,34 +28,6 @@ exatamente, mas todos os pontos devem aparecer no texto).
   ângulo claramente (evitar conteúdo duplicado) ou tratar como atualização/
   aprofundamento e linkar para o artigo existente em vez de reescrever do
   zero. Avalie antes de produzir.
-
-### 7. FUE ou FUT: qual a melhor técnica?
-- **Objetivo SEO**: FUE ou FUT
-- **Briefing**: explicação das duas técnicas; indicações; vantagens;
-  limitações; casos ideais.
-
-### 8. Como escolher uma clínica de transplante capilar
-- **Objetivo SEO**: melhor clínica transplante capilar
-- **Briefing**: médico especialista; planejamento; área doadora; equipe;
-  tecnologia; pós-operatório.
-
-### 9. Área doadora: por que ela é o patrimônio do paciente?
-- **Objetivo SEO**: área doadora
-- **Briefing**: o que é; limitações; superextração; planejamento a longo
-  prazo; casos de reoperação.
-
-### 10. Quais exames são necessários antes do transplante?
-- **Objetivo SEO**: exames transplante capilar
-- **Briefing**: exames laboratoriais; avaliação clínica; medicações;
-  cuidados pré-operatórios.
-
-### 11. Calvície tem cura?
-- **Briefing**: o que é alopecia androgenética; controle da doença;
-  tratamentos disponíveis; quando operar.
-
-### 12. Minoxidil realmente funciona?
-- **Briefing**: como age; resultados esperados; oral x tópico; efeitos
-  colaterais.
 
 ### 13. Finasterida faz mal?
 - **Briefing**: mecanismo de ação; principais mitos; evidências científicas;
@@ -242,5 +194,31 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 
 ## Já publicados
 
-_(nenhum ainda — os 2 artigos de lançamento vieram da distribuição de
-pilares do DNA, não desta fila)_
+Os 2 artigos de lançamento (`transplante-capilar-fue-o-que-e`,
+`transplante-capilar-doi`) vieram da distribuição de pilares do DNA, não
+desta fila. A partir daqui, os itens vieram da fila de sugeridos:
+
+- Item 2, "Quanto custa um transplante capilar em 2026?" — publicado em
+  2026-07-25 como `preco-transplante-capilar` (PR #1).
+- Item 3, "Quem é candidato ao transplante capilar?" — publicado em
+  2026-07-25 como `quem-pode-fazer-transplante-capilar` (PR #2).
+- Item 4, "Quanto tempo demora para nascer o cabelo transplantado?" —
+  publicado em 2026-07-25 como `resultado-transplante-capilar-linha-do-tempo`
+  (PR #3).
+- Item 5, "Transplante capilar dura para sempre?" — publicado em 2026-07-25
+  como `transplante-capilar-e-definitivo` (PR #4).
+- Item 7, "FUE ou FUT: qual a melhor técnica?" — publicado em 2026-07-25
+  como `fue-ou-fut` (PR #5).
+- Item 8, "Como escolher uma clínica de transplante capilar" — publicado em
+  2026-07-25 como `como-escolher-clinica-transplante-capilar` (PR #6).
+- Item 9, "Área doadora: por que ela é o patrimônio do paciente?" —
+  publicado em 2026-07-25 como `area-doadora-transplante-capilar` (PR #7).
+- Item 10, "Quais exames são necessários antes do transplante?" — publicado
+  em 2026-07-25 como `exames-antes-do-transplante-capilar` (PR #8).
+- Item 11, "Calvície tem cura?" — publicado em 2026-07-25 como
+  `calvicie-tem-cura` (PR #9).
+- Item 12, "Minoxidil realmente funciona?" — publicado em 2026-07-25 como
+  `minoxidil-funciona` (PR #10).
+
+Item 6, "O que é a técnica FUE?", permanece em Pendentes (não foi usado
+neste lote por risco de duplicidade com o artigo de lançamento).
