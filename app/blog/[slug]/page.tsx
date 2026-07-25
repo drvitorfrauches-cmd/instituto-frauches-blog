@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
@@ -28,6 +29,7 @@ export async function generateMetadata({
       publishedTime: meta.publishedAt,
       authors: [meta.author.name],
       url: `${SITE_URL}/blog/${meta.slug}`,
+      images: meta.coverImage ? [{ url: `${SITE_URL}${meta.coverImage.src}` }] : undefined,
     },
   };
 }
@@ -63,6 +65,7 @@ export default async function BlogPostPage({
       name: SITE_NAME,
     },
     mainEntityOfPage: `${SITE_URL}/blog/${meta.slug}`,
+    image: meta.coverImage ? `${SITE_URL}${meta.coverImage.src}` : undefined,
   };
 
   return (
@@ -80,12 +83,23 @@ export default async function BlogPostPage({
         {meta.category} · {meta.readingTime} min de leitura
       </span>
       <h1 className="mb-4 text-3xl font-bold text-neutral-900">{meta.title}</h1>
-      <p className="mb-10 text-sm text-neutral-500">
+      <p className="mb-6 text-sm text-neutral-500">
         Por {meta.author.name}, {meta.author.role} · publicado em{" "}
         {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
           timeZone: "UTC",
         })}
       </p>
+
+      {meta.coverImage && (
+        <Image
+          src={meta.coverImage.src}
+          alt={meta.coverImage.alt}
+          width={1200}
+          height={675}
+          priority
+          className="mb-10 aspect-video w-full rounded-lg object-cover"
+        />
+      )}
 
       <article>
         <Content />

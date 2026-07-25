@@ -14,6 +14,10 @@ export const meta: PostMeta = {
     name: "Dr. Vitor Frauches",
     role: "Médico especialista em transplante capilar e tricologia",
   },
+  coverImage: {
+    src: "/blog/transplante-capilar-fue-o-que-e/cover.jpg",
+    alt: "Instrumentos cirúrgicos de transplante capilar FUE organizados em uma bandeja clínica",
+  },
 };
 
 export default function Article() {

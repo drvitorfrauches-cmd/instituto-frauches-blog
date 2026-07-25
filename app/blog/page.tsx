@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
 import { SITE_URL } from "@/lib/blog/site";
@@ -27,6 +28,15 @@ export default function BlogIndexPage() {
         {posts.map((post) => (
           <li key={post.slug} className="border-b border-neutral-200 pb-8">
             <Link href={`/blog/${post.slug}`} className="group block">
+              {post.coverImage && (
+                <Image
+                  src={post.coverImage.src}
+                  alt={post.coverImage.alt}
+                  width={1200}
+                  height={675}
+                  className="mb-4 aspect-video w-full rounded-lg object-cover"
+                />
+              )}
               <span className="mb-1 block text-xs font-medium uppercase tracking-wide text-neutral-500">
                 {post.category} · {post.readingTime} min de leitura
               </span>

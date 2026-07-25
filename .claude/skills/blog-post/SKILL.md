@@ -57,19 +57,39 @@ Leia por inteiro, nesta ordem:
   fizer sentido (ex.: "acompanhe mais casos no Instagram"), nunca como CTA
   principal de agendamento.
 
-## Passo 4 — Humanizar
+## Passo 4 — Gerar a imagem de capa
+
+Siga a seção "Imagens" de `blog/DNA.md`. Resumo:
+
+1. Gere a imagem com a ferramenta de geração de imagem (Higgsfield), modelo
+   `z_image`, `aspect_ratio: "16:9"`, com um prompt específico ao tema do
+   artigo (ambiente clínico, instrumento cirúrgico, still-life editorial,
+   ilustração conceitual, nunca rosto de paciente ou "resultado" fingido). Se
+   `z_image` estiver indisponível, verifique modelos alternativos com
+   `models_explore` antes de tentar `recraft_v4_1` (historicamente exige
+   plano pago e retorna 403).
+2. Salve o arquivo em `public/blog/<slug>/cover.jpg`.
+3. Preencha `meta.coverImage = { src: "/blog/<slug>/cover.jpg", alt: "..." }`
+   no arquivo do artigo, com alt text descritivo (pode incluir a keyword
+   primária se ficar natural).
+4. Opcional: gere 1 imagem adicional só se alguma seção do artigo ganhar
+   clareza real sendo ilustrada (ex.: diagrama de etapa cirúrgica). Use a
+   primitiva `Figure` para inserir no corpo, mesmo padrão de salvamento em
+   `public/blog/<slug>/`.
+
+## Passo 5 — Humanizar
 
 Releia o corpo do artigo aplicando `.claude/skills/humanizer/SKILL.md`:
 elimine travessões, linguagem de IA genérica, paralelismos do tipo "não é só
 X, é Y", voz passiva em excesso, aberturas e conclusões clichê. Varie o
 tamanho das frases.
 
-## Passo 5 — Registrar
+## Passo 6 — Registrar
 
 Nada a fazer. O registry (`lib/blog/registry.ts`) descobre o artigo
 automaticamente via filesystem a partir do arquivo criado em `content/`.
 
-## Passo 6 — Validar
+## Passo 7 — Validar
 
 1. Rode `npm run build` na raiz do projeto. Tem que passar sem erros.
 2. Confirme no output do build que a rota `/blog/<slug>` aparece como página
@@ -78,19 +98,20 @@ automaticamente via filesystem a partir do arquivo criado em `content/`.
    primeiro parágrafo e em pelo menos um H2; nenhum travessão; nenhum número,
    depoimento ou caso de paciente inventado; nenhuma promessa de resultado
    sem nota de variação individual; links internos válidos (slugs que
-   realmente existem em `content/`).
+   realmente existem em `content/`); imagem de capa presente e carregando.
 4. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
-   prossiga para o passo 7.
+   prossiga para o passo 8.
 
-## Passo 7 — Entregar (regra fixa: Pull Request)
+## Passo 8 — Entregar (regra fixa: Pull Request)
 
 Este projeto usa **sempre entrega por Pull Request**, nunca commit direto na
 branch principal. Como a automação roda sozinha (via schedule), não pergunte
 ao usuário qual abordagem usar — é sempre esta:
 
 1. Criar uma branch nova: `git checkout -b blog/<slug>`.
-2. `git add content/<slug>.tsx` (só o arquivo do artigo; não adicione outros
-   arquivos alterados por acidente).
+2. `git add content/<slug>.tsx public/blog/<slug>/` (só os arquivos do
+   artigo e das imagens dele; não adicione outros arquivos alterados por
+   acidente).
 3. `git commit -m "blog: <título do artigo>"`.
 4. `git push -u origin blog/<slug>`.
 5. Abrir o PR: `gh pr create --title "blog: <título>" --body "<resumo do

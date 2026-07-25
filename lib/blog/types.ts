@@ -3,6 +3,12 @@ export interface PostAuthor {
   role: string;
 }
 
+export interface PostImage {
+  /** path under /public, e.g. "/blog/transplante-capilar-fue-o-que-e/cover.jpg" */
+  src: string;
+  alt: string;
+}
+
 export interface PostMeta {
   slug: string;
   title: string;
@@ -13,4 +19,6 @@ export interface PostMeta {
   readingTime: number;
   category: string;
   author: PostAuthor;
+  /** optional cover/thumbnail shown on /blog and at the top of the article */
+  coverImage?: PostImage;
 }

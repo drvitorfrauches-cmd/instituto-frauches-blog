@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 
 export function P({ children }: { children: ReactNode }) {
   return <p className="mb-5 leading-relaxed text-neutral-800">{children}</p>;
@@ -52,6 +53,37 @@ export function Quote({ children }: { children: ReactNode }) {
     <blockquote className="mb-5 border-l-4 border-neutral-300 pl-4 italic text-neutral-700">
       {children}
     </blockquote>
+  );
+}
+
+export function Figure({
+  src,
+  alt,
+  caption,
+  width = 1200,
+  height = 675,
+}: {
+  src: string;
+  alt: string;
+  caption?: string;
+  width?: number;
+  height?: number;
+}) {
+  return (
+    <figure className="mb-6">
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className="w-full rounded-lg object-cover"
+      />
+      {caption && (
+        <figcaption className="mt-2 text-center text-sm text-neutral-500">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
   );
 }
 

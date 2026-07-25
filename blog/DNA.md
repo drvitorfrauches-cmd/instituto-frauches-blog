@@ -91,12 +91,42 @@ Frauches**:
   futuro.
 - Não usar fotos de antes/depois de pacientes reais no corpo do artigo sem
   autorização explícita e sem rosto identificável (na prática, os artigos deste blog
-  não usam fotos de pacientes — só as primitivas de UI e, quando necessário,
-  ilustrações/diagramas genéricos).
+  não usam fotos de pacientes reais — ver seção "Imagens" abaixo).
 - Sempre que o artigo tratar de indicação, contraindicação ou avaliação de caso,
   deixar claro que a decisão depende de avaliação médica individual presencial.
 - Rodapé de todo artigo (ver primitiva `Callout`) deve reforçar: conteúdo educativo,
   não substitui consulta médica.
+
+## Imagens
+
+Todo artigo deve ter uma **imagem de capa** (`meta.coverImage`, 16:9, mínimo
+1200x675) usada como thumbnail em `/blog` e como imagem de topo do artigo. Uso
+de imagens no corpo do texto (via primitiva `Figure`) é opcional, use quando
+uma etapa do procedimento ou um conceito ficar mais claro ilustrado.
+
+- **Geração**: use a ferramenta de geração de imagem (Higgsfield), modelo
+  `z_image` com `aspect_ratio: "16:9"`. Esse modelo produz fotografia/still-life
+  editorial limpa, sem tentar simular foto real de paciente, o que evita
+  problema de compliance, e está disponível no plano atual (modelos como
+  `recraft_v4_1` retornam erro 403 `job_minimum_basic_plan_required`; não
+  tente usá-los a menos que o plano tenha sido atualizado).
+- **Nunca gerar**: rosto identificável apresentado como se fosse paciente
+  real, foto de "antes/depois" fingindo ser resultado real de cirurgia, ou
+  qualquer imagem que pareça prova de resultado clínico. Isso viola a Res.
+  CFM 2.336/2023 (ver seção de compliance acima).
+- **Estilo aprovado**: fotografia editorial/clínica (ambiente de clínica,
+  instrumentos, ilustração do couro cabeludo/folículo, still-life médico),
+  ou ilustração/diagrama conceitual do que está sendo explicado. Paleta
+  neutra, alinhada ao tom sóbrio do blog, sem elementos genéricos de banco
+  de imagem óbvio (sem sorrisos exagerados, sem clichê de stock photo).
+- **Prompt**: descreva a cena em inglês, específica ao tema do artigo (ex.:
+  "close-up editorial photo of surgical hair transplant instruments on a
+  clean clinical tray, soft natural light, neutral beige and white palette,
+  no visible faces"). Evite pedir texto renderizado na imagem.
+- **Armazenamento**: salvar em `public/blog/<slug>/cover.jpg` (ou `.png`).
+  Se usar `Figure` no corpo, salvar como `public/blog/<slug>/<nome>.jpg`.
+- **Alt text**: sempre descritivo, e inclui a keyword primária do artigo
+  quando fizer sentido naturalmente (nunca "keyword stuffing" forçado).
 
 ## Palavras-chave de SEO
 

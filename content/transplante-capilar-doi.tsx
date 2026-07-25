@@ -15,6 +15,10 @@ export const meta: PostMeta = {
     name: "Dr. Vitor Frauches",
     role: "Médico especialista em transplante capilar e tricologia",
   },
+  coverImage: {
+    src: "/blog/transplante-capilar-doi/cover.jpg",
+    alt: "Ambiente de recuperação confortável, com travesseiro e toalhas limpas, representando o conforto no pós-operatório do transplante capilar",
+  },
 };
 
 export default function Article() {
