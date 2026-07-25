@@ -32,9 +32,14 @@ exatamente, mas todos os pontos devem aparecer no texto).
 ### 13. Finasterida faz mal?
 - **Briefing**: mecanismo de ação; principais mitos; evidências científicas;
   quem pode usar.
+- Nota: já existe artigo publicado (`finasterida-para-calvicie`, pacote
+  editorial externo) cobrindo finasterida de forma ampla. Se escrever este,
+  diferencie o ângulo (foco específico em segurança/mitos) ou pule.
 
 ### 14. PRP realmente funciona para queda de cabelo?
 - **Briefing**: o que é PRP; evidências atuais; quando indicar; limitações.
+- Nota: já existe artigo publicado (`prp-para-queda-de-cabelo`, pacote
+  editorial externo) cobrindo esse tema. Avalie antes de produzir.
 
 ### 15. Queda de cabelo por estresse existe?
 - **Briefing**: eflúvio telógeno; diferença para calvície; diagnóstico;
@@ -43,6 +48,8 @@ exatamente, mas todos os pontos devem aparecer no texto).
 ### 16. O que torna um transplante capilar natural?
 - **Briefing**: hairline; direção dos fios; densidade; planejamento facial;
   naturalidade.
+- Nota: já existe artigo publicado (`como-identificar-transplante-capilar-natural`,
+  pacote editorial externo) com ângulo próximo. Avalie antes de produzir.
 
 ### 17. Por que o microscópio faz diferença na cirurgia?
 - **Briefing**: controle dos enxertos; sobrevivência folicular; qualidade
@@ -78,6 +85,9 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 - **Briefing**: entradas; afinamento; miniaturização.
 
 ### 23. Como saber se estou ficando careca?
+- Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
+  pacote editorial externo) com esse título quase idêntico. Pule ou
+  diferencie bastante o ângulo.
 ### 24. Quais exames ajudam no diagnóstico da queda capilar?
 ### 25. Calvície genética pode ser evitada?
 ### 26. A calvície piora com a idade?
@@ -99,16 +109,27 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 #### Pilar: Medicamentos e tratamentos (41-60)
 
 ### 41. Dutasterida funciona melhor que Finasterida?
+- Nota: já existe artigo publicado (`dutasterida-para-calvicie`, pacote
+  editorial externo) sobre dutasterida em geral. Este item pode focar
+  especificamente na comparação com finasterida, ângulo ainda não coberto.
 ### 42. Finasterida tópica vale a pena?
 ### 43. Minoxidil oral ou tópico?
+- Nota: já existe artigo publicado (`minoxidil-para-queda-de-cabelo` e
+  `minoxidil-funciona`) cobrindo isso. Avalie antes de produzir.
 ### 44. Quando começar o tratamento clínico?
 ### 45. Posso parar o Minoxidil?
 ### 46. O que acontece se parar a Finasterida?
 ### 47. Shampoo antiqueda funciona?
 ### 48. Laser para queda de cabelo funciona?
 ### 49. MMP para calvície
+- Nota: já existe artigo publicado (`mmp-capilar`, pacote editorial
+  externo). Avalie antes de produzir.
 ### 50. Mesoterapia para queda
+- Nota: já existe artigo publicado (`mesoterapia-capilar`, pacote editorial
+  externo). Avalie antes de produzir.
 ### 51. Exossomos para cabelo
+- Nota: já existe artigo publicado (`exossomos-para-queda-de-cabelo`,
+  pacote editorial externo). Avalie antes de produzir.
 ### 52. Células-tronco no tratamento da calvície
 ### 53. PRF x PRP
 ### 54. Microagulhamento funciona?
@@ -125,11 +146,15 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 62. O que são unidades foliculares?
 ### 63. O que é densidade capilar?
 ### 64. O que é uma hairline natural?
+- Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
+  pacote editorial externo). Avalie antes de produzir.
 ### 65. Como desenhamos a linha frontal?
 ### 66. Quanto tempo dura a cirurgia?
 ### 67. Posso assistir TV durante a cirurgia?
 ### 68. Posso dormir durante o transplante?
 ### 69. Como funciona a sedação venosa?
+- Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
+  editorial externo). Avalie antes de produzir.
 ### 70. Quando posso voltar ao trabalho?
 ### 71. Quando posso usar boné?
 ### 72. Quando posso cortar o cabelo?
@@ -151,6 +176,10 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 88. Como preservar a área doadora
 ### 89. O que é superextração?
 ### 90. Como evitar transplantes artificiais
+- Nota: tema próximo dos artigos publicados `como-identificar-transplante-capilar-natural`
+  e `sinais-transplante-capilar-mal-feito` (pacote editorial externo).
+  Diferencie o ângulo (ex.: foco em prevenção/planejamento, não em
+  identificação pós-cirurgia) antes de produzir.
 
 #### Pilar: Tecnologia (91-105)
 
@@ -184,6 +213,11 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 115. Transplante em cabelos grisalhos
 ### 116. Pacientes internacionais: como funciona
 ### 117. Como é a consulta para transplante capilar
+- Nota: tema próximo do artigo publicado
+  `o-que-perguntar-consulta-transplante-capilar` (pacote editorial
+  externo, ângulo "20 perguntas para fazer"). Este item pode focar em como
+  a consulta funciona do ponto de vista do médico/clínica, ângulo
+  complementar.
 ### 118. O que levar no dia da cirurgia
 ### 119. Mitos sobre transplante capilar
 ### 120. As 30 dúvidas mais frequentes dos pacientes
