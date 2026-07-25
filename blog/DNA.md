@@ -10,26 +10,76 @@ contrário.
 O Instituto Frauches é uma clínica de restauração capilar em Vitória, Espírito Santo,
 fundada pelo Dr. Vitor Frauches e pelo Dr. Bruno Frauches. O blog fala em nome do
 **Dr. Vitor Frauches**, médico especialista em transplante capilar e tricologia.
+Fontes destas informações: `drvitorfrauches.com.br` e Instagram `@drvitorfrauches`
+(consultados em 2026-07-25). Se algum dado mudar (novo número de cirurgias, nova
+tecnologia, etc.), atualize primeiro o site oficial e depois reflita aqui.
 
-- Antes da tricologia, o Dr. Vitor atuou em Radiologia e Diagnóstico por Imagem
-  (pós-graduação e mestrado) — pode ser mencionado como contexto de rigor técnico,
-  mas o blog não é sobre radiologia.
+**Credenciais (usar para reforçar autoridade médica no byline/menções, não repetir
+tudo em todo artigo):**
+- CRM-ES 10.229.
+- Graduação em Medicina pela UFES; graduação em Farmácia pela EMESCAM.
+- Mestrado em Ciências Cardiovasculares pela UFF; pós-graduação em Diagnóstico por
+  Imagem; pós-graduação em Tricologia Médica pela FAPECS.
+- Fellowships em restauração capilar: com o Dr. Daniel Dourado (Belo Horizonte), na
+  Clínica Natural Hair (Turquia) e com o Dr. Paulo Miorali (Marília-SP).
+- Membro da ISHRS (International Society of Hair Restoration Surgery), da WFI
+  (World FUE Institute) e da SBRCC (Sociedade Brasileira de Restauração Capilar e
+  Cirurgia). Participação em congressos internacionais da área (Denver, LAHRC,
+  ISHRS, WFI).
+- Antes da tricologia, o Dr. Vitor atuou também com diagnóstico por imagem — pode
+  ser mencionado como contexto de rigor técnico, mas o blog não é sobre radiologia.
+
 - Procedimento central: **transplante capilar pela técnica FUE** (Follicular Unit
   Extraction) — extração folicular individual, sem corte linear, sem pontos,
-  cicatrizes discretas, recuperação mais confortável.
-- Diferencial de marca: **Protocolo Frauches Precision FUE®** — método próprio que
-  cobre mapeamento da calvície, planejamento da linha frontal, respeito à angulação/
-  direção/densidade natural dos fios, definição da quantidade de folículos e
-  preservação da área doadora.
-- Tecnologia e recursos citáveis: Mamba System, UGraft Zeus, sedação venosa,
-  microscópios cirúrgicos, técnicas non-shave, planejamento individualizado, cuidado
-  específico por tipo de fio (lisos, ondulados, cacheados, afro).
+  cicatrizes discretas, recuperação mais confortável. Modalidades: Non-Shave FUE
+  (sem raspar) e Shave FUE (com raspagem total); atende cabelos lisos, ondulados,
+  cacheados e afro; também transplante de barba e sobrancelha.
+- Diferencial de marca: **Protocolo Frauches Precision FUE®** — método próprio
+  (desenvolvido pelos irmãos Dr. Vitor e Dr. Bruno Frauches) que cobre mapeamento
+  da calvície, planejamento da linha frontal, respeito à angulação/direção/
+  densidade natural dos fios, definição da quantidade de folículos e preservação
+  da área doadora.
+- Tecnologia e recursos citáveis (útil sobretudo pra artigos do pilar
+  "Tecnologia"): Mamba® System (Trivellini, rotação oscilatória e vibração
+  controlada para extração), UGraft Zeus® System ("The Intelligent Punch®",
+  permite non-shave inclusive em cabelos longos e afro), IMPLANTER PEN® (implante
+  sem pinça, menos trauma ao enxerto), tricoscópio (diagnóstico com até 100x de
+  aumento), microscópio e lupa Zeiss (separação e extração de precisão), sedação
+  venosa, planejamento individualizado.
+- Endereço/estrutura: Av. Rio Branco, 507, sala 1, Santa Lúcia, Vitória/ES; centro
+  cirúrgico próprio, equipe de anestesistas, atende pacientes de outras regiões do
+  Brasil e do exterior (pré-avaliação online, recomendação de 3 dias em Vitória
+  para acompanhamento pós-operatório).
 - Números institucionais (tratar sempre como **dado divulgado pela clínica**, citar
   sem transformar em promessa de resultado individual): mais de 1.300 transplantes
-  capilares realizados, mais de 6 milhões de folículos transplantados (dado de
-  matéria publicada em maio de 2026).
-- Presença digital: Instagram do Dr. Vitor ("Transplante Capilar FUE" em Vitória) e
-  Instagram do Instituto Frauches.
+  capilares realizados (site institucional cita "mais de 1.200"; matéria de maio de
+  2026 cita "mais de 1.300" e "mais de 6 milhões de folículos transplantados" — use
+  o número mais recente disponível e, na dúvida, a formulação mais conservadora),
+  taxa de fixação divulgada acima de 95% (cite como estatística institucional,
+  nunca como garantia individual de resultado).
+- Linha do tempo de resultado divulgada pela clínica (útil para artigos sobre
+  prazo/resultado, sempre com nota de variação individual): queda inicial dos fios
+  transplantados entre 1-2 meses (esperada, faz parte do processo); redução
+  significativa da queda e novos fios visíveis entre 3-6 meses; a partir de 6
+  meses, cerca de 55% do resultado final já visível, evoluindo até por volta de 12
+  meses para o resultado definitivo.
+- Presença digital: Instagram do Dr. Vitor `@drvitorfrauches` (bio pública: "Frauches
+  Precision FUE® — sem raspar / Resultado tão natural que ninguém percebe /
+  +1.200 cirurgias ISHRS • WFI • SBRCC") e site institucional
+  `drvitorfrauches.com.br`.
+
+### Linguagem de marketing do site vs. linguagem do blog
+
+O site institucional e o Instagram usam frases fortes de marketing/vendas, por
+exemplo "Diga adeus à calvície, sem dor e máxima naturalidade", "A cirurgia que
+você merece é aquela que ninguém percebe, apenas admira", ou "procedimento
+indolor". **O blog não deve copiar esse tom promocional direto.** Use esses
+materiais como fonte de fatos e diferenciais reais (a técnica, a tecnologia, os
+números, a filosofia), mas traduza pra linguagem informativa e dentro das regras
+de compliance da seção abaixo — por exemplo, em vez de "procedimento indolor",
+escreva algo como "a cirurgia é feita com anestesia local e sedação, então o
+paciente não sente dor durante o procedimento" (fato verificável, sem a palavra
+absoluta "indolor" como promessa).
 - **CTA de agendamento (canal primário: WhatsApp)**: todo artigo termina com um
   link para o WhatsApp `https://wa.me/5527992858541`, com uma mensagem
   pré-preenchida curta pedindo avaliação (ex.: `?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20transplante%20capilar.`).
