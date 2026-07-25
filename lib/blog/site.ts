@@ -14,5 +14,5 @@ export const INSTAGRAM_URL = "https://instagram.com/drvitorfrauches";
 
 export const AUTHOR = {
   name: "Dr. Vitor Frauches",
-  role: "Médico especialista em transplante capilar e tricologia — CRM-ES 10.229",
+  role: "Médico especialista em transplante capilar e tricologia — CRM-ES 10.229 · Professor da Pós-graduação em Transplante Capilar e Tricologia (BWS)",
 };

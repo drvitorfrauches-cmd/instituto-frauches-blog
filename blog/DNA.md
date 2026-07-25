@@ -26,6 +26,11 @@ tudo em todo artigo):**
   (World FUE Institute) e da SBRCC (Sociedade Brasileira de Restauração Capilar e
   Cirurgia). Participação em congressos internacionais da área (Denver, LAHRC,
   ISHRS, WFI).
+- **Professor da Pós-graduação em Transplante Capilar e Tricologia da instituição
+  BWS.** Ótimo sinal de autoridade para artigos mais didáticos/técnicos (ex.:
+  pilares "Tecnologia" e "Tudo sobre calvície") — pode ser mencionado quando o
+  artigo tiver um tom de aula/explicação aprofundada, sem precisar forçar em
+  artigos mais curtos ou de dúvida rápida.
 - Antes da tricologia, o Dr. Vitor atuou também com diagnóstico por imagem — pode
   ser mencionado como contexto de rigor técnico, mas o blog não é sobre radiologia.
 

@@ -107,6 +107,139 @@ exatamente, mas todos os pontos devem aparecer no texto).
 - **Briefing**: o que o shampoo pode fazer; limitações; quando procurar
   tratamento; produtos realmente úteis.
 
+---
+
+Os itens 21-120 abaixo vieram de um lote maior enviado pelo Dr. Vitor,
+organizado em 5 pilares. A ordem de uso continua sendo sequencial (os itens
+2-20 acima têm prioridade por terem entrado primeiro na fila); dentro deste
+lote, siga a ordem numérica. Itens sem briefing explícito: escreva com base
+no conhecimento médico geral do Dr. Vitor sobre o assunto, seguindo o tom e
+as regras de compliance do DNA normalmente — o título já deixa claro o
+ângulo esperado.
+
+#### Pilar: Tudo sobre calvície (21-40)
+
+### 21. O que é alopecia androgenética?
+- **Briefing**: conceito; causas; hormônios; evolução.
+
+### 22. Primeiros sinais da calvície masculina
+- **Briefing**: entradas; afinamento; miniaturização.
+
+### 23. Como saber se estou ficando careca?
+### 24. Quais exames ajudam no diagnóstico da queda capilar?
+### 25. Calvície genética pode ser evitada?
+### 26. A calvície piora com a idade?
+### 27. Escala de Norwood explicada
+### 28. Toda queda de cabelo é calvície?
+### 29. Diferença entre queda de cabelo e quebra dos fios
+### 30. Como identificar afinamento dos fios
+### 31. Calvície pode começar aos 18 anos?
+### 32. Jovens podem fazer transplante?
+### 33. Como o estresse influencia o cabelo
+### 34. Dormir mal aumenta a queda?
+### 35. Alimentação interfere na calvície?
+### 36. Vitaminas ajudam?
+### 37. Deficiência de ferro causa queda?
+### 38. Deficiência de vitamina D causa calvície?
+### 39. Testosterona causa calvície?
+### 40. Creatina provoca queda de cabelo?
+
+#### Pilar: Medicamentos e tratamentos (41-60)
+
+### 41. Dutasterida funciona melhor que Finasterida?
+### 42. Finasterida tópica vale a pena?
+### 43. Minoxidil oral ou tópico?
+### 44. Quando começar o tratamento clínico?
+### 45. Posso parar o Minoxidil?
+### 46. O que acontece se parar a Finasterida?
+### 47. Shampoo antiqueda funciona?
+### 48. Laser para queda de cabelo funciona?
+### 49. MMP para calvície
+### 50. Mesoterapia para queda
+### 51. Exossomos para cabelo
+### 52. Células-tronco no tratamento da calvície
+### 53. PRF x PRP
+### 54. Microagulhamento funciona?
+### 55. LED capilar
+### 56. Capacete de laser realmente funciona?
+### 57. Suplementos para cabelo
+### 58. Biotina realmente funciona?
+### 59. Cafeína contra queda capilar
+### 60. O futuro do tratamento da calvície
+
+#### Pilar: Transplante capilar (61-90)
+
+### 61. Quantos fios preciso transplantar?
+### 62. O que são unidades foliculares?
+### 63. O que é densidade capilar?
+### 64. O que é uma hairline natural?
+### 65. Como desenhamos a linha frontal?
+### 66. Quanto tempo dura a cirurgia?
+### 67. Posso assistir TV durante a cirurgia?
+### 68. Posso dormir durante o transplante?
+### 69. Como funciona a sedação venosa?
+### 70. Quando posso voltar ao trabalho?
+### 71. Quando posso usar boné?
+### 72. Quando posso cortar o cabelo?
+### 73. Quando posso fazer academia?
+### 74. Quando posso voltar a nadar?
+### 75. Posso tomar sol?
+### 76. Como lavar o cabelo após a cirurgia?
+### 77. Crostas: quanto tempo permanecem?
+### 78. É normal perder os fios transplantados?
+### 79. O que é Shock Loss?
+### 80. Quando o resultado começa?
+### 81. Resultado de 3 meses
+### 82. Resultado de 6 meses
+### 83. Resultado de 12 meses
+### 84. Resultado de 18 meses
+### 85. Segunda cirurgia é comum?
+### 86. Quantas cirurgias uma pessoa pode fazer?
+### 87. Quando vale a pena reoperar?
+### 88. Como preservar a área doadora
+### 89. O que é superextração?
+### 90. Como evitar transplantes artificiais
+
+#### Pilar: Tecnologia (91-105)
+
+### 91. O que é FUE Premium?
+### 92. O que é Implanter Pen?
+### 93. Por que usamos microscópios?
+### 94. Como os enxertos são armazenados
+### 95. Qual a temperatura ideal dos enxertos?
+### 96. Tempo fora do corpo influencia?
+### 97. Punch manual ou motorizado?
+### 98. Diferença entre punch de 0,8 e 1 mm
+### 99. O que é transecção folicular?
+### 100. Como aumentar a sobrevivência dos enxertos
+### 101. O papel da equipe cirúrgica
+### 102. O que diferencia uma cirurgia premium?
+### 103. Como reduzir o trauma dos enxertos
+### 104. Bioestimulação durante a cirurgia
+### 105. O futuro do transplante capilar
+
+#### Pilar: Casos especiais (106-120)
+
+### 106. Transplante em mulheres
+### 107. Transplante para barba
+### 108. Transplante para sobrancelhas
+### 109. Transplante após queimaduras
+### 110. Correção de transplantes antigos
+### 111. Correção de hairline artificial
+### 112. Transplante após micropigmentação
+### 113. Transplante em cabelos cacheados
+### 114. Transplante em cabelos crespos
+### 115. Transplante em cabelos grisalhos
+### 116. Pacientes internacionais: como funciona
+### 117. Como é a consulta para transplante capilar
+### 118. O que levar no dia da cirurgia
+### 119. Mitos sobre transplante capilar
+### 120. As 30 dúvidas mais frequentes dos pacientes
+- Nota: este é um tema "guarda-chuva" (poderia virar uma série de vários
+  artigos curtos de FAQ, não um único artigo com 30 perguntas). Ao chegar
+  nele, avalie dividir em 2-3 artigos temáticos menores em vez de um só
+  artigo gigante — mais alinhado ao formato de 900-1500 palavras do blog.
+
 ## Já publicados
 
 _(nenhum ainda — os 2 artigos de lançamento vieram da distribuição de
