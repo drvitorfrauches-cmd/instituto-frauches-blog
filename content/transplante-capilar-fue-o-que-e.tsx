@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import { P, H2, UL, OL, LI, Strong, Callout } from "@/components/article-ui";
-import { WHATSAPP_URL } from "@/lib/blog/site";
+import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "transplante-capilar-fue-o-que-e",
@@ -8,12 +8,9 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é o transplante capilar FUE, como funciona cada etapa da cirurgia e por que essa técnica é hoje a referência em naturalidade e recuperação.",
   publishedAt: "2026-07-24",
-  readingTime: 6,
+  readingTime: 7,
   category: "Técnica FUE",
-  author: {
-    name: "Dr. Vitor Frauches",
-    role: "Médico especialista em transplante capilar e tricologia",
-  },
+  author: AUTHOR,
   coverImage: {
     src: "/blog/transplante-capilar-fue-o-que-e/cover.jpg",
     alt: "Instrumentos cirúrgicos de transplante capilar FUE organizados em uma bandeja clínica",
@@ -68,13 +65,15 @@ export default function Article() {
         </LI>
         <LI>
           <Strong>Extração dos folículos:</Strong> feita um a um da área
-          doadora, com uso de microscópios e tecnologia cirúrgica de
-          precisão para preservar ao máximo essa região.
+          doadora, com dispositivos de precisão (como o Mamba® System e o
+          UGraft Zeus® System) e microscópio cirúrgico, para preservar ao
+          máximo essa região.
         </LI>
         <LI>
           <Strong>Implantação dos folículos:</Strong> cada unidade folicular
           é posicionada de acordo com o planejamento estético definido antes
-          da cirurgia.
+          da cirurgia, com instrumentos como o IMPLANTER PEN®, que reduz o
+          tempo que o folículo fica fora do corpo e o trauma ao enxerto.
         </LI>
         <LI>
           <Strong>Acompanhamento pós-operatório:</Strong> orientações de
@@ -82,6 +81,14 @@ export default function Article() {
           novos fios.
         </LI>
       </OL>
+
+      <P>
+        No Instituto Frauches, a taxa de fixação dos folículos transplantados
+        divulgada é superior a 95%. É um número institucional, calculado
+        sobre o conjunto de cirurgias já realizadas, não uma garantia
+        individual: o resultado de cada paciente depende da avaliação do seu
+        caso específico.
+      </P>
 
       <H2 id="dor-e-recuperacao">Dói? Como é a recuperação</H2>
       <P>

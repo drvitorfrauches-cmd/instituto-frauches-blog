@@ -1,7 +1,7 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
 import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
-import { WHATSAPP_URL } from "@/lib/blog/site";
+import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "transplante-capilar-doi",
@@ -11,10 +11,7 @@ export const meta: PostMeta = {
   publishedAt: "2026-07-24",
   readingTime: 5,
   category: "Dúvidas frequentes",
-  author: {
-    name: "Dr. Vitor Frauches",
-    role: "Médico especialista em transplante capilar e tricologia",
-  },
+  author: AUTHOR,
   coverImage: {
     src: "/blog/transplante-capilar-doi/cover.jpg",
     alt: "Ambiente de recuperação confortável, com travesseiro e toalhas limpas, representando o conforto no pós-operatório do transplante capilar",
@@ -40,7 +37,10 @@ export default function Article() {
         deixar o paciente relaxado durante as horas de cirurgia, que costuma
         ser longa por envolver centenas ou milhares de implantes individuais.
         Na prática, a maioria dos pacientes relata sonolência ou até
-        cochila em parte do procedimento, e não dor.
+        cochila em parte do procedimento, e não dor. O uso de instrumentos
+        de implantação como o IMPLANTER PEN®, que dispensa pinça, também
+        ajuda a reduzir o trauma nos folículos durante a cirurgia, o que
+        contribui pro conforto no pós-operatório.
       </P>
 
       <H2 id="logo-apos">Logo depois da cirurgia</H2>
