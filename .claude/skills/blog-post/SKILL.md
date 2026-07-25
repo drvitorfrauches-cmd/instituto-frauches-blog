@@ -16,22 +16,31 @@ Leia por inteiro, nesta ordem:
 
 1. `blog/DNA.md` — posicionamento, público, tom de voz, keywords, pilares de
    conteúdo, regras de SEO e de compliance médica. **Não pule nenhuma seção.**
-2. `.claude/skills/seo-geo/SKILL.md` — checklist de otimização de estrutura,
+2. `blog/TEMAS_SUGERIDOS.md` — fila de temas sugeridos pelo Dr. Vitor.
+3. `.claude/skills/seo-geo/SKILL.md` — checklist de otimização de estrutura,
    keywords e citação por IA.
-3. `.claude/skills/humanizer/SKILL.md` — sinais de texto com "cara de IA" a
+4. `.claude/skills/humanizer/SKILL.md` — sinais de texto com "cara de IA" a
    eliminar antes de publicar.
 
 ## Passo 2 — Escolher o tema
 
 - Rode `ls content/` (ou leia `lib/blog/registry.ts`) para ver os slugs e
   títulos já publicados. **Nunca repita um tema já coberto.**
-- Se o usuário passou um tema ou keyword como argumento, use-o, ajustando ao
-  DNA (ver lista de keywords primárias em `blog/DNA.md`).
-- Se não passou nada, escolha o próximo tema seguindo a distribuição de
-  pilares de conteúdo do DNA (não escolha sempre o mesmo pilar).
+- Se o usuário passou um tema ou keyword como argumento nesta execução, use-o
+  (mesma prioridade de sempre), ajustando ao DNA.
+- Senão, **confira a seção "Pendentes" de `blog/TEMAS_SUGERIDOS.md`**. Se
+  houver algo lá, use o item mais antigo (primeiro da lista) como tema —
+  ele tem prioridade sobre a rotação automática de pilares, porque veio de
+  uma sugestão direta do Dr. Vitor.
+- Só se a fila de sugeridos estiver vazia, escolha o próximo tema seguindo a
+  distribuição de pilares de conteúdo do DNA (não escolha sempre o mesmo
+  pilar).
 - Defina: keyword primária (uma da lista do DNA, ainda não usada em nenhum
-  artigo publicado), título (≤65 caracteres), slug (kebab-case, com a
-  keyword), meta description (140-160 caracteres) e categoria.
+  artigo publicado — se o tema veio da fila de sugeridos e não casa
+  exatamente com nenhuma keyword listada, escolha a mais próxima e
+  considere sugerir a adição dela ao DNA), título (≤65 caracteres), slug
+  (kebab-case, com a keyword), meta description (140-160 caracteres) e
+  categoria.
 
 ## Passo 3 — Escrever o artigo
 
@@ -109,12 +118,17 @@ branch principal. Como a automação roda sozinha (via schedule), não pergunte
 ao usuário qual abordagem usar — é sempre esta:
 
 1. Criar uma branch nova: `git checkout -b blog/<slug>`.
-2. `git add content/<slug>.tsx public/blog/<slug>/` (só os arquivos do
-   artigo e das imagens dele; não adicione outros arquivos alterados por
-   acidente).
-3. `git commit -m "blog: <título do artigo>"`.
-4. `git push -u origin blog/<slug>`.
-5. Abrir o PR: `gh pr create --title "blog: <título>" --body "<resumo do
+2. Se o tema veio da fila de `blog/TEMAS_SUGERIDOS.md`, edite esse arquivo
+   agora: remova a linha da seção "Pendentes" e adicione em "Já publicados"
+   com o slug e a data (ex.: `- Transplante capilar dói? — publicado em
+   2026-07-24 como transplante-capilar-doi`). Se o tema veio da rotação de
+   pilares do DNA (fila vazia), não mexa neste arquivo.
+3. `git add content/<slug>.tsx public/blog/<slug>/` (mais
+   `blog/TEMAS_SUGERIDOS.md` se você editou ele no passo anterior). Não
+   adicione outros arquivos alterados por acidente.
+4. `git commit -m "blog: <título do artigo>"`.
+5. `git push -u origin blog/<slug>`.
+6. Abrir o PR: `gh pr create --title "blog: <título>" --body "<resumo do
    artigo: tema, keyword primária, pilar de conteúdo, contagem de
    palavras>"`.
 
