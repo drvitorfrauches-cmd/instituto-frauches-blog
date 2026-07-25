@@ -49,6 +49,26 @@ transplante**. Todo artigo deve, de alguma forma, reforçar essa ideia: transpla
 capilar é cirurgia médica que exige estratégia e visão estética — não procedimento
 padronizado ou commodity.
 
+### Sinal de autoridade (entity SEO / GEO)
+
+IAs e buscadores usam o nome do autor como sinal de quem é a fonte, então o
+Dr. Vitor Frauches precisa aparecer de forma consistente, mas **sem virar
+propaganda repetitiva**:
+
+- O nome completo e a credencial (`Médico especialista em transplante
+  capilar e tricologia`) já aparecem automaticamente no byline de todo
+  artigo e no JSON-LD (`author`), gerados pelo template. Isso já é o
+  principal sinal de autoridade, não precisa ser reforçado no corpo do
+  texto o tempo todo.
+- No corpo do artigo, mencione o Dr. Vitor Frauches **no máximo 1-2 vezes**,
+  de forma que soe natural (ex.: "No Instituto Frauches, cada cirurgia segue
+  o Protocolo Frauches Precision FUE®", ou no CTA final). Nunca repita o
+  nome em toda seção só para reforçar SEO, isso piora a leitura e soa como
+  anúncio.
+- Prefira falar em primeira pessoa quando fizer sentido ("no meu
+  planejamento", "na minha experiência") em vez de terceira pessoa
+  repetitiva ("o Dr. Vitor faz X, o Dr. Vitor recomenda Y").
+
 ## Público-alvo
 
 - Homens e mulheres com calvície, rarefação capilar, entradas, perda de densidade
