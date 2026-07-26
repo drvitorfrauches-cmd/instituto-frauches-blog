@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
-import { SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -65,6 +65,12 @@ export default async function BlogPostPage({
     publisher: {
       "@type": "MedicalOrganization",
       name: SITE_NAME,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}${LOGO_PATH}`,
+        width: 600,
+        height: 600,
+      },
     },
     mainEntityOfPage: `${SITE_URL}/blog/${meta.slug}`,
     image: meta.coverImage ? `${SITE_URL}${meta.coverImage.src}` : undefined,
