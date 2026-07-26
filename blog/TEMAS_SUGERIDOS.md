@@ -226,6 +226,21 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   nele, avalie dividir em 2-3 artigos temáticos menores em vez de um só
   artigo gigante — mais alinhado ao formato de 900-1500 palavras do blog.
 
+### 121. Transplante capilar para pacientes de outros estados
+- **Objetivo SEO**: transplante capilar para quem mora fora de Vitória/ES
+- **Briefing**: como funciona o atendimento pra paciente que não é de
+  Vitória/ES (avaliação à distância antes da cirurgia, o que é feito por
+  telemedicina/fotos vs. o que exige presença física, cronograma da viagem
+  em torno da cirurgia, acompanhamento pós-operatório à distância).
+
+### 122. Como viajar para Vitória para fazer transplante capilar
+- **Objetivo SEO**: viajar para Vitória transplante capilar
+- **Briefing**: planejamento prático da viagem (quantos dias ficar antes/
+  depois da cirurgia, quando chegar e quando pode voar de volta, hospedagem
+  perto da clínica, o que fazer na cidade durante a recuperação, cuidados
+  de viagem específicos do pós-operatório FUE). Linkar com o item 121
+  (público de fora do estado) e com `recuperacao-transplante-capilar`.
+
 ## Já publicados
 
 Os 2 artigos de lançamento (`transplante-capilar-fue-o-que-e`,
