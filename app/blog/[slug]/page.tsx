@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
 import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { AuthorBox } from "@/components/AuthorBox";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -55,7 +56,7 @@ export default async function BlogPostPage({
     headline: meta.title,
     description: meta.description,
     datePublished: meta.publishedAt,
-    dateModified: meta.publishedAt,
+    dateModified: meta.updatedAt ?? meta.publishedAt,
     author: {
       "@type": "Person",
       name: meta.author.name,
@@ -91,16 +92,17 @@ export default async function BlogPostPage({
         {meta.category} · {meta.readingTime} min de leitura
       </span>
       <h1 className="mb-4 text-3xl font-bold text-neutral-900">{meta.title}</h1>
-      <p className="mb-6 text-sm text-neutral-500">
-        Por{" "}
-        <Link href="/sobre" className="underline">
-          {meta.author.name}
-        </Link>
-        , {meta.author.role} · publicado em{" "}
+      <p className="mb-3 text-sm text-neutral-500">
+        Publicado em{" "}
         {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
           timeZone: "UTC",
         })}
       </p>
+      <AuthorBox
+        authorName={meta.author.name}
+        publishedAt={meta.publishedAt}
+        updatedAt={meta.updatedAt}
+      />
 
       {meta.coverImage && (
         <Image

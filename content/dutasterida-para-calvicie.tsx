@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Dutasterida para calvície: eficácia, riscos e comparação",
   description: "Veja como a dutasterida age na calvície, diferenças para finasterida, eficácia, efeitos adversos, uso oral, tópico e por mesoterapia.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Calvície e tricologia",
   author: AUTHOR,

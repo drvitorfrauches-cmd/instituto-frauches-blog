@@ -18,3 +18,10 @@ export const AUTHOR = {
   name: "Dr. Vitor Frauches",
   role: "Médico especialista em transplante capilar e tricologia — CRM-ES 10.229 · Professor da Pós-graduação em Transplante Capilar e Tricologia (BWS)",
 };
+
+export const AUTHOR_CREDENTIALS = [
+  "Médico, CRM-ES 10.229",
+  "Atuação em tricologia e transplante capilar",
+  "Professor de pós-graduação em tricologia e transplante capilar",
+  "Mais de 1.200 cirurgias realizadas",
+];

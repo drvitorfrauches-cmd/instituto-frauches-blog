@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda as diferenças entre as técnicas FUE e FUT de transplante capilar, as indicações de cada uma e por que a FUE é hoje a mais usada.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Técnica FUE",
   author: AUTHOR,

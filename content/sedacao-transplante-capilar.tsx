@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Sedação no transplante capilar",
   description: "Entenda a sedação no transplante capilar, diferença para anestesia geral, jejum, monitorização, riscos, alta e papel do anestesiologista.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Transplante capilar",
   author: AUTHOR,

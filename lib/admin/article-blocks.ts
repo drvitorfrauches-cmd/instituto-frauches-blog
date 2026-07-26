@@ -34,6 +34,7 @@ interface ParsedInternal {
   titleNode: StringLiteral;
   descriptionNode: StringLiteral;
   readingTimeNode: Node;
+  updatedAtNode: StringLiteral | null;
   frag: JSXFragment;
   topLevelElements: { node: JSXElement; deleteStart: number }[];
 }
@@ -52,6 +53,7 @@ function parseInternal(source: string): ParsedInternal {
   let titleNode: StringLiteral | null = null;
   let descriptionNode: StringLiteral | null = null;
   let readingTimeNode: Node | null = null;
+  let updatedAtNode: StringLiteral | null = null;
   let frag: JSXFragment | null = null;
 
   for (const node of ast.program.body) {
@@ -73,6 +75,9 @@ function parseInternal(source: string): ParsedInternal {
             }
             if (prop.key.name === "readingTime") {
               readingTimeNode = prop.value;
+            }
+            if (prop.key.name === "updatedAt" && prop.value.type === "StringLiteral") {
+              updatedAtNode = prop.value;
             }
           }
         }
@@ -110,7 +115,7 @@ function parseInternal(source: string): ParsedInternal {
     topLevelElements.push({ node: child, deleteStart });
   }
 
-  return { ast, titleNode, descriptionNode, readingTimeNode, frag, topLevelElements };
+  return { ast, titleNode, descriptionNode, readingTimeNode, updatedAtNode, frag, topLevelElements };
 }
 
 function tagName(el: JSXElement): string {
@@ -322,6 +327,13 @@ export function regenerateArticle(
     end: internal.readingTimeNode.end ?? 0,
     text: String(estimateReadingTime(updated.blocks)),
   });
+  if (internal.updatedAtNode) {
+    edits.push({
+      start: internal.updatedAtNode.start ?? 0,
+      end: internal.updatedAtNode.end ?? 0,
+      text: JSON.stringify(new Date().toISOString().slice(0, 10)),
+    });
+  }
 
   const originalById = new Map(internal.topLevelElements.map((el, i) => [`b${i}`, el]));
   const updatedIds = new Set(updated.blocks.filter((b) => originalById.has(b.id)).map((b) => b.id));

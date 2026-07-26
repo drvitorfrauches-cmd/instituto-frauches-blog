@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Idade, grau da calvície, área doadora e casos que exigem tratamento prévio: entenda quem pode fazer transplante capilar e quando vale a pena esperar.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 5,
   category: "Transplante capilar",
   author: AUTHOR,

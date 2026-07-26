@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar é definitivo? Entenda a área segura, a durabilidade dos fios e por que o tratamento clínico continua importando.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,

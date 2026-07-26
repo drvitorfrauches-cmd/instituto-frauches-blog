@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Hairline natural: como é desenhada a linha frontal",
   description: "Entenda como é desenhada uma hairline natural, altura, entradas, unidades de um fio, direção, densidade, simetria e planejamento de longo prazo.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Técnica FUE",
   author: AUTHOR,

@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Guia de tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP, mesoterapia e exossomos. Evidência, indicação e limitações de cada um.",
   publishedAt: "2026-07-26",
+  updatedAt: "2026-07-26",
   readingTime: 5,
   category: "Guias",
   author: AUTHOR,

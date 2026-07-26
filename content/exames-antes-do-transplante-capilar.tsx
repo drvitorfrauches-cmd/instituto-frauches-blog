@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja quais exames laboratoriais, avaliações clínicas e cuidados pré-operatórios costumam ser pedidos antes de um transplante capilar.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,

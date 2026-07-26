@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Minoxidil para queda de cabelo: tópico, oral e resultados",
   description: "Saiba como o minoxidil funciona, diferenças entre tópico e oral, shedding, tempo de resultado, efeitos adversos e uso no transplante capilar.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Calvície e tricologia",
   author: AUTHOR,

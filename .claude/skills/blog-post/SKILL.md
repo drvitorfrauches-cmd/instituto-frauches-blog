@@ -51,6 +51,10 @@ Leia por inteiro, nesta ordem:
   (`P`, `H2`, `H3`, `UL`, `OL`, `LI`, `Strong`, `Quote`, `Callout`). Nunca use
   HTML cru ou classes Tailwind soltas no artigo.
 - `publishedAt`: data de hoje, formato `YYYY-MM-DD`.
+- `updatedAt`: mesma data de `publishedAt` na criação (o campo existe pra
+  registrar revisões reais depois — o painel de revisão em `/admin` atualiza
+  ele sozinho sempre que o artigo é editado ali, então não precisa mexer
+  nisso manualmente depois).
 - `readingTime`: contagem de palavras do corpo dividida por 200, arredondado.
 - 900 a 1500 palavras. Siga a estrutura do DNA: introdução, 3-6 H2, pelo menos
   uma lista numerada ou de pontos, conclusão com CTA.

@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Calvície tem cura? Entenda o que é a alopecia androgenética, como ela é controlada, os tratamentos disponíveis e quando o transplante capilar é indicado.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Calvície e tricologia",
   author: AUTHOR,

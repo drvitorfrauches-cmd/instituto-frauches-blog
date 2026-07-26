@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "MMP capilar: o que é, indicações, resultados e riscos",
   description: "Entenda o que é MMP capilar, diferenças para microagulhamento e mesoterapia, medicamentos utilizados, sessões, riscos e indicações.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Calvície e tricologia",
   author: AUTHOR,

@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "O que perguntar antes do transplante capilar",
   description: "Leve este checklist para a consulta de transplante capilar: diagnóstico, área doadora, enxertos, hairline, equipe, riscos, preço e pós-operatório.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Transplante capilar",
   author: AUTHOR,

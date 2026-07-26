@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar dói? Entenda como funciona a anestesia, o que sentir durante e depois da cirurgia FUE e como é o controle da dor no pós-operatório.",
   publishedAt: "2026-07-24",
+  updatedAt: "2026-07-24",
   readingTime: 5,
   category: "Dúvidas frequentes",
   author: AUTHOR,

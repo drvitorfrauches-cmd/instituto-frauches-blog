@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Como saber se estou ficando careca?",
   description: "Veja os primeiros sinais de calvície, como observar entradas e coroa, o papel da tricoscopia e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 14,
   category: "Calvície e tricologia",
   author: AUTHOR,

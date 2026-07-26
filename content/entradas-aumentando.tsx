@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Entradas aumentando: é calvície ou linha frontal madura?",
   description: "Saiba diferenciar entradas naturais de calvície, quais sinais observar, quando tratar e como planejar uma hairline natural.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 16,
   category: "Calvície e tricologia",
   author: AUTHOR,

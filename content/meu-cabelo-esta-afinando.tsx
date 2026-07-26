@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Meu cabelo está afinando: causas, sinais e quando investigar",
   description: "Entenda por que o cabelo afina, como diferenciar calvície, queda e quebra, quais sinais observar e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 14,
   category: "Calvície e tricologia",
   author: AUTHOR,

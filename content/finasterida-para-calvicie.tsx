@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Finasterida para calvície: funciona, riscos e cuidados",
   description: "Entenda como a finasterida age na calvície, resultados esperados, efeitos sexuais e no humor, forma tópica, contraindicações e acompanhamento.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 15,
   category: "Calvície e tricologia",
   author: AUTHOR,

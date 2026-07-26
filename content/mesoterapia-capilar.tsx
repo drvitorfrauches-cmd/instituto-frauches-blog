@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Mesoterapia capilar: funciona, indicações e riscos",
   description: "Entenda como funciona a mesoterapia capilar, substâncias utilizadas, diferenças para MMP e PRP, número de sessões, resultados e riscos.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Calvície e tricologia",
   author: AUTHOR,

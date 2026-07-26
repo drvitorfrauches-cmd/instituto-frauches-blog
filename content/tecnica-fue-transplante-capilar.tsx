@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Técnica FUE: como funciona o transplante capilar",
   description: "Entenda a técnica FUE, extração das unidades foliculares, punch, cicatrizes, raspagem, transecção, implantação e diferenças para FUT.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 14,
   category: "Técnica FUE",
   author: AUTHOR,

@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja a linha do tempo mês a mês do resultado do transplante capilar: queda inicial, crescimento dos novos fios e quando esperar o resultado final.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
