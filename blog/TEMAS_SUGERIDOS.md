@@ -233,7 +233,11 @@ Os 2 artigos de lançamento (`transplante-capilar-fue-o-que-e`,
 desta fila. A partir daqui, os itens vieram da fila de sugeridos:
 
 - Item 2, "Quanto custa um transplante capilar em 2026?" — publicado em
-  2026-07-25 como `preco-transplante-capilar` (PR #1).
+  2026-07-25 como `preco-transplante-capilar` (PR #1). **Superado em
+  2026-07-26**: duplicava `quanto-custa-transplante-capilar` (pacote
+  editorial externo, mesma keyword). O artigo deste item foi removido e
+  `/blog/preco-transplante-capilar` agora redireciona (301) pro
+  sobrevivente.
 - Item 3, "Quem é candidato ao transplante capilar?" — publicado em
   2026-07-25 como `quem-pode-fazer-transplante-capilar` (PR #2).
 - Item 4, "Quanto tempo demora para nascer o cabelo transplantado?" —
@@ -252,7 +256,10 @@ desta fila. A partir daqui, os itens vieram da fila de sugeridos:
 - Item 11, "Calvície tem cura?" — publicado em 2026-07-25 como
   `calvicie-tem-cura` (PR #9).
 - Item 12, "Minoxidil realmente funciona?" — publicado em 2026-07-25 como
-  `minoxidil-funciona` (PR #10).
+  `minoxidil-funciona` (PR #10). **Superado em 2026-07-26**: duplicava
+  `minoxidil-para-queda-de-cabelo` (pacote editorial externo, mesma
+  keyword). O artigo deste item foi removido e `/blog/minoxidil-funciona`
+  agora redireciona (301) pro sobrevivente.
 
 Item 6, "O que é a técnica FUE?", permanece em Pendentes (não foi usado
 neste lote por risco de duplicidade com o artigo de lançamento).

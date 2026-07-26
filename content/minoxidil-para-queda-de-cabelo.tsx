@@ -12,7 +12,7 @@ export const meta: PostMeta = {
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/minoxidil-funciona/cover.jpg",
+    src: "/blog/minoxidil-para-queda-de-cabelo/cover.jpg",
     alt: "Imagem editorial ilustrando o tema: Minoxidil para queda de cabelo: tópico, oral e resultados",
   },
 };
