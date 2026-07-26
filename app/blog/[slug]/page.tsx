@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
 import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import { AuthorBox } from "@/components/AuthorBox";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -84,9 +85,11 @@ export default async function BlogPostPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <Link href="/blog" className="mb-8 inline-block text-sm text-neutral-500 hover:underline">
+      <Link href="/blog" className="mb-4 inline-block text-sm text-neutral-500 hover:underline">
         ← Voltar para o blog
       </Link>
+
+      <Breadcrumbs category={meta.category} title={meta.title} slug={meta.slug} />
 
       <span className="mb-2 block text-xs font-medium uppercase tracking-wide text-neutral-500">
         {meta.category} · {meta.readingTime} min de leitura

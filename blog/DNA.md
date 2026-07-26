@@ -304,6 +304,22 @@ Passo 6 da skill `blog-post`.
    complementares (PRP, MMP, mesoterapia, exossomos). Cobre a parte do
    pilar 4 que é tratamento clínico não cirúrgico.
 
+### Categoria do artigo (meta.category)
+
+O campo `category` de cada artigo não é só um rótulo visual — ele também
+define o link do breadcrumb (`lib/blog/categories.ts`, mapa
+`CATEGORY_TO_GUIDE`) e deve usar exatamente um destes nomes, pra manter o
+breadcrumb e a categorização no guia consistentes. Não inventar categoria
+nova sem atualizar `CATEGORY_TO_GUIDE` também:
+
+- `"Transplante capilar"`, `"Técnica FUE"`, `"Tecnologia"`,
+  `"Dúvidas frequentes"` → linkam pro `guia-transplante-capilar`.
+- `"Calvície e tricologia"` → linka pro `guia-calvicie-masculina`.
+- `"Tratamentos capilares"` → linka pro `guia-tratamentos-capilares`
+  (medicamentos e procedimentos clínicos: minoxidil, finasterida,
+  dutasterida, PRP, MMP, mesoterapia, exossomos).
+- `"Guias"` → reservado só pras 3 páginas-guia em si.
+
 Casos especiais e público específico (pilar 5) ainda não têm guia próprio —
 se o volume desses artigos crescer, considerar um 4º guia; até lá, linkar o
 artigo ao guia mais próximo pelo ângulo do tema (ex.: transplante de barba
