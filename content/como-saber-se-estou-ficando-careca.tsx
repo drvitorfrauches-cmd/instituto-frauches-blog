@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "como-saber-se-estou-ficando-careca",
-  title: "Como saber se estou ficando careca? Primeiros sinais e diagnóstico",
+  title: "Como saber se estou ficando careca?",
   description: "Veja os primeiros sinais de calvície, como observar entradas e coroa, o papel da tricoscopia e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
   readingTime: 14,

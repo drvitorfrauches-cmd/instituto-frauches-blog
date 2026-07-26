@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "o-que-perguntar-consulta-transplante-capilar",
-  title: "O que perguntar na consulta de transplante capilar: 20 perguntas",
+  title: "O que perguntar antes do transplante capilar",
   description: "Leve este checklist para a consulta de transplante capilar: diagnóstico, área doadora, enxertos, hairline, equipe, riscos, preço e pós-operatório.",
   publishedAt: "2026-07-25",
   readingTime: 13,

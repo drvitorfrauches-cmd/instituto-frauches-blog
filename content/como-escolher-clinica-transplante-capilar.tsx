@@ -4,9 +4,9 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "como-escolher-clinica-transplante-capilar",
-  title: "Como escolher uma clínica de transplante capilar",
+  title: "Como escolher clínica de transplante capilar",
   description:
-    "Veja os critérios que realmente importam para escolher uma clínica de transplante capilar: médico especialista, planejamento, equipe, tecnologia e pós-operatório.",
+    "Veja os critérios para escolher uma clínica de transplante capilar: médico especialista, planejamento, equipe, tecnologia e pós-operatório.",
   publishedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",

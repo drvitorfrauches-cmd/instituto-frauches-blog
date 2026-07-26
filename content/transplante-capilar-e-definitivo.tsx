@@ -5,9 +5,9 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "transplante-capilar-e-definitivo",
-  title: "Transplante capilar dura para sempre? Entenda",
+  title: "Transplante capilar dura para sempre?",
   description:
-    "Transplante capilar é definitivo? Entenda o conceito de área segura, a durabilidade dos fios transplantados e por que o tratamento clínico continua importando.",
+    "Transplante capilar é definitivo? Entenda a área segura, a durabilidade dos fios e por que o tratamento clínico continua importando.",
   publishedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
