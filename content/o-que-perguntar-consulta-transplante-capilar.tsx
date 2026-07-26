@@ -176,9 +176,13 @@ export default function Article() {
         <LI><a href="https://portal.cfm.org.br/busca-medicos/" target="_blank" rel="noopener noreferrer" className="underline">Conselho Federal de Medicina. Busca por médicos.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/como-escolher-clinica-transplante-capilar" className="underline">
+          como escolher uma clínica de transplante capilar
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/exames-antes-do-transplante-capilar" className="underline">
+          quais exames pedir antes da cirurgia
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

@@ -163,9 +163,13 @@ export default function Article() {
         <LI><a href="https://ishrs.org/patients/" target="_blank" rel="noopener noreferrer" className="underline">International Society of Hair Restoration Surgery. Patient education.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/sinais-transplante-capilar-mal-feito" className="underline">
+          sinais de transplante capilar mal feito
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/fue-ou-fut" className="underline">
+          a diferença entre FUE e FUT
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

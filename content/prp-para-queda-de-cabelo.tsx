@@ -142,9 +142,13 @@ export default function Article() {
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/34741573/" target="_blank" rel="noopener noreferrer" className="underline">Nestor MS et al. Treatment options for androgenetic alopecia.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
         <Link href="/blog/calvicie-tem-cura" className="underline">
           calvície tem cura
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/minoxidil-funciona" className="underline">
+          se o minoxidil funciona
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}
