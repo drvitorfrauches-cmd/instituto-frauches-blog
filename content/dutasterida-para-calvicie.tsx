@@ -144,7 +144,7 @@ export default function Article() {
           finasterida para calvície
         </Link>{" "}
         e sobre{" "}
-        <Link href="/blog/minoxidil-funciona" className="underline">
+        <Link href="/blog/minoxidil-para-queda-de-cabelo" className="underline">
           se o minoxidil funciona
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
