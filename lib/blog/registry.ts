@@ -47,10 +47,25 @@ function getRegistry(): PostEntry[] {
   return cachedRegistry;
 }
 
+const GUIDE_ORDER = [
+  "guia-calvicie-masculina",
+  "guia-transplante-capilar",
+  "guia-tratamentos-capilares",
+];
+
 export function getAllPosts(): PostMeta[] {
   return getRegistry()
     .map((entry) => entry.meta)
-    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+    .sort((a, b) => {
+      const aGuideIndex = GUIDE_ORDER.indexOf(a.slug);
+      const bGuideIndex = GUIDE_ORDER.indexOf(b.slug);
+      if (aGuideIndex !== -1 || bGuideIndex !== -1) {
+        if (aGuideIndex === -1) return 1;
+        if (bGuideIndex === -1) return -1;
+        return aGuideIndex - bGuideIndex;
+      }
+      return a.publishedAt < b.publishedAt ? 1 : -1;
+    });
 }
 
 export function getPostMeta(slug: string): PostMeta | undefined {

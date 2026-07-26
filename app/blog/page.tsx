@@ -25,32 +25,49 @@ export default function BlogIndexPage() {
       </p>
 
       <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <li key={post.slug}>
-            <Link href={`/blog/${post.slug}`} className="group block">
-              {post.coverImage ? (
-                <Image
-                  src={post.coverImage.src}
-                  alt={post.coverImage.alt}
-                  width={600}
-                  height={338}
-                  className="mb-3 aspect-video w-full rounded-lg object-cover"
-                />
-              ) : (
-                <div className="mb-3 aspect-video w-full rounded-lg bg-neutral-100" />
-              )}
-              <span className="mb-1 block text-xs font-medium uppercase tracking-wide text-neutral-500">
-                {post.category} · {post.readingTime} min de leitura
-              </span>
-              <h2 className="mb-1.5 line-clamp-2 text-lg font-semibold leading-snug text-neutral-900 group-hover:underline">
-                {post.title}
-              </h2>
-              <p className="line-clamp-2 text-sm text-neutral-600">
-                {post.description}
-              </p>
-            </Link>
-          </li>
-        ))}
+        {posts.map((post) => {
+          const isGuide = post.category === "Guias";
+          return (
+            <li
+              key={post.slug}
+              className={
+                isGuide
+                  ? "rounded-xl border border-amber-200 bg-amber-50/60 p-4"
+                  : ""
+              }
+            >
+              <Link href={`/blog/${post.slug}`} className="group block">
+                {post.coverImage ? (
+                  <Image
+                    src={post.coverImage.src}
+                    alt={post.coverImage.alt}
+                    width={600}
+                    height={338}
+                    className="mb-3 aspect-video w-full rounded-lg object-cover"
+                  />
+                ) : (
+                  <div className="mb-3 aspect-video w-full rounded-lg bg-neutral-100" />
+                )}
+                <span className="mb-1 flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-neutral-500">
+                  {isGuide && (
+                    <span className="rounded-full bg-amber-800 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
+                      Guia completo
+                    </span>
+                  )}
+                  <span>
+                    {post.category} · {post.readingTime} min de leitura
+                  </span>
+                </span>
+                <h2 className="mb-1.5 line-clamp-2 text-lg font-semibold leading-snug text-neutral-900 group-hover:underline">
+                  {post.title}
+                </h2>
+                <p className="line-clamp-2 text-sm text-neutral-600">
+                  {post.description}
+                </p>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
 
       {posts.length === 0 && (
