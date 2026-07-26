@@ -154,7 +154,7 @@ export default function Article() {
       <UL>
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39883276/" target="_blank" rel="noopener noreferrer" className="underline">State of the art of hair transplantation.</a></LI>
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8611706/" target="_blank" rel="noopener noreferrer" className="underline">Hair Transplant Practice Guidelines.</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/20388027/" target="_blank" rel="noopener noreferrer" className="underline">Hairline design principles in hair transplantation.</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/15135130/" target="_blank" rel="noopener noreferrer" className="underline">Principles and techniques used to create a natural hairline in surgical hair restoration.</a></LI>
         <LI><a href="https://ishrs.org/patients/" target="_blank" rel="noopener noreferrer" className="underline">International Society of Hair Restoration Surgery. Patient education.</a></LI>
       </UL>
       <P>
