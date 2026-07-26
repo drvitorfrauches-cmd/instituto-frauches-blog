@@ -150,3 +150,20 @@ ao usuário qual abordagem usar — é sempre esta:
 
 Termine a execução resumindo: tema e por que foi escolhido, keyword primária,
 slug/URL (`/blog/<slug>`), contagem de palavras, e o link do PR aberto.
+
+## Passo 9 — Avisar o IndexNow (só depois do PR ser mesclado)
+
+Este passo não faz parte da abertura do PR — só roda depois que o PR for
+mesclado em `main` e o deploy da Vercel confirmar a URL no ar (o IndexNow
+verifica o arquivo de chave publicamente, então pingar antes do deploy
+falha). Quem mesclar o PR (Claude nesta sessão, ou o Dr. Vitor pelo GitHub)
+deve rodar:
+
+```
+node scripts/indexnow-ping.mjs /blog/<slug> /blog/<slug-do-guia>
+```
+
+Isso avisa Bing/Yandex (participantes do protocolo IndexNow) que a URL do
+artigo novo e a do guia atualizado mudaram, acelerando a indexação sem
+esperar o crawl orgânico. Não afeta o Google (não participa do protocolo) —
+a indexação no Google segue via sitemap + Search Console normalmente.
