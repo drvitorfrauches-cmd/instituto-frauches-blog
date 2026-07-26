@@ -93,10 +93,24 @@ elimine travessões, linguagem de IA genérica, paralelismos do tipo "não é s�
 X, é Y", voz passiva em excesso, aberturas e conclusões clichê. Varie o
 tamanho das frases.
 
-## Passo 6 — Registrar
+## Passo 6 — Registrar e categorizar no guia (cluster)
 
-Nada a fazer. O registry (`lib/blog/registry.ts`) descobre o artigo
-automaticamente via filesystem a partir do arquivo criado em `content/`.
+Registro em si: nada a fazer, o registry (`lib/blog/registry.ts`) descobre o
+artigo automaticamente via filesystem a partir do arquivo criado em
+`content/`.
+
+Categorização no cluster (obrigatória, ver seção "Arquitetura de clusters"
+de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
+
+1. Decida a qual dos 3 guias este artigo pertence, pelo tema/pilar.
+2. No arquivo do novo artigo, adicione o parágrafo de backlink pro guia como
+   último `<P>`, depois do `Callout` e do CTA de WhatsApp.
+3. Abra o arquivo `content/<slug-do-guia>.tsx` e adicione um novo `<LI>` na
+   seção (`<UL>`) mais próxima do tema do artigo nesse guia. Se nenhuma
+   seção existente encaixar bem, pode criar um novo `<H2>` + `<UL>` no guia,
+   mas prefira encaixar numa seção já existente.
+4. Lembre de importar `Link` de `next/link` no arquivo do artigo, se ainda
+   não importado.
 
 ## Passo 7 — Validar
 
@@ -108,7 +122,9 @@ automaticamente via filesystem a partir do arquivo criado em `content/`.
    depoimento ou caso de paciente inventado; nenhuma promessa de resultado
    sem nota de variação individual; links internos válidos (slugs que
    realmente existem em `content/`); imagem de capa presente e carregando.
-4. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
+4. Confirme que o backlink pro guia foi adicionado no artigo e que o novo
+   `<LI>` aparece no guia correspondente (passo 6).
+5. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
    prossiga para o passo 8.
 
 ## Passo 8 — Entregar (regra fixa: Pull Request)
@@ -123,8 +139,8 @@ ao usuário qual abordagem usar — é sempre esta:
    com o slug e a data (ex.: `- Transplante capilar dói? — publicado em
    2026-07-24 como transplante-capilar-doi`). Se o tema veio da rotação de
    pilares do DNA (fila vazia), não mexa neste arquivo.
-3. `git add content/<slug>.tsx public/blog/<slug>/` (mais
-   `blog/TEMAS_SUGERIDOS.md` se você editou ele no passo anterior). Não
+3. `git add content/<slug>.tsx public/blog/<slug>/ content/<slug-do-guia>.tsx`
+   (mais `blog/TEMAS_SUGERIDOS.md` se você editou ele no passo anterior). Não
    adicione outros arquivos alterados por acidente.
 4. `git commit -m "blog: <título do artigo>"`.
 5. `git push -u origin blog/<slug>`.
