@@ -158,9 +158,13 @@ export default function Article() {
         <LI><a href="https://portal.cfm.org.br/publicidademedica/" target="_blank" rel="noopener noreferrer" className="underline">Conselho Federal de Medicina. Resolução CFM 2.336/2023.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/recuperacao-transplante-capilar" className="underline">
+          a recuperação do transplante capilar
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/antes-e-depois-transplante-capilar" className="underline">
+          como analisar fotos de antes e depois
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

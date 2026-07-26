@@ -139,9 +139,13 @@ export default function Article() {
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/35816059/" target="_blank" rel="noopener noreferrer" className="underline">Saceda-Corralo D et al. Mesotherapy with dutasteride.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/calvicie-tem-cura" className="underline">
-          calvície tem cura
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/finasterida-para-calvicie" className="underline">
+          finasterida para calvície
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/minoxidil-funciona" className="underline">
+          se o minoxidil funciona
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

@@ -138,9 +138,13 @@ export default function Article() {
         <LI><a href="https://www.fda.gov/drugs/human-drug-compounding/fda-alerts-health-care-providers-compounders-and-consumers-potential-risks-associated-compounded" target="_blank" rel="noopener noreferrer" className="underline">FDA. Potential risks associated with compounded topical finasteride.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/calvicie-tem-cura" className="underline">
-          calvície tem cura
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/dutasterida-para-calvicie" className="underline">
+          dutasterida para calvície
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/minoxidil-funciona" className="underline">
+          se o minoxidil funciona
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}
