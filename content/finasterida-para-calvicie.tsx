@@ -10,7 +10,7 @@ export const meta: PostMeta = {
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
   readingTime: 15,
-  category: "Calvície e tricologia",
+  category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
