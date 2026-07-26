@@ -139,7 +139,11 @@ export default function Article() {
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8611706/" target="_blank" rel="noopener noreferrer" className="underline">Mysore V et al. Hair transplant practice guidelines.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/queda-de-cabelo-e-normal" className="underline">
+          quando a queda de cabelo é normal
+        </Link>{" "}
+        e sobre{" "}
         <Link href="/blog/calvicie-tem-cura" className="underline">
           calvície tem cura
         </Link>

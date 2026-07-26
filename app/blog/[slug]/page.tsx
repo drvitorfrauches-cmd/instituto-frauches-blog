@@ -51,14 +51,16 @@ export default async function BlogPostPage({
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "MedicalWebPage",
+    "@type": ["MedicalWebPage", "BlogPosting"],
     headline: meta.title,
     description: meta.description,
     datePublished: meta.publishedAt,
+    dateModified: meta.publishedAt,
     author: {
       "@type": "Person",
       name: meta.author.name,
       jobTitle: meta.author.role,
+      url: `${SITE_URL}/sobre`,
     },
     publisher: {
       "@type": "MedicalOrganization",
@@ -84,7 +86,11 @@ export default async function BlogPostPage({
       </span>
       <h1 className="mb-4 text-3xl font-bold text-neutral-900">{meta.title}</h1>
       <p className="mb-6 text-sm text-neutral-500">
-        Por {meta.author.name}, {meta.author.role} · publicado em{" "}
+        Por{" "}
+        <Link href="/sobre" className="underline">
+          {meta.author.name}
+        </Link>
+        , {meta.author.role} · publicado em{" "}
         {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
           timeZone: "UTC",
         })}

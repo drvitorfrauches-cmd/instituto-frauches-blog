@@ -153,9 +153,13 @@ export default function Article() {
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8719970/" target="_blank" rel="noopener noreferrer" className="underline">Complications in hair transplantation.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/fue-ou-fut" className="underline">
+          FUE ou FUT
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/tecnologias-transplante-capilar" className="underline">
+          as tecnologias usadas no transplante capilar
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

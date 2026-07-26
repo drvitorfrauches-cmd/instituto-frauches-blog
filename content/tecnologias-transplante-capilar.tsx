@@ -174,9 +174,13 @@ export default function Article() {
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/29286826/" target="_blank" rel="noopener noreferrer" className="underline">Low-level light therapy for androgenetic alopecia.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/tecnica-fue-transplante-capilar" className="underline">
+          como funciona a técnica FUE
+        </Link>{" "}
+        e sobre{" "}
         <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+          o que é o transplante capilar FUE
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

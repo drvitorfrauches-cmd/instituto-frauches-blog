@@ -153,9 +153,13 @@ export default function Article() {
         <LI><a href="https://www.ncbi.nlm.nih.gov/books/NBK551685/" target="_blank" rel="noopener noreferrer" className="underline">Procedural sedation safety.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/recuperacao-transplante-capilar" className="underline">
+          a recuperação do transplante capilar
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/transplante-capilar-doi" className="underline">
+          se o transplante capilar dói
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}
