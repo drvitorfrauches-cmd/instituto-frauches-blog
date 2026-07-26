@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "resultado-transplante-capilar-linha-do-tempo",
-  title: "Quanto tempo demora o resultado do transplante capilar?",
+  title: "Resultado do transplante capilar: prazo",
   description:
     "Veja a linha do tempo mês a mês do resultado do transplante capilar: queda inicial, crescimento dos novos fios e quando esperar o resultado final.",
   publishedAt: "2026-07-25",

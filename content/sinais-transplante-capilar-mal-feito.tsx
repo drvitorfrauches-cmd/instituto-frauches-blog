@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "sinais-transplante-capilar-mal-feito",
-  title: "Sinais de transplante capilar mal feito e como corrigir",
+  title: "Sinais de transplante capilar mal feito",
   description: "Conheça os sinais de transplante capilar mal feito: hairline artificial, fios em tufos, direção errada, baixo crescimento, cicatrizes e superextração.",
   publishedAt: "2026-07-25",
   readingTime: 13,

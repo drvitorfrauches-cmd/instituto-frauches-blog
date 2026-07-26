@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "recuperacao-transplante-capilar",
-  title: "Recuperação do transplante capilar: cuidados e cronograma",
+  title: "Recuperação do transplante capilar",
   description: "Veja como é a recuperação do transplante capilar, cuidados nos primeiros 14 dias, lavagem, sono, academia, boné, edema e sinais de alerta.",
   publishedAt: "2026-07-25",
   readingTime: 13,

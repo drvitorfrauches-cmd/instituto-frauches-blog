@@ -4,7 +4,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "exames-antes-do-transplante-capilar",
-  title: "Quais exames são necessários antes do transplante capilar?",
+  title: "Exames antes do transplante capilar",
   description:
     "Veja quais exames laboratoriais, avaliações clínicas e cuidados pré-operatórios costumam ser pedidos antes de um transplante capilar.",
   publishedAt: "2026-07-25",

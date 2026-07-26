@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "sedacao-transplante-capilar",
-  title: "Sedação no transplante capilar: como funciona e segurança",
+  title: "Sedação no transplante capilar",
   description: "Entenda a sedação no transplante capilar, diferença para anestesia geral, jejum, monitorização, riscos, alta e papel do anestesiologista.",
   publishedAt: "2026-07-25",
   readingTime: 13,

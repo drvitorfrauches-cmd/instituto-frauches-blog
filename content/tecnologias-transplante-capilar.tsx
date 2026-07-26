@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "tecnologias-transplante-capilar",
-  title: "Tecnologias no transplante capilar: o que faz diferença",
+  title: "Tecnologias no transplante capilar",
   description: "Microscópio, punch, motores, implanter, robô, safira, soluções e IA: entenda quais tecnologias realmente influenciam o transplante capilar.",
   publishedAt: "2026-07-25",
   readingTime: 14,
