@@ -12,6 +12,8 @@ export const WHATSAPP_URL = `https://wa.me/5527992858541?text=${encodeURICompone
 
 export const INSTAGRAM_URL = "https://instagram.com/drvitorfrauches";
 
+export const LOGO_PATH = "/brand/logo.jpg";
+
 export const AUTHOR = {
   name: "Dr. Vitor Frauches",
   role: "Médico especialista em transplante capilar e tricologia — CRM-ES 10.229 · Professor da Pós-graduação em Transplante Capilar e Tricologia (BWS)",
