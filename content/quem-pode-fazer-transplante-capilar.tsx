@@ -163,6 +163,13 @@ export default function Article() {
         </a>
         .
       </P>
+      <P>
+        Este artigo faz parte do nosso{" "}
+        <Link href="/blog/guia-calvicie-masculina" className="underline">
+          guia completo sobre calvície masculina
+        </Link>
+        .
+      </P>
     </>
   );
 }
