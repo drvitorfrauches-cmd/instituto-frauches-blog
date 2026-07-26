@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é o transplante capilar FUE, como funciona cada etapa da cirurgia e por que essa técnica é hoje a referência em naturalidade e recuperação.",
   publishedAt: "2026-07-24",
+  updatedAt: "2026-07-24",
   readingTime: 7,
   category: "Técnica FUE",
   author: AUTHOR,

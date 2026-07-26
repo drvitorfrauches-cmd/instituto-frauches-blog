@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a área doadora no transplante capilar, por que ela é limitada, o risco da superextração e como planejar sessões futuras.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,

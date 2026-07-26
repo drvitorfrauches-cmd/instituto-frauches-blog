@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja os critérios para escolher uma clínica de transplante capilar: médico especialista, planejamento, equipe, tecnologia e pós-operatório.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,

@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Como identificar um transplante capilar natural",
   description: "Saiba como identificar transplante capilar natural pela hairline, fios de um, direção, angulação, densidade, coroa e área doadora.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Técnica FUE",
   author: AUTHOR,

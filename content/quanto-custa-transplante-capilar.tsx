@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Quanto custa um transplante capilar? Entenda o que define o preço",
   description: "Entenda quanto custa um transplante capilar, o que influencia o preço, como comparar orçamentos e por que área doadora e equipe importam.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Transplante capilar",
   author: AUTHOR,

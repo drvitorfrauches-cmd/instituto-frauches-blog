@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Exossomos para queda de cabelo: evidências, riscos e cuidados",
   description: "Exossomos para queda de cabelo ainda são experimentais. Entenda evidências, riscos, regulação, aplicação e como avaliar uma proposta de tratamento.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 15,
   category: "Calvície e tricologia",
   author: AUTHOR,

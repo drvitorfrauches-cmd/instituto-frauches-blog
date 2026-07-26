@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Antes e depois do transplante capilar: como analisar resultados",
   description: "Aprenda a analisar antes e depois de transplante capilar: luz, ângulo, fibras, tempo, hairline, densidade, área doadora e regras do CFM.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Transplante capilar",
   author: AUTHOR,

@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Sinais de transplante capilar mal feito",
   description: "Conheça os sinais de transplante capilar mal feito: hairline artificial, fios em tufos, direção errada, baixo crescimento, cicatrizes e superextração.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 13,
   category: "Transplante capilar",
   author: AUTHOR,

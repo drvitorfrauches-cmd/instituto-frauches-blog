@@ -8,6 +8,7 @@ export const meta: PostMeta = {
   title: "Queda de cabelo é normal? Veja os sinais de alerta",
   description: "Entenda o ciclo capilar, quando a queda é fisiológica, como diferenciar eflúvio, quebra e calvície e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
+  updatedAt: "2026-07-25",
   readingTime: 15,
   category: "Calvície e tricologia",
   author: AUTHOR,

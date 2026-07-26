@@ -15,6 +15,8 @@ export interface PostMeta {
   description: string;
   /** ISO date, YYYY-MM-DD */
   publishedAt: string;
+  /** ISO date, YYYY-MM-DD — atualizado a cada revisão real do conteúdo */
+  updatedAt?: string;
   /** minutes */
   readingTime: number;
   category: string;
