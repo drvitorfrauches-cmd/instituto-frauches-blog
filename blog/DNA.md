@@ -51,6 +51,12 @@ tudo em todo artigo):**
   sem pinça, menos trauma ao enxerto), tricoscópio (diagnóstico com até 100x de
   aumento), microscópio e lupa Zeiss (separação e extração de precisão), sedação
   venosa, planejamento individualizado.
+- **Importante sobre lâminas de incisão: o Instituto Frauches NÃO usa lâminas
+  de safira.** Usa lâminas cirúrgicas customizadas, dimensionadas conforme o
+  tamanho do folículo de cada paciente, com espessura máxima de 0,7 mm. Se um
+  artigo mencionar lâminas/blades de incisão, descreva esse fato real, nunca
+  lâmina de safira genérica (erro já cometido uma vez no artigo
+  `tecnologias-transplante-capilar`, corrigido em 2026-07-26 — não repetir).
 - Endereço/estrutura: Av. Rio Branco, 507, sala 1, Santa Lúcia, Vitória/ES; centro
   cirúrgico próprio, equipe de anestesistas, atende pacientes de outras regiões do
   Brasil e do exterior (pré-avaliação online, recomendação de 3 dias em Vitória

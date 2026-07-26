@@ -6,7 +6,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 export const meta: PostMeta = {
   slug: "tecnologias-transplante-capilar",
   title: "Tecnologias no transplante capilar",
-  description: "Microscópio, punch, motores, implanter, robô, safira, soluções e IA: entenda quais tecnologias realmente influenciam o transplante capilar.",
+  description: "Microscópio, punch, motores, implanter, robô, lâminas de incisão, soluções e IA: entenda quais tecnologias realmente influenciam o transplante capilar.",
   publishedAt: "2026-07-25",
   readingTime: 14,
   category: "Tecnologia",
@@ -52,16 +52,17 @@ export default function Article() {
       <P>Ainda dependem de planejamento, marcação e supervisão. O robô não desenha uma hairline com sensibilidade estética por conta própria.</P>
       <P>Custo não significa superioridade universal.</P>
       <H2 id="implanter-pens">Implanter pens</H2>
-      <P>Implanters carregam o enxerto em uma agulha e permitem inserção controlada. Podem reduzir o tempo de exposição durante a implantação e ajudar em cabelo existente.</P>
+      <P>Vale separar os termos com precisão. FUE descreve principalmente o método de extração dos folículos, não a implantação. Implanter descreve um instrumento (a caneta) e uma estratégia de implantação, não uma técnica cirúrgica completa por si só.</P>
+      <P>Implanters carregam o enxerto em uma agulha e permitem inserção controlada. Podem reduzir o tempo de exposição durante a implantação e ajudar em cabelo existente. A abertura do sítio receptor pode acontecer antes (com lâmina ou agulha separada) ou durante a implantação com o próprio implanter, dependendo do dispositivo e da técnica escolhida.</P>
       <P>Carregamento incorreto pode traumatizar o bulbo. A equipe precisa de treinamento e coordenação.</P>
-      <P>DHI é frequentemente usado como nome comercial, mas não é necessariamente uma técnica de transplante distinta. Geralmente descreve implantação com caneta.</P>
+      <P>"DHI" é frequentemente usado como termo comercial, mas não representa necessariamente uma técnica de transplante inteiramente diferente da FUE. Geralmente descreve implantação com caneta, e FUE e DHI não são, na prática, dois métodos cirúrgicos concorrentes: a extração continua sendo FUE em ambos os casos.</P>
       <H2 id="pinça-e-canais-prévios">Pinça e canais prévios</H2>
       <P>A implantação com pinça em sítios criados previamente continua válida. Permite ao cirurgião definir toda a geometria antes.</P>
       <P>Manipulação delicada é essencial. Pinça não é sinônimo de técnica antiga ou ruim.</P>
       <P>Comparações devem avaliar sobrevivência e resultado, não slogans.</P>
-      <H2 id="lâminas-de-safira">Lâminas de safira</H2>
-      <P>Lâminas de safira são divulgadas como mais precisas, mas a evidência de superioridade clínica consistente sobre aço de boa qualidade é limitada.</P>
-      <P>O tamanho, a forma do canal, a mão do cirurgião e correspondência com o enxerto importam.</P>
+      <H2 id="lâminas-de-incisão">Lâminas de incisão</H2>
+      <P>Lâminas de safira são divulgadas no mercado como mais precisas, mas a evidência de superioridade clínica consistente sobre lâminas cirúrgicas de aço de boa qualidade é limitada. No Instituto Frauches, a incisão do sítio receptor não usa lâmina de safira: usamos lâminas cirúrgicas customizadas, dimensionadas conforme o tamanho do folículo de cada paciente, com espessura máxima de 0,7 mm.</P>
+      <P>O que importa não é o material da lâmina isoladamente, mas o tamanho do canal, a forma da incisão, a correspondência com o enxerto e a mão de quem executa.</P>
       <P>Material não compensa angulação errada.</P>
       <H2 id="soluções-de-armazenamento">Soluções de armazenamento</H2>
       <P>Soro fisiológico, Ringer lactato e soluções de preservação podem ser usados conforme protocolo. O objetivo é manter hidratação, osmolaridade e ambiente adequados.</P>
@@ -112,8 +113,8 @@ export default function Article() {
       <P>Não. Pode auxiliar extração, mas decisões e estética são humanas.</P>
       <H3>Implanter é melhor que pinça?</H3>
       <P>Depende do caso e da equipe. Ambos podem produzir bons resultados.</P>
-      <H3>Safira garante mais densidade?</H3>
-      <P>Não há garantia. Planejamento e técnica importam mais.</P>
+      <H3>Lâmina de safira garante mais densidade?</H3>
+      <P>Não há garantia. O material da lâmina isolado não define densidade; planejamento e técnica importam mais. No Instituto Frauches usamos lâminas cirúrgicas customizadas, não safira.</P>
       <H3>Punch menor deixa menos cicatriz?</H3>
       <P>Pode, mas se inadequado aumenta dano. Equilíbrio é necessário.</P>
       <H3>Microscópio é obrigatório?</H3>
