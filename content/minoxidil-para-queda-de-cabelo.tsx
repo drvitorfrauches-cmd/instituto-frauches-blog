@@ -147,7 +147,11 @@ export default function Article() {
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40586152/" target="_blank" rel="noopener noreferrer" className="underline">Gupta AK et al. Comparative efficacy of minoxidil and 5-alpha reductase inhibitors.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/finasterida-para-calvicie" className="underline">
+          finasterida para calvície
+        </Link>{" "}
+        e sobre{" "}
         <Link href="/blog/calvicie-tem-cura" className="underline">
           calvície tem cura
         </Link>

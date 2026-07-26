@@ -127,9 +127,13 @@ export default function Article() {
         <LI><a href="https://www.gov.br/anvisa/pt-br/assuntos/cosmeticos/cosmeticos-para-tratamentos-esteticos" target="_blank" rel="noopener noreferrer" className="underline">Anvisa. Cosméticos para tratamentos estéticos.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/calvicie-tem-cura" className="underline">
-          calvície tem cura
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/prp-para-queda-de-cabelo" className="underline">
+          PRP para queda de cabelo
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/mesoterapia-capilar" className="underline">
+          mesoterapia capilar
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}

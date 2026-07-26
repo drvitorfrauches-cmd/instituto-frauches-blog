@@ -125,7 +125,11 @@ export default function Article() {
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40354670/" target="_blank" rel="noopener noreferrer" className="underline">Queen D et al. Hair transplantation: state of the art.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/como-saber-se-estou-ficando-careca" className="underline">
+          como saber se você está ficando careca
+        </Link>{" "}
+        e sobre{" "}
         <Link href="/blog/calvicie-tem-cura" className="underline">
           calvície tem cura
         </Link>

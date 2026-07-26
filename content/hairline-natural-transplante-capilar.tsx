@@ -157,9 +157,13 @@ export default function Article() {
         <LI><a href="https://ishrs.org/patients/" target="_blank" rel="noopener noreferrer" className="underline">International Society of Hair Restoration Surgery. Patient education.</a></LI>
       </UL>
       <P>
-        Se você quer se aprofundar, veja também nosso artigo sobre{" "}
-        <Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">
-          o que é a técnica FUE
+        Se você quer se aprofundar, veja também nossos artigos sobre{" "}
+        <Link href="/blog/como-identificar-transplante-capilar-natural" className="underline">
+          como identificar um transplante capilar natural
+        </Link>{" "}
+        e sobre{" "}
+        <Link href="/blog/tecnica-fue-transplante-capilar" className="underline">
+          como funciona a técnica FUE
         </Link>
         . Para entender como isso se aplica ao seu caso, o próximo passo é
         uma avaliação com o Dr. Vitor Frauches.{" "}
