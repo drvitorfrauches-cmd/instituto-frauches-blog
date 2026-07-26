@@ -20,8 +20,10 @@ export async function generateMetadata({
   const meta = getPostMeta(slug);
   if (!meta) return {};
 
+  const titleWithSuffix = `${meta.title} | ${SITE_NAME}`;
+
   return {
-    title: `${meta.title} | ${SITE_NAME}`,
+    title: titleWithSuffix.length <= 70 ? titleWithSuffix : meta.title,
     description: meta.description,
     alternates: { canonical: `${SITE_URL}/blog/${meta.slug}` },
     openGraph: {
