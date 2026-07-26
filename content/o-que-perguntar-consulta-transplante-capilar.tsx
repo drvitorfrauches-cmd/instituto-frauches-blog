@@ -171,7 +171,7 @@ export default function Article() {
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>
-        <LI><a href="https://ishrs.org/choosing-a-hair-restoration-surgeon/" target="_blank" rel="noopener noreferrer" className="underline">International Society of Hair Restoration Surgery. Choosing a Hair Restoration Surgeon.</a></LI>
+        <LI><a href="https://ishrs.org/questions-ask-your-hair-doctor/" target="_blank" rel="noopener noreferrer" className="underline">International Society of Hair Restoration Surgery. Questions to Ask Your Hair Restoration Surgeon.</a></LI>
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8611706/" target="_blank" rel="noopener noreferrer" className="underline">Hair Transplant Practice Guidelines.</a></LI>
         <LI><a href="https://ishrs.org/patients/consumer-alert/" target="_blank" rel="noopener noreferrer" className="underline">ISHRS Consumer Alert.</a></LI>
         <LI><a href="https://portal.cfm.org.br/busca-medicos/" target="_blank" rel="noopener noreferrer" className="underline">Conselho Federal de Medicina. Busca por médicos.</a></LI>
