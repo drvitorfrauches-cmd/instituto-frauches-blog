@@ -1,4 +1,5 @@
 import type { PostMeta } from "@/lib/blog/types";
+import Link from "next/link";
 import { P, H2, UL, OL, LI, Strong, Callout } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
@@ -154,6 +155,13 @@ export default function Article() {
         <a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer">
           <Strong>Agende sua avaliação pelo WhatsApp</Strong>
         </a>
+        .
+      </P>
+      <P>
+        Este artigo faz parte do nosso{" "}
+        <Link href="/blog/guia-transplante-capilar" className="underline">
+          guia completo do transplante capilar
+        </Link>
         .
       </P>
     </>

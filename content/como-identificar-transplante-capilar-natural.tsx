@@ -178,6 +178,13 @@ export default function Article() {
         </a>
         .
       </P>
+      <P>
+        Este artigo faz parte do nosso{" "}
+        <Link href="/blog/guia-transplante-capilar" className="underline">
+          guia completo do transplante capilar
+        </Link>
+        .
+      </P>
     </>
   );
 }
