@@ -29,6 +29,19 @@ exatamente, mas todos os pontos devem aparecer no texto).
   aprofundamento e linkar para o artigo existente em vez de reescrever do
   zero. Avalie antes de produzir.
 
+### 123. Nutracêuticos para crescimento capilar: Actrisave, Bioarct, Bloome, Keranat e outros
+- **Objetivo SEO**: nutracêuticos para queda de cabelo
+- **Briefing**: o que são nutracêuticos capilares (diferença pra
+  medicamento e pra suplemento genérico); para que servem os principais
+  do mercado (Actrisave, Bioarct, Bloome, Keranat e outros equivalentes);
+  o que a evidência científica diz sobre eficácia; quando fazem sentido
+  como complemento do tratamento clínico (minoxidil/finasterida/
+  dutasterida) e quando não substituem diagnóstico e tratamento médico.
+- Nota: prioridade adiantada na fila a pedido do Dr. Vitor (2026-07-26).
+  Diferenciar claramente do item 57 ("Suplementos para cabelo", mais
+  genérico) e do item 36 ("Vitaminas ajudam?") — foco aqui é nos
+  nutracêuticos de marca específicos.
+
 ### 13. Finasterida faz mal?
 - **Briefing**: mecanismo de ação; principais mitos; evidências científicas;
   quem pode usar.
