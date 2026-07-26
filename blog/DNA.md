@@ -283,6 +283,58 @@ checar o registry antes de decidir):
    de cabelo (cacheado, afro), transplante de barba/sobrancelha, pacientes mais
    jovens vs. mais velhos.
 
+## Arquitetura de clusters (guias pilares)
+
+O blog tem 3 páginas-guia (pillar pages), cada uma agrupando os artigos de um
+tema com linkagem bidirecional (o guia linka pros artigos, e cada artigo linka
+de volta pro guia). **Todo artigo novo precisa ser categorizado em um desses
+3 guias no momento da publicação** — não é uma tarefa separada, é parte do
+Passo 6 da skill `blog-post`.
+
+1. `guia-calvicie-masculina` — "Guia completo sobre calvície masculina".
+   Sinais, diagnóstico, tratamento clínico, candidatura à cirurgia. Cobre os
+   pilares 4 (calvície e tricologia) e a decisão inicial antes de entrar em
+   tratamento ou cirurgia.
+2. `guia-transplante-capilar` — "Guia completo do transplante capilar". O
+   maior guia: técnica, planejamento, área doadora, decisão/orçamento,
+   cirurgia/dor/recuperação, resultado. Cobre os pilares 1 (técnica FUE), 2
+   (dúvidas antes da cirurgia) e 3 (pós-operatório e recuperação).
+3. `guia-tratamentos-capilares` — "Guia completo de tratamentos capilares".
+   Medicamentos (minoxidil, finasterida, dutasterida) e procedimentos
+   complementares (PRP, MMP, mesoterapia, exossomos). Cobre a parte do
+   pilar 4 que é tratamento clínico não cirúrgico.
+
+Casos especiais e público específico (pilar 5) ainda não têm guia próprio —
+se o volume desses artigos crescer, considerar um 4º guia; até lá, linkar o
+artigo ao guia mais próximo pelo ângulo do tema (ex.: transplante de barba
+vai pro guia de transplante capilar).
+
+Formato do link de volta (inserir como último parágrafo do artigo, depois do
+Callout e do CTA de WhatsApp):
+
+```tsx
+<P>
+  Este artigo faz parte do nosso{" "}
+  <Link href="/blog/<slug-do-guia>" className="underline">
+    <título do guia em minúsculas, ex: "guia completo do transplante capilar">
+  </Link>
+  .
+</P>
+```
+
+E o item correspondente na lista do guia (dentro do `<UL>` da seção temática
+mais próxima):
+
+```tsx
+<LI>
+  <Link href="/blog/<slug-do-novo-artigo>" className="underline">
+    <título do artigo>
+  </Link>:{" "}
+  <descrição curta de uma linha, sem travessão, terminando com dois-pontos
+  antes do link e o texto seguinte começando direto>
+</LI>
+```
+
 ## Regras de SEO por artigo
 
 - Uma única palavra-chave primária (da lista acima), presente no título, na meta
