@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { P, H2, UL, LI, Strong } from "@/components/article-ui";
-import { AUTHOR, INSTAGRAM_URL, SITE_NAME, SITE_URL, WHATSAPP_URL } from "@/lib/blog/site";
+import { AUTHOR, AUTHOR_CREDENTIALS, INSTAGRAM_URL, SITE_NAME, SITE_URL, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const metadata: Metadata = {
   title: `Sobre o Dr. Vitor Frauches | ${SITE_NAME}`,
@@ -11,8 +11,32 @@ export const metadata: Metadata = {
 };
 
 export default function SobrePage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: AUTHOR.name,
+    jobTitle: AUTHOR.role,
+    description: AUTHOR_CREDENTIALS.join(". "),
+    url: `${SITE_URL}/sobre`,
+    image: `${SITE_URL}/author/dr-vitor-frauches.jpg`,
+    worksFor: {
+      "@type": "MedicalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    memberOf: [
+      { "@type": "Organization", name: "International Society of Hair Restoration Surgery" },
+      { "@type": "Organization", name: "World FUE Institute" },
+      { "@type": "Organization", name: "Sociedade Brasileira de Restauração Capilar e Cirurgia" },
+    ],
+  };
+
   return (
     <main className="mx-auto max-w-2xl px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mb-10 flex flex-col items-center gap-6 sm:flex-row sm:items-start">
         <Image
           src="/author/dr-vitor-frauches.jpg"

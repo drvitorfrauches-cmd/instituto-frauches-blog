@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
-import { SITE_URL } from "@/lib/blog/site";
+import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 
 export const metadata: Metadata = {
   title: "Blog | Instituto Frauches",
@@ -14,8 +14,40 @@ export const metadata: Metadata = {
 export default function BlogIndexPage() {
   const posts = getAllPosts();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Blog do Instituto Frauches",
+    description:
+      "Conteúdo educativo sobre transplante capilar, tricologia e calvície, assinado pelo Dr. Vitor Frauches.",
+    url: `${SITE_URL}/blog`,
+    author: {
+      "@type": "Person",
+      name: AUTHOR.name,
+      url: `${SITE_URL}/sobre`,
+    },
+    publisher: {
+      "@type": "MedicalOrganization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: posts.map((post, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}/blog/${post.slug}`,
+        name: post.title,
+      })),
+    },
+  };
+
   return (
     <main className="mx-auto max-w-6xl px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <h1 className="mb-2 text-3xl font-bold text-neutral-900">
         Blog do Instituto Frauches
       </h1>
