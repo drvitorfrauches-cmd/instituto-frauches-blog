@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Entenda o que são nutracêuticos capilares como Actrisave, Bioarct, Bloome e Keranat, o que a evidência científica diz e quando complementam o tratamento.",
   publishedAt: "2026-07-27",
   updatedAt: "2026-07-27",
-  readingTime: 5,
+  readingTime: 6,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -60,70 +60,104 @@ export default function Article() {
       </P>
 
       <H2 id="como-funcionam-actrisave-bioarct-bloome-keranat">
-        Como funcionam Actrisave, Bioarct, Bloome, Keranat e similares
+        Como funcionam Actrisave, Bio-Arct, Bloomé e Keranat
       </H2>
       <P>
-        Cada marca guarda sua fórmula como diferencial comercial, mas a
-        lógica por trás é parecida entre elas. As combinações mais comuns
-        reúnem:
+        Apesar de disputarem o mesmo público, essas quatro marcas não têm a
+        mesma proposta nem o mesmo grau de estudo por trás. Vale olhar cada
+        uma separadamente antes de comparar.
       </P>
-      <UL>
-        <LI>
-          <Strong>Biotina e zinco:</Strong> cofatores envolvidos na síntese
-          de queratina, a proteína estrutural do fio.
-        </LI>
-        <LI>
-          <Strong>Cistina e outros aminoácidos sulfurados:</Strong> blocos de
-          construção da fibra capilar.
-        </LI>
-        <LI>
-          <Strong>Antioxidantes</Strong> (como astaxantina, vitamina E ou
-          extratos de frutas vermelhas): propostos para reduzir o estresse
-          oxidativo no couro cabeludo.
-        </LI>
-        <LI>
-          <Strong>Extratos vegetais</Strong> (como serenoa repens): usados
-          por alguns fabricantes com a proposta de modular a ação hormonal
-          local, de forma bem mais branda que a finasterida ou a{" "}
-          <Link href="/blog/dutasterida-para-calvicie" className="underline">
-            dutasterida
-          </Link>
-          .
-        </LI>
-      </UL>
+
+      <H3>Actrisave™</H3>
       <P>
-        A proposta desses nutracêuticos é oferecer ao folículo os
-        micronutrientes necessários para produzir um fio mais espesso e
-        resistente. Isso é diferente de tratar a causa da calvície, que na
-        alopecia androgenética é predominantemente genética e hormonal.
+        Combina um extrato do arroz negro (Oryza sativa) com flavonoides da
+        flor do cacto Opuntia ficus indica. A proposta declarada pelo
+        fabricante é uma ação chamada de “finasteride-like”: inibir a
+        enzima 5-alfa-redutase, a mesma que converte testosterona em
+        di-hidrotestosterona (DHT), o hormônio ligado à miniaturização do
+        fio na alopecia androgenética. Em teste de laboratório, não em
+        pacientes, o fabricante relata cerca de 75% de inibição dessa
+        enzima quando os dois extratos são combinados, contra cerca de 40%
+        do extrato de Opuntia isolado. É um resultado in vitro, feito em
+        célula, não um estudo clínico em pessoas com queda de cabelo.
+      </P>
+
+      <H3>Bio-Arct®</H3>
+      <P>
+        É uma biomassa de alga vermelha do Ártico (Chondrus crispus),
+        padronizada em citrulina-arginina e taurina, com proposta
+        antioxidante e de suporte energético celular. Não é um ativo
+        desenvolvido especificamente para queda de cabelo: aparece também em
+        fórmulas para pele e disposição geral. Nas sugestões de uso capilar,
+        costuma vir associado a outros ativos, como biotina, zinco e ferro
+        quelato, o que torna difícil separar o que é efeito do Bio-Arct e o
+        que vem dos demais componentes da fórmula.
+      </P>
+
+      <H3>Bloomé®</H3>
+      <P>
+        É o mais recente dos quatro, com extrato de Cudrania tricuspidata
+        (flavonoides e xantonas antioxidantes) e da alga Sargassum fusiforme
+        (rica em minerais e polissacarídeos). O material do próprio
+        fabricante descreve resultados “comparáveis ou superiores ao
+        minoxidil”, mas essa comparação não vem acompanhada, no material
+        consultado, de um estudo clínico específico, com metodologia e
+        publicação identificáveis. Uma alegação desse tamanho, sem o estudo
+        correspondente para conferir, deve ser tratada com reserva até
+        existir dado independente que sustente a comparação.
+      </P>
+
+      <H3>Keranat™</H3>
+      <P>
+        É baseado em triterpenoides do painço (Panicum miliaceum),
+        encapsulados em lipídeos vegetais para melhorar a absorção. Entre os
+        quatro, é o único com um estudo clínico controlado citado em seu
+        material: duplo-cego, randomizado, comparado a placebo, com 65
+        mulheres, por 12 semanas, na dose de 300 mg ao dia. O estudo relata
+        redução de cerca de 50% na proporção de fios na fase telógena (a
+        fase que antecede a queda) após 3 meses de uso, além de aumento de
+        colágeno e de fatores de crescimento medidos no couro cabeludo. É um
+        desenho de estudo mais robusto que os anteriores, mas com amostra
+        pequena, feito só em mulheres e conduzido pelo próprio fabricante, o
+        que pede confirmação por pesquisa independente antes de tratar o
+        resultado como definitivo.
       </P>
 
       <H2 id="o-que-diz-a-evidencia-cientifica">
         O que diz a evidência científica sobre nutracêuticos capilares
       </H2>
       <P>
-        A evidência é heterogênea e, na maioria dos casos, mais fraca do que
-        a de tratamentos como minoxidil e finasterida. Estudos clínicos
-        independentes e de longo prazo, comparando um nutracêutico específico
-        contra placebo em pacientes com alopecia androgenética diagnosticada,
-        ainda são escassos. Boa parte dos dados disponíveis vem de pesquisas
-        financiadas pelo próprio fabricante, com amostras pequenas.
+        A evidência varia muito de produto para produto, e nenhuma das
+        quatro marcas acima tem o volume de estudo independente acumulado
+        por tratamentos como{" "}
+        <Link href="/blog/minoxidil-para-queda-de-cabelo" className="underline">
+          minoxidil
+        </Link>{" "}
+        e{" "}
+        <Link href="/blog/finasterida-para-calvicie" className="underline">
+          finasterida
+        </Link>
+        . O que existe vai de teste em laboratório sem uso em pacientes até
+        um único estudo clínico pequeno financiado pelo próprio fabricante.
+        Nenhuma chegou perto do padrão de décadas de estudo desses
+        medicamentos.
       </P>
       <P>
-        Onde a evidência é mais sólida é em outro cenário: pacientes com
-        deficiência nutricional documentada por exame de sangue, como
-        carência de ferro, zinco ou vitamina D. Nesses casos, corrigir a
-        deficiência tem impacto real sobre a queda de cabelo, porque o
-        problema de base é justamente a falta do nutriente. Já em quem não
-        tem nenhuma carência, tomar mais desses nutrientes não costuma trazer
-        ganho proporcional, porque o folículo já recebe o que precisa pela
-        alimentação normal.
+        Onde a evidência costuma ser mais sólida é em outro cenário:
+        pacientes com deficiência nutricional documentada por exame de
+        sangue, como carência de ferro, zinco ou vitamina D. Nesses casos,
+        corrigir a deficiência tem impacto real sobre a queda de cabelo,
+        porque o problema de base é justamente a falta do nutriente. Já em
+        quem não tem nenhuma carência, tomar mais desses nutrientes não
+        costuma trazer ganho proporcional, porque o folículo já recebe o que
+        precisa pela alimentação normal.
       </P>
       <P>
         Isso não significa que nutracêuticos sejam inúteis. Significa que o
-        benefício esperado é mais discreto e mais indireto do que a
-        publicidade costuma sugerir, e que ele depende do estado nutricional
-        de cada paciente, algo que só um exame mostra.
+        benefício esperado é mais discreto e mais dependente do produto
+        específico do que a publicidade costuma sugerir, e que vale sempre
+        perguntar que tipo de estudo sustenta a alegação: laboratório, animal
+        ou pessoa real, com ou sem grupo placebo.
       </P>
 
       <H2 id="quando-fazem-sentido-como-complemento">
@@ -189,6 +223,7 @@ export default function Article() {
       <UL>
         <LI>Existe um exame que mostrou a deficiência que esse produto promete corrigir?</LI>
         <LI>A composição está descrita de forma clara no rótulo, ou é uma fórmula fechada e vaga?</LI>
+        <LI>A alegação vem de estudo em laboratório, em animal ou em pessoas, e houve grupo placebo para comparar?</LI>
         <LI>O anúncio promete reverter calvície sozinho, sem mencionar avaliação médica?</LI>
         <LI>Esse produto está sendo usado no lugar de investigar a causa real da queda?</LI>
       </UL>
