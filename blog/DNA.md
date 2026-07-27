@@ -239,7 +239,7 @@ alopecia androgenética, entradas capilares, coroa capilar, densidade capilar,
 folículo piloso, non-shave FUE, sedação em transplante capilar, pós-operatório
 capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
 barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
-implanter, superextração capilar.
+implanter, superextração capilar, nutracêuticos para queda de cabelo.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 

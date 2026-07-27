@@ -84,6 +84,12 @@ export default function Article() {
           </Link>:{" "}
           evidências, riscos e cuidados.
         </LI>
+        <LI>
+          <Link href="/blog/nutraceuticos-para-queda-de-cabelo" className="underline">
+            Nutracêuticos para queda de cabelo
+          </Link>:{" "}
+          o que são, como agem marcas como Actrisave, Bioarct, Bloome e Keranat, e o que diz a evidência científica.
+        </LI>
       </UL>
 
       <H2 id="limitacoes">Limitações em comum</H2>

@@ -23,24 +23,12 @@ exatamente, mas todos os pontos devem aparecer no texto).
 - **Objetivo SEO**: FUE
 - **Briefing**: como funciona; diferenças da FUT; cicatrizes; recuperação;
   principais vantagens.
-- Nota: já existe um artigo publicado (`transplante-capilar-fue-o-que-e`)
-  cobrindo esse tema de forma geral. Ao escrever este, ou diferenciar o
-  ângulo claramente (evitar conteúdo duplicado) ou tratar como atualização/
-  aprofundamento e linkar para o artigo existente em vez de reescrever do
-  zero. Avalie antes de produzir.
-
-### 123. Nutracêuticos para crescimento capilar: Actrisave, Bioarct, Bloome, Keranat e outros
-- **Objetivo SEO**: nutracêuticos para queda de cabelo
-- **Briefing**: o que são nutracêuticos capilares (diferença pra
-  medicamento e pra suplemento genérico); para que servem os principais
-  do mercado (Actrisave, Bioarct, Bloome, Keranat e outros equivalentes);
-  o que a evidência científica diz sobre eficácia; quando fazem sentido
-  como complemento do tratamento clínico (minoxidil/finasterida/
-  dutasterida) e quando não substituem diagnóstico e tratamento médico.
-- Nota: prioridade adiantada na fila a pedido do Dr. Vitor (2026-07-26).
-  Diferenciar claramente do item 57 ("Suplementos para cabelo", mais
-  genérico) e do item 36 ("Vitaminas ajudam?") — foco aqui é nos
-  nutracêuticos de marca específicos.
+- Nota (2026-07-27): avaliado antes de escrever. Além do artigo
+  `transplante-capilar-fue-o-que-e` (visão geral), o artigo
+  `tecnica-fue-transplante-capilar` já cobre exatamente este briefing em
+  profundidade (como funciona, diferenças pra FUT, cicatrizes, raspagem,
+  transecção, implanter, vantagens e limitações). Considerado já coberto,
+  não escrever versão nova a menos que surja um ângulo claramente distinto.
 
 ### 13. Finasterida faz mal?
 - **Briefing**: mecanismo de ação; principais mitos; evidências científicas;
@@ -291,3 +279,9 @@ desta fila. A partir daqui, os itens vieram da fila de sugeridos:
 
 Item 6, "O que é a técnica FUE?", permanece em Pendentes (não foi usado
 neste lote por risco de duplicidade com o artigo de lançamento).
+- Item 123, "Nutracêuticos para crescimento capilar: Actrisave, Bioarct,
+  Bloome, Keranat e outros" — publicado em 2026-07-27 como
+  `nutraceuticos-para-queda-de-cabelo`. Keyword primária usada:
+  "nutracêuticos para queda de cabelo" (não constava na lista fixa do
+  DNA; considerar adicioná-la às secundárias, já que é um termo de busca
+  real e distinto de "suplementos para cabelo").
