@@ -11,11 +11,12 @@ export function ApproveButton({
   slugs: string[];
 }) {
   const router = useRouter();
+  const [confirming, setConfirming] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
   async function approve() {
-    if (!confirm("Publicar este artigo agora? Ele vai ficar no ar no blog.")) return;
+    setConfirming(false);
     setLoading(true);
     setMessage(null);
     try {
@@ -39,7 +40,7 @@ export function ApproveButton({
   return (
     <div className="sticky bottom-6 flex items-center gap-3 rounded-xl border border-amber-300 bg-amber-50 p-4">
       <button
-        onClick={approve}
+        onClick={() => setConfirming(true)}
         disabled={loading}
         className="rounded-lg bg-amber-800 px-4 py-2 font-medium text-white disabled:opacity-50"
       >
@@ -49,6 +50,30 @@ export function ApproveButton({
         Salve os rascunhos primeiro. Isso mescla o PR e coloca o artigo no ar.
       </p>
       {message && <span className="text-sm text-amber-900">{message}</span>}
+
+      {confirming && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4">
+          <div className="w-full max-w-sm rounded-xl bg-white p-5 shadow-xl">
+            <p className="mb-4 text-neutral-900">
+              Publicar este artigo agora? Ele vai ficar no ar no blog.
+            </p>
+            <div className="flex justify-end gap-3">
+              <button
+                onClick={() => setConfirming(false)}
+                className="rounded-lg border border-neutral-300 px-3 py-2 text-sm"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={approve}
+                className="rounded-lg bg-amber-800 px-3 py-2 text-sm font-medium text-white"
+              >
+                Confirmar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
