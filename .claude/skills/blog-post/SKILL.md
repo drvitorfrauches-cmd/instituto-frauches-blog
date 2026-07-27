@@ -18,7 +18,11 @@ Leia por inteiro, nesta ordem:
    conteúdo, regras de SEO e de compliance médica. **Não pule nenhuma seção.**
 2. `blog/TEMAS_SUGERIDOS.md` — fila de temas sugeridos pelo Dr. Vitor.
 3. `.claude/skills/seo-geo/SKILL.md` — checklist de otimização de estrutura,
-   keywords e citação por IA.
+   keywords e citação por IA. **Obrigatório em toda execução desta skill,
+   inclusive nas rodadas automáticas do schedule (segunda/quarta/sexta) —
+   não é uma etapa opcional nem algo que só se aplica quando o Dr. Vitor
+   pede explicitamente.** Aplique o checklist inteiro na escrita (Passo 3)
+   e confira de novo no Passo 7 (Validar) antes de abrir o PR.
 4. `.claude/skills/humanizer/SKILL.md` — sinais de texto com "cara de IA" a
    eliminar antes de publicar.
 
