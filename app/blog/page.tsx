@@ -5,7 +5,7 @@ import { getAllPosts } from "@/lib/blog/registry";
 import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 
 export const metadata: Metadata = {
-  title: "Blog | Instituto Frauches",
+  title: "Blog de Transplante Capilar e Tricologia | Instituto Frauches",
   description:
     "Conteúdo educativo sobre transplante capilar FUE, tricologia e calvície, assinado pelo Dr. Vitor Frauches.",
   alternates: { canonical: `${SITE_URL}/blog` },

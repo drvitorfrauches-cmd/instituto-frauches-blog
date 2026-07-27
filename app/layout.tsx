@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Blog | Instituto Frauches",
+  title: "Blog de Transplante Capilar e Tricologia | Instituto Frauches",
   description:
     "Conteúdo educativo sobre transplante capilar FUE, tricologia e calvície, assinado pelo Dr. Vitor Frauches.",
   verification: {
