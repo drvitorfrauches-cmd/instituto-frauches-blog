@@ -6,6 +6,7 @@ import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry"
 import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { ShareButtons } from "@/components/ShareButtons";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -109,6 +110,8 @@ export default async function BlogPostPage({
         updatedAt={meta.updatedAt}
       />
 
+      <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
+
       {meta.coverImage && (
         <Image
           src={meta.coverImage.src}
@@ -123,6 +126,10 @@ export default async function BlogPostPage({
       <article>
         <Content />
       </article>
+
+      <div className="mt-10 border-t border-neutral-200 pt-8">
+        <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
+      </div>
     </main>
   );
 }
