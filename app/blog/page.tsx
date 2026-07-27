@@ -2,13 +2,24 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
-import { AUTHOR, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { AUTHOR, LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+
+const TITLE = "Blog de Transplante Capilar e Tricologia | Instituto Frauches";
+const DESCRIPTION =
+  "Conteúdo educativo sobre transplante capilar FUE, tricologia, calvície e tratamentos capilares, assinado pelo Dr. Vitor Frauches. Agende sua avaliação.";
 
 export const metadata: Metadata = {
-  title: "Blog de Transplante Capilar e Tricologia | Instituto Frauches",
-  description:
-    "Conteúdo educativo sobre transplante capilar FUE, tricologia e calvície, assinado pelo Dr. Vitor Frauches.",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/blog` },
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    type: "website",
+    url: `${SITE_URL}/blog`,
+    siteName: SITE_NAME,
+    images: [{ url: `${SITE_URL}${LOGO_PATH}` }],
+  },
 };
 
 export default function BlogIndexPage() {

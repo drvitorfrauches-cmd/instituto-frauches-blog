@@ -3,11 +3,22 @@ import Image from "next/image";
 import { P, H2, UL, LI, Strong } from "@/components/article-ui";
 import { AUTHOR, AUTHOR_CREDENTIALS, INSTAGRAM_URL, SITE_NAME, SITE_URL, WHATSAPP_URL } from "@/lib/blog/site";
 
+const TITLE = `Sobre o Dr. Vitor Frauches | ${SITE_NAME}`;
+const DESCRIPTION =
+  "Dr. Vitor Frauches, CRM-ES 10.229, médico especialista em transplante capilar e tricologia, professor da pós-graduação em Transplante Capilar e Tricologia (BWS).";
+
 export const metadata: Metadata = {
-  title: `Sobre o Dr. Vitor Frauches | ${SITE_NAME}`,
-  description:
-    "Dr. Vitor Frauches, CRM-ES 10.229, médico especialista em transplante capilar e tricologia, professor da pós-graduação em Transplante Capilar e Tricologia (BWS).",
+  title: TITLE,
+  description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/sobre` },
+  openGraph: {
+    title: TITLE,
+    description: DESCRIPTION,
+    type: "profile",
+    url: `${SITE_URL}/sobre`,
+    siteName: SITE_NAME,
+    images: [{ url: `${SITE_URL}/author/dr-vitor-frauches.jpg` }],
+  },
 };
 
 export default function SobrePage() {
