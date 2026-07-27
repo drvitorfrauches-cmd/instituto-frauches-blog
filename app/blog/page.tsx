@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
 import { AUTHOR, LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 
-const TITLE = "Blog de Transplante Capilar e Tricologia | Instituto Frauches";
+const TITLE = "Transplante Capilar e Tricologia | Instituto Frauches";
 const DESCRIPTION =
   "Conteúdo educativo sobre transplante capilar FUE, tricologia, calvície e tratamentos capilares, assinado pelo Dr. Vitor Frauches. Agende sua avaliação.";
 
