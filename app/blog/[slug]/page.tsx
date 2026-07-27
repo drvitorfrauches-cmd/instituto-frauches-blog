@@ -7,6 +7,7 @@ import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
+import { extractFaqs, extractHowTo } from "@/lib/blog/structured-data";
 
 export async function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -81,12 +82,55 @@ export default async function BlogPostPage({
     image: meta.coverImage ? `${SITE_URL}${meta.coverImage.src}` : undefined,
   };
 
+  const faqs = extractFaqs(meta.slug);
+  const faqJsonLd =
+    faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.answer,
+            },
+          })),
+        }
+      : null;
+
+  const howTo = extractHowTo(meta.slug, meta.title);
+  const howToJsonLd = howTo
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: howTo.name,
+        step: howTo.steps.map((step, i) => ({
+          "@type": "HowToStep",
+          position: i + 1,
+          text: step,
+        })),
+      }
+    : null;
+
   return (
     <main className="mx-auto max-w-2xl px-6 py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
+      {howToJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+        />
+      )}
 
       <Link href="/blog" className="mb-4 inline-block text-sm text-neutral-500 hover:underline">
         ← Voltar para o blog
