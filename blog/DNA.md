@@ -231,6 +231,7 @@ uma etapa do procedimento ou um conceito ficar mais claro ilustrado.
 - melhor clínica transplante capilar
 - exames transplante capilar
 - calvície tem cura
+- controle de qualidade no transplante capilar
 
 ### Secundárias (apoio quando o tema permitir)
 

@@ -56,6 +56,12 @@ export default function Article() {
           </Link>:{" "}
           o que cada equipamento realmente muda no resultado.
         </LI>
+        <LI>
+          <Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">
+            Graftis: controle de qualidade no transplante capilar
+          </Link>:{" "}
+          o sistema próprio do Instituto Frauches para contagem folicular ao vivo.
+        </LI>
       </UL>
 
       <H2 id="planejamento-e-area-doadora">Planejamento e área doadora</H2>
