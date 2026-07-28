@@ -60,10 +60,15 @@ Leia por inteiro, nesta ordem:
   ele sozinho sempre que o artigo é editado ali, então não precisa mexer
   nisso manualmente depois).
 - `readingTime`: contagem de palavras do corpo dividida por 200, arredondado.
-- 900 a 1500 palavras. Siga a estrutura do DNA: introdução, 3-6 H2, pelo menos
-  uma lista numerada ou de pontos, conclusão com CTA.
-- Cada H2 relevante para GEO deve responder a pergunta de forma autocontida
-  nas primeiras frases (ver seção "Intenção GEO" do DNA).
+- **Mínimo de 1400 palavras** (sem teto rígido — profundidade real, não
+  enchimento). Siga a estrutura do DNA: introdução, H2 suficientes pra
+  cobrir o tema, pelo menos uma lista numerada ou de pontos, conclusão com
+  CTA.
+- **Headings (H2/H3) em formato de pergunta sempre que fizer sentido** (ex.:
+  "Como funciona a técnica FUE?", "O que é a área doadora?"). IAs extraem
+  resposta direta desse formato. Cada H2 relevante para GEO deve responder a
+  pergunta de forma autocontida nas primeiras frases (ver seção "Intenção
+  GEO" do DNA).
 - Inclua 1-3 links internos (`<Link href="/blog/<slug-existente>">`) para
   artigos já publicados, quando fizer sentido — sem forçar.
 - Termine com um `Callout` de disclaimer médico (mesmo texto do artigo de
@@ -132,7 +137,10 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
    realmente existem em `content/`); imagem de capa presente e carregando.
 4. Confirme que o backlink pro guia foi adicionado no artigo e que o novo
    `<LI>` aparece no guia correspondente (passo 6).
-5. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
+5. Conte as palavras do corpo do artigo. Se ficar abaixo de 1400, volte e
+   aprofunde alguma seção antes de prosseguir — não abra o PR com um artigo
+   curto demais.
+6. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
    prossiga para o passo 8.
 
 ## Passo 8 — Entregar (regra fixa: Pull Request)
