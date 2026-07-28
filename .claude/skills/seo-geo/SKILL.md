@@ -25,10 +25,18 @@ merecem checklist próprio.
 - **Hierarquia de headings**: um H1 (o título da página, gerado
   automaticamente pelo template, não repita no corpo), H2 para seções
   principais, H3 só se uma seção precisar de subdivisão.
+- **Headings em formato de pergunta.** Sempre que o H2/H3 corresponder a uma
+  dúvida real do leitor, escreva-o como pergunta ("Como funciona a técnica
+  FUE?", "O que é a área doadora?") em vez de nominal ("A técnica FUE",
+  "Área doadora"). Headings-pergunta são o formato que IAs mais citam
+  diretamente como resposta. Headings puramente organizacionais (ex.:
+  "Resumo", "Conclusão", "Referências") não precisam virar pergunta.
 - **Internal linking**: 1-3 links para outros artigos do blog já publicados,
   com texto âncora descritivo (não "clique aqui").
-- **Comprimento**: 900-1500 palavras é o alvo. Menos que isso raramente cobre
-  o tema com profundidade suficiente; mais que isso arrisca perder o leitor.
+- **Comprimento**: mínimo de 1400 palavras, sem teto rígido. Abaixo disso o
+  tema raramente é coberto com profundidade suficiente; acima, tudo bem
+  desde que cada seção continue agregando informação real (não encher
+  linguiça só pra bater número).
 
 ## GEO — otimização para IAs
 

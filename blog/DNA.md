@@ -360,8 +360,17 @@ mais próxima):
 - Meta description entre 140 e 160 caracteres, contendo a palavra-chave primária.
 - Slug curto, minúsculo, com hífen, contendo a palavra-chave (ex.:
   `transplante-capilar-fue-dor`).
-- 900 a 1500 palavras. Estrutura: introdução (o problema/dúvida do leitor), 3 a 6
-  seções H2, conclusão com CTA.
+- **Mínimo de 1400 palavras** (sem teto rígido, mas evite inflar artificialmente
+  só pra bater o número — profundidade real primeiro). Estrutura: introdução
+  (o problema/dúvida do leitor), seções H2 suficientes pra cobrir o tema com
+  profundidade, conclusão com CTA.
+- **Headings (H2/H3) em formato de pergunta sempre que fizer sentido** (ex.:
+  "Como funciona a técnica FUE?", "O que é a área doadora?", "Transplante
+  capilar dói?"). IAs extraem resposta direta desse formato pra citar como
+  fonte. Nem todo heading precisa ser pergunta (ex.: "Resumo", "Conclusão"
+  não fazem sentido como pergunta), mas sempre que o heading corresponder a
+  uma dúvida real do leitor, prefira a forma interrogativa à nominal (ex.:
+  "Como funciona a técnica FUE?" em vez de apenas "A técnica FUE").
 - Sempre incluir ao menos uma lista numerada (passo a passo) ou lista de pontos
   prática.
 - Linkar para 1-3 artigos relacionados já publicados no blog (internal linking) —
