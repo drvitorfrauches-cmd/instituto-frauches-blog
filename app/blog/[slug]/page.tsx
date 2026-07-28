@@ -148,12 +148,6 @@ export default async function BlogPostPage({
           timeZone: "UTC",
         })}
       </p>
-      <AuthorBox
-        authorName={meta.author.name}
-        publishedAt={meta.publishedAt}
-        updatedAt={meta.updatedAt}
-      />
-
       <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
 
       {meta.coverImage && (
@@ -172,6 +166,11 @@ export default async function BlogPostPage({
       </article>
 
       <div className="mt-10 border-t border-neutral-200 pt-8">
+        <AuthorBox
+          authorName={meta.author.name}
+          publishedAt={meta.publishedAt}
+          updatedAt={meta.updatedAt}
+        />
         <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
       </div>
     </main>
