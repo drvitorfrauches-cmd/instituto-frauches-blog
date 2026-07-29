@@ -45,16 +45,22 @@ exatamente, mas todos os pontos devem aparecer no texto).
 ### 15. Queda de cabelo por estresse existe?
 - **Briefing**: eflúvio telógeno; diferença para calvície; diagnóstico;
   tratamento.
+- Nota (2026-07-29): avaliado antes de escrever. O artigo
+  `queda-de-cabelo-e-normal` já cobre exatamente este briefing em
+  profundidade (eflúvio telógeno, diferença para calvície e quebra,
+  diagnóstico e "estresse realmente causa queda?"). Considerado já
+  coberto, não escrever versão nova a menos que surja um ângulo
+  claramente distinto.
 
 ### 16. O que torna um transplante capilar natural?
 - **Briefing**: hairline; direção dos fios; densidade; planejamento facial;
   naturalidade.
 - Nota: já existe artigo publicado (`como-identificar-transplante-capilar-natural`,
   pacote editorial externo) com ângulo próximo. Avalie antes de produzir.
-
-### 17. Por que o microscópio faz diferença na cirurgia?
-- **Briefing**: controle dos enxertos; sobrevivência folicular; qualidade
-  da equipe; segurança.
+- Nota (2026-07-29): reavaliado. O artigo cobre linha frontal, direção,
+  ângulo, densidade gradual e planejamento no Instituto Frauches, exatamente
+  o briefing deste item. Considerado já coberto, pular a menos que surja um
+  ângulo claramente distinto.
 
 ### 18. Implanter ou pinça: existe diferença?
 - **Briefing**: como funciona cada técnica; trauma folicular; tempo fora do
@@ -187,6 +193,11 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 91. O que é FUE Premium?
 ### 92. O que é Implanter Pen?
 ### 93. Por que usamos microscópios?
+- Nota (2026-07-29): coberto pelo item 17 ("Por que o microscópio faz
+  diferença na cirurgia?"), publicado como `microscopio-no-transplante-capilar`.
+  Pular a menos que surja um ângulo claramente distinto (este item já cobre
+  ampliação, triagem, transecção, sobrevivência do enxerto e o papel da
+  equipe).
 ### 94. Como os enxertos são armazenados
 ### 95. Qual a temperatura ideal dos enxertos?
 ### 96. Tempo fora do corpo influencia?
@@ -285,3 +296,9 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   "nutracêuticos para queda de cabelo" (não constava na lista fixa do
   DNA; considerar adicioná-la às secundárias, já que é um termo de busca
   real e distinto de "suplementos para cabelo").
+- Item 17, "Por que o microscópio faz diferença na cirurgia?" — publicado em
+  2026-07-29 como `microscopio-no-transplante-capilar`. Keyword primária
+  usada: "microscópio no transplante capilar" (não constava na lista fixa
+  do DNA; adicionada às secundárias). Itens 15, 16 e 93 reavaliados e
+  marcados como já cobertos por outros artigos (ver notas nos próprios
+  itens).

@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Guia do transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica. Tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-29",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
@@ -31,6 +31,7 @@ export default function Article() {
         <LI><Link href="/blog/fue-ou-fut" className="underline">{"FUE ou FUT"}</Link>{": qual a diferença e por que a FUE é hoje a mais usada."}</LI>
         <LI><Link href="/blog/tecnologias-transplante-capilar" className="underline">{"Tecnologias no transplante capilar"}</Link>{": o que cada equipamento realmente muda no resultado."}</LI>
         <LI><Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">{"Graftis: controle de qualidade no transplante capilar"}</Link>{": o sistema próprio do Instituto Frauches para contagem folicular ao vivo."}</LI>
+        <LI><Link href="/blog/microscopio-no-transplante-capilar" className="underline">{"Microscópio no transplante capilar"}</Link>{": por que a triagem sob aumento reduz a transecção e ajuda na sobrevivência do enxerto."}</LI>
       </UL>
 
       <H2 id="planejamento-e-area-doadora">{"Planejamento e área doadora"}</H2>
