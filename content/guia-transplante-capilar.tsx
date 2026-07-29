@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Guia do transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica. Tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-29",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
@@ -62,6 +62,9 @@ export default function Article() {
         <LI><Link href="/blog/sinais-transplante-capilar-mal-feito" className="underline">{"Sinais de transplante capilar mal feito"}</Link>{": o que observar, e quando vale buscar uma correção."}</LI>
         <LI><Link href="/blog/transplante-capilar-e-definitivo" className="underline">{"Transplante capilar dura para sempre?"}</Link>{": a durabilidade dos fios e o papel do tratamento clínico complementar."}</LI>
       </UL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <P>{"Reunimos as dúvidas mais comuns sobre transplante capilar, com respostas diretas, em um só lugar: "}<Link href="/blog/faq-transplante-capilar" className="underline">{"FAQ completo sobre transplante capilar"}</Link>{"."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O planejamento cirúrgico depende de avaliação individual da área doadora e do padrão de calvície."}</Callout>
 

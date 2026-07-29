@@ -222,10 +222,12 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 118. O que levar no dia da cirurgia
 ### 119. Mitos sobre transplante capilar
 ### 120. As 30 dúvidas mais frequentes dos pacientes
-- Nota: este é um tema "guarda-chuva" (poderia virar uma série de vários
-  artigos curtos de FAQ, não um único artigo com 30 perguntas). Ao chegar
-  nele, avalie dividir em 2-3 artigos temáticos menores em vez de um só
-  artigo gigante — mais alinhado ao formato de 900-1500 palavras do blog.
+- Coberto em 2026-07-29 pela página `faq-transplante-capilar` (28 perguntas
+  e respostas organizadas por tema: técnica, dor, preço, quem pode fazer,
+  área doadora, recuperação, resultado, escolha da clínica), publicada como
+  hub de respostas curtas com link para o artigo completo quando existe.
+  Formato hub em vez de artigo único de 900-1500 palavras, então não
+  conflita com a nota original de não fazer um artigo gigante.
 
 ### 121. Transplante capilar para pacientes de outros estados
 - **Objetivo SEO**: transplante capilar para quem mora fora de Vitória/ES
