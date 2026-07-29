@@ -64,6 +64,9 @@ export default function Article() {
         <LI><Link href="/blog/transplante-capilar-e-definitivo" className="underline">{"Transplante capilar dura para sempre?"}</Link>{": a durabilidade dos fios e o papel do tratamento clínico complementar."}</LI>
       </UL>
 
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <P>{"Reunimos as dúvidas mais comuns sobre transplante capilar, com respostas diretas, em um só lugar: "}<Link href="/blog/faq-transplante-capilar" className="underline">{"FAQ completo sobre transplante capilar"}</Link>{"."}</P>
+
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O planejamento cirúrgico depende de avaliação individual da área doadora e do padrão de calvície."}</Callout>
 
       <P>{"Se você já entendeu o processo e quer saber como ele se aplica ao seu caso, o próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
