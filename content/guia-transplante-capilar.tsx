@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Guia do transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica. Tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-29",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
