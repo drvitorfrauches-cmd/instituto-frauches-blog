@@ -8,7 +8,7 @@ export const meta: PostMeta = {
   title: "Quanto custa um transplante capilar? Entenda o que define o preço",
   description: "Entenda quanto custa um transplante capilar, o que influencia o preço, como comparar orçamentos e por que área doadora e equipe importam.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-25",
+  updatedAt: "2026-07-31",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -28,6 +28,7 @@ export default function Article() {
       <P>Dois pacientes com entradas semelhantes podem exigir estratégias muito diferentes. Um pode ter fios grossos, boa densidade occipital e calvície estabilizada. Outro pode apresentar miniaturização na área doadora, cabelo fino, risco de progressão e necessidade de preservar enxertos para o futuro.</P>
       <P>O transplante não é um produto padronizado. É um procedimento médico que redistribui uma quantidade limitada de folículos. O valor precisa refletir planejamento, execução, segurança e acompanhamento, não apenas uma promessa de quantidade.</P>
       <P>Clínicas que publicam um preço fechado sem examinar o paciente podem estar simplificando variáveis importantes. Uma faixa inicial pode orientar, mas a proposta definitiva deve vir após avaliação.</P>
+      <P>Para dar uma noção de mercado: no Brasil, transplantes capilares são anunciados desde a faixa de R$ 10 mil até valores acima de R$ 100 mil, dependendo de quantidade de unidades foliculares, técnica, equipe, estrutura e cidade. Essa variação de dez vezes entre o piso e o teto do mercado é o motivo pelo qual publicar um número fechado, sem avaliação, tende a induzir a uma comparação enganosa: o mesmo valor pode representar propostas completamente diferentes em segurança, planejamento e resultado esperado.</P>
       <H2 id="quais-fatores-influenciam-o-valor">Quais fatores influenciam o valor?</H2>
       <H3>Extensão da área a tratar</H3>
       <P>Entradas pequenas exigem menos cobertura do que uma calvície que envolve linha frontal, topete, scalp médio e coroa. Quanto maior a superfície, maior tende a ser a demanda por unidades foliculares e tempo de implantação.</P>

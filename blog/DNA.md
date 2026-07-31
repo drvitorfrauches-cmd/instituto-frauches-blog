@@ -76,6 +76,14 @@ tudo em todo artigo):**
   o número mais recente disponível e, na dúvida, a formulação mais conservadora),
   taxa de fixação divulgada acima de 95% (cite como estatística institucional,
   nunca como garantia individual de resultado).
+- **Política de preço (decisão confirmada em 2026-07-31)**: o blog não publica um
+  valor fechado do Instituto Frauches, nem faixa própria da clínica. Quando um
+  artigo precisar dar noção de mercado (ex.: `quanto-custa-transplante-capilar`,
+  FAQ), use o dado de mercado brasileiro: transplantes capilares são anunciados
+  desde a faixa de R$ 10 mil até acima de R$ 100 mil, variando por quantidade de
+  unidades foliculares, técnica, equipe, estrutura e cidade. Justificativa do
+  Dr. Vitor: essa variação de dez vezes entre piso e teto é exatamente o motivo
+  pelo qual um número fechado sem avaliação induziria a comparação enganosa.
 - Linha do tempo de resultado divulgada pela clínica (útil para artigos sobre
   prazo/resultado, sempre com nota de variação individual): queda inicial dos fios
   transplantados entre 1-2 meses (esperada, faz parte do processo); redução

@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Respostas diretas às dúvidas mais comuns sobre transplante capilar: técnica FUE, dor, preço, recuperação, resultado, área doadora e como escolher uma clínica.",
   publishedAt: "2026-07-29",
-  updatedAt: "2026-07-29",
+  updatedAt: "2026-07-31",
   readingTime: 9,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -52,7 +52,7 @@ export default function Article() {
       <H2 id="preco-e-planejamento">{"Preço e planejamento"}</H2>
 
       <H3>{"Quanto custa um transplante capilar?"}</H3>
-      <P>{"Não existe um valor único: o preço depende do grau de calvície, da qualidade da área doadora, da quantidade de unidades foliculares necessárias, da técnica, da equipe e da estrutura utilizada. Uma estimativa responsável só é possível após avaliação individual. Entenda os fatores em "}<Link href="/blog/quanto-custa-transplante-capilar" className="underline">{"quanto custa um transplante capilar"}</Link>{"."}</P>
+      <P>{"Não existe um valor único: no Brasil, transplantes capilares são anunciados desde a faixa de R$ 10 mil até acima de R$ 100 mil, variando conforme grau de calvície, qualidade da área doadora, quantidade de unidades foliculares, técnica, equipe e estrutura. Uma estimativa responsável só é possível após avaliação individual. Entenda os fatores em "}<Link href="/blog/quanto-custa-transplante-capilar" className="underline">{"quanto custa um transplante capilar"}</Link>{"."}</P>
 
       <H3>{"Por que clínicas diferentes cobram preços tão diferentes pelo mesmo procedimento?"}</H3>
       <P>{"Porque “transplante capilar” não é um produto padronizado. Diferenças de equipe, tecnologia, número de profissionais em sala, estrutura cirúrgica e acompanhamento pós-operatório justificam parte da variação de preço. Um valor muito abaixo da média do mercado costuma significar corte em algum desses pontos, o que pode comprometer o resultado e a segurança."}</P>
