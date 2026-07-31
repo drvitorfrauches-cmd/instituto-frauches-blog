@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Conheça o Graftis, sistema próprio do Instituto Frauches para contagem folicular ao vivo e controle de qualidade durante o transplante capilar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-31",
   readingTime: 5,
   category: "Tecnologia",
   author: AUTHOR,
@@ -75,7 +75,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O Graftis é uma ferramenta interna de organização e controle de qualidade da equipe cirúrgica; o resultado do transplante capilar continua dependendo de avaliação individual, técnica cirúrgica e biologia de cada paciente."}</Callout>
 
       <P>{"Quer entender como esse controle se aplica ao seu caso? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }

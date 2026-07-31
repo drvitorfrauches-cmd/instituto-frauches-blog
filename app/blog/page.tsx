@@ -94,7 +94,7 @@ export default function BlogIndexPage() {
                 <span className="mb-1 flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-neutral-500">
                   {isGuide && (
                     <span className="rounded-full bg-amber-800 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-                      Guia completo
+                      Comece por aqui
                     </span>
                   )}
                   <span>

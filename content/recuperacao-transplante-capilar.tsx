@@ -140,7 +140,7 @@ export default function Article() {
         <LI><a href="https://ishrs.org/patients/" className="underline" target="_blank" rel="noopener noreferrer">{"International Society of Hair Restoration Surgery. Patient information."}</a></LI>
       </UL>
       <P>{"Se você quer se aprofundar, veja também nossos artigos sobre "}<Link href="/blog/sedacao-transplante-capilar" className="underline">{"como funciona a sedação no transplante capilar"}</Link>{" e sobre "}<Link href="/blog/resultado-transplante-capilar-linha-do-tempo" className="underline">{"a linha do tempo do resultado"}</Link>{". Para entender como isso se aplica ao seu caso, o próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }

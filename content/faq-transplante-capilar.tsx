@@ -127,7 +127,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Indicação, técnica e resultado variam conforme cada paciente e só podem ser definidos com precisão em uma avaliação individual."}</Callout>
 
       <P>{"Ainda ficou com alguma dúvida? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{" e tire suas dúvidas diretamente com quem vai planejar o seu caso."}</P>
-      <P>{"Esta página faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Esta página faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }
