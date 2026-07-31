@@ -5,11 +5,11 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "guia-transplante-capilar",
-  title: "Guia completo do transplante capilar",
+  title: "Transplante capilar: comece por aqui",
   description:
-    "Guia do transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica. Tudo em um só lugar.",
+    "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-29",
+  updatedAt: "2026-07-31",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,

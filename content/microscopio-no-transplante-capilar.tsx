@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o papel do microscópio no transplante capilar: como ele reduz a transecção folicular, ajuda na sobrevivência do enxerto e no resultado final.",
   publishedAt: "2026-07-29",
-  updatedAt: "2026-07-29",
+  updatedAt: "2026-07-31",
   readingTime: 8,
   category: "Tecnologia",
   author: AUTHOR,
@@ -41,7 +41,7 @@ export default function Article() {
 
       <H2 id="elimina-o-risco-de-transeccao">{"O microscópio elimina o risco de transecção folicular?"}</H2>
       <P>{"Não. Ele reduz o risco e permite detectar dano já ocorrido, mas não impede que a transecção aconteça durante a extração em si. A transecção depende principalmente da técnica de extração (o ângulo do punch, a tecnologia embarcada no motor extrator, a experiência de quem extrai) e das características anatômicas de cada paciente, como a curvatura natural do fio sob a pele. Alguns tipos de cabelo, como o cacheado e o afro, têm folículos com curvatura mais acentuada e exigem punches e ângulos específicos justamente para reduzir esse risco."}</P>
-      <P>{"O papel real do microscópio aqui é de controle de qualidade: ele diz à equipe, com precisão, quantos enxertos vieram íntegros e quantos vieram parcial ou totalmente transeccionados. Essa informação alimenta o planejamento da própria cirurgia.  No Instituto Frauches usamos o APP Graftis para acompanhar todo o fluxo de extração (vide artigo específico). Isso ajuda a manter um padrão de qualidade da técnica ao longo do tempo."}</P>
+      <P>{"O papel real do microscópio aqui é de controle de qualidade: ele diz à equipe, com precisão, quantos enxertos vieram íntegros e quantos vieram parcial ou totalmente transeccionados. Essa informação alimenta o planejamento da própria cirurgia. No Instituto Frauches usamos o APP Graftis para acompanhar todo o fluxo de extração (vide artigo específico). Isso ajuda a manter um padrão de qualidade da técnica ao longo do tempo."}</P>
 
       <H2 id="papel-no-momento-do-implante">{"Qual o papel da lupa de magnificação no momento do implante?"}</H2>
       <P>{"Na etapa de implantação, a classificação feita sob o microscópio determina onde cada unidade folicular vai. Isso segue uma lógica simples de planejamento estético:"}</P>
@@ -75,7 +75,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A sobrevivência dos enxertos e o resultado final do transplante capilar variam conforme a avaliação individual de cada paciente, a qualidade da área doadora e os cuidados no pós-operatório."}</Callout>
 
       <P>{"Se você quer entender como o planejamento e o controle de qualidade funcionam no seu caso, o primeiro passo é uma avaliação médica com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }

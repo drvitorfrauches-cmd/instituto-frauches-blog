@@ -136,7 +136,7 @@ export default function Article() {
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8719970/" className="underline" target="_blank" rel="noopener noreferrer">{"Complications in hair transplantation."}</a></LI>
       </UL>
       <P>{"Se você quer se aprofundar, veja também nossos artigos sobre "}<Link href="/blog/fue-ou-fut" className="underline">{"FUE ou FUT"}</Link>{" e sobre "}<Link href="/blog/tecnologias-transplante-capilar" className="underline">{"as tecnologias usadas no transplante capilar"}</Link>{". Para entender como isso se aplica ao seu caso, o próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }

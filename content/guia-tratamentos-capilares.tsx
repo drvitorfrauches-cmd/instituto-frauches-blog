@@ -5,11 +5,11 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "guia-tratamentos-capilares",
-  title: "Guia completo de tratamentos capilares",
+  title: "Tratamentos capilares: comece por aqui",
   description:
-    "Guia de tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP, mesoterapia e exossomos. Evidência, indicação e limitações de cada um.",
+    "Por onde começar sobre tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP, mesoterapia e exossomos, com evidência, indicação e limites de cada um.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-31",
   readingTime: 1,
   category: "Guias",
   author: AUTHOR,
