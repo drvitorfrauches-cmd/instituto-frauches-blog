@@ -13,8 +13,8 @@ export const meta: PostMeta = {
   category: "Técnica FUE",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/transplante-capilar-fue-o-que-e/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Técnica FUE: como funciona o transplante capilar",
+    src: "/blog/tecnica-fue-transplante-capilar/cover.jpg",
+    alt: "Punch cirúrgico circular ao lado de ilustrações de unidades foliculares ampliadas, representando a precisão técnica da extração na FUE",
   },
 };
 
