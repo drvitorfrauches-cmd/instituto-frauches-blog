@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que são nutracêuticos capilares como Actrisave, Bioarct, Bloome e Keranat, o que a evidência científica diz e quando complementam o tratamento.",
   publishedAt: "2026-07-27",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-31",
   readingTime: 6,
   category: "Tratamentos capilares",
   author: AUTHOR,

@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Conheça o Graftis, sistema próprio do Instituto Frauches para contagem folicular ao vivo e controle de qualidade durante o transplante capilar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-27",
+  updatedAt: "2026-07-31",
   readingTime: 5,
   category: "Tecnologia",
   author: AUTHOR,
