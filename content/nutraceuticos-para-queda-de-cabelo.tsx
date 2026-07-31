@@ -70,7 +70,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O resultado de qualquer tratamento, incluindo nutracêuticos, varia conforme diagnóstico, estado nutricional e avaliação individual de cada paciente."}</Callout>
 
       <P>{"Se você quer saber se a sua queda de cabelo tem relação com deficiência nutricional ou com alopecia androgenética, e qual combinação de tratamentos faz sentido pro seu caso, o primeiro passo é uma avaliação médica. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia completo de tratamentos capilares"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia sobre tratamentos capilares"}</Link>{"."}</P>
     </>
   );
 }

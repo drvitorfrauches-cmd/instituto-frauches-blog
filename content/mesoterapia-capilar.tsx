@@ -146,7 +146,7 @@ export default function Article() {
       <P>
         Este artigo faz parte do nosso{" "}
         <Link href="/blog/guia-tratamentos-capilares" className="underline">
-          guia completo de tratamentos capilares
+          guia sobre tratamentos capilares
         </Link>
         .
       </P>

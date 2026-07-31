@@ -5,11 +5,11 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "guia-calvicie-masculina",
-  title: "Guia completo sobre calvície masculina",
+  title: "Calvície masculina: comece por aqui",
   description:
-    "Guia sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia. Com links pra cada tema em detalhe.",
+    "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-26",
+  updatedAt: "2026-07-31",
   readingTime: 5,
   category: "Guias",
   author: AUTHOR,

@@ -75,7 +75,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A sobrevivência dos enxertos e o resultado final do transplante capilar variam conforme a avaliação individual de cada paciente, a qualidade da área doadora e os cuidados no pós-operatório."}</Callout>
 
       <P>{"Se você quer entender como o planejamento e o controle de qualidade funcionam no seu caso, o primeiro passo é uma avaliação médica com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }

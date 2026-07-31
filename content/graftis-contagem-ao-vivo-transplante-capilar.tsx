@@ -75,7 +75,7 @@ export default function Article() {
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O Graftis é uma ferramenta interna de organização e controle de qualidade da equipe cirúrgica; o resultado do transplante capilar continua dependendo de avaliação individual, técnica cirúrgica e biologia de cada paciente."}</Callout>
 
       <P>{"Quer entender como esse controle se aplica ao seu caso? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
-      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
     </>
   );
 }
