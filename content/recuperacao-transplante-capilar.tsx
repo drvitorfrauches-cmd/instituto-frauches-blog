@@ -13,8 +13,8 @@ export const meta: PostMeta = {
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/transplante-capilar-doi/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Recuperação do transplante capilar: cuidados e cronograma",
+    src: "/blog/recuperacao-transplante-capilar/cover.jpg",
+    alt: "Travesseiro branco, toalhas dobradas e um pequeno calendário com marcações sobre um criado-mudo, representando o cronograma de cuidados na recuperação do transplante capilar",
   },
 };
 
