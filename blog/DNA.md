@@ -36,7 +36,15 @@ tudo em todo artigo):**
 
 - Procedimento central: **transplante capilar pela técnica FUE** (Follicular Unit
   Extraction) — extração folicular individual, sem corte linear, sem pontos,
-  cicatrizes discretas, recuperação mais confortável. Modalidades: Non-Shave FUE
+  cicatrizes discretas, recuperação mais confortável. **Sigla FUE**: use sempre
+  "Follicular Unit Extraction" como definição padrão (é o termo mais usado e o
+  que já aparece na maioria dos artigos). Se algum artigo precisar mencionar a
+  variante "Follicular Unit Excision", explique que os dois termos descrevem a
+  mesma técnica (a segunda é considerada mais precisa por causa da pequena
+  incisão circular ao redor de cada unidade), nunca apresente as duas como se
+  fossem técnicas diferentes ou escolha uma sem contexto (erro corrigido em
+  2026-07-30 no artigo `tecnica-fue-transplante-capilar`, que usava só
+  "Excision" enquanto os demais artigos usavam só "Extraction"). Modalidades: Non-Shave FUE
   (sem raspar) e Shave FUE (com raspagem total); atende cabelos lisos, ondulados,
   cacheados e afro; também transplante de barba e sobrancelha.
 - Diferencial de marca: **Protocolo Frauches Precision FUE®** — método próprio
