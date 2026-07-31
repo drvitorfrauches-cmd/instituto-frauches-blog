@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Minoxidil é um medicamento que pode estimular o crescimento e aumentar o calibre dos fios em diferentes tipos de alopecia, especialmente na alopecia androgenética. A forma tópica é aplicada no couro cabeludo e possui aprovação para queda de padrão em várias apresentações. A forma oral em baixa dose é usada por muitos médicos de maneira off-label para cabelo. A escolha depende do diagnóstico, da rotina, das contraindicações e da tolerabilidade.</P>
       <P>O minoxidil não corrige todas as causas de queda, não substitui a investigação e precisa de continuidade para manter o benefício. É comum que o resultado leve meses e que algumas pessoas tenham aumento temporário da queda no início.</P>
+      <Cta href={WHATSAPP_URL}>Tem dúvida se o minoxidil tópico ou oral é mais indicado pro seu caso? Uma avaliação individual ajuda a decidir com segurança.</Cta>
       <H2 id="como-o-minoxidil-age-no-folículo">Como o minoxidil age no folículo?</H2>
       <P>O mecanismo capilar não é explicado por uma única via. O minoxidil parece favorecer a fase anágena, aumentar o calibre e modificar sinais envolvidos no crescimento folicular. A ação não depende diretamente do bloqueio de DHT, portanto ele pode ser combinado com finasterida ou dutasterida quando há indicação.</P>
       <P>A resposta exige folículos funcionais. Áreas completamente lisas, cicatriciais ou sem unidades viáveis não costumam recuperar densidade apenas com minoxidil. Em fios miniaturizados, o potencial é maior.</P>

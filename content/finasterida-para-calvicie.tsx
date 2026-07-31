@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>A finasterida é um medicamento usado no tratamento da alopecia androgenética masculina. Ela reduz a conversão de testosterona em di-hidrotestosterona, ou DHT, um hormônio envolvido na miniaturização dos folículos geneticamente suscetíveis. Em muitos homens, o principal benefício é desacelerar ou estabilizar a progressão da calvície. Algumas pessoas também apresentam melhora de calibre e cobertura. O uso exige prescrição, discussão de efeitos adversos e acompanhamento.</P>
       <P>Finasterida não é vitamina, não serve para toda queda e não deve ser iniciada apenas com base em vídeos ou relatos. Antes de prescrever, o médico precisa confirmar o diagnóstico, avaliar histórico, expectativas, saúde sexual, humor, fertilidade e outros fatores relevantes.</P>
+      <Cta href={WHATSAPP_URL}>Tem dúvida se a finasterida é indicada pro seu caso, ou sobre os riscos específicos pra sua situação? Uma avaliação individual esclarece isso com segurança.</Cta>
       <H2 id="como-a-finasterida-age-no-cabelo">Como a finasterida age no cabelo?</H2>
       <P>A enzima 5-alfa-redutase converte parte da testosterona em DHT. Em pessoas predispostas à alopecia androgenética, folículos de determinadas áreas do couro cabeludo respondem à DHT com encurtamento da fase de crescimento e miniaturização. Os fios se tornam progressivamente mais finos, curtos e com menor capacidade de cobertura.</P>
       <P>A finasterida inibe principalmente a 5-alfa-redutase tipo 2. Ao reduzir a DHT, diminui o estímulo que contribui para a miniaturização. Ela não cria novos folículos e não recupera automaticamente regiões lisas onde a perda já está avançada.</P>

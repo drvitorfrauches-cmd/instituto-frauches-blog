@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         aquele paciente específico, não é burocracia. Veja o que costuma
         entrar nessa avaliação.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer saber quais desses exames se aplicam ao seu caso? Isso já é definido na consulta de avaliação inicial.</Cta>
 
       <H2 id="exames-laboratoriais">Exames laboratoriais</H2>
       <P>

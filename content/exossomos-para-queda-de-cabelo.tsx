@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Exossomos são pequenas vesículas liberadas pelas células e estudadas como possíveis mensageiros biológicos. Na área capilar, produtos comercializados como “exossomos” têm sido usados com a promessa de reduzir queda, estimular crescimento e melhorar a qualidade dos fios. Entretanto, a evidência clínica ainda é inicial, os produtos não são equivalentes entre si e não existe autorização regulatória que permita tratar qualquer frasco chamado de exossomo como terapia comprovada para calvície.</P>
       <P>O principal cuidado é separar pesquisa séria de marketing. Alguns estudos pequenos mostram sinais de benefício, mas ainda faltam ensaios maiores, padronização de origem, dose, pureza, via de aplicação e acompanhamento de longo prazo. O paciente deve perguntar exatamente qual produto será utilizado, como ele é registrado, quais dados sustentam a indicação e quais riscos são conhecidos.</P>
+      <Cta href={WHATSAPP_URL}>Quer saber se um tratamento como esse faz sentido pro seu diagnóstico, antes de investir nele? Uma avaliação individual ajuda a decidir com base em evidência, não em marketing.</Cta>
       <H2 id="o-que-são-exossomos">O que são exossomos?</H2>
       <P>Exossomos são vesículas extracelulares muito pequenas. Elas transportam proteínas, lipídios e material genético entre células e participam de processos de comunicação biológica. O termo costuma ser usado de forma ampla no mercado, embora nem todo produto vendido como exossomo tenha caracterização adequada ou contenha uma população pura dessas vesículas.</P>
       <P>Na pesquisa capilar, o interesse surgiu porque sinais derivados de células podem, em teoria, influenciar inflamação, vascularização e atividade do folículo. Isso não significa que qualquer preparação aplicada no couro cabeludo produza regeneração. O efeito depende da origem celular, do método de fabricação, da composição, da estabilidade e da forma de aplicação.</P>

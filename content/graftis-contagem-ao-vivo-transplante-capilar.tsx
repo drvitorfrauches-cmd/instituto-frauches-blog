@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Figure } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Figure, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Todo transplante capilar depende de um número que o paciente quase nunca vê de perto: quantos folículos foram realmente extraídos, quantos fios eles representam, e qual a taxa de perda durante a extração. No Instituto Frauches, esse número é acompanhado em tempo real por um sistema que desenvolvemos internamente, o "}<Strong>{"Graftis"}</Strong>{". Neste artigo explico o que ele faz e por que criamos uma ferramenta própria em vez de depender só de anotação manual."}</P>
+      <Cta href={WHATSAPP_URL}>Quer ver como esse controle de qualidade entra no planejamento do seu caso? Agende uma avaliação com o Dr. Vitor Frauches.</Cta>
 
       <H2 id="o-que-e">{"O que é o Graftis"}</H2>
       <P>{"O Graftis é um sistema de contagem folicular ao vivo, usado durante a cirurgia por toda a equipe ao mesmo tempo: cada auxiliar registra, no próprio celular ou em um Ipad, os folículos que vai sendo contabilizado após passar pelos microscópios, e esse número aparece atualizado instantaneamente para todo mundo, incluindo o médico, podendo inclusive se ouvido os resumos dos números através de um fone de ouvido. Antes de existir esse sistema o controle era feito em papel ou em planilha, com o risco natural de erro de soma e de demora para saber o total durante a própria cirurgia."}</P>

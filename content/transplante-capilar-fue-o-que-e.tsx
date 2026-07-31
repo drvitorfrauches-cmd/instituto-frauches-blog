@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -31,6 +31,8 @@ export default function Article() {
         antigos. Neste artigo explico o que é a técnica, como funciona cada
         etapa e para quem ela é indicada.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer saber se a técnica FUE é indicada pro seu caso? O primeiro passo é uma avaliação individual com o Dr. Vitor Frauches.</Cta>
 
       <H2 id="o-que-e-fue">O que é a técnica FUE</H2>
       <P>

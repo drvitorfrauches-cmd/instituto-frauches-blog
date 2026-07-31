@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Hairline é a linha de transição entre a testa e o cabelo. No transplante capilar, ela deve ser desenhada considerando idade, formato do rosto, proporções, musculatura frontal, padrão de calvície, área doadora e possível evolução futura. Uma hairline natural não é perfeitamente reta nem simétrica. Ela possui irregularidades sutis, unidades de um fio na borda e direção coerente.</P>
       <P>Baixar demais a linha pode consumir muitos enxertos e criar aparência artificial com o envelhecimento. O objetivo não é reproduzir a linha dos 16 anos, mas construir uma moldura facial que continue adequada nas próximas décadas.</P>
+      <Cta href={WHATSAPP_URL}>Quer saber como ficaria sua linha frontal num planejamento individualizado? Isso é definido numa avaliação, considerando seu rosto e sua área doadora.</Cta>
       <H2 id="por-que-a-hairline-é-tão-importante">Por que a hairline é tão importante?</H2>
       <P>A linha frontal é a parte mais visível do transplante. Pequenos erros de desenho, angulação ou seleção de unidades ficam expostos em conversas próximas.</P>
       <P>Ela molda o rosto e altera percepção de idade e proporção. Uma boa hairline pode produzir grande impacto mesmo com densidade limitada atrás.</P>

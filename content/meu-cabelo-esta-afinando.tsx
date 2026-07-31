@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Cabelo afinando pode ser um dos primeiros sinais da alopecia androgenética, conhecida como calvície, mas não é a única possibilidade. Alterações hormonais, eflúvio telógeno, doenças do couro cabeludo, medicamentos, deficiências nutricionais e danos repetidos aos fios também podem reduzir o volume. O ponto mais importante é descobrir se o fio está apenas quebrando ou se o folículo está produzindo cabelos progressivamente mais finos.</P>
       <P>Perceber o afinamento cedo é importante porque muitos tratamentos têm melhor desempenho quando ainda existem folículos ativos. A avaliação médica não serve apenas para confirmar calvície. Ela também evita que o paciente use vitaminas, shampoos ou fórmulas por conta própria enquanto uma causa tratável continua evoluindo.</P>
+      <Cta href={WHATSAPP_URL}>Não sabe se o seu cabelo está afinando por calvície, quebra ou outra causa? Uma avaliação com tricoscopia ajuda a identificar a causa real.</Cta>
       <H2 id="o-que-significa-dizer-que-o-cabelo-está-afinando">O que significa dizer que o cabelo está afinando?</H2>
       <P>Quando o paciente diz que o cabelo está afinando, ele pode estar descrevendo situações diferentes. Algumas pessoas percebem que o diâmetro de cada fio diminuiu. Outras notam que o couro cabeludo aparece com mais facilidade, embora a quantidade de fios pareça semelhante. Há também quem tenha quebra no comprimento, redução de volume após uma queda intensa ou mudança na textura provocada por procedimentos químicos.</P>
       <P>Na alopecia androgenética, o fenômeno central é a miniaturização folicular. O folículo continua presente, porém passa a produzir fios progressivamente menores, mais curtos e menos pigmentados. Com o tempo, cabelos terminais, grossos e longos podem se transformar em fios finos, com menor capacidade de cobertura. Essa transformação nem sempre provoca grandes quantidades de cabelo no travesseiro ou no ralo. Por isso, a ausência de queda intensa não exclui calvície.</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Na consulta, pergunte qual é o seu diagnóstico, se a queda está ativa, como a área doadora foi avaliada, quantas unidades podem ser retiradas com segurança, qual desenho de hairline é indicado e quem executará cada etapa. Confirme riscos, alternativas, sedação, pós-operatório, tempo de resultado, possibilidade de segunda cirurgia e custo total.</P>
       <P>Uma boa consulta não serve apenas para aprovar a cirurgia. Ela deve ajudar o paciente a decidir se o transplante é adequado agora e se a proposta continuará natural no futuro.</P>
+      <Cta href={WHATSAPP_URL}>Quer já chegar numa consulta sabendo o que perguntar sobre o seu caso específico? Agende uma avaliação e leve esse checklist.</Cta>
       <H2 id="1-qual-é-o-meu-diagnóstico">1. Qual é o meu diagnóstico?</H2>
       <P>Peça o nome da condição e os sinais que sustentam. Alopecia androgenética, eflúvio, alopecia cicatricial e tração exigem abordagens diferentes.</P>
       <P>Pergunte se há miniaturização e se a doença está ativa. O diagnóstico precisa anteceder o orçamento.</P>

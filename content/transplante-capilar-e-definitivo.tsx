@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         resistente à calvície, não porque a cirurgia em si "imuniza" o
         couro cabeludo inteiro contra a queda. Explico a diferença abaixo.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer entender como isso se aplica ao seu padrão de calvície específico? Uma avaliação individual esclarece o que esperar no seu caso.</Cta>
 
       <H2 id="area-segura">O que é a área segura</H2>
       <P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, OL, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, OL, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Quem pesquisa sobre transplante capilar costuma prestar atenção na técnica (FUE ou FUT) e esquece de perguntar sobre um detalhe que influencia diretamente o resultado: o equipamento usado para separar e conferir cada folículo. O "}<Strong>{"microscópio no transplante capilar"}</Strong>{" é um desses detalhes que o paciente raramente vê, mas que pesa bastante na taxa de sobrevivência dos fios transplantados. Neste artigo explico o que o microscópio realmente faz durante a cirurgia, onde ele entra no fluxo de trabalho e por que ele sozinho não garante um bom resultado."}</P>
+      <Cta href={WHATSAPP_URL}>Quer saber quais desses equipamentos entram no planejamento do seu caso específico? Isso pode ser conversado numa avaliação.</Cta>
 
       <H2 id="o-que-e-o-microscopio">{"O que é o microscópio no transplante capilar?"}</H2>
       <P>{"É um instrumento óptico de aumento usado pela equipe cirúrgica para examinar cada unidade folicular (o agrupamento natural de um a quatro fios que nasce do mesmo ponto do couro cabeludo) depois que ela é extraída da área doadora. No Instituto Frauches, esse trabalho é feito com 3 microscópios ópticos e com lupas cirúrgicas Zeiss, equipamentos que permitem até 100 vezes de aumento. Com essa ampliação, dá para ver detalhes que o olho nu simplesmente não capta: se o bulbo capilar veio íntegro, se houve algum corte parcial durante a extração e quantos fios aquela unidade específica realmente tem."}</P>

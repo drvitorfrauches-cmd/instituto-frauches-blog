@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Fotos de antes e depois ajudam a entender possibilidades, mas podem enganar quando iluminação, ângulo, penteado, comprimento, umidade ou edição são diferentes. Para avaliar um transplante, compare imagens padronizadas da linha frontal, topo, coroa e área doadora. Verifique também o tempo de evolução, o grau de calvície inicial e se foram usadas fibras ou produtos de volume.</P>
       <P>Um bom resultado não é apenas uma fotografia frontal. Ele precisa ser natural em movimento, sob luz forte e visto de diferentes ângulos. A área doadora também deve permanecer equilibrada.</P>
+      <Cta href={WHATSAPP_URL}>Quer aprender a avaliar o que é realista pro seu caso, sem depender só de fotos de outras pessoas? Uma avaliação individual é o caminho mais confiável.</Cta>
       <H2 id="por-que-fotos-têm-tanto-impacto">Por que fotos têm tanto impacto?</H2>
       <P>O transplante é visual. Pacientes querem prever como ficarão, e imagens parecem oferecer prova direta. Porém, fotografia é influenciada por dezenas de variáveis.</P>
       <P>Uma mudança de luz pode esconder o couro cabeludo. Cabelo alguns centímetros mais longo cria sobreposição. Uma câmera mais baixa altera a percepção da linha frontal. Por isso, imagens devem ser analisadas como documentação, não como propaganda isolada.</P>

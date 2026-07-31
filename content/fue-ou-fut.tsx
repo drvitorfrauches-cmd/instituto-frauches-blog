@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         diferença afeta cicatriz, recuperação e até o tipo de caso mais
         indicado para cada uma. Explico as duas abaixo.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Não sabe qual técnica seria mais indicada pro seu caso? Isso depende da sua área doadora e é definido numa avaliação.</Cta>
 
       <H2 id="o-que-e-fut">O que é a técnica FUT</H2>
       <P>

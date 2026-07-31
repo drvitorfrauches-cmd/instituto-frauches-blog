@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -30,6 +30,8 @@ export default function Article() {
         que recupera parte importante da densidade perdida. Explico a
         diferença abaixo.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer saber qual controle ou tratamento faz sentido pro seu grau de calvície? Uma avaliação individual define isso.</Cta>
 
       <H2 id="o-que-e-alopecia-androgenetica">O que é a alopecia androgenética</H2>
       <P>

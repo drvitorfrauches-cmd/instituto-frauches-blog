@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, OL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         e o resultado final só fica claro bem mais adiante do que a maioria
         imagina. Vou detalhar mês a mês o que esperar.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer entender como seria essa linha do tempo pro seu grau de calvície específico? Uma avaliação individual detalha isso.</Cta>
 
       <H2 id="linha-do-tempo">Linha do tempo mês a mês</H2>
       <OL>

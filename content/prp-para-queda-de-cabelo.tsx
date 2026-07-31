@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>PRP, ou plasma rico em plaquetas, é um tratamento autólogo em que o sangue do próprio paciente é coletado, processado e aplicado no couro cabeludo. Estudos e meta-análises sugerem melhora de densidade e calibre em parte dos pacientes com alopecia androgenética, mas os protocolos são heterogêneos. O PRP pode ser um adjuvante, não uma cura universal e não substitui diagnóstico, medicamentos indicados ou transplante quando há áreas sem folículos viáveis.</P>
       <P>O resultado depende da seleção do paciente, da qualidade do preparo, da concentração plaquetária, da técnica, do número de sessões e do tratamento de base. “PRP” não é um procedimento idêntico em todas as clínicas.</P>
+      <Cta href={WHATSAPP_URL}>Tem dúvida se o PRP é indicado pro seu caso, sozinho ou combinado com outro tratamento? Uma avaliação individual esclarece isso.</Cta>
       <H2 id="o-que-é-plasma-rico-em-plaquetas">O que é plasma rico em plaquetas?</H2>
       <P>O sangue contém plasma, hemácias, leucócitos e plaquetas. As plaquetas participam da coagulação e armazenam mediadores que atuam em reparo e sinalização celular. No PRP, uma amostra de sangue é centrifugada para produzir uma fração com concentração de plaquetas maior que a do sangue periférico, conforme o sistema utilizado.</P>
       <P>A preparação é autóloga, ou seja, vem do próprio paciente. Isso reduz risco de reação imunológica, mas não elimina risco de contaminação, dor, hematoma ou falha de resultado.</P>
