@@ -8,13 +8,13 @@ export const meta: PostMeta = {
   title: "Recuperação do transplante capilar",
   description: "Veja como é a recuperação do transplante capilar, cuidados nos primeiros 14 dias, lavagem, sono, academia, boné, edema e sinais de alerta.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-25",
+  updatedAt: "2026-07-31",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/transplante-capilar-doi/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Recuperação do transplante capilar: cuidados e cronograma",
+    src: "/blog/recuperacao-transplante-capilar/cover.jpg",
+    alt: "Travesseiro branco, toalhas dobradas e um pequeno calendário com marcações sobre um criado-mudo, representando o cronograma de cuidados na recuperação do transplante capilar",
   },
 };
 
