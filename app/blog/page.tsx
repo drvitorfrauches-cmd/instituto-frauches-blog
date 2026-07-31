@@ -82,7 +82,11 @@ export default function BlogIndexPage() {
       </h1>
       <p className="mb-10 max-w-2xl text-neutral-600">
         Conteúdo educativo sobre transplante capilar, tricologia e calvície,
-        assinado pelo Dr. Vitor Frauches.
+        assinado pelo{" "}
+        <Link href="/sobre" className="underline">
+          Dr. Vitor Frauches
+        </Link>
+        .
       </p>
 
       <div className="mb-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
