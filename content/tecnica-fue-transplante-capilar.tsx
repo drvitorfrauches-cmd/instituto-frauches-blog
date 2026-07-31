@@ -8,7 +8,7 @@ export const meta: PostMeta = {
   title: "Técnica FUE: como funciona o transplante capilar",
   description: "Entenda a técnica FUE, extração das unidades foliculares, punch, cicatrizes, raspagem, transecção, implantação e diferenças para FUT.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-25",
+  updatedAt: "2026-07-30",
   readingTime: 14,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -22,7 +22,7 @@ export default function Article() {
   return (
     <>
       <H2 id="resposta-direta">Resposta direta</H2>
-      <P>FUE significa Follicular Unit Excision, ou excisão de unidades foliculares. Nessa técnica, os folículos são retirados individualmente da área doadora com instrumentos circulares chamados punches. Depois, são examinados, armazenados e implantados nas regiões planejadas.</P>
+      <P>FUE é a sigla historicamente conhecida como Follicular Unit Extraction (extração de unidade folicular). Parte da literatura especializada, incluindo a ISHRS, atualmente usa também o termo Follicular Unit Excision (excisão de unidade folicular), considerado mais preciso porque existe uma pequena incisão circular ao redor de cada unidade antes da retirada. Os dois termos descrevem a mesma técnica: os folículos são retirados individualmente da área doadora com instrumentos circulares chamados punches, depois examinados, armazenados e implantados nas regiões planejadas.</P>
       <P>A FUE evita a cicatriz linear da técnica FUT, mas não é “sem cicatriz”. Cada extração deixa um pequeno ponto. Quando há boa indicação, instrumento adequado e distribuição homogênea, esses pontos costumam ser discretos. O resultado depende muito mais do planejamento e da execução do que da sigla.</P>
       <H2 id="o-que-é-uma-unidade-folicular">O que é uma unidade folicular?</H2>
       <P>O cabelo cresce em agrupamentos naturais que podem conter um, dois, três ou mais fios, além de glândula sebácea, músculo eretor e tecido de suporte.</P>
