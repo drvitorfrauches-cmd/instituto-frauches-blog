@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"Perder alguns fios todos os dias faz parte do ciclo capilar. O problema não é apenas a quantidade encontrada no banho, mas a mudança em relação ao padrão habitual, a duração, a redução de volume e a presença de falhas, inflamação ou miniaturização. Uma queda persistente por semanas, acompanhada de afinamento ou couro cabeludo mais aparente, merece avaliação médica."}</P>
       <P>{"A pergunta “quantos fios é normal perder?” parece simples, mas não tem uma resposta única que funcione para todas as pessoas. Frequência de lavagem, comprimento, tipo de cabelo, penteado e fase do ciclo alteram o número percebido. Contar fios isoladamente pode aumentar ansiedade e não distingue calvície, eflúvio, quebra ou alopecia inflamatória."}</P>
+      <Cta href={WHATSAPP_URL}>{"Não sabe se a sua queda está dentro do esperado ou já é sinal de alerta? Uma avaliação ajuda a diferenciar com segurança."}</Cta>
       <H2 id="por-que-o-cabelo-cai-todos-os-dias">{"Por que o cabelo cai todos os dias?"}</H2>
       <P>{"Cada folículo alterna fases de crescimento, regressão, repouso e liberação. A maior parte dos fios do couro cabeludo está em fase de crescimento, chamada anágena. Depois, o folículo passa por uma transição curta e entra em repouso. Ao final, o fio é liberado e um novo ciclo pode começar."}</P>
       <P>{"Como os folículos não estão sincronizados, perdemos cabelos continuamente sem ficar calvos. O processo normal é compensado pela produção de novos fios. A percepção de queda aumenta quando muitos cabelos chegam à fase de liberação ao mesmo tempo ou quando os fios que crescem em substituição são mais finos."}</P>

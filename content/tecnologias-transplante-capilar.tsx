@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Tecnologia faz diferença quando melhora precisão, controle, segurança ou documentação. Microscopia ajuda a classificar e inspecionar enxertos. Motores e punches ajustáveis permitem adaptar extração. Implanters podem controlar profundidade e reduzir manipulação. Controle de temperatura e soluções preservam hidratação. Monitorização torna sedação mais segura.</P>
       <P>Nenhum aparelho transforma planejamento ruim em cirurgia excelente. A pergunta correta não é “qual máquina a clínica tem?”, mas “qual problema essa tecnologia resolve, quem a utiliza e como o resultado é medido?”.</P>
+      <Cta href={WHATSAPP_URL}>Quer saber quais dessas tecnologias realmente entram no planejamento do seu caso? Isso é definido numa avaliação individual.</Cta>
       <H2 id="tecnologia-não-substitui-diagnóstico">Tecnologia não substitui diagnóstico</H2>
       <P>Antes de escolher punch ou implanter, é necessário saber se o paciente é candidato. Alopecia ativa, doadora fraca e expectativa irreal não são corrigidas por equipamento.</P>
       <P>A tecnologia mais importante pode ser uma boa tricoscopia e decisão de adiar.</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"É difícil abrir o Instagram hoje sem ver um anúncio de cápsulas prometendo frear a queda de cabelo. Actrisave, Bioarct, Bloome, Keranat e várias outras marcas disputam esse espaço, e boa parte dos pacientes chega ao consultório já tomando algum desses produtos por conta própria. Vale a pena? Este artigo explica o que são os "}<Strong>{"nutracêuticos para queda de cabelo"}</Strong>{", como os principais do mercado funcionam e o que a ciência realmente sustenta."}</P>
+      <Cta href={WHATSAPP_URL}>Quer saber se algum desses produtos faz sentido pro seu caso, ou se o problema pede outro tipo de tratamento? Uma avaliação individual esclarece isso.</Cta>
 
       <H2 id="o-que-sao-nutraceuticos-capilares">{"O que são nutracêuticos capilares"}</H2>
       <P>{"Nutracêutico é o produto que ocupa a faixa entre alimento e medicamento: vem em forma de cápsula ou comprimido, como um remédio, mas sua composição é feita de nutrientes (vitaminas, minerais, aminoácidos, extratos vegetais) em vez de uma molécula farmacêutica isolada e testada especificamente para tratar uma doença."}</P>

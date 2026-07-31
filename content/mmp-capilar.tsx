@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"MMP capilar é a microinfusão de medicamentos na pele do couro cabeludo por meio de um dispositivo com agulhas. A técnica cria microperfurações e deposita pequenas quantidades de substâncias em profundidade controlada. Pode ser usada como terapia complementar em alguns tipos de queda, mas o benefício depende do diagnóstico, do medicamento, da dose, do dispositivo e do protocolo. A evidência ainda é menos padronizada do que para tratamentos clássicos como minoxidil e finasterida."}</P>
       <P>{"MMP não é sinônimo de “vitaminas no couro cabeludo” e não deve ser realizada com qualquer produto. Substâncias aplicadas por perfuração precisam ter segurança, esterilidade, procedência e adequação regulatória."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber se a MMP faz sentido pro seu diagnóstico específico? Isso é avaliado numa consulta individual."}</Cta>
       <H2 id="o-que-significa-mmp">{"O que significa MMP?"}</H2>
       <P>{"MMP é a sigla de microinfusão de medicamentos na pele. Um equipamento com múltiplas agulhas realiza movimentos rápidos e deposita o medicamento em pequenos canais. O objetivo é aumentar a entrega local e, ao mesmo tempo, provocar estímulo controlado da pele."}</P>
       <P>{"A técnica é relacionada ao microagulhamento, mas não é exatamente igual. No microagulhamento tradicional, o foco pode ser a criação de microlesões para estimular reparo, com ou sem aplicação tópica. Na MMP, existe intenção de infundir uma substância durante a perfuração."}</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Resposta direta: hoje, a calvície mais comum, a alopecia androgenética, não tem cura no sentido de reverter permanentemente a condição genética que a causa. Mas isso não significa que nada pode ser feito. Ela tem controle eficaz, e em muitos casos, tratamento que recupera parte importante da densidade perdida. Explico a diferença abaixo."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber qual controle ou tratamento faz sentido pro seu grau de calvície? Uma avaliação individual define isso."}</Cta>
 
       <H2 id="o-que-e-alopecia-androgenetica">{"O que é a alopecia androgenética"}</H2>
       <P>{"É a forma mais comum de calvície, tanto em homens quanto em mulheres. Ela acontece porque certos folículos capilares têm sensibilidade genética à ação da DHT (um derivado da testosterona), o que progressivamente reduz o ciclo de vida do fio até ele parar de crescer naquela região. É uma condição genética e hormonal, não uma doença infecciosa ou temporária."}</P>

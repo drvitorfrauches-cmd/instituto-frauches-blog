@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"Entradas aumentando podem representar uma mudança natural da linha frontal após a adolescência, mas também podem ser um dos primeiros sinais da alopecia androgenética. A diferença está no padrão, na velocidade, na miniaturização dos fios e na evolução de outras áreas, como topete, região frontal e coroa. Fotografias padronizadas e exame com tricoscopia ajudam a separar uma linha frontal madura de uma calvície em progressão."}</P>
       <P>{"Nem toda entrada precisa ser preenchida e nem toda linha frontal deve voltar à posição que tinha aos 16 anos. O planejamento correto respeita idade, proporções faciais, área doadora e possibilidade de perda futura. Uma linha muito baixa pode parecer atraente no início, mas se tornar artificial e difícil de sustentar ao longo da vida."}</P>
+      <Cta href={WHATSAPP_URL}>{"Não tem certeza se são entradas naturais ou início de calvície? Uma avaliação com tricoscopia mostra a diferença com precisão."}</Cta>
       <H2 id="o-que-são-as-entradas-do-cabelo">{"O que são as entradas do cabelo?"}</H2>
       <P>{"As entradas são os recuos localizados nas regiões frontotemporais, acima das têmporas. Elas fazem parte do desenho da linha frontal masculina e variam muito entre as pessoas. Algumas têm uma linha naturalmente mais arredondada. Outras apresentam um formato em “M” desde jovens, sem que isso signifique doença."}</P>
       <P>{"Durante a transição da adolescência para a vida adulta, a linha frontal pode subir discretamente e ganhar contornos mais masculinos. Essa mudança é chamada de maturação da linha frontal. Em geral, ocorre de forma relativamente simétrica, estabiliza e não vem acompanhada de afinamento importante no topete ou na coroa."}</P>

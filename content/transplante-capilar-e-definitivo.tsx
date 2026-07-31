@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Essa é uma das perguntas que mais gera confusão, porque a resposta curta (\"sim, em geral\") esconde um detalhe técnico importante. O fio transplantado dura porque veio de uma área geneticamente resistente à calvície, não porque a cirurgia em si \"imuniza\" o couro cabeludo inteiro contra a queda. Explico a diferença abaixo."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer entender como isso se aplica ao seu padrão de calvície específico? Uma avaliação individual esclarece o que esperar no seu caso."}</Cta>
 
       <H2 id="area-segura">{"O que é a área segura"}</H2>
       <P>{"A área doadora, de onde os folículos são extraídos (geralmente a região posterior e lateral da cabeça), é chamada de \"área segura\" porque, na maioria das pessoas, esses folículos carregam uma característica genética de resistência à ação da DHT, o hormônio relacionado à alopecia androgenética. Quando esses folículos são transplantados para a região com calvície, eles mantêm essa mesma resistência genética, mesmo estando numa área que antes perdia cabelo."}</P>

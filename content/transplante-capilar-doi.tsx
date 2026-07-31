@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Essa é, disparada, a pergunta que mais escuto na primeira consulta. Resposta direta: durante a cirurgia, não. O transplante capilar FUE é feito com anestesia local associada a sedação venosa, então o paciente fica confortável do início ao fim do procedimento. O que existe, sim, é algum desconforto pontual no pós-operatório, que tem controle simples. Explico cada etapa abaixo."}</P>
+      <Cta href={WHATSAPP_URL}>{"Ainda com receio da dor? Numa avaliação dá pra explicar exatamente como funciona a anestesia e a sedação no seu caso."}</Cta>
 
       <H2 id="durante-a-cirurgia">{"Durante a cirurgia: anestesia e sedação"}</H2>
       <P>{"Antes de qualquer extração de folículo, a área doadora e as áreas receptoras recebem anestesia local. A sedação venosa entra para deixar o paciente relaxado durante as horas de cirurgia, que costuma ser longa por envolver centenas ou milhares de implantes individuais. Na prática, a maioria dos pacientes relata sonolência ou até cochila em parte do procedimento, e não dor. O uso de instrumentos de implantação como o IMPLANTER PEN®, que dispensa pinça, também ajuda a reduzir o trauma nos folículos durante a cirurgia, o que contribui pro conforto no pós-operatório."}</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Se você pesquisou sobre calvície ou queda de cabelo, provavelmente já esbarrou na sigla FUE. O "}<Strong>{"transplante capilar FUE"}</Strong>{" (Follicular Unit Extraction, ou extração de unidade folicular) é hoje a técnica mais usada em cirurgias de restauração capilar por combinar resultado natural com uma recuperação mais confortável que os métodos antigos. Neste artigo explico o que é a técnica, como funciona cada etapa e para quem ela é indicada."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber se a técnica FUE é indicada pro seu caso? O primeiro passo é uma avaliação individual com o Dr. Vitor Frauches."}</Cta>
 
       <H2 id="o-que-e-fue">{"O que é a técnica FUE"}</H2>
       <P>{"Na técnica FUE, cada folículo capilar é extraído individualmente da área doadora (geralmente a região posterior e lateral da cabeça, onde os fios são geneticamente mais resistentes à queda) usando um microinstrumento cirúrgico. Esses folículos são então implantados, também um a um, nas áreas com calvície ou rarefação."}</P>

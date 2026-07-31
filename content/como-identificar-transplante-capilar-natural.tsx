@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"Um transplante natural não chama atenção para a cirurgia. A linha frontal apresenta irregularidades sutis, fios de um cabelo na borda e aumento gradual de densidade. Os fios saem com ângulo baixo e direção compatível com o cabelo nativo. A altura combina com idade e rosto, enquanto a área doadora permanece homogênea."}</P>
       <P>{"Naturalidade não significa densidade infinita ou simetria perfeita. Significa coerência anatômica, visual e temporal. O resultado precisa funcionar em luz forte, com cabelo molhado, em movimento e ao envelhecer."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber como seria um planejamento natural pro seu caso, considerando sua hairline e densidade? Isso é definido numa avaliação."}</Cta>
       <H2 id="o-que-torna-um-transplante-perceptível">{"O que torna um transplante perceptível?"}</H2>
       <P>{"O olho humano reconhece padrões artificiais. Linha reta, tufos, fios verticais e distribuição regular chamam atenção mesmo quando há muito cabelo."}</P>
       <P>{"Às vezes, o problema não é quantidade, mas geometria. Uma hairline com boa densidade pode parecer transplantada por estar baixa demais."}</P>

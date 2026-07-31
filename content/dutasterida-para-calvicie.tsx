@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"A dutasterida é um inibidor da 5-alfa-redutase que reduz a formação de DHT e pode ser usada no tratamento da alopecia androgenética em pacientes selecionados. Ela inibe os tipos 1 e 2 da enzima e, em média, pode produzir maior supressão de DHT do que a finasterida. Estudos comparativos sugerem eficácia capilar elevada, mas o uso para calvície pode ser fora da bula conforme o país e o produto. A decisão exige avaliação médica, consentimento e acompanhamento."}</P>
       <P>{"Mais potente não significa automaticamente melhor para todos. O tratamento precisa equilibrar estágio da calvície, resposta anterior, tolerabilidade, saúde sexual, humor, fertilidade, idade e preferência do paciente."}</P>
+      <Cta href={WHATSAPP_URL}>{"Tem dúvida se a dutasterida é indicada pro seu caso, ou como ela se compara à finasterida na sua situação? Uma avaliação individual esclarece isso com segurança."}</Cta>
       <H2 id="como-a-dutasterida-age">{"Como a dutasterida age?"}</H2>
       <P>{"A testosterona é convertida em DHT pela enzima 5-alfa-redutase. Existem isoenzimas, e a dutasterida inibe os tipos 1 e 2. A finasterida atua principalmente no tipo 2. Essa diferença explica a supressão mais ampla da DHT com dutasterida."}</P>
       <P>{"Na alopecia androgenética, a DHT participa da miniaturização de folículos geneticamente suscetíveis. A redução do estímulo pode prolongar a fase de crescimento, preservar fios e melhorar calibre."}</P>

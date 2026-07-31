@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"A sedação no transplante capilar utiliza medicamentos para reduzir ansiedade, desconforto e lembrança durante uma cirurgia longa. Ela não substitui a anestesia local e não deve ser tratada como simples “remédio para dormir”. A segurança exige avaliação pré-anestésica, jejum orientado, monitorização e profissional habilitado."}</P>
       <P>{"O nível pode variar de mínimo a profundo. Na sedação consciente, o paciente costuma respirar sozinho e responder a comandos. Em níveis mais profundos, a vigilância das vias aéreas se torna ainda mais importante. A escolha depende de saúde, duração, ansiedade e estrutura."}</P>
+      <Cta href={WHATSAPP_URL}>{"Tem receio da sedação ou quer entender qual nível seria indicado pro seu caso? Isso pode ser conversado numa avaliação, com a equipe de anestesia."}</Cta>
       <H2 id="por-que-usar-sedação">{"Por que usar sedação?"}</H2>
       <P>{"O transplante pode durar muitas horas. Permanecer em posição, ouvir instrumentos e antecipar aplicações gera ansiedade. Sedação reduz resposta ao ambiente e facilita conforto."}</P>
       <P>{"Ela também pode melhorar tolerância às etapas e permitir pausas mais organizadas. Contudo, não deve acelerar a cirurgia ou encobrir anestesia inadequada."}</P>

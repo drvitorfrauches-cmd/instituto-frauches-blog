@@ -116,6 +116,26 @@ absoluta "indolor" como promessa).
   (`INSTAGRAM_URL` em `lib/blog/site.ts`). Use quando o CTA for mais sobre
   acompanhar conteúdo/casos do que agendar direto (ex.: menção ao final de um
   artigo educativo, sem forçar).
+- **CTA no meio do artigo (a partir de 2026-07-31)**: além do CTA final, todo
+  artigo novo deve ter um CTA contextual logo após a seção de "Resposta
+  direta" (ou os 1-2 primeiros parágrafos, se não houver essa seção), usando
+  a primitiva `Cta` de `components/article-ui.tsx`:
+  `<Cta href={WHATSAPP_URL}>texto específico do tema deste artigo</Cta>`.
+  Boa parte dos leitores não chega ao fim de um artigo de 8-14 min, então
+  esse CTA intermediário é o ponto de conversão mais realista. **O texto
+  precisa ser escrito à mão, específico ao assunto do artigo** (nunca copiar
+  o mesmo texto genérico em vários artigos — é exatamente o padrão de
+  conteúdo "inflado"/repetido que já foi removido do blog em 2026-07-31, não
+  reintroduzir isso via CTA). Exemplos reais já em produção: em
+  `como-saber-se-estou-ficando-careca`, "Não sabe se é calvície ou uma queda
+  temporária? Uma avaliação com tricoscopia ajuda a diferenciar as duas
+  situações."; em `quanto-custa-transplante-capilar`, "Quer saber qual
+  planejamento seria indicado para o seu grau de calvície? Agende uma
+  avaliação individual."; em `area-doadora-transplante-capilar`, "Antes de
+  definir quantos fios serão implantados, é necessário medir quanto a área
+  doadora pode fornecer com segurança." O componente `Cta` usa paleta
+  neutra (não âmbar) de propósito, pra nunca ser confundido com o `Callout`
+  de aviso médico.
 
 ### Narrativa central de marca
 

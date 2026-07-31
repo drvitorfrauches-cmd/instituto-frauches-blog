@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Transplante capilar é uma cirurgia, e como toda cirurgia, exige uma avaliação pré-operatória cuidadosa antes de marcar a data. Essa etapa existe para garantir que o procedimento seja seguro para aquele paciente específico, não é burocracia. Veja o que costuma entrar nessa avaliação."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber quais desses exames se aplicam ao seu caso? Isso já é definido na consulta de avaliação inicial."}</Cta>
 
       <H2 id="exames-laboratoriais">{"Exames laboratoriais"}</H2>
       <P>{"O conjunto exato de exames varia conforme a idade e o histórico de saúde do paciente, mas em geral inclui hemograma completo, coagulograma (fundamental antes de qualquer procedimento cirúrgico), glicemia, sorologias e avaliação da função hepática e renal. Esses exames ajudam a identificar qualquer condição que precise ser controlada antes da cirurgia, ou que exija ajuste na conduta anestésica."}</P>

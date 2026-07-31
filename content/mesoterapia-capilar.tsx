@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"Mesoterapia capilar é a aplicação de pequenas quantidades de medicamentos na pele do couro cabeludo por múltiplas injeções. Pode ser considerada como tratamento complementar da alopecia androgenética e de outras condições em pacientes selecionados. A evidência é promissora para alguns protocolos, como aqueles com dutasterida ou minoxidil, mas ainda existe grande variação de substâncias, concentrações, intervalos e técnicas. Não existe um “coquetel universal” seguro e eficaz para todos."}</P>
       <P>{"A indicação deve partir do diagnóstico. Produtos precisam ser adequados para uso intradérmico, regularizados e preparados com rastreabilidade. Misturar vitaminas, medicamentos e cosméticos sem base pode aumentar risco sem melhorar resultado."}</P>
+      <Cta href={WHATSAPP_URL}>{"Tem dúvida se a mesoterapia é indicada pro seu caso, ou qual protocolo faria sentido? Uma avaliação individual esclarece isso."}</Cta>
       <H2 id="o-que-é-mesoterapia">{"O que é mesoterapia?"}</H2>
       <P>{"Mesoterapia, também chamada intradermoterapia em alguns contextos, consiste em realizar injeções superficiais em pontos distribuídos pela área tratada. A intenção é entregar uma substância próxima ao alvo, usando volumes pequenos."}</P>
       <P>{"Na área capilar, os protocolos podem variar muito. Algumas clínicas usam um único medicamento. Outras oferecem misturas de vitaminas, aminoácidos, vasodilatadores e antiandrógenos. Essa heterogeneidade torna difícil afirmar que “mesoterapia funciona” como se fosse um produto único."}</P>

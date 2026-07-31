@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"Você pode estar começando a ficar careca quando percebe recuo progressivo das entradas, perda de densidade no topete ou na coroa, fios de calibres muito diferentes e dificuldade crescente para esconder o couro cabeludo. A alopecia androgenética costuma evoluir lentamente e pode ocorrer sem queda intensa. O diagnóstico é feito pelo padrão, pelo histórico e pelo exame do couro cabeludo, frequentemente com tricoscopia."}</P>
       <P>{"A melhor forma de descobrir não é contar fios todos os dias nem comparar fotografias em luzes diferentes. É avaliar mudanças consistentes ao longo do tempo e verificar se existem folículos miniaturizando. Reconhecer cedo amplia as possibilidades de preservar o cabelo nativo."}</P>
+      <Cta href={WHATSAPP_URL}>{"Não sabe se é calvície ou uma queda temporária? Uma avaliação com tricoscopia ajuda a diferenciar as duas situações."}</Cta>
       <H2 id="o-que-é-calvície">{"O que é calvície?"}</H2>
       <P>{"Calvície é o nome popular da alopecia androgenética, uma condição em que folículos geneticamente suscetíveis respondem aos andrógenos com miniaturização progressiva. O fio passa a crescer mais fino e por menos tempo. A cobertura diminui mesmo antes de uma região ficar totalmente sem cabelo."}</P>
       <P>{"Nos homens, o padrão mais comum começa nas entradas, na linha frontal, no topo ou na coroa. Essas áreas podem evoluir separadamente ou se conectar. A região lateral e posterior tende a ser mais resistente, formando a área doadora utilizada no transplante."}</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Nem todo mundo que tem calvície é candidato ideal a um transplante capilar agora. Isso não é má notícia, é só um jeito de dizer que a indicação certa depende de alguns critérios técnicos, e entender esses critérios evita que o paciente chegue numa consulta com expectativa desalinhada. Explico abaixo o que a gente avalia."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber se você já é candidato ao transplante agora, ou se vale esperar? Isso é definido numa avaliação individual."}</Cta>
 
       <H2 id="idade">{"Idade"}</H2>
       <P>{"Não existe uma idade mínima rígida e universal, mas geralmente evitamos operar pacientes muito jovens, sobretudo antes dos 25 anos. O motivo é que a calvície ainda pode estar em evolução nessa faixa etária, e planejar uma linha frontal hoje sem saber como o padrão vai progredir nos próximos anos aumenta o risco de um resultado que pareça desalinhado com a calvície futura. Em pacientes mais jovens com queda ativa, costuma fazer mais sentido começar pelo tratamento clínico e reavaliar a cirurgia depois."}</P>

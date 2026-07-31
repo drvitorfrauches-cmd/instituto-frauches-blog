@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,7 @@ export default function Article() {
       <P>{"O transplante não é um produto padronizado. É um procedimento médico que redistribui uma quantidade limitada de folículos. O valor precisa refletir planejamento, execução, segurança e acompanhamento, não apenas uma promessa de quantidade."}</P>
       <P>{"Clínicas que publicam um preço fechado sem examinar o paciente podem estar simplificando variáveis importantes. Uma faixa inicial pode orientar, mas a proposta definitiva deve vir após avaliação."}</P>
       <P>{"Para dar uma noção de mercado: no Brasil, transplantes capilares são anunciados desde a faixa de R$ 10 mil até valores acima de R$ 100 mil, dependendo de quantidade de unidades foliculares, técnica, equipe, estrutura e cidade. Essa variação de dez vezes entre o piso e o teto do mercado é o motivo pelo qual publicar um número fechado, sem avaliação, tende a induzir a uma comparação enganosa: o mesmo valor pode representar propostas completamente diferentes em segurança, planejamento e resultado esperado."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber qual planejamento seria indicado para o seu grau de calvície? Agende uma avaliação individual."}</Cta>
       <H2 id="quais-fatores-influenciam-o-valor">{"Quais fatores influenciam o valor?"}</H2>
       <H3>{"Extensão da área a tratar"}</H3>
       <P>{"Entradas pequenas exigem menos cobertura do que uma calvície que envolve linha frontal, topete, scalp médio e coroa. Quanto maior a superfície, maior tende a ser a demanda por unidades foliculares e tempo de implantação."}</P>

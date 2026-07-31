@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Antes de decidir fazer um transplante capilar, é comum o paciente esbarrar em duas siglas: FUE e FUT. As duas são técnicas de transplante capilar, mas funcionam de um jeito bem diferente, e essa diferença afeta cicatriz, recuperação e até o tipo de caso mais indicado para cada uma. Explico as duas abaixo."}</P>
+      <Cta href={WHATSAPP_URL}>{"Não sabe qual técnica seria mais indicada pro seu caso? Isso depende da sua área doadora e é definido numa avaliação."}</Cta>
 
       <H2 id="o-que-e-fut">{"O que é a técnica FUT"}</H2>
       <P>{"Na FUT (Follicular Unit Transplantation), o cirurgião remove uma faixa inteira de couro cabeludo da área doadora, com bisturi, e depois fecha essa região com pontos. Os folículos são então separados dessa faixa, um a um, sob microscópio, para serem implantados na área com calvície. É a técnica mais antiga das duas."}</P>

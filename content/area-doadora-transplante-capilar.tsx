@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -23,6 +23,7 @@ export default function Article() {
   return (
     <>
       <P>{"Se tem um conceito que todo paciente deveria entender antes de fazer um transplante capilar, é esse: a área doadora não é infinita. Ela é o recurso que sustenta o resultado de hoje e de qualquer cirurgia futura que venha a ser necessária. Tratar essa área com cautela é uma das partes mais importantes do planejamento médico."}</P>
+      <Cta href={WHATSAPP_URL}>{"Antes de definir quantos fios serão implantados, é necessário medir quanto a área doadora pode fornecer com segurança."}</Cta>
 
       <H2 id="o-que-e">{"O que é a área doadora"}</H2>
       <P>{"É a região do couro cabeludo, geralmente na parte posterior e lateral da cabeça, de onde os folículos são extraídos para o transplante. Ela é chamada de \"área segura\" porque, na maioria das pessoas, os folículos dessa região carregam resistência genética à calvície, o que garante que, quando transplantados, continuem crescendo na nova localização."}</P>
