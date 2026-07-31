@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Veja os primeiros sinais de calvície, como observar entradas e coroa, o papel da tricoscopia e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 14,
+  readingTime: 11,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
@@ -109,28 +109,20 @@ export default function Article() {
       <P>Saber se você está ficando careca exige observar padrão e progressão, não apenas fios no ralo. Entradas, topete, coroa, calibre e fotos antigas oferecem pistas. A tricoscopia e o exame médico transformam essas pistas em diagnóstico.</P>
       <P>Quanto mais cedo a miniaturização é identificada, maior a possibilidade de preservar o cabelo nativo e planejar qualquer cirurgia de forma responsável.</P>
       <H2 id="perfis-que-confundem-o-reconhecimento-da-calvície">Perfis que confundem o reconhecimento da calvície</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Cabelo grosso que mantém cobertura</H3>
       <P>A pessoa pode perder densidade por anos antes de enxergar couro cabeludo. Fotografias e exame detectam mudança mais cedo que o espelho.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Cabelo fino desde a infância</H3>
       <P>Baixa cobertura natural não é sinônimo de progressão. A comparação longitudinal e a diversidade de calibre ajudam a diferenciar característica pessoal de doença.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uso frequente de fibras ou penteado de camuflagem</H3>
       <P>A adaptação diária esconde a velocidade da perda. Avaliar o cabelo limpo e sem produto oferece uma linha de base honesta.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Histórico familiar pouco claro</H3>
       <P>A herança pode vir dos dois lados e variar em expressão. Ausência de um pai calvo não exclui alopecia androgenética.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Use um conjunto fixo de fotografias e observe linha frontal, entradas, topo e coroa. Acrescente uma imagem da área doadora. A avaliação médica deve procurar miniaturização, padrão, densidade e sinais que apontem para outras alopecias.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Há miniaturização em padrão? * Minha linha frontal está recuando ou apenas amadureceu? * A coroa apresenta perda real ou apenas redemoinho? * Existe eflúvio associado? * Qual estágio na escala de Norwood? * Preciso tratar agora? * Como medir resposta? * Quando cirurgia pode ser considerada?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* teste online apresentado como diagnóstico definitivo; * conclusão baseada em uma foto molhada; * atribuir toda queda a estresse; * iniciar várias medicações ao mesmo tempo; * esperar área ficar lisa para procurar avaliação;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

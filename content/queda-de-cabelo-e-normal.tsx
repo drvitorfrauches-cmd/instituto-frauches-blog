@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda o ciclo capilar, quando a queda é fisiológica, como diferenciar eflúvio, quebra e calvície e quando procurar avaliação médica.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 15,
+  readingTime: 11,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
@@ -99,28 +99,20 @@ export default function Article() {
       <P>Perder cabelo faz parte da fisiologia. O que não deve ser normalizado é uma mudança persistente, com perda de volume, afinamento, falhas ou sintomas do couro cabeludo. A quantidade no ralo é apenas uma pista.</P>
       <P>Uma avaliação cuidadosa separa queda fisiológica, eflúvio, quebra e alopecia androgenética. Essa diferença orienta tratamento e evita promessas simples para problemas diferentes.</P>
       <H2 id="como-interpretar-a-queda-em-situações-do-cotidiano">Como interpretar a queda em situações do cotidiano</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Mais fios no banho após ficar dias sem lavar</H3>
       <P>Os fios que cairiam diariamente ficam presos entre os cabelos e aparecem juntos na lavagem. O volume visual pode assustar sem representar piora real.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Queda após febre, cirurgia ou dieta</H3>
       <P>O eflúvio telógeno costuma aparecer semanas ou meses depois do gatilho. A relação temporal precisa ser reconstruída com cuidado.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Queda com coceira e descamação</H3>
       <P>Sintomas do couro cabeludo sugerem que não se trata apenas de contagem de fios. Inflamação, dermatite e outras condições precisam ser examinadas.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Pouca queda, mas redução de volume</H3>
       <P>A miniaturização da alopecia androgenética pode avançar sem grande quantidade de fios no ralo. Cobertura e calibre são tão importantes quanto queda.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Em vez de contar cada fio, registre duração, padrão e sintomas. Observe se a perda é difusa ou localizada, se há falhas, se a risca alargou e se houve evento desencadeante nos três meses anteriores. A tricoscopia organiza essas informações.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* A queda é difusa ou em padrão? * Existe miniaturização? * Há sinais de inflamação? * Algum medicamento foi iniciado ou suspenso? * Existiu febre, perda de peso, parto ou cirurgia? * Quais exames são realmente indicados? * Há necessidade de tratar a causa ou apenas acompanhar? * Quando devo reavaliar?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* contagem rígida de cem fios como diagnóstico; * painéis enormes de exames sem história clínica; * suplementos sem deficiência confirmada; * ignorar falhas ou cicatrizes; * esperar meses diante de dor, secreção ou perda rápida;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

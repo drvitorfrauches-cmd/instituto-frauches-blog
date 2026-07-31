@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Exossomos para queda de cabelo ainda são experimentais. Entenda evidências, riscos, regulação, aplicação e como avaliar uma proposta de tratamento.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 15,
+  readingTime: 11,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -96,28 +96,20 @@ export default function Article() {
       <P>Exossomos representam uma linha interessante de pesquisa, mas ainda não devem ser apresentados como cura, substituto comprovado de medicamentos ou forma de criar folículos. O uso clínico exige transparência sobre caráter experimental, produto, via, regulação, custo e limitações.</P>
       <P>No Instituto Frauches, qualquer tecnologia precisa fazer sentido dentro do diagnóstico e do planejamento individual. A prioridade é proteger o paciente de promessas maiores do que a evidência disponível.</P>
       <H2 id="como-separar-pesquisa-promissora-de-produto-comercial">Como separar pesquisa promissora de produto comercial</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Produto com fabricante e estudo identificáveis</H3>
       <P>Mesmo assim, verifique se o estudo avaliou o mesmo produto, via e condição. Evidência de uma preparação não pode validar todas.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Produto rotulado apenas como “regenerativo”</H3>
       <P>A falta de composição, origem e lote impede avaliar qualidade. Linguagem sofisticada não substitui documentação.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Aplicação após microagulhamento</H3>
       <P>A abertura de canais aumenta penetração e também risco. O produto precisa ser apropriado para contato com pele perfurada.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Injeção de produto destinado a uso tópico</H3>
       <P>Essa mudança de via é um alerta importante. Esterilidade isolada não torna um cosmético injetável.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Exija objetivo e método antes de iniciar. Fotografias, tricoscopia e prazo definido evitam sessões indefinidas. Registre fabricante, lote, via, armazenamento e eventos adversos.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* É realmente exossomo caracterizado? * Qual é a origem biológica? * Qual registro e uso autorizado? * Existe estudo desse produto? * A aplicação é experimental? * Quais riscos de longo prazo são desconhecidos? * Que tratamento comprovado continuará? * Qual critério de interrupção?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* uso da expressão FDA registered como aprovação; * promessa de criar novos folículos; * misturar exossomos com células-tronco; * produto sem rastreabilidade; * aplicação injetável de cosmético;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>
