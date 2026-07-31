@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda como a finasterida age na calvície, resultados esperados, efeitos sexuais e no humor, forma tópica, contraindicações e acompanhamento.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 15,
+  readingTime: 11,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -107,28 +107,20 @@ export default function Article() {
       <P>Finasterida é uma das terapias mais estudadas para calvície masculina. Ela pode estabilizar a progressão e melhorar cobertura em parte dos pacientes, especialmente quando iniciada cedo. Também possui riscos que precisam ser discutidos com clareza.</P>
       <P>A decisão não deve ser tomada por medo nem por propaganda. Diagnóstico, consentimento, monitoramento e plano de longo prazo transformam um comprimido em tratamento médico responsável.</P>
       <H2 id="como-individualizar-a-decisão-sobre-finasterida">Como individualizar a decisão sobre finasterida</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Homem jovem com miniaturização inicial</H3>
       <P>O potencial de preservação pode ser relevante, mas sexualidade, fertilidade, histórico de humor e expectativa precisam entrar na conversa.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Paciente que já apresentou efeito adverso</H3>
       <P>A reação deve ser caracterizada, incluindo dose, tempo, resolução e outros fatores. Reexposição, via tópica ou alternativa não são decisões automáticas.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Paciente planejando filhos</H3>
       <P>A discussão considera fertilidade, alterações seminais raras, tempo e avaliação quando há dificuldade prévia. Não é necessário criar medo indiscriminado.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uso após transplante</H3>
       <P>O objetivo é proteger fios nativos, não fazer o enxerto “pegar”. A manutenção pode preservar integração ao longo dos anos.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Acompanhe fotografias, tricoscopia, tolerabilidade e objetivos. Resultados exigem meses e devem ser comparados em condições iguais. Sintomas sexuais, mamários ou de humor precisam ser relatados sem constrangimento.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Qual benefício é esperado no meu estágio? * A dose e a via são adequadas? * Quais efeitos merecem interrupção e contato? * Há histórico de infertilidade ou alteração de humor? * Como será feito o acompanhamento? * Quanto tempo testar antes de concluir? * Quais alternativas existem? * O uso é contínuo?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* garantia de ausência de efeitos; * proibição de discutir sintomas; * fórmula tópica manipulada vendida como livre de absorção; * prescrição sem histórico; * interrupção e reinício frequentes sem orientação;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

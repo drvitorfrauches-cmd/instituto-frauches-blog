@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Veja como a dutasterida age na calvície, diferenças para finasterida, eficácia, efeitos adversos, uso oral, tópico e por mesoterapia.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 9,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -109,28 +109,20 @@ export default function Article() {
       <P>Dutasterida é uma opção potente para alopecia androgenética e pode oferecer benefício relevante. Seu uso precisa ser individualizado, especialmente por status off-label em alguns contextos, meia-vida longa e efeitos possíveis.</P>
       <P>A escolha responsável não é entre “medicamento bom” e “medicamento ruim”. É entre estratégias adequadas ou inadequadas para aquele paciente, com diagnóstico e acompanhamento.</P>
       <H2 id="cenários-em-que-a-discussão-sobre-dutasterida-muda">Cenários em que a discussão sobre dutasterida muda</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Resposta insuficiente a outro tratamento</H3>
       <P>Antes de escalar, é preciso confirmar adesão, tempo, diagnóstico e progressão objetiva. Falha percebida em poucas semanas não justifica troca.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Calvície agressiva em paciente jovem</H3>
       <P>Maior potência potencial precisa ser equilibrada com uso prolongado, efeitos e incerteza futura. Planejamento conservador continua necessário.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Desejo reprodutivo próximo</H3>
       <P>A meia-vida longa torna a conversa sobre fertilidade e suspensão diferente. Decisões devem ser individualizadas.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uso em mulheres</H3>
       <P>Gestação e potencial reprodutivo exigem cuidados rigorosos. A indicação não pode ser extrapolada do homem sem análise específica.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Documente linha frontal, topo, coroa e calibre. Registre efeitos, outros medicamentos e adesão. A meia-vida prolongada significa que mudanças e eventos podem persistir por mais tempo que com opções de eliminação rápida.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Por que dutasterida e não finasterida? * A indicação é aprovada ou off-label? * Qual via e frequência? * Como considerar fertilidade? * Que efeitos devem ser monitorados? * Quanto tempo até avaliar? * O que acontece se eu parar? * Existe opção menos intensa?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* apresentar maior potência como ausência de risco; * usar dose elevada sem justificativa; * ignorar contraindicações em gestação; * trocas frequentes sem tempo de avaliação; * não informar caráter off-label quando aplicável;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

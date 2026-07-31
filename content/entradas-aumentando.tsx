@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Saiba diferenciar entradas naturais de calvície, quais sinais observar, quando tratar e como planejar uma hairline natural.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 16,
+  readingTime: 12,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
@@ -95,28 +95,20 @@ export default function Article() {
       <P>Entradas aumentando merecem uma análise mais cuidadosa do que simplesmente perguntar se a testa está grande. É preciso observar miniaturização, estabilidade, padrão familiar, cabelo nativo e área doadora. Em alguns casos, a melhor conduta é acompanhar. Em outros, tratamento clínico ou transplante podem ser considerados.</P>
       <P>Um resultado de alto padrão não é o que cria a menor testa possível. É o que combina com o rosto, usa a área doadora com responsabilidade e continua natural conforme o paciente envelhece.</P>
       <H2 id="quatro-cenários-comuns-quando-as-entradas-começam-a-mudar">Quatro cenários comuns quando as entradas começam a mudar</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Mudança lenta em fotografias antigas</H3>
       <P>A pessoa não percebe queda intensa, mas a linha frontal recuou ao comparar imagens de dois ou três anos. Esse padrão favorece investigação de miniaturização e progressão lenta.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Recuo rápido em poucos meses</H3>
       <P>Uma alteração acelerada pode coexistir com eflúvio, inflamação, mudança de medicação ou alopecia androgenética ativa. A velocidade modifica a urgência da avaliação.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uma entrada parece maior que a outra</H3>
       <P>Assimetrias naturais são comuns. O que importa é saber se a diferença é antiga ou progressiva e se há diversidade de calibre nos dois lados.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Linha madura sem miniaturização evidente</H3>
       <P>Alguns homens desenvolvem recessos discretos após a adolescência sem evolução significativa. Fotografias e tricoscopia ajudam a não transformar toda maturação em doença.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Acompanhe a distância entre pontos anatômicos estáveis, a densidade atrás da linha e a presença de fios finos. Fotos mensais costumam ser excessivas. Intervalos de dois a três meses, com luz e penteado iguais, mostram tendências com menos ruído.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Existe miniaturização nas entradas? * A linha está madura ou há alopecia ativa? * O topete também está afinando? * Qual é a velocidade provável de progressão? * Tratamento pode estabilizar antes de pensar em cirurgia? * Minha área doadora permite uma correção futura? * Qual altura de hairline envelheceria melhor? * Quais fotografias devo repetir?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* diagnóstico apenas por selfie; * promessa de fechar entradas muito baixas em paciente jovem; * venda de transplante sem examinar a doadora; * uso de vitaminas como solução universal; * comparação com hairline de celebridade sem considerar anatomia;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

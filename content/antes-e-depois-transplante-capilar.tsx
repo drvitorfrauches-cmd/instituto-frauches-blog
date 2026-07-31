@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Aprenda a analisar antes e depois de transplante capilar: luz, ângulo, fibras, tempo, hairline, densidade, área doadora e regras do CFM.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 8,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -124,33 +124,20 @@ export default function Article() {
       <P>Antes e depois é útil quando informa, não quando seduz. Padronização, contexto, múltiplos ângulos e visão da área doadora transformam uma imagem em evidência clínica mais honesta.</P>
       <P>Ao escolher uma cirurgia, não procure apenas a foto mais impactante. Procure resultados coerentes, explicações transparentes e planejamento compatível com o seu caso.</P>
       <H2 id="um-roteiro-de-leitura-para-cada-conjunto-de-imagens">Um roteiro de leitura para cada conjunto de imagens</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Antes molhado e depois seco</H3>
       <P>A melhora fica artificialmente ampliada. Peça comparação nas mesmas condições.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Depois com cabelo muito mais longo</H3>
       <P>A penteabilidade é relevante, mas não revela densidade isolada. Procure cabelo levantado e luz superior.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Close frontal sem fotografia da nuca</H3>
       <P>A naturalidade da hairline pode ser vista, mas a preservação da doadora permanece desconhecida.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Resultado de seis meses apresentado como final</H3>
       <P>Pode melhorar, mas o contexto deve dizer que é parcial. Uma clínica séria informa o tempo.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Atribua uma nota de comparabilidade para luz, ângulo, comprimento, penteado e tempo. Quanto mais variáveis mudaram, menos conclusões. Busque séries e vídeo.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Qual tempo de evolução? * Houve uma ou duas cirurgias? * Quantas unidades? * Usou tratamento? * Há fibras? * As fotos têm a mesma luz? * Onde está a doadora? * O caso é semelhante ao meu?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* pele e fios com textura editada; * antes desfavorável e depois em estúdio; * ausência de ângulos superiores; * número de enxertos sem relatório; * depoimento tratado como prova de técnica;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
-      <H2 id="modelo-de-raciocínio-para-discutir-este-tema-na-consulta">Modelo de raciocínio para discutir este tema na consulta</H2>
-      <P>Ao conversar sobre **antes e depois do transplante capilar: como analisar resultados**, vale separar cinco perguntas: qual é o diagnóstico, qual é o objetivo, que evidência se aplica ao perfil do paciente, quais são os riscos e como o resultado será medido. Essa sequência evita que a decisão comece por uma marca, um preço ou uma promessa.</P>
-      <P>O diagnóstico define o problema real. O objetivo define se a prioridade é interromper progressão, recuperar calibre, melhorar cobertura, corrigir uma área específica ou apenas acompanhar. A evidência ajuda a estimar probabilidade, mas não elimina variação individual. Os riscos precisam ser colocados na mesma conversa que os benefícios. Por fim, um método de acompanhamento reduz interpretações baseadas em uma fotografia isolada ou em poucas semanas.</P>
-      <P>Outro ponto é distinguir possibilidade de indicação. Um recurso pode existir e ainda não ser necessário. Também pode ser tecnicamente possível, mas inadequado diante da área doadora, de uma doença ativa, de uma contraindicação ou de uma expectativa incompatível. A consulta de qualidade não transforma todas as opções em recomendações. Ela seleciona e, quando necessário, exclui.</P>
-      <P>Antes de decidir, o paciente deve conseguir explicar com as próprias palavras por que aquela estratégia foi proposta, o que pode acontecer se nada for feito, quanto tempo será necessário e qual seria o próximo passo diante de resposta insuficiente. Quando essas respostas não estão claras, ainda falta informação para um consentimento realmente consciente.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

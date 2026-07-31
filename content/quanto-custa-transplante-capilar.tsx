@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda quanto custa um transplante capilar, o que influencia o preço, como comparar orçamentos e por que área doadora e equipe importam.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -103,28 +103,20 @@ export default function Article() {
       <P>O preço do transplante capilar deve ser analisado como parte de uma decisão médica de longo prazo. O melhor orçamento não é o mais barato nem o mais caro. É o que explica o plano, os limites, quem executa, o que está incluído e como a área doadora será preservada.</P>
       <P>Antes de comparar valores, compare responsabilidade. Cabelo transplantado pode acompanhar o paciente por décadas, e decisões apressadas também.</P>
       <H2 id="como-transformar-orçamento-em-comparação-clínica">Como transformar orçamento em comparação clínica</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Preço fechado sem avaliação</H3>
       <P>Pode ser apenas uma faixa comercial, mas não deve substituir exame da doadora e definição de área.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Cobrança por unidade folicular</H3>
       <P>Pode ser transparente se houver contagem e limite de segurança. Também pode incentivar números excessivos.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Pacote com viagem e hotel</H3>
       <P>Conveniência não mede qualidade médica. Inclua acompanhamento, retorno e suporte no custo real.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Orçamento alto com muitos itens tecnológicos</H3>
       <P>Peça a função de cada item. Preço elevado não prova benefício, assim como preço baixo não prova inabilidade.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Monte uma tabela com responsável por cada etapa, número estimado, sedação, pós-operatório, política de intercorrência, doadora e custo total. Compare o raciocínio, não somente a parcela.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* O que está incluído? * Quem fará cada etapa? * Quantas unidades e em quais áreas? * Qual limite da doadora? * A sedação está incluída? * Quantos retornos? * Existe custo de medicamentos? * Qual política de cancelamento?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* desconto condicionado a pagamento imediato; * preço baseado apenas em número de fios; * custos extras não informados; * garantia de retoque sem critérios; * financiamento apresentado sem custo total;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>
