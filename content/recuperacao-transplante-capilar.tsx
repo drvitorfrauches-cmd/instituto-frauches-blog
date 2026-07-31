@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Veja como é a recuperação do transplante capilar, cuidados nos primeiros 14 dias, lavagem, sono, academia, boné, edema e sinais de alerta.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -117,28 +117,20 @@ export default function Article() {
       <P>A recuperação do transplante capilar é previsível quando o paciente entende cada fase. Os primeiros 14 dias exigem maior cuidado com higiene, trauma, atividade e exposição. Depois, a pele melhora, mas o crescimento ainda demanda paciência.</P>
       <P>Um pós-operatório bem conduzido não é apenas uma lista de proibições. É acompanhamento, comunicação e liberação progressiva de acordo com a evolução real.</P>
       <H2 id="planejamento-da-recuperação-conforme-a-rotina">Planejamento da recuperação conforme a rotina</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Trabalho em escritório com reuniões</H3>
       <P>A capacidade física pode voltar antes da aparência social. Planeje sete a quatorze dias conforme raspagem e vermelhidão.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Trabalho com capacete ou sol</H3>
       <P>Pressão, suor e radiação exigem afastamento ou adaptação. Isso deve ser discutido antes de marcar.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Paciente que viaja de avião</H3>
       <P>Edema, sedação, transporte e acesso a atendimento influenciam. A data de retorno não deve ser improvisada.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Evento importante próximo</H3>
       <P>Resultado não existe em semanas e a fase de queda pode ocorrer. A cirurgia precisa de margem de meses, não dias.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Use um calendário de 14 dias com medicações, lavagem, fotografias e liberações. Registre edema, dor e vermelhidão. Depois, acompanhe mensalmente sem confundir cicatrização com crescimento.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Quando iniciar lavagem? * Quando remover crostas? * Quantos dias sem academia? * Quando usar boné ou capacete? * Como dormir? * Quando viajar? * Que sinais exigem contato? * Quando retomar produtos capilares?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* orientação copiada sem considerar trabalho; * proibição de lavar por muitos dias sem justificativa; * remoção agressiva de crostas; * retorno a esporte de contato precoce; * ausência de canal para intercorrências;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

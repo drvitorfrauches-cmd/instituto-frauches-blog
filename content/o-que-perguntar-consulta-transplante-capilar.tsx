@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Leve este checklist para a consulta de transplante capilar: diagnóstico, área doadora, enxertos, hairline, equipe, riscos, preço e pós-operatório.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 8,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -141,33 +141,20 @@ export default function Article() {
       <P>A consulta é o momento de testar o plano, não apenas de conhecer o preço. Perguntas objetivas revelam quem fará a cirurgia, como a doadora será protegida e qual resultado é possível.</P>
       <P>Leve este checklist. Um médico seguro não se incomoda com perguntas. Ele entende que decisão informada faz parte do tratamento.</P>
       <H2 id="como-usar-o-checklist-sem-transformar-a-consulta-em-interrog">Como usar o checklist sem transformar a consulta em interrogatório</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Consulta curta com muitas perguntas</H3>
       <P>Priorize diagnóstico, doadora, responsáveis e resultado realista. Perguntas secundárias podem ser enviadas depois.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Propostas muito diferentes</H3>
       <P>Peça que cada médico explique premissas. Diferença de enxertos pode vir de área, densidade ou risco.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Paciente inseguro para questionar</H3>
       <P>Levar acompanhante ou notas ajuda. Um profissional adequado não interpreta pergunta como afronta.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Consulta por vídeo</H3>
       <P>Pode resolver história e expectativa, mas medidas definitivas da doadora podem depender de exame presencial.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Após cada consulta, escreva em uma frase o diagnóstico, a prioridade, o limite e o responsável. Se não conseguir, a proposta talvez não tenha sido clara.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Qual problema estamos resolvendo? * Qual é o limite? * Quem assume cada etapa? * Que risco é mais relevante no meu caso? * Qual alternativa existe? * Como mediremos sucesso? * Quem atende depois? * O que precisa ser decidido hoje?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* respostas decoradas; * interrupção constante do paciente; * orçamento antes do exame; * recusa em fornecer plano por escrito; * contrato incompatível com o que foi dito;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
-      <H2 id="modelo-de-raciocínio-para-discutir-este-tema-na-consulta">Modelo de raciocínio para discutir este tema na consulta</H2>
-      <P>Ao conversar sobre **o que perguntar na consulta de transplante capilar: 20 perguntas**, vale separar cinco perguntas: qual é o diagnóstico, qual é o objetivo, que evidência se aplica ao perfil do paciente, quais são os riscos e como o resultado será medido. Essa sequência evita que a decisão comece por uma marca, um preço ou uma promessa.</P>
-      <P>O diagnóstico define o problema real. O objetivo define se a prioridade é interromper progressão, recuperar calibre, melhorar cobertura, corrigir uma área específica ou apenas acompanhar. A evidência ajuda a estimar probabilidade, mas não elimina variação individual. Os riscos precisam ser colocados na mesma conversa que os benefícios. Por fim, um método de acompanhamento reduz interpretações baseadas em uma fotografia isolada ou em poucas semanas.</P>
-      <P>Outro ponto é distinguir possibilidade de indicação. Um recurso pode existir e ainda não ser necessário. Também pode ser tecnicamente possível, mas inadequado diante da área doadora, de uma doença ativa, de uma contraindicação ou de uma expectativa incompatível. A consulta de qualidade não transforma todas as opções em recomendações. Ela seleciona e, quando necessário, exclui.</P>
-      <P>Antes de decidir, o paciente deve conseguir explicar com as próprias palavras por que aquela estratégia foi proposta, o que pode acontecer se nada for feito, quanto tempo será necessário e qual seria o próximo passo diante de resposta insuficiente. Quando essas respostas não estão claras, ainda falta informação para um consentimento realmente consciente.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

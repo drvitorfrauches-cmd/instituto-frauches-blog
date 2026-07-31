@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda a sedação no transplante capilar, diferença para anestesia geral, jejum, monitorização, riscos, alta e papel do anestesiologista.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 7,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -113,38 +113,20 @@ export default function Article() {
       <P>Sedação pode transformar a experiência de uma cirurgia longa, mas deve ser conduzida com o mesmo rigor de qualquer procedimento anestésico. O paciente precisa saber quem administra, como será monitorado e como ocorrerá a alta.</P>
       <P>Conforto de alto padrão não é apenas dormir. É dormir, quando indicado, com segurança.</P>
       <H2 id="como-a-avaliação-anestésica-muda-o-plano">Como a avaliação anestésica muda o plano</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Paciente saudável e muito ansioso</H3>
       <P>Sedação pode melhorar a experiência, mas ainda exige jejum, acompanhante e monitorização.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Apneia do sono ou obesidade</H3>
       <P>Risco respiratório é maior. Profundidade, drogas e local precisam ser adaptados.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uso de medicamentos para diabetes ou emagrecimento</H3>
       <P>O anestesiologista avalia esvaziamento gástrico e orienta manejo. Suspensão por conta própria não é adequada.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Uso regular de álcool, cannabis ou sedativos</H3>
       <P>Tolerância e interação podem alterar resposta. A informação precisa ser honesta e confidencial.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Registre avaliação, jejum, medicamentos, nível planejado, parâmetros e critérios de alta. Em casa, observe sonolência excessiva, vômitos persistentes, falta de ar e dificuldade de despertar.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Quem será o anestesiologista? * Qual nível de sedação? * Que monitorização será usada? * Qual jejum? * Quais medicamentos devo ajustar? * Preciso levar CPAP? * Quem ficará comigo após alta? * Que sintomas exigem emergência?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* sedação sem avaliação; * orientação vaga de jejum; * paciente dirigindo após alta; * mistura de calmantes por conta própria; * ausência de equipamento para resgate;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
-      <H2 id="modelo-de-raciocínio-para-discutir-este-tema-na-consulta">Modelo de raciocínio para discutir este tema na consulta</H2>
-      <P>Ao conversar sobre **sedação no transplante capilar: como funciona e segurança**, vale separar cinco perguntas: qual é o diagnóstico, qual é o objetivo, que evidência se aplica ao perfil do paciente, quais são os riscos e como o resultado será medido. Essa sequência evita que a decisão comece por uma marca, um preço ou uma promessa.</P>
-      <P>O diagnóstico define o problema real. O objetivo define se a prioridade é interromper progressão, recuperar calibre, melhorar cobertura, corrigir uma área específica ou apenas acompanhar. A evidência ajuda a estimar probabilidade, mas não elimina variação individual. Os riscos precisam ser colocados na mesma conversa que os benefícios. Por fim, um método de acompanhamento reduz interpretações baseadas em uma fotografia isolada ou em poucas semanas.</P>
-      <P>Outro ponto é distinguir possibilidade de indicação. Um recurso pode existir e ainda não ser necessário. Também pode ser tecnicamente possível, mas inadequado diante da área doadora, de uma doença ativa, de uma contraindicação ou de uma expectativa incompatível. A consulta de qualidade não transforma todas as opções em recomendações. Ela seleciona e, quando necessário, exclui.</P>
-      <P>Antes de decidir, o paciente deve conseguir explicar com as próprias palavras por que aquela estratégia foi proposta, o que pode acontecer se nada for feito, quanto tempo será necessário e qual seria o próximo passo diante de resposta insuficiente. Quando essas respostas não estão claras, ainda falta informação para um consentimento realmente consciente.</P>
-      <H2 id="decisão-compartilhada-o-que-deve-ficar-claro-antes-de-seguir">Decisão compartilhada: o que deve ficar claro antes de seguir</H2>
-      <P>Uma decisão bem construída precisa deixar claro o benefício esperado, a limitação mais importante e a alternativa mais conservadora. O paciente não precisa dominar termos técnicos, mas deve entender o raciocínio. Quando a proposta depende de continuidade, como ocorre em muitos tratamentos capilares, também é necessário discutir o que acontece se houver interrupção.</P>
-      <P>O tempo é outra variável clínica. Algumas mudanças precisam de observação, outras exigem ação mais rápida e procedimentos irreversíveis merecem maturação. Estabelecer um prazo de reavaliação evita dois extremos: abandonar cedo uma estratégia que ainda não teve tempo de agir e prolongar indefinidamente algo sem benefício mensurável.</P>
-      <P>O custo deve ser avaliado em conjunto com duração, manutenção, deslocamentos e possibilidade de novas etapas. Um procedimento aparentemente mais barato pode exigir correções, enquanto uma opção mais cara pode não agregar benefício proporcional. Transparência significa explicar o custo total previsível sem transformar a consulta em pressão comercial.</P>
-      <P>Por fim, registre o plano. Fotografias padronizadas, lista de medicamentos, datas e sintomas tornam o acompanhamento mais confiável. Essa documentação permite que decisões futuras sejam baseadas na evolução real, e não apenas na memória ou na impressão produzida por uma imagem em condição diferente.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

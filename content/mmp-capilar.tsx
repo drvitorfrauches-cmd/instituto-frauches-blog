@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda o que é MMP capilar, diferenças para microagulhamento e mesoterapia, medicamentos utilizados, sessões, riscos e indicações.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 8,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -108,33 +108,20 @@ export default function Article() {
       <P>MMP é uma técnica de entrega de medicamentos, não um tratamento único. O resultado depende do que é aplicado, de como é aplicado e de qual doença está sendo tratada.</P>
       <P>Quando há indicação, produto adequado, execução segura e integração com um plano clínico, pode ser uma ferramenta útil. Sem esses critérios, torna-se apenas um procedimento invasivo com promessa vaga.</P>
       <H2 id="como-entender-a-proposta-de-mmp-capilar">Como entender a proposta de MMP capilar</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Infusão de medicamento com indicação definida</H3>
       <P>A lógica depende do ativo, da dose e da profundidade. A sigla MMP não prova eficácia por si só.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Coquetel de vitaminas sem deficiência</H3>
       <P>Misturas genéricas podem aumentar custo e reação sem resolver alopecia androgenética. Cada componente precisa de justificativa.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Associação com tratamento domiciliar</H3>
       <P>O procedimento pode complementar, mas adesão ao tratamento de base continua determinante.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Couro cabeludo inflamado</H3>
       <P>Microperfurações podem piorar irritação ou aumentar risco. A doença deve ser diagnosticada e controlada antes.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Registre substância, concentração, lote, dispositivo, profundidade e intervalos. Fotografias e tricoscopia devem ser feitas antes de iniciar e após um ciclo definido. Dor e inflamação também são desfechos.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Qual medicamento será usado? * O produto é adequado para essa via? * Qual evidência existe para meu diagnóstico? * Quantas sessões compõem o teste? * Como será controlada a esterilidade? * Quais efeitos são esperados? * O que devo suspender antes? * Quando voltar ao tratamento tópico?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* nome do coquetel sem composição; * produto cosmético usado como injetável; * promessa de substituir todos os medicamentos; * sessões mensais eternas; * procedimento sem avaliação médica;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
-      <H2 id="modelo-de-raciocínio-para-discutir-este-tema-na-consulta">Modelo de raciocínio para discutir este tema na consulta</H2>
-      <P>Ao conversar sobre **mmp capilar: o que é, indicações, resultados e riscos**, vale separar cinco perguntas: qual é o diagnóstico, qual é o objetivo, que evidência se aplica ao perfil do paciente, quais são os riscos e como o resultado será medido. Essa sequência evita que a decisão comece por uma marca, um preço ou uma promessa.</P>
-      <P>O diagnóstico define o problema real. O objetivo define se a prioridade é interromper progressão, recuperar calibre, melhorar cobertura, corrigir uma área específica ou apenas acompanhar. A evidência ajuda a estimar probabilidade, mas não elimina variação individual. Os riscos precisam ser colocados na mesma conversa que os benefícios. Por fim, um método de acompanhamento reduz interpretações baseadas em uma fotografia isolada ou em poucas semanas.</P>
-      <P>Outro ponto é distinguir possibilidade de indicação. Um recurso pode existir e ainda não ser necessário. Também pode ser tecnicamente possível, mas inadequado diante da área doadora, de uma doença ativa, de uma contraindicação ou de uma expectativa incompatível. A consulta de qualidade não transforma todas as opções em recomendações. Ela seleciona e, quando necessário, exclui.</P>
-      <P>Antes de decidir, o paciente deve conseguir explicar com as próprias palavras por que aquela estratégia foi proposta, o que pode acontecer se nada for feito, quanto tempo será necessário e qual seria o próximo passo diante de resposta insuficiente. Quando essas respostas não estão claras, ainda falta informação para um consentimento realmente consciente.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

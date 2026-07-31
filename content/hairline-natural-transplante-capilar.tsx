@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Entenda como é desenhada uma hairline natural, altura, entradas, unidades de um fio, direção, densidade, simetria e planejamento de longo prazo.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 7,
   category: "Técnica FUE",
   author: AUTHOR,
   coverImage: {
@@ -117,38 +117,20 @@ export default function Article() {
       <P>Hairline natural é resultado de proporção, irregularidade, seleção de unidades e angulação. Ela precisa funcionar hoje e no futuro.</P>
       <P>O melhor desenho não é o mais baixo. É aquele que ninguém percebe como transplantado e que respeita o limite da área doadora.</P>
       <H2 id="como-testar-o-desenho-antes-de-confirmar">Como testar o desenho antes de confirmar</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Paciente pede a linha da adolescência</H3>
       <P>Fotografias ajudam, mas o desenho deve considerar idade, doadora e progressão. Identidade não exige cópia exata.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Testa assimétrica</H3>
       <P>O desenho deve equilibrar o rosto, não seguir uma régua. Pequenas diferenças podem ser mais naturais.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Entradas profundas com doadora limitada</H3>
       <P>Fechar tudo pode consumir recurso. Uma linha mais madura pode produzir melhor densidade.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Reconstrução temporal</H3>
       <P>Fios finos e ângulo baixo tornam a região exigente. A indicação precisa ser seletiva.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Fotografe o desenho de frente, perfil e com expressão. Calcule a área adicional ao baixar a linha. Confirme posição em relação à musculatura e distribuição de singles.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Por que essa altura? * Como envelhecerá? * Quantos enxertos consome? * Haverá recessos temporais? * Como serão usados singles? * Qual direção no centro e nas laterais? * É possível baixar no futuro? * Como corrigir se eu não gostar?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* molde idêntico para todos; * linha desenhada sobre musculatura móvel; * pressão para escolher muito baixa; * simetria geométrica absoluta; * unidades múltiplas na borda;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
-      <H2 id="modelo-de-raciocínio-para-discutir-este-tema-na-consulta">Modelo de raciocínio para discutir este tema na consulta</H2>
-      <P>Ao conversar sobre **hairline natural: como é desenhada a linha frontal**, vale separar cinco perguntas: qual é o diagnóstico, qual é o objetivo, que evidência se aplica ao perfil do paciente, quais são os riscos e como o resultado será medido. Essa sequência evita que a decisão comece por uma marca, um preço ou uma promessa.</P>
-      <P>O diagnóstico define o problema real. O objetivo define se a prioridade é interromper progressão, recuperar calibre, melhorar cobertura, corrigir uma área específica ou apenas acompanhar. A evidência ajuda a estimar probabilidade, mas não elimina variação individual. Os riscos precisam ser colocados na mesma conversa que os benefícios. Por fim, um método de acompanhamento reduz interpretações baseadas em uma fotografia isolada ou em poucas semanas.</P>
-      <P>Outro ponto é distinguir possibilidade de indicação. Um recurso pode existir e ainda não ser necessário. Também pode ser tecnicamente possível, mas inadequado diante da área doadora, de uma doença ativa, de uma contraindicação ou de uma expectativa incompatível. A consulta de qualidade não transforma todas as opções em recomendações. Ela seleciona e, quando necessário, exclui.</P>
-      <P>Antes de decidir, o paciente deve conseguir explicar com as próprias palavras por que aquela estratégia foi proposta, o que pode acontecer se nada for feito, quanto tempo será necessário e qual seria o próximo passo diante de resposta insuficiente. Quando essas respostas não estão claras, ainda falta informação para um consentimento realmente consciente.</P>
-      <H2 id="decisão-compartilhada-o-que-deve-ficar-claro-antes-de-seguir">Decisão compartilhada: o que deve ficar claro antes de seguir</H2>
-      <P>Uma decisão bem construída precisa deixar claro o benefício esperado, a limitação mais importante e a alternativa mais conservadora. O paciente não precisa dominar termos técnicos, mas deve entender o raciocínio. Quando a proposta depende de continuidade, como ocorre em muitos tratamentos capilares, também é necessário discutir o que acontece se houver interrupção.</P>
-      <P>O tempo é outra variável clínica. Algumas mudanças precisam de observação, outras exigem ação mais rápida e procedimentos irreversíveis merecem maturação. Estabelecer um prazo de reavaliação evita dois extremos: abandonar cedo uma estratégia que ainda não teve tempo de agir e prolongar indefinidamente algo sem benefício mensurável.</P>
-      <P>O custo deve ser avaliado em conjunto com duração, manutenção, deslocamentos e possibilidade de novas etapas. Um procedimento aparentemente mais barato pode exigir correções, enquanto uma opção mais cara pode não agregar benefício proporcional. Transparência significa explicar o custo total previsível sem transformar a consulta em pressão comercial.</P>
-      <P>Por fim, registre o plano. Fotografias padronizadas, lista de medicamentos, datas e sintomas tornam o acompanhamento mais confiável. Essa documentação permite que decisões futuras sejam baseadas na evolução real, e não apenas na memória ou na impressão produzida por uma imagem em condição diferente.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>

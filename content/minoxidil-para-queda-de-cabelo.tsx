@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Saiba como o minoxidil funciona, diferenças entre tópico e oral, shedding, tempo de resultado, efeitos adversos e uso no transplante capilar.",
   publishedAt: "2026-07-25",
   updatedAt: "2026-07-25",
-  readingTime: 13,
+  readingTime: 10,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -117,28 +117,20 @@ export default function Article() {
       <P>Minoxidil é uma ferramenta útil, mas não é um produto cosmético inocente nem solução para toda queda. Tópico e oral têm vantagens e riscos diferentes.</P>
       <P>Diagnóstico, seleção do paciente, adesão e acompanhamento determinam se o tratamento será útil. Resultado capilar exige meses e deve ser medido com método.</P>
       <H2 id="como-escolher-entre-minoxidil-tópico-e-oral">Como escolher entre minoxidil tópico e oral</H2>
-      <P>A mesma dúvida pode exigir decisões diferentes conforme idade, velocidade de evolução, anatomia, tratamentos prévios e objetivo. Os cenários abaixo ajudam a transformar informação geral em perguntas úteis para a consulta. Eles não substituem exame, mas mostram por que respostas absolutas costumam falhar.</P>
       <H3>Boa adesão ao tópico, mas irritação</H3>
       <P>Veículo, concentração, frequência e dermatite devem ser avaliados. Trocar formulação pode ser suficiente antes de abandonar.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Baixa adesão ao tópico</H3>
       <P>Rotina, oleosidade e estética influenciam. A via oral pode ser discutida, mas não é atalho sem risco.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Histórico cardiovascular</H3>
       <P>Pressão baixa, edema, arritmia e outros medicamentos exigem análise. O uso oral em baixa dose continua sistêmico.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H3>Queda inicial após começar</H3>
       <P>Shedding pode acontecer, mas é preciso diferenciar uma fase esperada de piora de outra causa ou intolerância.</P>
-      <P>Neste cenário, o passo mais útil é documentar o ponto de partida e confirmar o diagnóstico antes de aumentar a intensidade do tratamento ou tomar uma decisão irreversível. A conduta precisa considerar o que pode melhorar, o que deve ser preservado e qual risco não vale a pena assumir.</P>
       <H2 id="como-acompanhar-de-forma-objetiva">Como acompanhar de forma objetiva</H2>
       <P>Registre pressão e sintomas quando indicado, além de fotografias. Avalie hipertricose, edema, palpitação, irritação e adesão. A resposta deve ser julgada em meses, e não pelo número de fios de um único banho.</P>
-      <P>Uma avaliação objetiva combina a experiência do paciente com dados comparáveis. A sensação de melhora é relevante, mas pode variar com corte, iluminação, ansiedade e expectativa. Por isso, o plano deve definir antecipadamente o que será observado, em quanto tempo e qual mudança seria suficiente para manter, ajustar ou interromper a estratégia.</P>
       <H2 id="perguntas-para-levar-à-avaliação">Perguntas para levar à avaliação</H2>
       <P>* Qual via é melhor para minha rotina? * Tenho contraindicação cardiovascular? * Como aplicar corretamente? * Quando a queda inicial preocupa? * Quanto tempo até avaliar? * O que fazer se houver edema ou palpitação? * Posso combinar com outros tratamentos? * Como suspender se necessário?</P>
-      <P>Não é necessário receber uma resposta perfeita e imediata para tudo. Alguns pontos dependem de exame, fotografias ou evolução. O sinal de qualidade é o profissional explicar o que já sabe, o que ainda precisa confirmar e como essa confirmação será feita.</P>
       <H2 id="sinais-de-que-a-informação-pode-estar-simplificada-demais">Sinais de que a informação pode estar simplificada demais</H2>
       <P>* minoxidil oral vendido como suplemento; * dose definida sem histórico; * ignorar pressão e edema; * misturar múltiplos ativos desde o primeiro dia; * prometer que o resultado permanece após suspensão;</P>
-      <P>Conteúdos de internet são úteis para organizar dúvidas, mas não conseguem medir área, reconhecer todas as alopecias ou prever resposta individual. Desconfie de certezas que não mudam com idade, sexo, diagnóstico, dose, anatomia ou histórico. Na medicina capilar, a qualidade costuma aparecer na capacidade de explicar limites.</P>
       <Callout>Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. Queda de cabelo pode ter causas diferentes e algumas exigem investigação específica. Medicamentos e procedimentos devem ser indicados após avaliação médica, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos do paciente.</Callout>
       <H2 id="referencias">Referências</H2>
       <UL>
