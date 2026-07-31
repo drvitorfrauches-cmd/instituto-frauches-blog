@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -30,6 +30,8 @@ export default function Article() {
         existe, sim, é algum desconforto pontual no pós-operatório, que tem
         controle simples. Explico cada etapa abaixo.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Ainda com receio da dor? Numa avaliação dá pra explicar exatamente como funciona a anestesia e a sedação no seu caso.</Cta>
 
       <H2 id="durante-a-cirurgia">Durante a cirurgia: anestesia e sedação</H2>
       <P>

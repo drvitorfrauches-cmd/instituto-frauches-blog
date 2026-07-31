@@ -52,8 +52,8 @@ Leia por inteiro, nesta ordem:
   estrutura (imports, formato do `meta`, uso das primitivas).
 - Crie o novo arquivo em `content/<slug>.tsx`.
 - Componha o corpo **apenas** com as primitivas de `components/article-ui.tsx`
-  (`P`, `H2`, `H3`, `UL`, `OL`, `LI`, `Strong`, `Quote`, `Callout`). Nunca use
-  HTML cru ou classes Tailwind soltas no artigo.
+  (`P`, `H2`, `H3`, `UL`, `OL`, `LI`, `Strong`, `Quote`, `Callout`, `Cta`).
+  Nunca use HTML cru ou classes Tailwind soltas no artigo.
 - `publishedAt`: data de hoje, formato `YYYY-MM-DD`.
 - `updatedAt`: mesma data de `publishedAt` na criação (o campo existe pra
   registrar revisões reais depois — o painel de revisão em `/admin` atualiza
@@ -78,6 +78,14 @@ Leia por inteiro, nesta ordem:
   importe a constante. Use `INSTAGRAM_URL` só como menção secundária, quando
   fizer sentido (ex.: "acompanhe mais casos no Instagram"), nunca como CTA
   principal de agendamento.
+- **CTA no meio do artigo**: logo após a seção de "Resposta direta" (ou os
+  1-2 primeiros parágrafos, se o artigo não tiver essa seção), insira
+  `<Cta href={WHATSAPP_URL}>texto específico deste artigo</Cta>`. A maioria
+  dos leitores não chega ao fim de um artigo de 8-14 min, então esse CTA no
+  meio é o ponto de conversão mais realista. **Escreva o texto à mão,
+  específico ao tema** — nunca reaproveite o mesmo texto de CTA em mais de
+  um artigo. Ver seção "CTA no meio do artigo" do `blog/DNA.md` para
+  exemplos reais já em produção.
 
 ## Passo 4 — Gerar a imagem de capa
 

@@ -94,3 +94,19 @@ export function Callout({ children }: { children: ReactNode }) {
     </div>
   );
 }
+
+export function Cta({ children, href }: { children: ReactNode; href: string }) {
+  return (
+    <div className="mb-6 flex flex-col gap-3 rounded-lg border border-neutral-200 bg-neutral-50 p-4 sm:flex-row sm:items-center sm:justify-between">
+      <p className="text-sm text-neutral-800">{children}</p>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="shrink-0 rounded-md bg-neutral-900 px-4 py-2 text-center text-sm font-semibold text-white hover:bg-neutral-800"
+      >
+        Agendar avaliação
+      </a>
+    </div>
+  );
+}

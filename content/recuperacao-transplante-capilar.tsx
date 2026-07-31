@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>A recuperação visível do transplante capilar costuma concentrar-se nas primeiras duas semanas. Nos primeiros dias, há vermelhidão, crostas, sensibilidade e possível edema. As crostas geralmente começam a sair com a lavagem orientada e devem desaparecer progressivamente. O retorno ao trabalho pode ocorrer em poucos dias para atividades remotas ou discretas, mas depende da raspagem, do inchaço, da exposição social e do tipo de trabalho.</P>
       <P>Os enxertos ficam mais seguros com o passar dos dias, porém o crescimento definitivo leva meses. Recuperação da pele e resultado capilar são processos diferentes. Seguir as orientações da equipe, evitar trauma e reconhecer sinais de alerta são mais importantes do que buscar atalhos.</P>
+      <Cta href={WHATSAPP_URL}>Quer saber como fica o cronograma de recuperação pro seu caso, considerando sua rotina de trabalho? Uma avaliação individual já define isso.</Cta>
       <H2 id="o-que-acontece-no-dia-da-cirurgia">O que acontece no dia da cirurgia?</H2>
       <P>Após a implantação, a área receptora apresenta pequenos pontos e pode haver discreto sangramento. A área doadora fica com múltiplos orifícios puntiformes na FUE. É feito curativo conforme protocolo e o paciente recebe instruções sobre medicação, sono, lavagem e contato.</P>
       <P>Se houve sedação, a alta só ocorre após recuperação adequada. O paciente não deve dirigir e precisa respeitar o período sem decisões importantes, álcool ou atividades de risco.</P>

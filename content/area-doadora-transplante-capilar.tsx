@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         futura que venha a ser necessária. Tratar essa área com cautela é
         uma das partes mais importantes do planejamento médico.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Antes de definir quantos fios serão implantados, é necessário medir quanto a área doadora pode fornecer com segurança.</Cta>
 
       <H2 id="o-que-e">O que é a área doadora</H2>
       <P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">Resposta direta</H2>
       <P>Os sinais mais comuns de um transplante mal executado incluem linha frontal reta ou baixa demais, unidades com vários fios na borda, direção vertical, densidade irregular, clareiras, cicatrizes visíveis e área doadora superextraída. Também podem ocorrer crescimento insuficiente, inflamação persistente e falta de integração com o cabelo nativo.</P>
       <P>Nem todo aspecto estranho nos primeiros meses significa falha. O resultado amadurece por 12 a 18 meses. Complicações como dor crescente, secreção, pele escurecida ou febre, porém, exigem avaliação imediata e não devem esperar o resultado final.</P>
+      <Cta href={WHATSAPP_URL}>Já operou e está com dúvida se está tudo certo? Uma avaliação presencial é o jeito mais seguro de confirmar.</Cta>
       <H2 id="quando-é-cedo-demais-para-julgar">Quando é cedo demais para julgar?</H2>
       <P>Nas primeiras semanas, crostas, vermelhidão e queda dos fios são esperadas. Entre dois e quatro meses, a aparência pode estar pior que antes.</P>
       <P>Assimetria de crescimento é comum até seis ou nove meses. Fios podem nascer finos ou ondulados.</P>

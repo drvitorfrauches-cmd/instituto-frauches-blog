@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -29,6 +29,8 @@ export default function Article() {
         ou propaganda, vale entender quais critérios realmente indicam uma
         clínica preparada para esse tipo de procedimento.
       </P>
+
+      <Cta href={WHATSAPP_URL}>Quer aplicar esses critérios na prática? Numa avaliação dá pra ver como cada um deles funciona no dia a dia do Instituto Frauches.</Cta>
 
       <H2 id="medico-especialista">Quem realiza a extração e a implantação</H2>
       <P>

@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
 import { AUTHOR, LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import BlogExplorer from "@/components/BlogExplorer";
+
+const JOURNEYS = [
+  {
+    slug: "guia-calvicie-masculina",
+    question: "Notei queda ou afinamento no cabelo",
+    subtitle: "Primeiros sinais, diagnóstico e tratamento clínico.",
+  },
+  {
+    slug: "guia-transplante-capilar",
+    question: "Quero entender o transplante capilar",
+    subtitle: "Técnica FUE, planejamento, dor, recuperação e resultado.",
+  },
+  {
+    slug: "guia-tratamentos-capilares",
+    question: "Busco tratamento clínico, sem cirurgia",
+    subtitle: "Minoxidil, finasterida, PRP, MMP, mesoterapia e exossomos.",
+  },
+] as const;
 
 const TITLE = "Transplante Capilar e Tricologia | Instituto Frauches";
 const DESCRIPTION =
@@ -67,55 +85,26 @@ export default function BlogIndexPage() {
         assinado pelo Dr. Vitor Frauches.
       </p>
 
-      <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => {
-          const isGuide = post.category === "Guias";
+      <div className="mb-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
+        {JOURNEYS.map((journey) => {
+          const post = posts.find((p) => p.slug === journey.slug);
+          if (!post) return null;
           return (
-            <li
-              key={post.slug}
-              className={
-                isGuide
-                  ? "rounded-xl border border-amber-200 bg-amber-50/60 p-4"
-                  : ""
-              }
+            <Link
+              key={journey.slug}
+              href={`/blog/${journey.slug}`}
+              className="group block rounded-xl border border-neutral-200 bg-white p-5 transition-colors hover:border-neutral-400"
             >
-              <Link href={`/blog/${post.slug}`} className="group block">
-                {post.coverImage ? (
-                  <Image
-                    src={post.coverImage.src}
-                    alt={post.coverImage.alt}
-                    width={600}
-                    height={338}
-                    className="mb-3 aspect-video w-full rounded-lg object-cover"
-                  />
-                ) : (
-                  <div className="mb-3 aspect-video w-full rounded-lg bg-neutral-100" />
-                )}
-                <span className="mb-1 flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-neutral-500">
-                  {isGuide && (
-                    <span className="rounded-full bg-amber-800 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-white">
-                      Comece por aqui
-                    </span>
-                  )}
-                  <span>
-                    {post.category} · {post.readingTime} min de leitura
-                  </span>
-                </span>
-                <h2 className="mb-1.5 line-clamp-2 text-lg font-semibold leading-snug text-neutral-900 group-hover:underline">
-                  {post.title}
-                </h2>
-                <p className="line-clamp-2 text-sm text-neutral-600">
-                  {post.description}
-                </p>
-              </Link>
-            </li>
+              <p className="mb-1 text-base font-semibold text-neutral-900 group-hover:underline">
+                {journey.question}
+              </p>
+              <p className="text-sm text-neutral-600">{journey.subtitle}</p>
+            </Link>
           );
         })}
-      </ul>
+      </div>
 
-      {posts.length === 0 && (
-        <p className="text-neutral-500">Nenhum artigo publicado ainda.</p>
-      )}
+      <BlogExplorer posts={posts} />
     </main>
   );
 }

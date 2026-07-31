@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -24,6 +24,7 @@ export default function Article() {
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
       <P>{"FUE é a sigla historicamente conhecida como Follicular Unit Extraction (extração de unidade folicular). Parte da literatura especializada, incluindo a ISHRS, atualmente usa também o termo Follicular Unit Excision (excisão de unidade folicular), considerado mais preciso porque existe uma pequena incisão circular ao redor de cada unidade antes da retirada. Os dois termos descrevem a mesma técnica: os folículos são retirados individualmente da área doadora com instrumentos circulares chamados punches, depois examinados, armazenados e implantados nas regiões planejadas."}</P>
       <P>{"A FUE evita a cicatriz linear da técnica FUT, mas não é “sem cicatriz”. Cada extração deixa um pequeno ponto. Quando há boa indicação, instrumento adequado e distribuição homogênea, esses pontos costumam ser discretos. O resultado depende muito mais do planejamento e da execução do que da sigla."}</P>
+      <Cta href={WHATSAPP_URL}>{"Quer saber como a técnica se aplica ao seu tipo de cabelo? Isso é avaliado caso a caso numa consulta."}</Cta>
       <H2 id="o-que-é-uma-unidade-folicular">{"O que é uma unidade folicular?"}</H2>
       <P>{"O cabelo cresce em agrupamentos naturais que podem conter um, dois, três ou mais fios, além de glândula sebácea, músculo eretor e tecido de suporte."}</P>
       <P>{"Na FUE, o objetivo é retirar a unidade preservando seus componentes. Cortar a haste não necessariamente destrói o folículo, mas seccionar estruturas profundas pode reduzir crescimento."}</P>
