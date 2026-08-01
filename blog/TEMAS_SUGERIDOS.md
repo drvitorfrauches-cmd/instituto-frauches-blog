@@ -36,11 +36,20 @@ exatamente, mas todos os pontos devem aparecer no texto).
 - Nota: já existe artigo publicado (`finasterida-para-calvicie`, pacote
   editorial externo) cobrindo finasterida de forma ampla. Se escrever este,
   diferencie o ângulo (foco específico em segurança/mitos) ou pule.
+- Nota (2026-07-31): reavaliado. O artigo `finasterida-para-calvicie` já tem
+  seções dedicadas a efeitos adversos sexuais, humor, fertilidade, PSA,
+  contraindicações e mitos comuns, ou seja, cobre exatamente o ângulo de
+  segurança/mitos sugerido acima. Considerado já coberto, pular a menos que
+  surja um ângulo claramente distinto.
 
 ### 14. PRP realmente funciona para queda de cabelo?
 - **Briefing**: o que é PRP; evidências atuais; quando indicar; limitações.
 - Nota: já existe artigo publicado (`prp-para-queda-de-cabelo`, pacote
   editorial externo) cobrindo esse tema. Avalie antes de produzir.
+- Nota (2026-07-31): reavaliado. O artigo já tem seção "O que as evidências
+  mostram?" respondendo exatamente a pergunta "realmente funciona?".
+  Considerado já coberto, pular a menos que surja um ângulo claramente
+  distinto.
 
 ### 15. Queda de cabelo por estresse existe?
 - **Briefing**: eflúvio telógeno; diferença para calvície; diagnóstico;
@@ -65,9 +74,11 @@ exatamente, mas todos os pontos devem aparecer no texto).
 ### 18. Implanter ou pinça: existe diferença?
 - **Briefing**: como funciona cada técnica; trauma folicular; tempo fora do
   corpo; indicações.
-
-### 19. Boné causa calvície?
-- **Briefing**: mito; o que realmente causa queda; orientações.
+- Nota (2026-07-31): avaliado antes de escrever. O artigo
+  `tecnologias-transplante-capilar` já tem as seções "Implanter pens" e
+  "Pinça e canais prévios", incluindo um H3 "Implanter é melhor que pinça?"
+  respondendo exatamente esta pergunta. Considerado já coberto, não
+  escrever versão nova a menos que surja um ângulo claramente distinto.
 
 ### 20. Shampoo faz nascer cabelo?
 - **Briefing**: o que o shampoo pode fazer; limitações; quando procurar
@@ -304,3 +315,10 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   do DNA; adicionada às secundárias). Itens 15, 16 e 93 reavaliados e
   marcados como já cobertos por outros artigos (ver notas nos próprios
   itens).
+- Item 19, "Boné causa calvície?" — publicado em 2026-07-31 como
+  `bone-causa-calvicie-masculina`. Keyword primária usada: "calvície
+  masculina" (não havia keyword da lista fixa do DNA que casasse
+  diretamente com este tema; "calvície masculina" só era usada até então
+  pela página-guia `guia-calvicie-masculina`, não por um artigo comum).
+  Itens 13, 14 e 18 reavaliados e marcados como já cobertos por outros
+  artigos (ver notas nos próprios itens).

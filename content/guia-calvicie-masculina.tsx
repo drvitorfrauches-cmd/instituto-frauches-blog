@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-01",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
@@ -31,6 +31,7 @@ export default function Article() {
         <LI><Link href="/blog/entradas-aumentando" className="underline">{"Entradas aumentando"}</Link>{": como diferenciar calvície de linha frontal naturalmente madura."}</LI>
         <LI><Link href="/blog/queda-de-cabelo-e-normal" className="underline">{"Queda de cabelo é normal?"}</Link>{": o ciclo capilar e os sinais de alerta que fogem do esperado."}</LI>
         <LI><Link href="/blog/como-saber-se-estou-ficando-careca" className="underline">{"Como saber se estou ficando careca"}</Link>{": os primeiros sinais e o papel da tricoscopia no diagnóstico."}</LI>
+        <LI><Link href="/blog/bone-causa-calvicie-masculina" className="underline">{"Boné causa calvície masculina?"}</Link>{": o que realmente causa a queda, o mito por trás do boné e como diferenciar causa genética de causa mecânica."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>
