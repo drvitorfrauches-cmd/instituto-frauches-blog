@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Saiba como escolher uma clínica de transplante capilar no Espírito Santo com 8 critérios sobre médico, segurança, área doadora e resultados.",
   publishedAt: "2026-07-31",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-02",
   readingTime: 10,
   category: "Transplante capilar",
   author: AUTHOR,
