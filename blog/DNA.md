@@ -276,7 +276,7 @@ folículo piloso, non-shave FUE, sedação em transplante capilar, pós-operató
 capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
 barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
 implanter, superextração capilar, nutracêuticos para queda de cabelo,
-microscópio no transplante capilar.
+microscópio no transplante capilar, shampoo faz nascer cabelo.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -297,6 +297,8 @@ microscópio no transplante capilar.
 - "Finasterida faz mal?"
 - "PRP funciona para queda de cabelo?"
 - "Boné causa calvície?"
+- "Shampoo faz nascer cabelo?"
+- "Lavar o cabelo todo dia causa queda?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido

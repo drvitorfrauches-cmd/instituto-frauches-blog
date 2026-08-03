@@ -80,10 +80,6 @@ exatamente, mas todos os pontos devem aparecer no texto).
   respondendo exatamente esta pergunta. Considerado já coberto, não
   escrever versão nova a menos que surja um ângulo claramente distinto.
 
-### 20. Shampoo faz nascer cabelo?
-- **Briefing**: o que o shampoo pode fazer; limitações; quando procurar
-  tratamento; produtos realmente úteis.
-
 ---
 
 Os itens 21-120 abaixo vieram de um lote maior enviado pelo Dr. Vitor,
@@ -322,3 +318,8 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   pela página-guia `guia-calvicie-masculina`, não por um artigo comum).
   Itens 13, 14 e 18 reavaliados e marcados como já cobertos por outros
   artigos (ver notas nos próprios itens).
+- Item 20, "Shampoo faz nascer cabelo?" — publicado em 2026-08-03 como
+  `shampoo-faz-nascer-cabelo`. Keyword primária usada: "shampoo faz nascer
+  cabelo" (não constava na lista fixa do DNA; adicionada às secundárias e
+  à lista de Intenção GEO, junto com a pergunta correlata "Lavar o cabelo
+  todo dia causa queda?", também coberta no mesmo artigo).
