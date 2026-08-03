@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Shampoo faz nascer cabelo de verdade? Entenda o que a ciência diz sobre shampoos antiqueda, o que eles fazem pelo couro cabeludo e quando procurar tratamento.",
   publishedAt: "2026-08-03",
   updatedAt: "2026-08-03",
-  readingTime: 8,
+  readingTime: 7,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
@@ -27,7 +27,7 @@ export default function Article() {
 
       <H2 id="o-que-o-shampoo-faz-pelo-couro-cabeludo">{"O que o shampoo realmente faz pelo couro cabeludo?"}</H2>
       <P>{"Shampoo é um produto de higiene. A função dele é remover oleosidade, células mortas, resíduo de produtos e poluição do couro cabeludo e da haste do fio, mantendo o ambiente onde o folículo vive mais limpo e equilibrado. Isso importa de verdade: um couro cabeludo com excesso de oleosidade ou inflamação crônica (como na dermatite seborreica) cria um ambiente pior para o folículo, e tratar essa condição pode reduzir a queda associada a ela."}</P>
-      <P>{"Só que higienizar o ambiente onde o folículo vive é diferente de estimular esse folículo a produzir um fio novo. O shampoo fica em contato com o couro cabeludo por pouco tempo, geralmente menos de dois minutos, antes de ser enxaguado. Isso limita bastante o que qualquer ativo dissolvido nele consegue fazer, porque a maior parte é removida antes de penetrar em profundidade."}</P>
+      <P>{"Só que higienizar o ambiente onde o folículo vive é diferente de estimular esse folículo a produzir um fio novo. O shampoo fica em contato com o couro cabeludo por pouco tempo, geralmente menos de um minuto, antes de ser enxaguado. Isso limita bastante o que qualquer ativo dissolvido nele consegue fazer, porque a maior parte é removida antes de penetrar em profundidade."}</P>
 
       <H2 id="shampoo-faz-nascer-cabelo-novo">{"Shampoo faz nascer cabelo novo?"}</H2>
       <P>{"Não, pelo menos não no sentido de criar um folículo que já parou de produzir fio, ou de reverter uma miniaturização folicular avançada. O nascimento e o crescimento do fio acontecem na papila dérmica, uma estrutura na base do folículo, localizada na derme, camada mais profunda da pele, abaixo da epiderme que o shampoo higieniza. Nenhum shampoo tem como agir diretamente nessa estrutura de forma relevante, porque não é formulado para isso e porque o tempo de contato no banho é curto demais."}</P>
