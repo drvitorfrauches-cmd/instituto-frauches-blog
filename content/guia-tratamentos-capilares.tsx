@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP, mesoterapia e exossomos, com evidência, indicação e limites de cada um.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-31",
-  readingTime: 1,
+  updatedAt: "2026-08-03",
+  readingTime: 2,
   category: "Guias",
   author: AUTHOR,
   coverImage: {
@@ -39,6 +39,12 @@ export default function Article() {
         <LI><Link href="/blog/mesoterapia-capilar" className="underline">{"Mesoterapia capilar"}</Link>{": indicações e riscos."}</LI>
         <LI><Link href="/blog/exossomos-para-queda-de-cabelo" className="underline">{"Exossomos para queda de cabelo"}</Link>{": evidências, riscos e cuidados."}</LI>
         <LI><Link href="/blog/nutraceuticos-para-queda-de-cabelo" className="underline">{"Nutracêuticos para queda de cabelo"}</Link>{": o que são, como agem marcas como Actrisave, Bioarct, Bloome e Keranat, e o que diz a evidência científica."}</LI>
+      </UL>
+
+      <H2 id="produtos-de-venda-livre">{"Produtos de venda livre"}</H2>
+      <P>{"Shampoos e tônicos vendidos sem receita costumam ser o primeiro produto que o paciente tenta, antes de procurar avaliação médica. Vale entender o que eles realmente fazem antes de contar com eles como solução principal."}</P>
+      <UL>
+        <LI><Link href="/blog/shampoo-faz-nascer-cabelo" className="underline">{"Shampoo faz nascer cabelo?"}</Link>{": o que o shampoo realmente faz pelo couro cabeludo, o que dizem os shampoos antiqueda e quando o problema pede mais do que um produto de banho."}</LI>
       </UL>
 
       <H2 id="limitacoes">{"Limitações em comum"}</H2>
