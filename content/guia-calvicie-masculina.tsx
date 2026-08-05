@@ -27,6 +27,7 @@ export default function Article() {
       <H2 id="primeiros-sinais-e-diagnostico">{"Primeiros sinais e diagnóstico"}</H2>
       <P>{"Antes de qualquer tratamento, vem a pergunta mais básica: isso que estou vendo é calvície mesmo, ou outra coisa? Esses quatro artigos ajudam a reconhecer o padrão e diferenciar calvície de queda temporária ou quebra de fio."}</P>
       <UL>
+        <LI><Link href="/blog/alopecia-androgenetica" className="underline">{"O que é alopecia androgenética"}</Link>{": a causa hormonal e genética por trás da calvície, e como ela evolui em fases."}</LI>
         <LI><Link href="/blog/meu-cabelo-esta-afinando" className="underline">{"Meu cabelo está afinando"}</Link>{": causas, sinais e quando isso já justifica investigar."}</LI>
         <LI><Link href="/blog/entradas-aumentando" className="underline">{"Entradas aumentando"}</Link>{": como diferenciar calvície de linha frontal naturalmente madura."}</LI>
         <LI><Link href="/blog/queda-de-cabelo-e-normal" className="underline">{"Queda de cabelo é normal?"}</Link>{": o ciclo capilar e os sinais de alerta que fogem do esperado."}</LI>
