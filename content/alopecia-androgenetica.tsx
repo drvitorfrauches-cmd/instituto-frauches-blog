@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Alopecia androgenética: entenda o que é, por que a DHT causa a miniaturização do folículo, como ela evolui e a diferença entre o padrão masculino e feminino.",
   publishedAt: "2026-08-05",
   updatedAt: "2026-08-05",
-  readingTime: 9,
+  readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
