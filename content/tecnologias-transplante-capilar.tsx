@@ -8,7 +8,7 @@ export const meta: PostMeta = {
   title: "Tecnologias no transplante capilar",
   description: "Microscópio, punch, motores, implanter, robô, lâminas de incisão, soluções e IA: entenda quais tecnologias realmente influenciam o transplante capilar.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-25",
+  updatedAt: "2026-08-05",
   readingTime: 8,
   category: "Tecnologia",
   author: AUTHOR,
