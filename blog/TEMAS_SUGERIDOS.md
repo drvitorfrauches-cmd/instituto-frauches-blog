@@ -92,9 +92,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 
 #### Pilar: Tudo sobre calvície (21-40)
 
-### 21. O que é alopecia androgenética?
-- **Briefing**: conceito; causas; hormônios; evolução.
-
 ### 22. Primeiros sinais da calvície masculina
 - **Briefing**: entradas; afinamento; miniaturização.
 
@@ -323,3 +320,7 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   cabelo" (não constava na lista fixa do DNA; adicionada às secundárias e
   à lista de Intenção GEO, junto com a pergunta correlata "Lavar o cabelo
   todo dia causa queda?", também coberta no mesmo artigo).
+- Item 21, "O que é alopecia androgenética?" — publicado em 2026-08-05 como
+  `alopecia-androgenetica`. Keyword primária usada: "alopecia
+  androgenética" (já constava na lista de secundárias do DNA; escolhida
+  como primária deste artigo específico por ser o tema central).
