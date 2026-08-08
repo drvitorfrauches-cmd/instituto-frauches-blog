@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda quais exames para queda de cabelo existem, como a tricoscopia funciona, quando pedir exames de sangue e quando a biópsia do couro cabeludo é indicada.",
   publishedAt: "2026-08-07",
-  updatedAt: "2026-08-07",
+  updatedAt: "2026-08-08",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -45,7 +45,7 @@ export default function Article() {
       <UL>
         <LI>{"Variação no diâmetro dos fios (miniaturização): fios mais finos misturados com fios grossos costumam indicar calvície de padrão genético em andamento."}</LI>
         <LI>{"Número de fios por unidade folicular: unidades com apenas um fio, em vez de dois ou três, sugerem perda de densidade progressiva."}</LI>
-        <LI>{"Sinais de inflamação, descamação ou vermelhidão ao redor dos folículos, que podem apontar para uma causa diferente da calvície genética, como uma dermatose do couro cabeludo."}</LI>
+        <LI>{"Sinais de inflamação, descamação ou vermelhidão ao redor dos folículos, que podem apontar para uma causa diferente da calvície genética, como uma dermatose do couro cabeludo ou uma alopecia cicatricial."}</LI>
       </UL>
       <P>{"Esse padrão de miniaturização é justamente o que diferencia a "}<Link href="/blog/alopecia-androgenetica" className="underline">{"calvície (alopecia androgenética)"}</Link>{" de uma queda temporária: na queda temporária os fios que voltam a crescer mantêm o diâmetro original, enquanto na calvície cada ciclo capilar produz um fio progressivamente mais fino."}</P>
 
@@ -69,7 +69,7 @@ export default function Article() {
       <P>{"A diferença prática é importante para o tratamento: na calvície genética a conduta costuma envolver medicação de uso contínuo e, dependendo do grau, avaliação para transplante capilar; no eflúvio telógeno, a queda geralmente se resolve sozinha em alguns meses depois que a causa é identificada e tratada, sem necessidade de intervenção cirúrgica."}</P>
 
       <H2 id="resultado-muda-tratamento">{"O resultado dos exames muda o tratamento recomendado?"}</H2>
-      <P>{"Muda, e é exatamente por isso que a etapa de exames não deve ser pulada. Um resultado de ferritina baixa direciona para reposição de ferro antes de qualquer outra conduta. Uma tireoide alterada pede acompanhamento endocrinológico junto com o cuidado capilar. Já um padrão de miniaturização compatível com calvície genética direciona para as opções específicas dessa condição, que vão de medicação (como minoxidil e finasterida) até o transplante capilar, dependendo do grau de perda já instalado e da área doadora disponível."}</P>
+      <P>{"Muda, e é exatamente por isso que a etapa de exames não deve ser pulada. Um resultado de ferritina baixa direciona para reposição de ferro antes de qualquer outra conduta. Uma tireoide alterada pede acompanhamento endocrinológico junto com o cuidado capilar. Já um padrão de miniaturização compatível com calvície genética direciona para as opções específicas dessa condição, que vão de medicação (como minoxidil e finasterida/dutasterida) até o transplante capilar, dependendo do grau de perda já instalado e da área doadora disponível."}</P>
       <P>{"Chegar à consulta já com os exames recentes em mãos (quando o paciente já os tiver feito) ajuda a acelerar essa etapa, mas não é obrigatório: o médico pode solicitar o que for necessário durante a própria avaliação. Em tratamentos que já estão em andamento, repetir a tricoscopia a cada alguns meses também serve para acompanhar se a densidade está estável, melhorando ou ainda em queda, o que ajuda a ajustar a conduta ao longo do tempo."}</P>
 
       <H2 id="o-que-levar-para-a-consulta">{"O que levar para a consulta de investigação da queda de cabelo?"}</H2>
