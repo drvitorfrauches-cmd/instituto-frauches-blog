@@ -99,7 +99,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 - Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
   pacote editorial externo) com esse título quase idêntico. Pule ou
   diferencie bastante o ângulo.
-### 24. Quais exames ajudam no diagnóstico da queda capilar?
 ### 25. Calvície genética pode ser evitada?
 ### 26. A calvície piora com a idade?
 ### 27. Escala de Norwood explicada
@@ -324,3 +323,13 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   `alopecia-androgenetica`. Keyword primária usada: "alopecia
   androgenética" (já constava na lista de secundárias do DNA; escolhida
   como primária deste artigo específico por ser o tema central).
+- Item 24, "Quais exames ajudam no diagnóstico da queda capilar?" —
+  publicado em 2026-08-07 como `exames-para-queda-de-cabelo`. Keyword
+  primária usada: "exames para queda de cabelo" (não constava na lista
+  fixa do DNA; adicionada às secundárias). Ângulo diferente de
+  `exames-antes-do-transplante-capilar`, que cobre exames pré-cirúrgicos,
+  não o diagnóstico geral da queda de cabelo. Itens 22 (primeiros sinais)
+  avaliado e considerado majoritariamente coberto por
+  `entradas-aumentando` e `meu-cabelo-esta-afinando` (entradas e
+  afinamento já detalhados nesses dois artigos); pulado a menos que surja
+  ângulo claramente distinto.
