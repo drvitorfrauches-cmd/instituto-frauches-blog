@@ -13,6 +13,10 @@ export const meta: PostMeta = {
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
+  coverImage: {
+    src: "/blog/calvicie-genetica-pode-ser-evitada/cover.jpg",
+    alt: "Lupa sobre fios de cabelo ao lado de uma ilustração de dupla-hélice de DNA em ambiente clínico, representando a calvície genética",
+  },
 };
 
 export default function Article() {
