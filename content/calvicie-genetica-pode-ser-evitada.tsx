@@ -25,7 +25,7 @@ export default function Article() {
       <P>{"Muita gente começa a pesquisar sobre calvície assim que percebe que o pai, o avô ou um tio mais velho ficaram carecas ainda jovens. A pergunta seguinte quase sempre é a mesma: se a calvície é genética, dá para evitar? A resposta direta é não. Mas isso está longe de significar que nada pode ser feito. Neste artigo explico o que realmente determina a calvície genética, o que está sob seu controle, o que não está, e por que agir cedo muda o resultado no longo prazo."}</P>
       <Cta href={WHATSAPP_URL}>{"Tem histórico de calvície na família e quer saber em que fase você está? Uma avaliação com tricoscopia mostra isso com precisão."}</Cta>
 
-      <H2 id="o-que-e-calvicie-genetica">{"O que é a calvície genética"}</H2>
+      <H2 id="o-que-e-calvicie-genetica">{"O que é a calvície genética?"}</H2>
       <P>{"A calvície genética, chamada tecnicamente de alopecia androgenética, é a perda progressiva de cabelo causada pela combinação de predisposição herdada com a ação dos hormônios andrógenos, principalmente a di-hidrotestosterona (DHT). Em pessoas geneticamente predispostas, os folículos da região frontal e do topo da cabeça são sensíveis à DHT. Com o tempo, cada ciclo de crescimento produz um fio mais fino e mais curto, até o folículo parar de produzir cabelo visível."}</P>
       <P>{"Não é uma doença nem uma infecção. É um processo biológico programado no DNA de quem herdou os genes envolvidos. Já expliquei esse mecanismo com mais detalhe no artigo sobre "}<Link href="/blog/alopecia-androgenetica" className="underline">{"o que é a alopecia androgenética"}</Link>{", incluindo as fases da escala usada para classificar o padrão de perda."}</P>
 
@@ -33,7 +33,7 @@ export default function Article() {
       <P>{"Não. Se a predisposição genética está presente, não existe shampoo, vitamina ou hábito de vida capaz de desligar essa informação no DNA e impedir que ela se manifeste algum dia. O que existe, e essa é uma notícia melhor do que parece à primeira vista, é a possibilidade real de retardar e controlar a progressão com tratamento médico adequado."}</P>
       <P>{"A diferença entre evitar e controlar importa. Evitar significaria que a calvície nunca chegaria a começar, o que não é realista para quem carrega os genes envolvidos. Controlar significa reduzir a velocidade da perda e, em boa parte dos casos, preservar densidade por muitos anos com o tratamento certo. Essa mesma distinção, entre cura e controle, está detalhada no artigo "}<Link href="/blog/calvicie-tem-cura" className="underline">{"calvície tem cura?"}</Link></P>
 
-      <H2 id="o-que-influencia-a-velocidade-da-queda">{"O que influencia a velocidade e o grau da queda"}</H2>
+      <H2 id="o-que-influencia-a-velocidade-da-queda">{"O que influencia a velocidade e o grau da queda?"}</H2>
       <P>{"A genética define se uma pessoa vai desenvolver calvície e, em boa parte, o padrão que ela vai seguir (entradas, coroa, topo, ou os três juntos). Mas alguns fatores influenciam a velocidade com que isso acontece e a intensidade percebida:"}</P>
       <UL>
         <LI><Strong>{"Sensibilidade folicular herdada:"}</Strong>{" quanto mais receptores de DHT os folículos da região afetada têm, mais rápido tende a ser o processo de miniaturização."}</LI>
@@ -66,13 +66,13 @@ export default function Article() {
       <H2 id="existe-teste-genetico-para-calvicie">{"Existe teste genético para calvície?"}</H2>
       <P>{"Existem testes que analisam variantes de genes associados à sensibilidade à DHT, mas na prática clínica eles têm utilidade limitada. O histórico familiar detalhado, somado ao exame de tricoscopia (que amplia o couro cabeludo e mostra o grau de miniaturização dos fios em tempo real), costuma dar informação suficiente para diagnóstico e plano de tratamento, sem precisar de exame genético na maioria dos casos. A decisão de pedir esse tipo de teste, quando faz sentido, é sempre médica."}</P>
 
-      <H2 id="o-que-fazer-se-voce-suspeita">{"O que fazer se você suspeita de calvície genética"}</H2>
+      <H2 id="o-que-fazer-se-voce-suspeita">{"O que fazer se você suspeita de calvície genética?"}</H2>
       <P>{"Diante de um histórico familiar de calvície, o caminho mais útil não é tentar adivinhar sozinho se e quando ela vai aparecer. É estruturar uma investigação simples, que já existe e é acessível:"}</P>
       <OL>
         <LI><Strong>{"Observe o padrão familiar:"}</Strong>{" reúna informações sobre calvície em pais, avós e tios, dos dois lados da família."}</LI>
         <LI><Strong>{"Note os primeiros sinais com atenção:"}</Strong>{" entradas discretas, afinamento no topo ou aumento visível de fios no travesseiro e no ralo do banho merecem investigação."}</LI>
-        <LI><Strong>{"Marque uma avaliação com tricoscopia:"}</Strong>{" é o exame que confirma se o padrão é calvície genética e em que estágio ela está."}</LI>
-        <LI><Strong>{"Discuta as opções de tratamento clínico:"}</Strong>{" medicações como finasterida e minoxidil, quando indicadas após avaliação médica, ajudam a controlar a progressão nesse estágio."}</LI>
+        <LI><Strong>{"Marque uma consulta com tricoscopia:"}</Strong>{" é o exame que confirma se o padrão é calvície genética e em que estágio ela está."}</LI>
+        <LI><Strong>{"Discuta as opções de tratamento clínico:"}</Strong>{" medicações como finasterida/dutasterida e minoxidil, quando indicadas após avaliação médica, ajudam a controlar a progressão nesse estágio."}</LI>
         <LI><Strong>{"Mantenha acompanhamento periódico:"}</Strong>{" a resposta ao tratamento e a evolução da calvície devem ser reavaliadas ao longo do tempo, não é uma decisão única."}</LI>
       </OL>
 
