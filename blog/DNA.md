@@ -277,7 +277,7 @@ capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
 barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
 implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
-queda de cabelo.
+queda de cabelo, calvície genética.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 

@@ -34,6 +34,7 @@ export default function Article() {
         <LI><Link href="/blog/como-saber-se-estou-ficando-careca" className="underline">{"Como saber se estou ficando careca"}</Link>{": os primeiros sinais e o papel da tricoscopia no diagnóstico."}</LI>
         <LI><Link href="/blog/bone-causa-calvicie-masculina" className="underline">{"Boné causa calvície masculina?"}</Link>{": o que realmente causa a queda, o mito por trás do boné e como diferenciar causa genética de causa mecânica."}</LI>
         <LI><Link href="/blog/exames-para-queda-de-cabelo" className="underline">{"Exames para queda de cabelo"}</Link>{": quando investigar, o que a tricoscopia mostra e quando pedir exames de sangue ou biópsia."}</LI>
+        <LI><Link href="/blog/calvicie-genetica-pode-ser-evitada" className="underline">{"Calvície genética pode ser evitada?"}</Link>{": o que realmente determina a calvície herdada, o que influencia sua velocidade e por que agir cedo faz diferença."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>

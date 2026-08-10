@@ -99,7 +99,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 - Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
   pacote editorial externo) com esse título quase idêntico. Pule ou
   diferencie bastante o ângulo.
-### 25. Calvície genética pode ser evitada?
 ### 26. A calvície piora com a idade?
 ### 27. Escala de Norwood explicada
 ### 28. Toda queda de cabelo é calvície?
@@ -333,3 +332,9 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   `entradas-aumentando` e `meu-cabelo-esta-afinando` (entradas e
   afinamento já detalhados nesses dois artigos); pulado a menos que surja
   ângulo claramente distinto.
+- Item 25, "Calvície genética pode ser evitada?" — publicado em 2026-08-10
+  como `calvicie-genetica-pode-ser-evitada`. Keyword primária usada:
+  "calvície genética" (não constava na lista fixa do DNA; adicionada às
+  secundárias). Ângulo de prevenção/controle, distinto de
+  `alopecia-androgenetica` (definição do mecanismo) e `calvicie-tem-cura`
+  (cura x controle).
