@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-10",
+  updatedAt: "2026-08-12",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
@@ -35,6 +35,7 @@ export default function Article() {
         <LI><Link href="/blog/bone-causa-calvicie-masculina" className="underline">{"Boné causa calvície masculina?"}</Link>{": o que realmente causa a queda, o mito por trás do boné e como diferenciar causa genética de causa mecânica."}</LI>
         <LI><Link href="/blog/exames-para-queda-de-cabelo" className="underline">{"Exames para queda de cabelo"}</Link>{": quando investigar, o que a tricoscopia mostra e quando pedir exames de sangue ou biópsia."}</LI>
         <LI><Link href="/blog/calvicie-genetica-pode-ser-evitada" className="underline">{"Calvície genética pode ser evitada?"}</Link>{": o que realmente determina a calvície herdada, o que influencia sua velocidade e por que agir cedo faz diferença."}</LI>
+        <LI><Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"A calvície piora com a idade?"}</Link>{": como o avanço costuma se comportar década a década e a diferença entre calvície genética e o envelhecimento capilar comum."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>

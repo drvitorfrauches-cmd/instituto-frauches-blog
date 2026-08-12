@@ -277,7 +277,7 @@ capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
 barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
 implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
-queda de cabelo, calvície genética.
+queda de cabelo, calvície genética, calvície piora com a idade.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -300,6 +300,7 @@ queda de cabelo, calvície genética.
 - "Boné causa calvície?"
 - "Shampoo faz nascer cabelo?"
 - "Lavar o cabelo todo dia causa queda?"
+- "A calvície piora com a idade?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
