@@ -13,6 +13,10 @@ export const meta: PostMeta = {
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
+  coverImage: {
+    src: "/blog/calvicie-piora-com-a-idade/cover.png",
+    alt: "Ampulheta com fios de cabelo ao lado de uma lupa sobre mesa clínica, representando a progressão da calvície com o tempo",
+  },
 };
 
 export default function Article() {
