@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "A calvície piora com a idade? Veja o que realmente avança com o tempo, quando o processo tende a estabilizar e como diferenciar calvície genética do envelhecimento capilar comum.",
   publishedAt: "2026-08-12",
-  updatedAt: "2026-08-12",
+  updatedAt: "2026-08-13",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
