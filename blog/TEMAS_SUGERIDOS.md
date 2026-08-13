@@ -99,7 +99,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 - Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
   pacote editorial externo) com esse título quase idêntico. Pule ou
   diferencie bastante o ângulo.
-### 26. A calvície piora com a idade?
 ### 27. Escala de Norwood explicada
 ### 28. Toda queda de cabelo é calvície?
 ### 29. Diferença entre queda de cabelo e quebra dos fios
@@ -338,3 +337,12 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   secundárias). Ângulo de prevenção/controle, distinto de
   `alopecia-androgenetica` (definição do mecanismo) e `calvicie-tem-cura`
   (cura x controle).
+- Item 26, "A calvície piora com a idade?" — publicado em 2026-08-12 como
+  `calvicie-piora-com-a-idade`. Keyword primária usada: "calvície piora com
+  a idade" (não constava na lista fixa do DNA; adicionada às secundárias).
+  Ângulo de progressão por década de vida e distinção entre calvície
+  genética e envelhecimento capilar comum, distinto de
+  `alopecia-androgenetica` (mecanismo e fases gerais) e
+  `calvicie-genetica-pode-ser-evitada` (prevenção/controle). Publicado sem
+  imagem de capa: as duas ferramentas de geração de imagem do ambiente
+  (Higgsfield e Kairogen) estavam sem créditos no momento da execução.
