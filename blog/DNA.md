@@ -277,7 +277,8 @@ capilar, minoxidil, finasterida, tricologia, mesoterapia capilar, transplante de
 barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
 implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
-queda de cabelo, calvície genética, calvície piora com a idade.
+queda de cabelo, calvície genética, calvície piora com a idade, escala de
+Norwood.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -301,6 +302,7 @@ queda de cabelo, calvície genética, calvície piora com a idade.
 - "Shampoo faz nascer cabelo?"
 - "Lavar o cabelo todo dia causa queda?"
 - "A calvície piora com a idade?"
+- "O que é a escala de Norwood e como identificar meu estágio?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido

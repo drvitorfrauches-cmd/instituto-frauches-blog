@@ -36,6 +36,7 @@ export default function Article() {
         <LI><Link href="/blog/exames-para-queda-de-cabelo" className="underline">{"Exames para queda de cabelo"}</Link>{": quando investigar, o que a tricoscopia mostra e quando pedir exames de sangue ou biópsia."}</LI>
         <LI><Link href="/blog/calvicie-genetica-pode-ser-evitada" className="underline">{"Calvície genética pode ser evitada?"}</Link>{": o que realmente determina a calvície herdada, o que influencia sua velocidade e por que agir cedo faz diferença."}</LI>
         <LI><Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"A calvície piora com a idade?"}</Link>{": como o avanço costuma se comportar década a década e a diferença entre calvície genética e o envelhecimento capilar comum."}</LI>
+        <LI><Link href="/blog/escala-de-norwood" className="underline">{"Escala de Norwood"}</Link>{": o sistema usado para classificar o estágio da calvície masculina, do mais discreto ao mais avançado."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>

@@ -94,12 +94,17 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 
 ### 22. Primeiros sinais da calvície masculina
 - **Briefing**: entradas; afinamento; miniaturização.
+- Nota (2026-08-14): avaliado antes de escrever. O briefing (entradas,
+  afinamento, miniaturização) já está coberto em profundidade por três
+  artigos publicados: `entradas-aumentando`, `meu-cabelo-esta-afinando` e
+  `como-saber-se-estou-ficando-careca` (os três mencionam miniaturização
+  explicitamente). Considerado já coberto, não escrever versão nova a menos
+  que surja um ângulo claramente distinto.
 
 ### 23. Como saber se estou ficando careca?
 - Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
   pacote editorial externo) com esse título quase idêntico. Pule ou
   diferencie bastante o ângulo.
-### 27. Escala de Norwood explicada
 ### 28. Toda queda de cabelo é calvície?
 ### 29. Diferença entre queda de cabelo e quebra dos fios
 ### 30. Como identificar afinamento dos fios
@@ -346,3 +351,9 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   `calvicie-genetica-pode-ser-evitada` (prevenção/controle). Publicado sem
   imagem de capa: as duas ferramentas de geração de imagem do ambiente
   (Higgsfield e Kairogen) estavam sem créditos no momento da execução.
+- Item 27, "Escala de Norwood explicada" — publicado em 2026-08-14 como
+  `escala-de-norwood`. Keyword primária nova "escala de Norwood" (não
+  constava na lista fixa do DNA; adicionada às secundárias e à Intenção
+  GEO). Itens 22 e 23 avaliados antes deste e marcados como já cobertos por
+  artigos existentes (ver notas em Pendentes), então 27 foi o próximo item
+  elegível da fila.
