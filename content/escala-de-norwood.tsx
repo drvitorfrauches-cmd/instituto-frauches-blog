@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a escala de Norwood-Hamilton, como ela classifica os estágios da calvície masculina e por que ela orienta diagnóstico e planejamento capilar.",
   publishedAt: "2026-08-14",
-  updatedAt: "2026-08-14",
-  readingTime: 9,
+  updatedAt: "2026-08-15",
+  readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
