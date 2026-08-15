@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, UL, OL, LI, Strong, Callout, Cta, Figure } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -45,6 +45,13 @@ export default function Article() {
         <LI><Strong>{"Estágio VI:"}</Strong>{" a faixa central desaparece e a área frontal se conecta à coroa, formando uma única região extensa de calvície no topo da cabeça."}</LI>
         <LI><Strong>{"Estágio VII:"}</Strong>{" o estágio mais avançado. Resta apenas uma faixa estreita de cabelo nas laterais e na parte posterior da cabeça, a mesma região que costuma servir como área doadora em cirurgia."}</LI>
       </OL>
+      <Figure
+        src="/blog/escala-de-norwood/estagios.jpg"
+        alt="Diagrama da escala de Norwood-Hamilton mostrando, em vista lateral e superior, os estágios I a VII e as variantes IIA a VA de recuo da linha frontal e afinamento da coroa"
+        width={1080}
+        height={1029}
+        caption="Estágios clássicos (I a VII) e variantes tipo A (IIA a VA) da escala de Norwood-Hamilton, mostrados em vista lateral e superior."
+      />
       <P>{"Vale reforçar que a maioria dos homens com calvície genética nunca chega ao estágio VII. Como já expliquei no artigo sobre "}<Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"se a calvície piora com a idade"}</Link>{", o processo costuma estabilizar num estágio intermediário na maior parte dos casos, não no mais avançado da escala."}</P>
 
       <H2 id="para-que-serve-na-pratica">{"Para que a escala de Norwood serve na prática clínica?"}</H2>
