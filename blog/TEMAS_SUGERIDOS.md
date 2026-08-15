@@ -256,6 +256,34 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   de viagem específicos do pós-operatório FUE). Linkar com o item 121
   (público de fora do estado) e com `recuperacao-transplante-capilar`.
 
+### 124. Escala PRECISE
+- **Objetivo SEO**: escala PRECISE alopecia androgenética (avaliar se vira
+  keyword primária nova do DNA na hora de escrever, ou se `calvície tem
+  cura`/outra da lista fixa encaixa melhor).
+- Sugerido pelo Dr. Vitor (2026-08-15): existe artigo publicado no PubMed
+  sobre o assunto.
+- **Briefing** (levantado via PubMed nesta sessão, conferir a fonte antes de
+  publicar): a escala PRECISE é uma classificação **quantitativa** da
+  alopecia androgenética, publicada em 2023 na revista Aesthetic Plastic
+  Surgery (Pittella, Castro et al.), disponível em
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10980655/ e
+  https://pubmed.ncbi.nlm.nih.gov/37365308/. Fórmula: PRECISE = RBA/30 + TS
+  (RBA = área relativa de calvície, incluindo afinamento corrigido pelo
+  Índice de Miniaturização Capilar; TS = escore de recessão temporal, 0 a
+  0,3). Pontuação de 0 a 10, cada 30 cm² de calvície equivalendo a 1 ponto.
+  Aplicação prática: recomenda cerca de 1.500 unidades foliculares por
+  ponto da escala para planejar o transplante. Ângulo natural do artigo:
+  contraste com a escala de Norwood (`escala-de-norwood`, qualitativa/
+  comparativa por fotos) versus PRECISE (quantitativa/matemática), e como
+  uma classificação numérica ajuda a estimar a quantidade de enxertos com
+  mais objetividade. Linkar com `escala-de-norwood` e com
+  `quem-pode-fazer-transplante-capilar`. **Antes de publicar**: reler as
+  fontes originais para confirmar os números acima (foram resumidos por IA
+  a partir do texto da PMC, não conferidos folículo por fórmula pelo Dr.
+  Vitor) e adaptar a linguagem ao tom do blog, sem citar a fórmula/dosagem
+  de UF por ponto como recomendação fechada do Instituto Frauches sem
+  reforçar que a contagem real depende de avaliação individual.
+
 ## Já publicados
 
 Os 2 artigos de lançamento (`transplante-capilar-fue-o-que-e`,
