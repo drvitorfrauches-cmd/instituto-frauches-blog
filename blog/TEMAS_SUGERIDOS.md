@@ -106,12 +106,38 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   pacote editorial externo) com esse título quase idêntico. Pule ou
   diferencie bastante o ângulo.
 ### 28. Toda queda de cabelo é calvície?
+- Nota (2026-08-17): avaliado antes de escrever. O artigo
+  `queda-de-cabelo-e-normal` já tem um H2 dedicado exatamente a esta
+  pergunta ("Queda de cabelo e calvície são a mesma coisa?"). Considerado
+  já coberto, não escrever versão nova a menos que surja um ângulo
+  claramente distinto.
 ### 29. Diferença entre queda de cabelo e quebra dos fios
+- Nota (2026-08-17): avaliado antes de escrever. O artigo
+  `queda-de-cabelo-e-normal` já tem um H2 dedicado ("Como diferenciar queda
+  de quebra?"). Considerado já coberto, não escrever versão nova a menos
+  que surja um ângulo claramente distinto.
 ### 30. Como identificar afinamento dos fios
+- Nota (2026-08-17): avaliado antes de escrever. O artigo
+  `meu-cabelo-esta-afinando` já cobre este briefing em profundidade (causas,
+  sinais e quando investigar o afinamento). Considerado já coberto, não
+  escrever versão nova a menos que surja um ângulo claramente distinto.
 ### 31. Calvície pode começar aos 18 anos?
+- Nota (2026-08-17): avaliado antes de escrever. Há sobreposição parcial
+  com o artigo `calvicie-piora-com-a-idade` (que já tem um bullet sobre a
+  faixa de 18 a 25 anos), mas o ângulo de validar o medo específico de quem
+  nota sinais aos 18 e decidir o que fazer a respeito ainda não foi coberto
+  em profundidade. Mantido pendente para uma próxima rodada com esse ângulo
+  bem diferenciado do artigo existente.
 ### 32. Jovens podem fazer transplante?
+- Nota (2026-08-17): avaliado antes de escrever. Sobreposição relevante com
+  `quem-pode-fazer-transplante-capilar` (candidatura em geral) e com a seção
+  de idade em `calvicie-piora-com-a-idade`. Mantido pendente até surgir um
+  ângulo claramente distinto (ex.: foco só no público jovem).
 ### 33. Como o estresse influencia o cabelo
-### 34. Dormir mal aumenta a queda?
+- Nota (2026-08-17): avaliado antes de escrever. O artigo
+  `queda-de-cabelo-e-normal` já tem um H2 dedicado ("Estresse realmente
+  causa queda?"). Considerado já coberto, não escrever versão nova a menos
+  que surja um ângulo claramente distinto.
 ### 35. Alimentação interfere na calvície?
 ### 36. Vitaminas ajudam?
 ### 37. Deficiência de ferro causa queda?
@@ -356,4 +382,16 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   constava na lista fixa do DNA; adicionada às secundárias e à Intenção
   GEO). Itens 22 e 23 avaliados antes deste e marcados como já cobertos por
   artigos existentes (ver notas em Pendentes), então 27 foi o próximo item
+  elegível da fila.
+- Item 34, "Dormir mal aumenta a queda?" — publicado em 2026-08-17 como
+  `dormir-mal-causa-queda-de-cabelo`. Keyword primária nova "dormir mal
+  causa queda de cabelo" (não constava na lista fixa do DNA; adicionada às
+  secundárias). Ângulo fisiológico (cortisol, hormônio do crescimento,
+  ritmo circadiano) e prático (higiene do sono, apneia), distinto de
+  `queda-de-cabelo-e-normal` (eflúvio em geral) e `calvicie-piora-com-a-idade`
+  (onde sono ruim só aparece como um fator agravante entre outros, sem
+  desenvolvimento próprio). Itens 28, 29, 30 e 33 avaliados antes deste e
+  marcados como já cobertos por artigos existentes; itens 31 e 32 avaliados
+  e mantidos pendentes por sobreposição parcial que ainda não justifica
+  pular de vez (ver notas em Pendentes). 34 foi o próximo item plenamente
   elegível da fila.
