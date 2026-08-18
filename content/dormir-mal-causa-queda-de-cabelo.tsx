@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Dormir mal causa queda de cabelo? Entenda a relação entre sono, cortisol e o ciclo capilar, quando o eflúvio é reversível e quando buscar avaliação médica.",
   publishedAt: "2026-08-17",
-  updatedAt: "2026-08-17",
+  updatedAt: "2026-08-18",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
