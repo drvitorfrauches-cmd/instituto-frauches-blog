@@ -278,7 +278,8 @@ barba, transplante de sobrancelha, PRP capilar, eflúvio telógeno, hairline,
 implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
 queda de cabelo, calvície genética, calvície piora com a idade, escala de
-Norwood, dormir mal causa queda de cabelo.
+Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
+de cabelo.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -304,6 +305,7 @@ Norwood, dormir mal causa queda de cabelo.
 - "A calvície piora com a idade?"
 - "O que é a escala de Norwood e como identificar meu estágio?"
 - "Dormir mal causa queda de cabelo?"
+- "Deficiência de ferro causa queda de cabelo?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido

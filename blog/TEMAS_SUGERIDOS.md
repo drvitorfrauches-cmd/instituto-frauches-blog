@@ -140,7 +140,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   que surja um ângulo claramente distinto.
 ### 35. Alimentação interfere na calvície?
 ### 36. Vitaminas ajudam?
-### 37. Deficiência de ferro causa queda?
 ### 38. Deficiência de vitamina D causa calvície?
 ### 39. Testosterona causa calvície?
 ### 40. Creatina provoca queda de cabelo?
@@ -395,3 +394,15 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   e mantidos pendentes por sobreposição parcial que ainda não justifica
   pular de vez (ver notas em Pendentes). 34 foi o próximo item plenamente
   elegível da fila.
+- Item 37, "Deficiência de ferro causa queda?" — publicado em 2026-08-20
+  como `deficiencia-de-ferro-causa-queda-de-cabelo`. Keyword primária nova
+  "deficiência de ferro causa queda de cabelo" (não constava na lista fixa
+  do DNA; adicionada às secundárias). Ângulo nutricional/laboratorial
+  (ferritina, grupos de risco, diferenciação frente à calvície genética),
+  distinto de `queda-de-cabelo-e-normal` (eflúvio em geral) e de
+  `exames-para-queda-de-cabelo` (que só cita ferritina brevemente como um
+  dos exames do painel, sem desenvolver o tema). Itens 31 e 32 seguem
+  pendentes por sobreposição parcial ainda não diferenciada o suficiente;
+  35 e 36 (alimentação e vitaminas em geral) seguem pendentes para uma
+  próxima rodada. 37 foi escolhido por ser o item plenamente elegível mais
+  específico e com maior volume de busca autônomo da fila.
