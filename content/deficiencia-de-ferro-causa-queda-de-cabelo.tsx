@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Deficiência de ferro causa queda de cabelo? Entenda como a ferritina baixa afeta o folículo, quem tem mais risco e quando investigar com exames de sangue.",
   publishedAt: "2026-08-20",
-  updatedAt: "2026-08-20",
-  readingTime: 9,
+  updatedAt: "2026-08-21",
+  readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
