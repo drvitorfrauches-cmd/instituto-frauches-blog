@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Boné causa calvície masculina? Entenda o que realmente provoca a queda de cabelo, o papel da tração capilar e quando vale procurar avaliação médica.",
   publishedAt: "2026-07-31",
-  updatedAt: "2026-08-01",
+  updatedAt: "2026-08-20",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -74,6 +74,18 @@ export default function Article() {
       <H2 id="quando-procurar-avaliacao-medica">{"Quando procurar avaliação médica?"}</H2>
       <P>{"Vale procurar avaliação quando a queda persiste depois de ajustar hábitos óbvios (boné mais folgado, higiene em dia), quando existe coceira, vermelhidão ou descamação associadas, ou quando entradas e coroa começam a mudar de forma progressiva ao longo dos meses. Esperar \" ficar claramente careca \" para procurar ajuda costuma atrasar o diagnóstico e reduzir as opções de tratamento clínico, que funcionam melhor quando começam cedo."}</P>
       <P>{"No Instituto Frauches, a avaliação inclui exame do couro cabeludo, tricoscopia e histórico do paciente para diferenciar calvície genética de causas externas ou inflamatórias, antes de qualquer indicação de tratamento ou cirurgia."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Prender o cabelo com elástico apertado causa calvície masculina?"}</H3>
+      <P>{"Não causa a calvície genética, mas tração repetida e forte pode causar alopecia de tração, um tipo diferente de queda, mais comum em penteados presos do que em homens em geral. É mais relevante para quem usa coques ou rabos de cavalo apertados com frequência."}</P>
+      <H3>{"Suar muito com boné piora a calvície genética?"}</H3>
+      <P>{"Não piora a calvície genética em si, mas suor acumulado em boné sujo ou muito justo pode irritar a pele e favorecer foliculite, o que causa uma queda inflamatória diferente, geralmente reversível com higiene adequada."}</P>
+      <H3>{"Trocar de boné com frequência evita problema no couro cabeludo?"}</H3>
+      <P>{"Ajuda, sim. Manter o acessório limpo e evitar uso contínuo por muitas horas reduz o risco de acúmulo de oleosidade e irritação, mas isso não tem relação com prevenir a calvície genética."}</P>
+      <H3>{"Quanto tempo de boné por dia já é considerado excessivo?"}</H3>
+      <P>{"Não existe um número exato de horas estabelecido na literatura. O que importa mais é o ajuste do acessório (evitar elástico muito apertado) e a higiene, do que a quantidade de horas isoladamente."}</P>
+      <H3>{"Existe alguma forma de saber se minha queda é do boné ou genética sem consulta?"}</H3>
+      <P>{"Não com segurança. Sinais como padrão de perda e sintomas na pele ajudam a levantar suspeita, mas a confirmação depende de tricoscopia, feita numa avaliação presencial."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A causa exata de uma queda de cabelo, e o tratamento indicado para ela, dependem de avaliação individual do couro cabeludo e do histórico de cada paciente."}</Callout>
 

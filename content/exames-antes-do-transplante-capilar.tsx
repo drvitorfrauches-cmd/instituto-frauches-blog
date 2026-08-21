@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja quais exames laboratoriais, avaliações clínicas e cuidados pré-operatórios costumam ser pedidos antes de um transplante capilar.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -59,6 +59,18 @@ export default function Article() {
 
       <H2 id="jejum-e-medicacao-no-dia">{"No dia da cirurgia"}</H2>
       <P>{"No dia do procedimento, além do jejum orientado para os casos com sedação, é comum pedir que o paciente venha com roupas confortáveis e fáceis de vestir (evitando blusas que precisem passar pela cabeça), sem produtos no cabelo e acompanhado, já que o efeito da sedação pode persistir por algumas horas depois da alta. Essas orientações específicas variam de clínica para clínica e costumam ser passadas por escrito na consulta de planejamento."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Preciso estar em jejum para os exames de sangue pré-operatórios?"}</H3>
+      <P>{"Depende do exame específico solicitado. Alguns pedem jejum de 8 a 12 horas, outros não. A orientação exata sobre jejum é passada junto com o pedido dos exames."}</P>
+      <H3>{"Posso fazer os exames em qualquer laboratório?"}</H3>
+      <P>{"Em geral, sim, desde que o laboratório seja de confiança e o exame siga o padrão solicitado pela equipe médica. O importante é que os resultados cheguem antes da consulta de avaliação pré-operatória."}</P>
+      <H3>{"Uso de anticoncepcional interfere nos exames pré-operatórios?"}</H3>
+      <P>{"Pode influenciar alguns marcadores, então é importante informar o uso na consulta. A equipe médica avalia se algum ajuste ou exame adicional é necessário nesse caso."}</P>
+      <H3>{"Quem toma anticoagulante pode fazer transplante capilar?"}</H3>
+      <P>{"Pode, mas geralmente exige suspensão temporária do medicamento antes da cirurgia, sempre orientada e acompanhada pelo médico responsável, nunca por conta própria."}</P>
+      <H3>{"Os exames pré-operatórios têm custo incluso no valor da cirurgia?"}</H3>
+      <P>{"Isso varia conforme a clínica. Vale perguntar diretamente na consulta de orçamento se os exames estão incluídos ou são cobrados à parte."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A lista exata de exames e cuidados pré-operatórios é definida individualmente, conforme a saúde e o histórico de cada paciente."}</Callout>
 

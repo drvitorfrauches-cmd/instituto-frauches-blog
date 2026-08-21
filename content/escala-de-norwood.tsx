@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta, Figure } from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta, Figure } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a escala de Norwood-Hamilton, como ela classifica os estágios da calvície masculina e por que ela orienta diagnóstico e planejamento capilar.",
   publishedAt: "2026-08-14",
-  updatedAt: "2026-08-15",
+  updatedAt: "2026-08-20",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -85,6 +85,18 @@ export default function Article() {
         <LI><Strong>{"Avaliação presencial com histórico familiar:"}</Strong>{" o padrão de calvície de pai, avós e tios ajuda a estimar a tendência de evolução do próprio caso, complementando a foto do estágio atual."}</LI>
         <LI><Strong>{"Comparação fotográfica seriada:"}</Strong>{" registrar fotos padronizadas ao longo do tempo (mesmo ângulo, mesma iluminação) permite acompanhar se o estágio está mudando, em vez de confiar numa única comparação isolada."}</LI>
       </OL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Estágio II da escala de Norwood já é considerado calvície?"}</H3>
+      <P>{"Nem sempre. O estágio II costuma representar entradas leves e simétricas, dentro da variação considerada normal para muitos homens adultos. O estágio III é o primeiro geralmente classificado como calvície clinicamente significativa."}</P>
+      <H3>{"É possível pular estágios rapidamente?"}</H3>
+      <P>{"A progressão costuma ser gradual, mas a velocidade varia bastante entre pessoas. Quem começa cedo e tem sensibilidade folicular mais alta pode avançar estágios num intervalo de poucos anos, enquanto outros levam décadas para mudar de estágio."}</P>
+      <H3>{"A escala de Norwood serve para avaliar resultado de transplante capilar?"}</H3>
+      <P>{"Serve como referência inicial do tamanho da área a cobrir, mas o resultado do transplante em si é avaliado por outros critérios, como densidade alcançada e naturalidade da linha frontal, não pela escala de calvície de origem."}</P>
+      <H3>{"Todo homem com calvície genética chega ao estágio VII?"}</H3>
+      <P>{"Não, é a minoria dos casos. A maior parte dos pacientes estabiliza em um estágio intermediário, não no mais avançado da escala."}</P>
+      <H3>{"Estágio III já indica transplante capilar?"}</H3>
+      <P>{"Pode indicar, dependendo da estabilidade da calvície e da avaliação da área doadora, mas não é uma regra automática. Alguns pacientes nesse estágio se beneficiam mais de começar pelo tratamento clínico antes de considerar a cirurgia."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A classificação do estágio de calvície e a indicação de tratamento clínico ou cirúrgico variam de paciente para paciente, conforme avaliação individual e presencial."}</Callout>
 

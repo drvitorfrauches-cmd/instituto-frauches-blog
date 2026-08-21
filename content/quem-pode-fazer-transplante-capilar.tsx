@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Idade, grau da calvície, área doadora e casos que exigem tratamento prévio: entenda quem pode fazer transplante capilar e quando vale a pena esperar.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 5,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -56,6 +56,18 @@ export default function Article() {
 
       <H2 id="quando-vale-esperar">{"Quando vale a pena esperar mais um pouco"}</H2>
       <P>{"Além da queda ativa, existem outras situações em que esperar faz mais sentido do que operar imediatamente: recuperação recente de outra cirurgia, uso de medicação que interfere na cicatrização, gravidez e amamentação, ou simplesmente incerteza sobre o resultado desejado. Nenhuma dessas situações costuma ser definitiva, mas merecem ser conversadas abertamente numa avaliação, em vez de simplesmente marcar uma data sem considerar o momento certo para aquele paciente específico."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Quem tem diabetes pode fazer transplante capilar?"}</H3>
+      <P>{"Pode, desde que a condição esteja controlada. Diabetes não controlado pode ser motivo para adiar a cirurgia até a estabilização, avaliada em conjunto com o médico responsável pelo acompanhamento da doença."}</P>
+      <H3>{"Fumantes podem fazer transplante capilar?"}</H3>
+      <P>{"Podem, mas o tabagismo reduz a circulação sanguínea, o que pode influenciar a cicatrização e o ritmo de crescimento dos fios transplantados. Reduzir ou pausar o cigarro no período pré e pós-operatório costuma ser recomendado."}</P>
+      <H3>{"Existe idade máxima para o transplante capilar?"}</H3>
+      <P>{"Não existe um limite superior rígido. Pacientes mais velhos podem ser bons candidatos, desde que tenham área doadora suficiente e saúde geral compatível com a cirurgia, avaliadas caso a caso."}</P>
+      <H3>{"Quem já fez transplante antes pode fazer uma segunda cirurgia?"}</H3>
+      <P>{"Pode, principalmente se a área doadora foi bem preservada na primeira cirurgia. A viabilidade dessa reoperação depende da densidade restante disponível."}</P>
+      <H3>{"Gestantes podem fazer transplante capilar?"}</H3>
+      <P>{"Não é o momento indicado. Gravidez e amamentação costumam ser motivo para adiar a cirurgia, tanto pela anestesia quanto pelas mudanças hormonais desse período, que podem alterar o padrão de queda temporariamente."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Só uma avaliação presencial, com análise da área doadora e do padrão de calvície, define se e quando o transplante capilar é indicado para cada caso."}</Callout>
 

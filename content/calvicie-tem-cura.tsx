@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Calvície tem cura? Entenda o que é a alopecia androgenética, como ela é controlada, os tratamentos disponíveis e quando o transplante capilar é indicado.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -56,6 +56,18 @@ export default function Article() {
 
       <H2 id="mitos-sobre-cura">{"Um mito recorrente sobre \"produtos milagrosos\""}</H2>
       <P>{"Produtos anunciados como capazes de \"reverter a calvície em poucas semanas\" raramente têm respaldo científico compatível com essa promessa. Tratamentos eficazes para alopecia androgenética têm em comum justamente o oposto: resultado gradual, que aparece em meses, não semanas, e que depende de uso constante. Desconfiar de qualquer promessa de resultado rápido e definitivo é uma forma simples de evitar gastar tempo e dinheiro com produtos sem eficácia comprovada."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Parar o tratamento faz a calvície voltar a avançar?"}</H3>
+      <P>{"Sim, na maioria dos casos. Minoxidil e finasterida controlam a progressão enquanto são usados. Interromper o tratamento costuma fazer o processo de miniaturização retomar o curso, geralmente em alguns meses."}</P>
+      <H3>{"Transplante capilar é uma forma de cura?"}</H3>
+      <P>{"Não no sentido de reverter a predisposição genética. O transplante reposiciona folículos resistentes para as áreas com perda definitiva, resolvendo o problema estético daquela região, mas não impede que fios nativos ao redor, ainda sensíveis à DHT, continuem o processo de queda se não houver tratamento clínico associado."}</P>
+      <H3>{"Calvície tem cura em mulheres?"}</H3>
+      <P>{"O mesmo princípio se aplica: hoje existe controle eficaz da progressão, não cura definitiva da predisposição genética. O diagnóstico correto importa ainda mais nesses casos, já que outras causas podem se apresentar de forma parecida."}</P>
+      <H3>{"Existe previsão de cura definitiva no futuro?"}</H3>
+      <P>{"A pesquisa em tricologia avança em frentes como células-tronco e exossomos, mas nenhuma delas substitui hoje os tratamentos já estabelecidos. Ainda não existe previsão concreta de uma cura definitiva disponível na prática clínica."}</P>
+      <H3>{"Minoxidil e finasterida podem ser combinados com transplante capilar?"}</H3>
+      <P>{"Sim, essa combinação é comum: o tratamento clínico ajuda a preservar os fios nativos remanescentes, enquanto o transplante resolve a área já com perda definitiva. A indicação exata depende de avaliação individual."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A eficácia de qualquer tratamento varia conforme o padrão de calvície, o estágio da queda e a resposta individual de cada paciente."}</Callout>
 

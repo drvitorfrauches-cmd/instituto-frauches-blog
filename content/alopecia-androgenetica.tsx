@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Alopecia androgenética: entenda o que é, por que a DHT causa a miniaturização do folículo, como ela evolui e a diferença entre o padrão masculino e feminino.",
   publishedAt: "2026-08-05",
-  updatedAt: "2026-08-05",
+  updatedAt: "2026-08-20",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -76,6 +76,18 @@ export default function Article() {
       <H2 id="quando-procurar-avaliacao">{"Quando vale procurar avaliação médica?"}</H2>
       <P>{"Quanto antes a alopecia androgenética for identificada, maior o número de folículos ainda ativos que um tratamento clínico consegue preservar. Sinais que justificam buscar avaliação incluem aumento perceptível de fios na escova ou no travesseiro por vários meses seguidos, fios visivelmente mais finos numa região específica, entradas ou coroa em processo de rarefação, ou histórico familiar relevante de calvície de início precoce."}</P>
       <P>{"No Instituto Frauches, essa avaliação sempre começa pela tricoscopia e pelo histórico do paciente, antes de qualquer indicação de tratamento clínico ou cirúrgico. É esse diagnóstico individual, não a idade nem o grau de queda isoladamente, que define o melhor caminho para cada caso."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Alopecia androgenética coça ou dói?"}</H3>
+      <P>{"Na maioria dos casos, não. A alopecia androgenética é um processo silencioso, sem coceira, dor ou vermelhidão. Se existe coceira, descamação ou irritação associadas à queda, vale investigar outras causas, como dermatite seborreica ou psoríase do couro cabeludo, que podem coexistir com a calvície genética ou ser confundidas com ela."}</P>
+      <H3>{"Alopecia androgenética é a mesma coisa que eflúvio telógeno?"}</H3>
+      <P>{"Não. O eflúvio telógeno é uma queda difusa e temporária, geralmente ligada a um evento como estresse agudo, febre alta ou parto, e costuma se resolver sozinho em alguns meses. A alopecia androgenética é progressiva, segue um padrão espacial característico e não se resolve sem tratamento, já que a causa é genética e hormonal, não um gatilho pontual."}</P>
+      <H3>{"Minoxidil e finasterida podem ser usados juntos?"}</H3>
+      <P>{"Sim, é uma combinação comum na prática clínica, já que os dois atuam em mecanismos diferentes: a finasterida reduz a conversão de testosterona em DHT, e o minoxidil estimula o folículo diretamente. A indicação de usar os dois, e em que dose, depende sempre de avaliação médica individual."}</P>
+      <H3>{"Existe exame de sangue que diagnostica alopecia androgenética?"}</H3>
+      <P>{"Não existe um exame de sangue isolado que confirme o diagnóstico. Ele é feito principalmente pela tricoscopia, que mostra o padrão de miniaturização folicular. Exames de sangue entram como complemento, para descartar outras causas associadas, como deficiência de ferro ou alteração da tireoide."}</P>
+      <H3>{"Alopecia androgenética afeta só o topo da cabeça?"}</H3>
+      <P>{"Não necessariamente. Nos homens, o padrão mais comum envolve entradas e coroa, podendo se estender ao topo em estágios mais avançados. A área doadora, na região posterior e lateral da cabeça, costuma permanecer preservada mesmo em casos avançados, o que é justamente o que viabiliza o transplante capilar quando indicado."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico da alopecia androgenética e a indicação de tratamento variam de paciente para paciente, conforme avaliação individual."}</Callout>
 

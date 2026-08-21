@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Figure, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Figure, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Conheça o Graftis, sistema próprio do Instituto Frauches para contagem folicular ao vivo e controle de qualidade durante o transplante capilar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 5,
   category: "Tecnologia",
   author: AUTHOR,
@@ -72,6 +72,18 @@ export default function Article() {
         <LI><Strong>{"Histórico organizado"}</Strong>{" de cada cirurgia, útil tanto para o seu acompanhamento quanto para manter o padrão de qualidade da equipe."}</LI>
       </UL>
       <P>{"Se você é médico e quer entender melhor como o Graftis funciona na prática, também posso mostrar o sistema numa conversa. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Fale comigo pelo WhatsApp"}</Strong></a>{"."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"O Graftis substitui a experiência do cirurgião?"}</H3>
+      <P>{"Não. Ele organiza e cruza dados que já seriam coletados de alguma forma, mas quem interpreta divergências e decide ajustes durante a cirurgia continua sendo a equipe médica. É uma ferramenta de apoio, não de decisão automática."}</P>
+      <H3>{"O Graftis é um aparelho ou um software?"}</H3>
+      <P>{"É um software, acessado por celular ou tablet durante a cirurgia. Ele não substitui o densitômetro Mamba nem os instrumentos de extração; ele registra e cruza os dados gerados por toda a equipe e pelos aparelhos usados."}</P>
+      <H3>{"Pacientes têm acesso aos dados registrados no Graftis?"}</H3>
+      <P>{"O resumo da cirurgia, incluindo folículos extraídos e taxas de transecção, pode ser compartilhado com o paciente como parte do prontuário do caso, mediante solicitação."}</P>
+      <H3>{"O Graftis funciona sem conexão com a internet?"}</H3>
+      <P>{"O sistema depende de conexão para sincronizar os dados entre os aparelhos em tempo real. Isso não interfere na segurança da cirurgia em si, já que ele é uma ferramenta de registro, não de suporte anestésico ou cirúrgico direto."}</P>
+      <H3>{"Outras clínicas usam o Graftis?"}</H3>
+      <P>{"O Graftis foi desenvolvido internamente pelo Instituto Frauches, para uso próprio. Cada médico que eventualmente use o sistema tem login próprio e enxerga só as suas cirurgias."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O Graftis é uma ferramenta interna de organização e controle de qualidade da equipe cirúrgica; o resultado do transplante capilar continua dependendo de avaliação individual, técnica cirúrgica e biologia de cada paciente."}</Callout>
 

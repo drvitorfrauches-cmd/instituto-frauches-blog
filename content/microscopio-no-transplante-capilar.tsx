@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, OL, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, OL, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o papel do microscópio no transplante capilar: como ele reduz a transecção folicular, ajuda na sobrevivência do enxerto e no resultado final.",
   publishedAt: "2026-07-29",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 8,
   category: "Tecnologia",
   author: AUTHOR,
@@ -72,6 +72,18 @@ export default function Article() {
 
       <H2 id="conclusao">{"Conclusão"}</H2>
       <P>{"O microscópio não é o único fator que define o resultado de um transplante capilar, mas é uma peça concreta do controle de qualidade que separa uma extração cuidadosa de uma extração feita no limite da sorte. Se você está avaliando onde operar, pergunte como cada etapa da triagem dos enxertos é feita, não só qual equipamento a clínica tem na sala."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Toda clínica de transplante capilar usa microscópio?"}</H3>
+      <P>{"Não. Algumas clínicas fazem a triagem dos enxertos a olho nu ou só com lupa, sem microscópio de bancada. Vale perguntar diretamente como essa etapa é feita antes de decidir onde operar."}</P>
+      <H3>{"O uso do microscópio aumenta o tempo total da cirurgia?"}</H3>
+      <P>{"Pode acrescentar tempo à etapa de triagem, mas esse tempo extra tende a ser compensado pela redução de enxertos comprometidos implantados, o que favorece o resultado final."}</P>
+      <H3>{"Lupa de aumento menor já é suficiente, sem precisar de microscópio?"}</H3>
+      <P>{"A lupa cumpre bem seu papel durante o ato cirúrgico, mas tem campo de visão e ampliação diferentes do microscópio de bancada, usado na triagem detalhada dos enxertos já extraídos. Muitas clínicas bem equipadas usam os dois em conjunto, cada um em uma etapa."}</P>
+      <H3>{"O paciente pode acompanhar a triagem dos enxertos durante a cirurgia?"}</H3>
+      <P>{"Na prática, o paciente está sedado durante essa etapa, então o acompanhamento direto não é possível. O que a equipe pode fornecer, quando solicitado, é o registro dos números da cirurgia depois de finalizada."}</P>
+      <H3>{"O microscópio é usado da mesma forma em todos os tipos de cabelo?"}</H3>
+      <P>{"O princípio é o mesmo, mas cabelos cacheados ou afro exigem atenção extra na triagem, já que a curvatura do folículo sob a pele aumenta o risco de transecção durante a extração, o que o microscópio ajuda a identificar."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A sobrevivência dos enxertos e o resultado final do transplante capilar variam conforme a avaliação individual de cada paciente, a qualidade da área doadora e os cuidados no pós-operatório."}</Callout>
 

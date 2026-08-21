@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "A calvície piora com a idade? Veja o que realmente avança com o tempo, quando o processo tende a estabilizar e como diferenciar calvície genética do envelhecimento capilar comum.",
   publishedAt: "2026-08-12",
-  updatedAt: "2026-08-13",
+  updatedAt: "2026-08-20",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -81,6 +81,18 @@ export default function Article() {
         <LI><Strong>{"Trate cedo se houver indicação:"}</Strong>{" quando a calvície ainda está numa fase inicial, o tratamento clínico tem mais folículos ativos para preservar."}</LI>
         <LI><Strong>{"Considere o transplante quando a estabilidade permitir:"}</Strong>{" para as áreas com perda já definitiva, o planejamento cirúrgico funciona melhor quando o padrão de calvície já está relativamente previsível."}</LI>
       </OL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Depois de estabilizar, a calvície pode voltar a piorar?"}</H3>
+      <P>{"Pode, principalmente diante de mudanças hormonais relevantes, como na menopausa feminina, ou se o tratamento clínico for interrompido. Uma calvície estável não é garantia permanente de que o processo nunca mais vai avançar."}</P>
+      <H3>{"Homens mais velhos ainda podem começar tratamento clínico pela primeira vez?"}</H3>
+      <P>{"Sim, não existe idade máxima que impeça o início de minoxidil ou finasterida. O benefício tende a ser maior quanto mais folículos ainda ativos existirem, mas a avaliação é sempre individual, independente da idade."}</P>
+      <H3>{"Álcool ou tabagismo aceleram a calvície genética?"}</H3>
+      <P>{"Não causam a calvície genética, mas o tabagismo em especial reduz a circulação sanguínea no couro cabeludo, o que pode tornar a percepção da queda mais rápida em quem já tem a predisposição ativa."}</P>
+      <H3>{"Existe alguma forma de saber quando a calvície vai estabilizar?"}</H3>
+      <P>{"Não com precisão antecipada. O ponto de estabilização só é identificado observando a evolução ao longo do tempo, com reavaliações periódicas, não é possível prever a data exata de antemão."}</P>
+      <H3>{"Depois dos 60 anos ainda vale a pena investigar queda de cabelo?"}</H3>
+      <P>{"Vale, sim. Mesmo nessa idade é possível diferenciar avanço da calvície genética de base do envelhecimento capilar comum, o que ajuda a definir se algum ajuste de tratamento faz sentido."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O ritmo de progressão da calvície e a indicação de tratamento clínico ou cirúrgico variam de paciente para paciente, conforme avaliação individual e presencial."}</Callout>
 
