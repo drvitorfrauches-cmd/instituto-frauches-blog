@@ -8,13 +8,13 @@ export const meta: PostMeta = {
   title: "Dutasterida para calvície: eficácia, riscos e comparação",
   description: "Veja como a dutasterida age na calvície, diferenças para finasterida, eficácia, efeitos adversos, uso oral, tópico e por mesoterapia.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 9,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Frascos de tratamento capilar (conta-gotas e frascos com válvula pump) organizados sobre uma bancada de banheiro, representando as opções de tratamento medicamentoso para calvície, incluindo a dutasterida",
+    src: "/blog/dutasterida-para-calvicie/cover.jpg",
+    alt: "Cápsulas gelatinosas amareladas derramadas ao lado de um frasco âmbar aberto, representando o medicamento dutasterida usado no tratamento da calvície",
   },
 };
 

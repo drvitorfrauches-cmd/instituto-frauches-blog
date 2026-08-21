@@ -8,13 +8,13 @@ export const meta: PostMeta = {
   title: "MMP capilar: o que é, indicações, resultados e riscos",
   description: "Entenda o que é MMP capilar, diferenças para microagulhamento e mesoterapia, medicamentos utilizados, sessões, riscos e indicações.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 8,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Frascos de tratamento capilar organizados sobre uma bancada de banheiro, representando as substâncias usadas no MMP capilar",
+    src: "/blog/mmp-capilar/cover.jpg",
+    alt: "Dermaroller com cabo prateado sobre uma bandeja branca, representando o instrumento de microagulhamento usado no MMP capilar",
   },
 };
 

@@ -8,13 +8,13 @@ export const meta: PostMeta = {
   title: "PRP para queda de cabelo: funciona e quem pode fazer?",
   description: "Entenda o que é PRP capilar, evidências, indicações, número de sessões, efeitos adversos e uso antes ou depois do transplante.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 9,
   category: "Tratamentos capilares",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Frascos de tratamento capilar organizados sobre uma bancada de banheiro, representando os materiais usados em protocolos de PRP para queda de cabelo",
+    src: "/blog/prp-para-queda-de-cabelo/cover.jpg",
+    alt: "Tubo de ensaio com sangue centrifugado, mostrando a separação do plasma na parte superior, representando o material usado no PRP para queda de cabelo",
   },
 };
 

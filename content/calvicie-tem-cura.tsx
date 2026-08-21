@@ -15,7 +15,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Frascos de tratamento capilar organizados sobre uma bancada clínica clara",
+    alt: "Dois pentes de madeira sobre uma folha com um desenho de dupla hélice de DNA, representando o componente genético da calvície",
   },
 };
 
