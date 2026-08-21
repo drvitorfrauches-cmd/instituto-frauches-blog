@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/sinais-transplante-capilar-mal-feito/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Sinais de transplante capilar mal feito e como corrigir",
+    alt: "Bandeira vermelha de alerta ao lado de uma lupa sobre fundo neutro, representando os sinais de um transplante capilar mal feito",
   },
 };
 

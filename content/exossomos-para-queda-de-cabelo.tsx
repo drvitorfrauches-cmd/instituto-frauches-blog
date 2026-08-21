@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Exossomos para queda de cabelo: evidências, riscos e cuidados",
+    alt: "Frascos de tratamento capilar organizados sobre uma bancada de banheiro, representando os produtos usados em protocolos com exossomos para queda de cabelo",
   },
 };
 

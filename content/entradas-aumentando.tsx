@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/entradas-aumentando/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Entradas aumentando: é calvície ou linha frontal madura?",
+    alt: "Pente de madeira com fios de cabelo presos entre os dentes sobre fundo neutro, representando o aumento perceptível das entradas capilares",
   },
 };
 

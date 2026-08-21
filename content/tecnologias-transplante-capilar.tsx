@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/tecnologias-transplante-capilar/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Tecnologias no transplante capilar: o que faz diferença",
+    alt: "Microscópio cirúrgico e instrumentos de extração metálicos organizados sobre uma mesa clínica, representando as tecnologias usadas no transplante capilar",
   },
 };
 

@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Mesoterapia capilar: funciona, indicações e riscos",
+    alt: "Frascos de tratamento capilar organizados sobre uma bancada de banheiro, representando os produtos e substâncias usados na mesoterapia capilar",
   },
 };
 

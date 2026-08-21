@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/o-que-perguntar-consulta-transplante-capilar/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: O que perguntar na consulta de transplante capilar: 20 perguntas",
+    alt: "Caderno aberto com anotações e duas canetas sobre a página, representando o checklist de perguntas para levar à consulta de transplante capilar",
   },
 };
 

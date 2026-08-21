@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: PRP para queda de cabelo: funciona e quem pode fazer?",
+    alt: "Frascos de tratamento capilar organizados sobre uma bancada de banheiro, representando os materiais usados em protocolos de PRP para queda de cabelo",
   },
 };
 

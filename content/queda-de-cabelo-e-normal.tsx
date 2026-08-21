@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/queda-de-cabelo-e-normal/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Queda de cabelo é normal? Veja os sinais de alerta",
+    alt: "Escova de cabelo de madeira com um pequeno tufo de fios presos nas cerdas, sobre uma bancada de banheiro, representando a queda natural de cabelo no dia a dia",
   },
 };
 

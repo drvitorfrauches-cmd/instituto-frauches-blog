@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/hairline-natural-transplante-capilar/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Hairline natural: como é desenhada a linha frontal",
+    alt: "Régua e lápis sobre um papel com esboço de linhas curvas, representando o planejamento de desenho da linha frontal no transplante capilar",
   },
 };
 

@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/como-identificar-transplante-capilar-natural/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Como identificar um transplante capilar natural",
+    alt: "Mechas de cabelo de tons diferentes ao lado de uma lupa, representando a análise cuidadosa dos fios para identificar um transplante capilar natural",
   },
 };
 

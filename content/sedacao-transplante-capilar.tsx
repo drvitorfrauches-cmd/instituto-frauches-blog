@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/transplante-capilar-doi/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Sedação no transplante capilar: como funciona e segurança",
+    alt: "Travesseiro e toalhas limpas dobradas sobre uma mesa de cabeceira em ambiente aconchegante, representando o conforto durante a sedação no transplante capilar",
   },
 };
 
