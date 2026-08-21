@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-18",
-  readingTime: 2,
+  updatedAt: "2026-08-21",
+  readingTime: 3,
   category: "Guias",
   author: AUTHOR,
   coverImage: {
@@ -38,6 +38,7 @@ export default function Article() {
         <LI><Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"A calvície piora com a idade?"}</Link>{": como o avanço costuma se comportar década a década e a diferença entre calvície genética e o envelhecimento capilar comum."}</LI>
         <LI><Link href="/blog/escala-de-norwood" className="underline">{"Escala de Norwood"}</Link>{": o sistema usado para classificar o estágio da calvície masculina, do mais discreto ao mais avançado."}</LI>
         <LI><Link href="/blog/dormir-mal-causa-queda-de-cabelo" className="underline">{"Dormir mal causa queda de cabelo?"}</Link>{": a relação real entre sono, cortisol e o ciclo capilar, e quando ela pode acelerar a percepção da calvície genética."}</LI>
+        <LI><Link href="/blog/deficiencia-de-ferro-causa-queda-de-cabelo" className="underline">{"Deficiência de ferro causa queda de cabelo?"}</Link>{": como a ferritina baixa afeta o folículo, quem tem mais risco e quando isso se soma à calvície genética."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>
