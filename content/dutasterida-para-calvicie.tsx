@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/calvicie-tem-cura/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Dutasterida para calvície: eficácia, riscos e comparação",
+    alt: "Frascos de tratamento capilar (conta-gotas e frascos com válvula pump) organizados sobre uma bancada de banheiro, representando as opções de tratamento medicamentoso para calvície, incluindo a dutasterida",
   },
 };
 

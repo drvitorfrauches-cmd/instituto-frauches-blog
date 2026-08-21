@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/minoxidil-para-queda-de-cabelo/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Minoxidil para queda de cabelo: tópico, oral e resultados",
+    alt: "Frasco conta-gotas branco sobre a bancada de um banheiro, representando o tratamento com minoxidil para queda de cabelo",
   },
 };
 

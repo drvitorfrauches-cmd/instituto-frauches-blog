@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/como-saber-se-estou-ficando-careca/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Como saber se estou ficando careca? Primeiros sinais e diagnóstico",
+    alt: "Lupa sobre uma prancheta com bloco de anotações e caneta ao lado, representando a investigação dos primeiros sinais de calvície",
   },
 };
 

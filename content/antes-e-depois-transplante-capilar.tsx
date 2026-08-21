@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/antes-e-depois-transplante-capilar/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Antes e depois do transplante capilar: como analisar resultados",
+    alt: "Duas câmeras fotográficas vintage ao lado de uma foto impressa sobre a mesa, representando a análise cuidadosa de fotos de antes e depois no transplante capilar",
   },
 };
 

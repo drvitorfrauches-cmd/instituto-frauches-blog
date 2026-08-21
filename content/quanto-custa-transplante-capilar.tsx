@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/quanto-custa-transplante-capilar/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Quanto custa um transplante capilar? Entenda o que define o preço",
+    alt: "Calculadoras, moedas e uma lupa sobre uma mesa clara, representando o cálculo do custo de um transplante capilar",
   },
 };
 

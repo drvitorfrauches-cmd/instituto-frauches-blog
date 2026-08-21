@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/meu-cabelo-esta-afinando/cover.jpg",
-    alt: "Imagem editorial ilustrando o tema: Meu cabelo está afinando: causas, sinais e quando investigar",
+    alt: "Lupa ampliando um único fio de cabelo fino sobre fundo neutro, representando a observação do afinamento capilar",
   },
 };
 
