@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja a linha do tempo mês a mês do resultado do transplante capilar: queda inicial, crescimento dos novos fios e quando esperar o resultado final.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -51,6 +51,18 @@ export default function Article() {
 
       <H2 id="comparacao-com-fotos">{"Por que comparar com fotos de outras pessoas não ajuda"}</H2>
       <P>{"É tentador comparar sua evolução com fotos de resultado de outros pacientes encontradas na internet, mas essa comparação costuma gerar mais ansiedade do que clareza. O ritmo de crescimento depende de fatores individuais como espessura do fio, cor do cabelo (fios mais claros tendem a parecer menos densos visualmente mesmo com o mesmo número de folículos) e a técnica usada na cirurgia de cada pessoa. O parâmetro mais confiável é a sua própria evolução mês a mês, não a comparação com o resultado de outra pessoa."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"O resultado pode demorar mais que 12 meses para aparecer?"}</H3>
+      <P>{"Em alguns pacientes, sim. Pequenos ganhos de densidade e espessura ainda podem aparecer até os 18 meses, já que folículos individuais amadurecem em ritmos levemente diferentes entre si."}</P>
+      <H3>{"É normal o resultado parecer desigual entre áreas diferentes da cabeça?"}</H3>
+      <P>{"Nos primeiros meses, sim, é comum. Áreas diferentes podem crescer em ritmos ligeiramente distintos antes de se equilibrarem ao longo da linha do tempo completa."}</P>
+      <H3>{"Massagem no couro cabeludo acelera o crescimento dos fios transplantados?"}</H3>
+      <P>{"Não existe evidência estabelecida de que a massagem acelere o crescimento dos enxertos. O ritmo de crescimento segue principalmente fatores biológicos individuais, não estimulação mecânica externa."}</P>
+      <H3>{"Posso cortar o cabelo durante essa linha do tempo?"}</H3>
+      <P>{"Sim, com liberação da equipe médica, respeitando os cuidados de cada fase. O momento certo e o tipo de corte variam conforme a cicatrização e a orientação recebida no pós-operatório."}</P>
+      <H3>{"Como saber se o resultado vai ser bom antes dos 12 meses completos?"}</H3>
+      <P>{"Fotos padronizadas mês a mês, na mesma iluminação, ajudam a acompanhar a evolução real. Uma avaliação com a equipe médica no meio do processo também ajuda a confirmar se tudo está dentro do esperado."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O tempo de crescimento e o resultado final variam conforme cada paciente, o padrão de calvície e a qualidade da área doadora."}</Callout>
 

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a área doadora no transplante capilar, por que ela é limitada, o risco da superextração e como planejar sessões futuras.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -57,6 +57,18 @@ export default function Article() {
 
       <H2 id="genetica-varia">{"A genética de cada pessoa varia"}</H2>
       <P>{"Nem toda área doadora tem o mesmo potencial. Alguns pacientes têm naturalmente mais densidade capilar nessa região, o que permite planejamentos mais generosos; outros têm área doadora mais limitada desde o início, o que exige uma abordagem mais conservadora, mesmo que a calvície a ser tratada seja extensa. Reconhecer essa diferença individual, em vez de aplicar a mesma lógica para todo paciente, é parte do que separa um planejamento responsável de uma promessa genérica de resultado."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"A área doadora pode ser usada mais de uma vez?"}</H3>
+      <P>{"Sim, desde que tenha sido bem preservada na primeira cirurgia. Um planejamento que evita a superextração deixa margem para uma eventual segunda sessão, se ela vier a ser necessária no futuro."}</P>
+      <H3>{"Barba ou outras áreas do corpo podem servir como área doadora?"}</H3>
+      <P>{"Em casos específicos, sim, quando a área doadora da cabeça já foi bastante utilizada. Não costuma ser a primeira opção, e exige avaliação técnica caso a caso, considerando densidade e características do fio dessa região complementar."}</P>
+      <H3>{"Quantos folículos tem uma área doadora, em média?"}</H3>
+      <P>{"Varia muito de pessoa para pessoa, conforme genética e extensão da região. Não existe um número padrão que se aplique a todo mundo, por isso a densidade real só é conhecida através de exame, como a tricoscopia, não por estimativa."}</P>
+      <H3>{"A área doadora dói mais que a área receptora durante a extração?"}</H3>
+      <P>{"Não costuma haver diferença relevante. As duas áreas recebem anestesia local antes do procedimento, e o desconforto pós-operatório, quando existe, costuma ser leve nas duas regiões."}</P>
+      <H3>{"É possível saber a capacidade da área doadora sem exame presencial?"}</H3>
+      <P>{"Não com precisão. Fotos ou autoavaliação dão apenas uma noção aproximada. A densidade real por centímetro quadrado só é medida com tricoscopia, feita durante a avaliação presencial."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A capacidade real da sua área doadora só pode ser avaliada com exame presencial."}</Callout>
 

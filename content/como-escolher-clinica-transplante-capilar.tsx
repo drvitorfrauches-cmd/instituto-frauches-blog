@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja os critérios para escolher uma clínica de transplante capilar: médico especialista, planejamento, equipe, tecnologia e pós-operatório.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -65,6 +65,18 @@ export default function Article() {
 
       <H2 id="segunda-opiniao">{"O valor de uma segunda opinião"}</H2>
       <P>{"Assim como em qualquer decisão médica relevante, buscar uma segunda avaliação antes de fechar a cirurgia não é desconfiança exagerada, é prática comum e recomendável. Isso ajuda a comparar não só preço, mas a qualidade do raciocínio clínico por trás do planejamento proposto, e a sentir com qual equipe você tem mais confiança para seguir."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Clínica com preço muito mais baixo que as demais é sinal de alerta?"}</H3>
+      <P>{"Pode ser. Preço muito abaixo da média de mercado costuma vir acompanhado de corte em alguma etapa importante, seja na equipe, na tecnologia ou no acompanhamento pós-operatório. Vale entender o que está incluído, não só comparar o valor final."}</P>
+      <H3>{"Preciso visitar a clínica pessoalmente antes de decidir?"}</H3>
+      <P>{"É altamente recomendável. Conhecer a estrutura, conversar com a equipe e ter a avaliação da área doadora feita presencialmente dá muito mais segurança do que decidir só por fotos ou vídeos enviados online."}</P>
+      <H3>{"Fazer a cirurgia em outro país costuma ser uma boa opção?"}</H3>
+      <P>{"Depende muito do caso. Além dos critérios técnicos já listados, vale considerar acompanhamento pós-operatório à distância, idioma, e o que acontece se surgir alguma intercorrência depois de voltar para o país de origem."}</P>
+      <H3>{"Quantas cirurgias a equipe já realizou é uma boa pergunta a fazer?"}</H3>
+      <P>{"Sim, mas experiência numérica sozinha não conta toda a história. Vale perguntar também sobre resultados em casos parecidos com o seu (tipo de cabelo, grau de calvície) e não só o volume total de cirurgias."}</P>
+      <H3>{"Vale decidir só por indicação de outro paciente?"}</H3>
+      <P>{"Indicação ajuda, mas não substitui sua própria avaliação. Cada caso é diferente, e o que funcionou bem para outra pessoa não garante que os mesmos critérios técnicos se apliquem exatamente ao seu."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Cada clínica tem sua própria estrutura e processo; use estes critérios como referência para suas próprias perguntas na avaliação."}</Callout>
 

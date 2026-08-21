@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é o transplante capilar FUE, como funciona cada etapa da cirurgia e por que essa técnica é hoje a referência em naturalidade e recuperação.",
   publishedAt: "2026-07-24",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -56,6 +56,18 @@ export default function Article() {
         <LI>{"Pacientes preocupados com resultado artificial e que buscam um desenho de linha frontal natural."}</LI>
         <LI>{"Pacientes que já pesquisaram outras técnicas e têm dúvidas sobre cicatriz ou tempo de recuperação."}</LI>
       </UL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Quantos folículos são transplantados em uma cirurgia de FUE?"}</H3>
+      <P>{"Varia conforme a área a cobrir e a capacidade da área doadora de cada paciente, não existe um número padrão. Esse total é calculado individualmente durante a avaliação médica."}</P>
+      <H3>{"Quanto tempo dura a cirurgia de transplante capilar FUE?"}</H3>
+      <P>{"Costuma durar várias horas, já que envolve centenas ou milhares de implantes individuais. A duração exata depende da quantidade de folículos planejada para aquele caso."}</P>
+      <H3>{"Preciso raspar a cabeça toda para fazer a técnica FUE?"}</H3>
+      <P>{"Não necessariamente. Existe a modalidade non-shave FUE, sem raspagem, e a shave FUE, com raspagem total. A escolha depende do planejamento e da preferência discutida na avaliação."}</P>
+      <H3>{"Transplante capilar FUE deixa cicatriz visível?"}</H3>
+      <P>{"Deixa pequenos pontos puntiformes na área doadora, resultado da extração individual de cada folículo. Eles costumam ser bem discretos, diferente da cicatriz linear da técnica FUT."}</P>
+      <H3>{"Qual a idade mínima para fazer transplante capilar FUE?"}</H3>
+      <P>{"Não existe uma idade mínima rígida e universal, mas geralmente evita-se operar pacientes muito jovens, sobretudo antes dos 25 anos, já que a calvície ainda pode estar em evolução nessa fase."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O resultado de um transplante capilar varia conforme a avaliação individual de cada paciente, o padrão de calvície e a qualidade da área doadora."}</Callout>
 

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda as diferenças entre as técnicas FUE e FUT de transplante capilar, as indicações de cada uma e por que a FUE é hoje a mais usada.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -56,6 +56,18 @@ export default function Article() {
 
       <H2 id="tecnologia-fez-diferenca">{"Como a tecnologia mudou essa comparação"}</H2>
       <P>{"Há uma década, a FUT ainda levava vantagem em velocidade de extração e quantidade de folículos por sessão. Com a evolução de dispositivos de extração motorizados e de precisão, a FUE reduziu bastante essa diferença, ao mesmo tempo em que manteve as vantagens de cicatriz discreta e recuperação mais confortável. É por isso que a conversa sobre \"qual técnica é melhor\" mudou nos últimos anos: hoje a discussão é menos sobre limitação técnica da FUE, e mais sobre a experiência da equipe que vai executá-la."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Cabelo curto esconde a cicatriz da FUT?"}</H3>
+      <P>{"Não totalmente. A cicatriz linear da FUT fica mais visível quanto mais curto o cabelo ao redor dela. Já a FUE, por deixar pontos puntiformes espalhados, costuma ficar mais discreta mesmo com corte bem curto."}</P>
+      <H3>{"É possível corrigir uma cicatriz de FUT antiga?"}</H3>
+      <P>{"Em alguns casos, sim, com técnicas específicas de reparo ou até com transplante de folículos na própria linha da cicatriz para disfarçar a área. A avaliação de viabilidade depende do caso individual."}</P>
+      <H3>{"Quem já fez FUT pode fazer FUE depois?"}</H3>
+      <P>{"Pode, desde que a área doadora restante, fora da cicatriz de FUT, tenha densidade suficiente. É uma combinação usada em casos que precisam de folículos adicionais."}</P>
+      <H3>{"Qual técnica tem recuperação mais rápida?"}</H3>
+      <P>{"A FUE, de forma geral, por não ter corte nem pontos na área doadora. A FUT costuma exigir um período de cicatrização mais cuidadoso por causa da sutura."}</P>
+      <H3>{"A técnica FUE deixa alguma marca, mesmo sendo mais discreta?"}</H3>
+      <P>{"Sim, ela deixa pequenos pontos puntiformes na área doadora, um para cada folículo extraído. Eles costumam ser bem menos perceptíveis que a cicatriz linear da FUT, mas não são inexistentes."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A técnica mais indicada para cada paciente depende da avaliação da área doadora, do padrão de calvície e dos objetivos individuais."}</Callout>
 

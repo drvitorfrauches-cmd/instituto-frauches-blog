@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda quais exames para queda de cabelo existem, como a tricoscopia funciona, quando pedir exames de sangue e quando a biópsia do couro cabeludo é indicada.",
   publishedAt: "2026-08-07",
-  updatedAt: "2026-08-08",
+  updatedAt: "2026-08-20",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -82,6 +82,18 @@ export default function Article() {
         <LI>{"Uma linha do tempo aproximada de quando a queda aumentou e se houve algum evento associado (parto, cirurgia, febre alta, dieta restritiva, período de estresse intenso)."}</LI>
       </UL>
       <P>{"Nenhum desses itens é obrigatório para marcar a avaliação, mas quanto mais informação o médico tiver de partida, mais direcionado fica o exame físico e a escolha dos exames complementares."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"A tricoscopia dói ou machuca?"}</H3>
+      <P>{"Não. É um exame indolor, feito apenas com aproximação do aparelho ao couro cabeludo, sem necessidade de anestesia ou preparo prévio."}</P>
+      <H3>{"Preciso pedir os exames antes da consulta?"}</H3>
+      <P>{"Não é obrigatório. O médico pode solicitar os exames necessários durante a própria avaliação, mas exames recentes que o paciente já tiver em mãos ajudam a agilizar o processo."}</P>
+      <H3>{"Plano de saúde costuma cobrir exames para queda de cabelo?"}</H3>
+      <P>{"Depende do plano e da cobertura contratada. Exames de sangue costumam ter cobertura mais comum do que a tricoscopia em consultório particular, então vale confirmar diretamente com o convênio."}</P>
+      <H3>{"Quanto tempo leva para sair o resultado dos exames de sangue?"}</H3>
+      <P>{"Varia conforme o laboratório e o exame específico, mas a maioria dos exames de rotina fica pronta entre um e poucos dias úteis."}</P>
+      <H3>{"Aplicativo de celular substitui a tricoscopia feita em consultório?"}</H3>
+      <P>{"Não. Ferramentas caseiras não têm a mesma precisão de ampliação e padronização de um exame feito com equipamento clínico, interpretado por um médico especialista."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Apenas uma avaliação presencial, com histórico clínico completo e os exames pertinentes ao seu caso, pode confirmar a causa da sua queda de cabelo e indicar o tratamento adequado."}</Callout>
 

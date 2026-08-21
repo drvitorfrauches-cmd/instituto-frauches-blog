@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar é definitivo? Entenda a área segura, a durabilidade dos fios e por que o tratamento clínico continua importando.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -56,6 +56,18 @@ export default function Article() {
 
       <H2 id="revisao-periodica">{"Por que vale manter revisões periódicas"}</H2>
       <P>{"Mesmo com um resultado consolidado, retornos periódicos com a equipe médica ajudam a identificar cedo qualquer sinal de progressão da calvície nas áreas não tratadas, ou mudanças que justifiquem ajuste no tratamento clínico complementar. Esse acompanhamento é parte do que sustenta um resultado harmônico no longo prazo, muito mais do que confiar que a cirurgia, sozinha, vai resolver tudo para sempre sem nenhum cuidado adicional."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Se eu parar de tomar finasterida, os fios transplantados caem?"}</H3>
+      <P>{"Não. Os fios transplantados vieram de folículos geneticamente resistentes à DHT e não dependem da finasterida para se manter. Quem pode ser afetado é o cabelo nativo ao redor, ainda sensível à ação hormonal, que pode voltar a cair se o tratamento for interrompido."}</P>
+      <H3>{"O transplante capilar pode ser refeito se eu não gostar do resultado?"}</H3>
+      <P>{"Em muitos casos sim, desde que a área doadora tenha sido preservada e ainda haja folículos disponíveis. A viabilidade de um ajuste ou nova sessão depende de avaliação individual."}</P>
+      <H3>{"Fios transplantados podem ficar brancos com o tempo?"}</H3>
+      <P>{"Sim, assim como qualquer outro fio do corpo, o cabelo transplantado pode perder pigmentação com o envelhecimento natural. Isso não tem relação com falha do procedimento."}</P>
+      <H3>{"Uma pancada na cabeça pode arrancar os fios já transplantados?"}</H3>
+      <P>{"Depois que o folículo está bem fixado (processo que se consolida nos primeiros meses após a cirurgia), ele se comporta como qualquer outro fio nativo, sem fragilidade especial a impactos do dia a dia."}</P>
+      <H3>{"O transplante capilar tem algum prazo de validade?"}</H3>
+      <P>{"Não no sentido de expirar. Os fios transplantados tendem a durar a longo prazo, muitas vezes por toda a vida, mas isso não substitui o acompanhamento contínuo da saúde geral do couro cabeludo."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A durabilidade do resultado varia conforme o padrão de calvície de cada paciente e a necessidade (ou não) de tratamento clínico complementar, que deve ser avaliado individualmente."}</Callout>
 

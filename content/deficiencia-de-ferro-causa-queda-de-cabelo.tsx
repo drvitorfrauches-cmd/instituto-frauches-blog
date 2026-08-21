@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, OL, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, OL, UL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Deficiência de ferro causa queda de cabelo? Entenda como a ferritina baixa afeta o folículo, quem tem mais risco e quando investigar com exames de sangue.",
   publishedAt: "2026-08-20",
-  updatedAt: "2026-08-21",
+  updatedAt: "2026-08-20",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -88,6 +88,18 @@ export default function Article() {
       <H2 id="quanto-tempo-leva-para-o-cabelo-crescer-de-volta">{"Quanto tempo leva para o cabelo voltar a crescer depois de corrigir a deficiência de ferro?"}</H2>
       <P>{"O padrão costuma seguir o mesmo cronograma de qualquer eflúvio telógeno: a queda tende a reduzir de forma perceptível de dois a quatro meses depois que a ferritina volta a níveis adequados, e a densidade visível segue melhorando ao longo dos meses seguintes, à medida que os fios que entraram em repouso completam o ciclo e são substituídos por fios novos. Esse ritmo varia de pessoa para pessoa, conforme o tempo que a deficiência levou pra ser corrigida e outros fatores individuais de cada paciente."}</P>
       <P>{"Se a queda persistir mesmo com a ferritina normalizada por vários meses, isso é sinal de que outro fator, incluindo calvície genética associada, pode estar envolvido e merece ser reavaliado com uma nova tricoscopia."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Só comer mais carne vermelha já resolve a queda de cabelo?"}</H3>
+      <P>{"Ajuda, mas nem sempre é suficiente sozinho, principalmente quando a ferritina já está bem abaixo do ideal. Nesses casos, a suplementação orientada por exame costuma ser necessária para repor o estoque em tempo hábil."}</P>
+      <H3>{"Deficiência de ferro causa queda de cabelo em homens também?"}</H3>
+      <P>{"Sim, embora seja mais comum em mulheres por causa da perda menstrual. Homens com doenças gastrointestinais, dieta muito restritiva ou doação de sangue frequente também podem desenvolver ferritina baixa e queda associada."}</P>
+      <H3>{"Ferritina dentro do valor de referência descarta qualquer relação com a queda?"}</H3>
+      <P>{"Não necessariamente. O corte usado para diagnosticar anemia é diferente do nível que parte da literatura considera ideal para a saúde capilar, então um valor "}<Strong>{"normal"}</Strong>{" no laudo ainda pode estar baixo o suficiente para afetar o folículo em alguns pacientes."}</P>
+      <H3>{"Quanto tempo demora para a ferritina subir com suplementação?"}</H3>
+      <P>{"Costuma levar de dois a três meses de uso adequado para uma melhora significativa, mas isso varia conforme a dose, a formulação e a causa de base da deficiência."}</P>
+      <H3>{"Café atrapalha a absorção do ferro dos alimentos?"}</H3>
+      <P>{"Pode reduzir a absorção quando consumido muito próximo das refeições ricas em ferro. Uma orientação prática comum é espaçar o consumo de café e chá preto em relação às principais refeições, mas o ajuste específico deve ser discutido na consulta."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico de deficiência de ferro e a indicação de tratamento, incluindo dose e forma de suplementação, dependem de avaliação individual com exames laboratoriais."}</Callout>
 

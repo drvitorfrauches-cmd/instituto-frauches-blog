@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar dói? Entenda como funciona a anestesia, o que sentir durante e depois da cirurgia FUE e como é o controle da dor no pós-operatório.",
   publishedAt: "2026-07-24",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-08-20",
   readingTime: 2,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -42,6 +42,18 @@ export default function Article() {
       <P>{"Cada paciente tem um limiar de sensibilidade diferente, então a experiência exata varia de pessoa para pessoa. Por isso a orientação pós-operatória é sempre individualizada e ajustada se o paciente relatar mais desconforto do que o esperado."}</P>
 
       <P>{"Se você já leu sobre "}<Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"o que é o transplante capilar FUE"}</Link>{" e ainda tem dúvida sobre a experiência da cirurgia em si, essa costuma ser resolvida com clareza numa avaliação presencial, onde dá pra explicar o passo a passo específico para o seu caso."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"A aplicação da anestesia local dói?"}</H3>
+      <P>{"Existe uma picada inicial, comum a qualquer anestesia local, mas costuma ser rápida e bem tolerada. Depois que o efeito começa, a área fica sem sensibilidade para o restante do procedimento naquele ponto."}</P>
+      <H3>{"Preciso ficar internado após a cirurgia?"}</H3>
+      <P>{"Não. O transplante capilar FUE costuma ser um procedimento ambulatorial, com alta no mesmo dia, após o período de observação necessário depois da sedação."}</P>
+      <H3>{"Posso dirigir no mesmo dia da cirurgia?"}</H3>
+      <P>{"Não é recomendado. O efeito residual da sedação pode persistir por algumas horas, por isso a orientação é vir acompanhado e não dirigir no dia do procedimento."}</P>
+      <H3>{"A dor é maior na área doadora ou na área receptora?"}</H3>
+      <P>{"Não costuma haver diferença relevante entre as duas. As duas áreas recebem anestesia local, e o desconforto pós-operatório, quando existe, costuma ser leve nas duas regiões."}</P>
+      <H3>{"O remédio para dor do pós-operatório é liberado ou precisa de receita?"}</H3>
+      <P>{"A medicação analgésica é prescrita pela equipe médica como parte da orientação pós-operatória, ajustada conforme a necessidade relatada por cada paciente."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A percepção de dor e o tempo de recuperação variam conforme cada paciente, e só uma avaliação individual permite orientações precisas."}</Callout>
 

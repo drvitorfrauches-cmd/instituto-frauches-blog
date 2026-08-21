@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda por que a calvície genética não pode ser evitada por completo, mas como o diagnóstico precoce e o tratamento certo ajudam a controlar sua evolução.",
   publishedAt: "2026-08-10",
-  updatedAt: "2026-08-10",
+  updatedAt: "2026-08-20",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -75,6 +75,18 @@ export default function Article() {
         <LI><Strong>{"Discuta as opções de tratamento clínico:"}</Strong>{" medicações como finasterida/dutasterida e minoxidil, quando indicadas após avaliação médica, ajudam a controlar a progressão nesse estágio."}</LI>
         <LI><Strong>{"Mantenha acompanhamento periódico:"}</Strong>{" a resposta ao tratamento e a evolução da calvície devem ser reavaliadas ao longo do tempo, não é uma decisão única."}</LI>
       </OL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Vitaminas podem evitar a calvície genética?"}</H3>
+      <P>{"Não. Vitaminas ajudam a saúde geral do fio quando existe alguma carência nutricional real, mas nenhuma delas desliga a predisposição genética à ação da DHT. Elas não substituem os tratamentos com eficácia comprovada para controlar a alopecia androgenética."}</P>
+      <H3>{"Cortar hormônios como a testosterona evita a calvície?"}</H3>
+      <P>{"Não é uma abordagem indicada nem segura. O que importa não é o nível total de testosterona circulando no corpo, mas a sensibilidade genética dos folículos à DHT. Reduzir hormônios sem indicação médica traz outros riscos à saúde, sem necessariamente evitar a calvície."}</P>
+      <H3>{"Minoxidil previne a calvície em quem ainda não tem sinal nenhum?"}</H3>
+      <P>{"Não é essa a indicação do minoxidil. Ele é usado para tratar a queda já em curso, não como prevenção em quem ainda não apresenta nenhum sinal. O uso preventivo, sem indicação, não tem essa finalidade estabelecida."}</P>
+      <H3>{"Adiar o início do tratamento piora as chances de sucesso?"}</H3>
+      <P>{"Sim, de forma geral. Quanto mais tempo o folículo passa no processo de miniaturização sem tratamento, menor a proporção de folículos ainda ativos e capazes de responder bem à medicação."}</P>
+      <H3>{"Existe alguma forma de saber com certeza se vou ficar careca?"}</H3>
+      <P>{"Não com certeza absoluta antes dos sinais aparecerem. Histórico familiar dá uma noção de risco, mas só a tricoscopia, feita quando já existem sinais iniciais, confirma se o processo já começou e em que estágio está."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico da calvície genética e a indicação de tratamento dependem sempre de avaliação individual, presencial, com o histórico completo do paciente."}</Callout>
 
