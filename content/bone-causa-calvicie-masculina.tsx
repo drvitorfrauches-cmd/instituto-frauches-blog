@@ -92,7 +92,7 @@ export default function Article() {
       <H2 id="referencias">{"Referências"}</H2>
       <UL>
         <LI><a href="https://medlineplus.gov/genetics/condition/androgenetic-alopecia/" className="underline" target="_blank" rel="noopener noreferrer">{"MedlinePlus Genetics. Androgenetic alopecia."}</a></LI>
-        <LI><a href="https://www.aad.org/public/diseases/hair-loss/types/traction" className="underline" target="_blank" rel="noopener noreferrer">{"American Academy of Dermatology. Traction alopecia."}</a></LI>
+        <LI><a href="https://www.aad.org/public/diseases/hair-loss/causes/hairstyles" className="underline" target="_blank" rel="noopener noreferrer">{"American Academy of Dermatology. Hairstyles that pull can lead to hair loss."}</a></LI>
         <LI><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4756870/" className="underline" target="_blank" rel="noopener noreferrer">{"Billero V, Miteva M. Traction alopecia: the root of the problem. Clinical, Cosmetic and Investigational Dermatology. 2018."}</a></LI>
       </UL>
       <P>{"Se você quer confirmar se a sua queda tem origem genética ou outra causa, o primeiro passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{". Para aprofundar o diagnóstico, veja também nosso artigo sobre "}<Link href="/blog/como-saber-se-estou-ficando-careca" className="underline">{"como saber se você está ficando careca"}</Link>{"."}</P>
