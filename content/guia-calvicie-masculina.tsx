@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-21",
+  updatedAt: "2026-08-22",
   readingTime: 3,
   category: "Guias",
   author: AUTHOR,
