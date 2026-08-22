@@ -19,6 +19,30 @@ existir ainda) e um briefing (os pontos que o Dr. Vitor quer que o artigo
 cubra — use como roteiro das seções H2, não precisa ser 1 H2 por bullet
 exatamente, mas todos os pontos devem aparecer no texto).
 
+### 123. Canetas emagrecedoras (Ozempic, Mounjaro, Wegovy) e queda de cabelo
+- **Objetivo SEO**: caneta emagrecedora causa queda de cabelo / Mounjaro
+  queda de cabelo / Ozempic queda de cabelo
+- **Briefing**: tema de alta prioridade (aproveitar o hype atual do
+  Mounjaro/Ozempic/Wegovy — tirasemtida, semaglutida, liraglutida). Cobrir:
+  (1) essas canetas (agonistas de GLP-1) causam queda de cabelo direto, ou é
+  efeito colateral da perda de peso rápida (eflúvio telógeno por perda de
+  peso/restrição calórica/deficiência nutricional, mecanismo já conhecido
+  independente do medicamento em si); (2) o que dizem bula e estudos sobre
+  a incidência real; (3) é temporário ou permanente; (4) quem já tem
+  predisposição genética à calvície pode ter o processo "acelerado/
+  revelado" pelo emagrecimento rápido, mesmo sem o medicamento ser a causa
+  direta; (5) o que fazer (avaliação nutricional, reposição de proteína/
+  ferro/zinco, quando procurar avaliação capilar); (6) deixar claro que não
+  se trata de contraindicar o uso do medicamento (foge do escopo do blog
+  e da especialidade), só de explicar e orientar sobre o efeito capilar.
+  Nota de compliance: usar os nomes de substância (semaglutida, tirzepatida,
+  liraglutida) e marcas amplamente divulgadas (Ozempic, Mounjaro, Wegovy,
+  Saxenda) apenas como termos de busca/contexto informativo, nunca fazer
+  qualquer recomendação de uso, dose ou indicação desses medicamentos —
+  isso é fora da especialidade do Dr. Vitor. Prioridade alta: colocar como
+  próximo item elegível da fila (à frente da rotação normal), pelo timing
+  do assunto.
+
 ### 6. O que é a técnica FUE?
 - **Objetivo SEO**: FUE
 - **Briefing**: como funciona; diferenças da FUT; cicatrizes; recuperação;
