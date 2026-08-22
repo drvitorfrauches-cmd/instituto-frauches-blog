@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Alimentação interfere na calvície? Entenda o que a dieta pode e não pode fazer pela queda de cabelo genética, quais nutrientes importam e quando investigar.",
   publishedAt: "2026-08-22",
   updatedAt: "2026-08-22",
-  readingTime: 9,
+  readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
