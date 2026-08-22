@@ -279,7 +279,7 @@ implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
 queda de cabelo, calvície genética, calvície piora com a idade, escala de
 Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
-de cabelo.
+de cabelo, alimentação interfere na calvície.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
