@@ -138,7 +138,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   `queda-de-cabelo-e-normal` já tem um H2 dedicado ("Estresse realmente
   causa queda?"). Considerado já coberto, não escrever versão nova a menos
   que surja um ângulo claramente distinto.
-### 35. Alimentação interfere na calvície?
 ### 36. Vitaminas ajudam?
 ### 38. Deficiência de vitamina D causa calvície?
 ### 39. Testosterona causa calvície?
@@ -406,3 +405,15 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   35 e 36 (alimentação e vitaminas em geral) seguem pendentes para uma
   próxima rodada. 37 foi escolhido por ser o item plenamente elegível mais
   específico e com maior volume de busca autônomo da fila.
+- Item 35, "Alimentação interfere na calvície?" — publicado em 2026-08-22
+  como `alimentacao-interfere-na-calvicie`. Keyword primária nova
+  "alimentação interfere na calvície" (não constava na lista fixa do DNA;
+  adicionada às secundárias). Ângulo de distinguir o que a dieta realmente
+  influencia (saúde geral do folículo, eflúvio nutricional) do que ela não
+  muda (o mecanismo genético/hormonal da calvície), citando proteína,
+  ferro, zinco, biotina, ômega-3 e vitamina D com evidência real; distinto
+  de `deficiencia-de-ferro-causa-queda-de-cabelo` (que aprofunda só o
+  ferro) e de `nutraceuticos-para-queda-de-cabelo` (que cobre fórmulas de
+  suplemento específicas, não alimentação em geral). Itens 31 e 32 seguem
+  pendentes por sobreposição parcial ainda não diferenciada o suficiente;
+  36 (vitaminas em geral) segue pendente para uma próxima rodada.
