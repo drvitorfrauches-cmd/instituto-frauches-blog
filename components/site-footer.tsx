@@ -1,5 +1,13 @@
 import Link from "next/link";
-import { INSTAGRAM_URL, SITE_NAME, WHATSAPP_URL } from "@/lib/blog/site";
+import {
+  ADDRESS_DISPLAY,
+  CNPJ,
+  INSTAGRAM_URL,
+  PHONE_DISPLAY,
+  PHONE_TEL,
+  SITE_NAME,
+  WHATSAPP_URL,
+} from "@/lib/blog/site";
 
 export function SiteFooter() {
   return (
@@ -19,6 +27,13 @@ export function SiteFooter() {
             Instagram
           </a>
         </nav>
+        <p>
+          {SITE_NAME} · {ADDRESS_DISPLAY} ·{" "}
+          <a href={`tel:${PHONE_TEL}`} className="hover:underline">
+            {PHONE_DISPLAY}
+          </a>{" "}
+          · CNPJ {CNPJ}
+        </p>
         <p>
           © {new Date().getFullYear()} {SITE_NAME}. Conteúdo educativo, não
           substitui consulta médica.

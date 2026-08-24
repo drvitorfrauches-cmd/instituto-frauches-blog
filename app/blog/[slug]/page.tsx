@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
-import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { LOGO_PATH, ORGANIZATION_JSON_LD, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
@@ -69,8 +69,7 @@ export default async function BlogPostPage({
       url: `${SITE_URL}/sobre`,
     },
     publisher: {
-      "@type": "MedicalOrganization",
-      name: SITE_NAME,
+      ...ORGANIZATION_JSON_LD,
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}${LOGO_PATH}`,

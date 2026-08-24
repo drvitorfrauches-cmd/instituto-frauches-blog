@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog/registry";
-import { AUTHOR, LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { AUTHOR, LOGO_PATH, ORGANIZATION_JSON_LD, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import BlogExplorer from "@/components/BlogExplorer";
 
 const JOURNEYS = [
@@ -55,11 +55,7 @@ export default function BlogIndexPage() {
       name: AUTHOR.name,
       url: `${SITE_URL}/sobre`,
     },
-    publisher: {
-      "@type": "MedicalOrganization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    publisher: ORGANIZATION_JSON_LD,
     mainEntity: {
       "@type": "ItemList",
       itemListElement: posts.map((post, i) => ({

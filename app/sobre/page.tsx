@@ -1,7 +1,19 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { P, H2, UL, LI, Strong } from "@/components/article-ui";
-import { AUTHOR, AUTHOR_CREDENTIALS, INSTAGRAM_URL, SITE_NAME, SITE_URL, WHATSAPP_URL } from "@/lib/blog/site";
+import {
+  ADDRESS_DISPLAY,
+  AUTHOR,
+  AUTHOR_CREDENTIALS,
+  CNPJ,
+  INSTAGRAM_URL,
+  ORGANIZATION_JSON_LD,
+  PHONE_DISPLAY,
+  PHONE_TEL,
+  SITE_NAME,
+  SITE_URL,
+  WHATSAPP_URL,
+} from "@/lib/blog/site";
 
 const TITLE = `Sobre o Dr. Vitor Frauches | ${SITE_NAME}`;
 const DESCRIPTION =
@@ -30,11 +42,7 @@ export default function SobrePage() {
     description: AUTHOR_CREDENTIALS.join(". "),
     url: `${SITE_URL}/sobre`,
     image: `${SITE_URL}/author/dr-vitor-frauches.jpg`,
-    worksFor: {
-      "@type": "MedicalOrganization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    worksFor: ORGANIZATION_JSON_LD,
     memberOf: [
       { "@type": "Organization", name: "International Society of Hair Restoration Surgery" },
       { "@type": "Organization", name: "World FUE Institute" },
@@ -144,6 +152,14 @@ export default function SobrePage() {
           Instagram @drvitorfrauches
         </a>
         .
+      </P>
+      <P>
+        <Strong>Instituto Frauches</Strong> — {ADDRESS_DISPLAY}. Telefone/
+        WhatsApp:{" "}
+        <a href={`tel:${PHONE_TEL}`} className="underline">
+          {PHONE_DISPLAY}
+        </a>
+        . CNPJ {CNPJ}.
       </P>
     </main>
   );
