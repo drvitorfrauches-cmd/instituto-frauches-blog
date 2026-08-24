@@ -5,7 +5,7 @@ import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
   slug: "calvicie-aos-18-anos",
-  title: "Calvície pode começar aos 18 anos? O que fazer",
+  title: "Calvície pode começar aos 18 anos? O que fazer?",
   description:
     "Calvície aos 18 anos é mais comum do que parece. Veja por que ela pode começar cedo, como reconhecer os sinais reais e o que fazer diante desse diagnóstico.",
   publishedAt: "2026-08-24",
@@ -47,7 +47,7 @@ export default function Article() {
       <P>{"Quando a calvície genética começa antes dos 25 anos, a prática clínica mostra que ela tende a evoluir de forma mais rápida nas décadas seguintes, provavelmente porque a sensibilidade folicular à DHT que se manifesta tão cedo também é mais intensa. Esse padrão está descrito com mais detalhe no artigo sobre "}<Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"se a calvície piora com a idade"}</Link>{". Isso não é motivo para pânico, é motivo para agir com informação, porque é justamente esse grupo, o de início precoce, que mais se beneficia de um tratamento clínico começado cedo, enquanto ainda existem muitos folículos ativos para preservar."}</P>
 
       <H2 id="o-que-fazer">{"O que fazer ao notar sinais de calvície aos 18 anos?"}</H2>
-      <P>{"A reação mais comum é uma de duas: ignorar o sinal na esperança de que "}{"\"deve ser coisa da minha cabeça\""}{", ou entrar em pânico e recorrer a fórmulas milagrosas encontradas na internet. Nenhuma das duas ajuda. O caminho mais útil segue uma sequência simples:"}</P>
+      <P>{"A reação mais comum é uma de duas: ignorar o sinal na esperança de que \"deve ser coisa da minha cabeça\", ou entrar em pânico e recorrer a fórmulas milagrosas encontradas na internet. Nenhuma das duas ajuda. O caminho mais útil segue uma sequência simples:"}</P>
       <OL>
         <LI><Strong>{"Não tente se autodiagnosticar pela internet:"}</Strong>{" fotos de calvície em fóruns e redes sociais não substituem uma avaliação, e comparar seu couro cabeludo com o de estranhos só aumenta a ansiedade sem trazer resposta real."}</LI>
         <LI><Strong>{"Procure uma avaliação com tricoscopia:"}</Strong>{" é um exame indolor, feito com um aparelho que amplia a imagem do couro cabeludo em até 100 vezes, e mostra objetivamente se existe miniaturização folicular em andamento, o sinal mais confiável de alopecia androgenética ativa."}</LI>
