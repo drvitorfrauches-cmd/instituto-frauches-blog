@@ -121,13 +121,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   `meu-cabelo-esta-afinando` já cobre este briefing em profundidade (causas,
   sinais e quando investigar o afinamento). Considerado já coberto, não
   escrever versão nova a menos que surja um ângulo claramente distinto.
-### 31. Calvície pode começar aos 18 anos?
-- Nota (2026-08-17): avaliado antes de escrever. Há sobreposição parcial
-  com o artigo `calvicie-piora-com-a-idade` (que já tem um bullet sobre a
-  faixa de 18 a 25 anos), mas o ângulo de validar o medo específico de quem
-  nota sinais aos 18 e decidir o que fazer a respeito ainda não foi coberto
-  em profundidade. Mantido pendente para uma próxima rodada com esse ângulo
-  bem diferenciado do artigo existente.
 ### 32. Jovens podem fazer transplante?
 - Nota (2026-08-17): avaliado antes de escrever. Sobreposição relevante com
   `quem-pode-fazer-transplante-capilar` (candidatura em geral) e com a seção
@@ -417,3 +410,14 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   suplemento específicas, não alimentação em geral). Itens 31 e 32 seguem
   pendentes por sobreposição parcial ainda não diferenciada o suficiente;
   36 (vitaminas em geral) segue pendente para uma próxima rodada.
+- Item 31, "Calvície pode começar aos 18 anos?" — publicado em 2026-08-24
+  como `calvicie-aos-18-anos`. Keyword primária nova "calvície aos 18 anos"
+  (não constava na lista fixa do DNA; adicionada às secundárias). Ângulo
+  definido na nota de 2026-08-17: validar o medo específico de quem nota
+  sinais de calvície ainda aos 18 anos e orientar o que fazer a respeito
+  (tricoscopia, tratamento clínico precoce, por que a cirurgia geralmente
+  não é indicada nessa idade, e o impacto emocional do diagnóstico
+  precoce), distinto de `calvicie-piora-com-a-idade` (progressão década a
+  década, sem foco em um público jovem específico nem no lado emocional).
+  Item 32 segue pendente por ainda não ter um ângulo suficientemente
+  diferenciado de `quem-pode-fazer-transplante-capilar`.

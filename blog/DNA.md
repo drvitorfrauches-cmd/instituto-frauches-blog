@@ -279,7 +279,7 @@ implanter, superextração capilar, nutracêuticos para queda de cabelo,
 microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
 queda de cabelo, calvície genética, calvície piora com a idade, escala de
 Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
-de cabelo, alimentação interfere na calvície.
+de cabelo, alimentação interfere na calvície, calvície aos 18 anos.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -306,6 +306,7 @@ de cabelo, alimentação interfere na calvície.
 - "O que é a escala de Norwood e como identificar meu estágio?"
 - "Dormir mal causa queda de cabelo?"
 - "Deficiência de ferro causa queda de cabelo?"
+- "Calvície pode começar aos 18 anos?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
