@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Deficiência de vitamina D causa queda de cabelo? Entenda o papel da vitamina no ciclo capilar, quem tem mais risco e quando vale investigar com exame.",
   publishedAt: "2026-08-26",
-  updatedAt: "2026-08-26",
+  updatedAt: "2026-08-27",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
