@@ -209,6 +209,33 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 
 ### Calvície geral
 
+### 125. Canetas emagrecedoras (Ozempic, Mounjaro, Wegovy) e queda de cabelo
+- **Objetivo SEO**: caneta emagrecedora causa queda de cabelo / Mounjaro
+  queda de cabelo / Ozempic queda de cabelo
+- **Prioridade alta** (portado do PR #101, fechado em 2026-08-27):
+  renumerado de 123 pra 125 porque o número 123 já pertence ao artigo
+  publicado `nutraceuticos-para-queda-de-cabelo` (ver "Já publicados").
+  Colocado no topo desta subseção pra ser o próximo item elegível do
+  Pilar 4, mantendo a prioridade original do pedido do Dr. Vitor.
+- **Briefing**: tema de alta prioridade (aproveitar o hype atual do
+  Mounjaro/Ozempic/Wegovy — tirzepatida, semaglutida, liraglutida). Cobrir:
+  (1) essas canetas (agonistas de GLP-1) causam queda de cabelo direto, ou é
+  efeito colateral da perda de peso rápida (eflúvio telógeno por perda de
+  peso/restrição calórica/deficiência nutricional, mecanismo já conhecido
+  independente do medicamento em si); (2) o que dizem bula e estudos sobre
+  a incidência real; (3) é temporário ou permanente; (4) quem já tem
+  predisposição genética à calvície pode ter o processo "acelerado/
+  revelado" pelo emagrecimento rápido, mesmo sem o medicamento ser a causa
+  direta; (5) o que fazer (avaliação nutricional, reposição de proteína/
+  ferro/zinco, quando procurar avaliação capilar); (6) deixar claro que não
+  se trata de contraindicar o uso do medicamento (foge do escopo do blog
+  e da especialidade), só de explicar e orientar sobre o efeito capilar.
+  Nota de compliance: usar os nomes de substância (semaglutida, tirzepatida,
+  liraglutida) e marcas amplamente divulgadas (Ozempic, Mounjaro, Wegovy,
+  Saxenda) apenas como termos de busca/contexto informativo, nunca fazer
+  qualquer recomendação de uso, dose ou indicação desses medicamentos —
+  isso é fora da especialidade do Dr. Vitor.
+
 ### 22. Primeiros sinais da calvície masculina
 - **Briefing**: entradas; afinamento; miniaturização.
 - Nota (2026-08-14): avaliado antes de escrever. O briefing (entradas,
@@ -258,6 +285,34 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
   ainda não aprofundada isoladamente).
 ### 39. Testosterona causa calvície?
 ### 40. Creatina provoca queda de cabelo?
+
+### 124. Escala PRECISE
+- **Objetivo SEO**: escala PRECISE alopecia androgenética (avaliar se vira
+  keyword primária nova do DNA na hora de escrever, ou se `calvície tem
+  cura`/outra da lista fixa encaixa melhor)
+- Sugerido pelo Dr. Vitor (2026-08-15, portado do PR #93 fechado em
+  2026-08-27): existe artigo publicado no PubMed sobre o assunto.
+- **Briefing** (levantado via PubMed nesta sessão, conferir a fonte antes de
+  publicar): a escala PRECISE é uma classificação **quantitativa** da
+  alopecia androgenética, publicada em 2023 na revista Aesthetic Plastic
+  Surgery (Pittella, Castro et al.), disponível em
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10980655/ e
+  https://pubmed.ncbi.nlm.nih.gov/37365308/. Fórmula: PRECISE = RBA/30 + TS
+  (RBA = área relativa de calvície, incluindo afinamento corrigido pelo
+  Índice de Miniaturização Capilar; TS = escore de recessão temporal, 0 a
+  0,3). Pontuação de 0 a 10, cada 30 cm² de calvície equivalendo a 1 ponto.
+  Aplicação prática: recomenda cerca de 1.500 unidades foliculares por
+  ponto da escala para planejar o transplante. Ângulo natural do artigo:
+  contraste com a escala de Norwood (`escala-de-norwood`, qualitativa/
+  comparativa por fotos) versus PRECISE (quantitativa/matemática), e como
+  uma classificação numérica ajuda a estimar a quantidade de enxertos com
+  mais objetividade. Linkar com `escala-de-norwood` e com
+  `quem-pode-fazer-transplante-capilar`. **Antes de publicar**: reler as
+  fontes originais para confirmar os números acima (foram resumidos por IA
+  a partir do texto da PMC, não conferidos folículo por fórmula pelo Dr.
+  Vitor) e adaptar a linguagem ao tom do blog, sem citar a fórmula/dosagem
+  de UF por ponto como recomendação fechada do Instituto Frauches sem
+  reforçar que a contagem real depende de avaliação individual.
 
 ### Medicamentos e tratamentos
 
