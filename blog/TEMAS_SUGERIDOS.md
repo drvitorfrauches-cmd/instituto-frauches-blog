@@ -122,17 +122,24 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   sinais e quando investigar o afinamento). Considerado já coberto, não
   escrever versão nova a menos que surja um ângulo claramente distinto.
 ### 32. Jovens podem fazer transplante?
-- Nota (2026-08-17): avaliado antes de escrever. Sobreposição relevante com
-  `quem-pode-fazer-transplante-capilar` (candidatura em geral) e com a seção
-  de idade em `calvicie-piora-com-a-idade`. Mantido pendente até surgir um
-  ângulo claramente distinto (ex.: foco só no público jovem).
+- Nota (2026-08-26): reavaliado. O artigo `calvicie-aos-18-anos` (publicado
+  em 2026-08-24) passou a ter um H2 dedicado, "Transplante capilar é
+  indicado tão jovem?", respondendo exatamente esta pergunta (padrão de
+  calvície ainda não estabilizado, tratamento clínico como prioridade,
+  cirurgia como etapa posterior). Considerado já coberto, não escrever
+  versão nova a menos que surja um ângulo claramente distinto.
 ### 33. Como o estresse influencia o cabelo
 - Nota (2026-08-17): avaliado antes de escrever. O artigo
   `queda-de-cabelo-e-normal` já tem um H2 dedicado ("Estresse realmente
   causa queda?"). Considerado já coberto, não escrever versão nova a menos
   que surja um ângulo claramente distinto.
 ### 36. Vitaminas ajudam?
-### 38. Deficiência de vitamina D causa calvície?
+- Nota (2026-08-26): avaliado antes de escrever. O artigo
+  `alimentacao-interfere-na-calvicie` já responde esta pergunta de forma
+  ampla, cobrindo proteína, ferro, zinco, biotina, ômega-3 e vitamina D com
+  evidência real. Considerado já coberto, não escrever versão nova a menos
+  que surja um ângulo claramente distinto (ex.: uma vitamina específica
+  ainda não aprofundada isoladamente).
 ### 39. Testosterona causa calvície?
 ### 40. Creatina provoca queda de cabelo?
 
@@ -421,3 +428,16 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   década, sem foco em um público jovem específico nem no lado emocional).
   Item 32 segue pendente por ainda não ter um ângulo suficientemente
   diferenciado de `quem-pode-fazer-transplante-capilar`.
+- Item 38, "Deficiência de vitamina D causa calvície?" — publicado em
+  2026-08-26 como `deficiencia-de-vitamina-d-causa-queda-de-cabelo`.
+  Keyword primária nova "deficiência de vitamina D causa queda de cabelo"
+  (não constava na lista fixa do DNA; adicionada às secundárias e à
+  Intenção GEO). Ângulo de mecanismo específico (receptor de vitamina D
+  nas células-tronco do folículo), fatores de risco mesmo em cidade
+  ensolarada e diagnóstico/tratamento com exame, distinto de
+  `alimentacao-interfere-na-calvicie` (que só cita vitamina D de passagem
+  dentro de uma lista geral de nutrientes, sem aprofundar), seguindo o
+  mesmo padrão de artigo dedicado já usado para
+  `deficiencia-de-ferro-causa-queda-de-cabelo`. Itens 32 e 36 reavaliados
+  e marcados como já cobertos por outros artigos (ver notas em
+  Pendentes); 39 e 40 seguem pendentes para uma próxima rodada.
