@@ -97,7 +97,14 @@ Siga a seção "Imagens" de `blog/DNA.md`. Resumo:
    ilustração conceitual, nunca rosto de paciente ou "resultado" fingido). Se
    `z_image` estiver indisponível, verifique modelos alternativos com
    `models_explore` antes de tentar `recraft_v4_1` (historicamente exige
-   plano pago e retorna 403).
+   plano pago e retorna 403). **Se nenhuma ferramenta de geração tiver
+   crédito disponível**: não publique o artigo sem capa e não pare a
+   execução, publique o restante do PR normalmente e passe ao Dr. Vitor, na
+   mensagem final da execução, o prompt pronto da seção "Alternativa: gerar
+   com Nano Banana Pro" de `blog/DNA.md`, adaptado ao tema deste artigo
+   específico. Quando ele colar a imagem gerada na conversa depois, siga o
+   procedimento descrito na mesma seção do DNA para localizar, salvar e
+   commitar a imagem num commit adicional no mesmo PR.
 2. Salve o arquivo em `public/blog/<slug>/cover.jpg`.
 3. Preencha `meta.coverImage = { src: "/blog/<slug>/cover.jpg", alt: "..." }`
    no arquivo do artigo, com alt text descritivo (pode incluir a keyword

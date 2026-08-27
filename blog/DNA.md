@@ -245,6 +245,43 @@ uma etapa do procedimento ou um conceito ficar mais claro ilustrado.
 - **Alt text**: sempre descritivo, e inclui a keyword primária do artigo
   quando fizer sentido naturalmente (nunca "keyword stuffing" forçado).
 
+### Alternativa: gerar com Nano Banana Pro (se Higgsfield/Kairogen estiverem sem crédito)
+
+Já aconteceu mais de uma vez (ver histórico de execuções do schedule) das duas
+ferramentas de geração de imagem do ambiente ficarem sem créditos ao mesmo
+tempo. Quando isso acontecer, em vez de publicar o artigo sem capa, passe ao
+Dr. Vitor o prompt abaixo pra ele gerar manualmente no Nano Banana Pro (ou
+outra ferramenta de IA de imagem) e colar o resultado na conversa:
+
+```
+Fotografia still-life editorial, estilo clínico/médico, alta qualidade,
+proporção 16:9 (landscape), resolução mínima 1200x675 (idealmente
+1600x900 ou mais).
+
+Cena: [DESCREVER AQUI O TEMA ESPECÍFICO DO ARTIGO — ex.: instrumentos
+cirúrgicos de transplante capilar organizados sobre uma bandeja clínica;
+tricoscópio sobre uma mesa de consultório; ampulheta com fios de cabelo
+ao lado de uma lupa, representando o tempo de recuperação; etc.]
+
+Estilo: still-life ou ambiente clínico, paleta neutra (bege, branco,
+cinza claro), luz natural suave, composição limpa e minimalista, sem
+elementos de banco de imagem genérico (sem sorrisos exagerados, sem
+clichê de stock photo).
+
+Nunca incluir: rosto identificável (nenhuma pessoa reconhecível como se
+fosse paciente real), foto de "antes/depois" fingindo resultado real de
+cirurgia, qualquer imagem que pareça prova de resultado clínico, texto
+renderizado na imagem.
+```
+
+Depois de receber a imagem do Dr. Vitor colada na conversa: localizar o
+arquivo mais recente em `~/Downloads` (comparando timestamp com o horário da
+mensagem), confirmar o formato real com `file` (pode vir `.png` mesmo que o
+nome sugira `.jpg`, ajustar a extensão do arquivo salvo em
+`public/blog/<slug>/cover.<ext>` para bater com o conteúdo real), atualizar
+`meta.coverImage` no artigo e rodar `npm run build` de novo antes de seguir
+com o PR (mesmo padrão já usado nas execuções de 2026-08-12).
+
 ## Palavras-chave de SEO
 
 ### Primárias (cada artigo mira exatamente uma)
