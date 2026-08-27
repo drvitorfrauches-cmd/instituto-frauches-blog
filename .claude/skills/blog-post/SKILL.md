@@ -32,12 +32,19 @@ Leia por inteiro, nesta ordem:
   títulos já publicados. **Nunca repita um tema já coberto.**
 - Se o usuário passou um tema ou keyword como argumento nesta execução, use-o
   (mesma prioridade de sempre), ajustando ao DNA.
-- Senão, **confira a seção "Pendentes" de `blog/TEMAS_SUGERIDOS.md`**. Se
-  houver algo lá, use o item mais antigo (primeiro da lista) como tema —
-  ele tem prioridade sobre a rotação automática de pilares, porque veio de
-  uma sugestão direta do Dr. Vitor.
-- Só se a fila de sugeridos estiver vazia, escolha o próximo tema seguindo a
-  distribuição de pilares de conteúdo do DNA (não escolha sempre o mesmo
+- Senão, **confira a seção "Pendentes" de `blog/TEMAS_SUGERIDOS.md`**. Ela
+  tem prioridade sobre a rotação automática de pilares, porque veio de
+  sugestões diretas do Dr. Vitor, mas **desde 2026-08-27 não é mais para
+  seguir em ordem numérica estrita** (isso causou 9 publicações seguidas do
+  mesmo pilar). Siga a regra descrita no topo da seção "Pendentes" desse
+  arquivo: veja os pilares (`meta.category`) dos últimos 4-5 artigos
+  publicados, identifique qual dos 5 pilares do DNA está há mais tempo sem
+  aparecer, e pegue o item mais antigo ainda não coberto na subseção desse
+  pilar. Se a subseção estiver sem item elegível, passe pro próximo pilar
+  mais atrasado na rotação.
+- Só se a fila de sugeridos estiver totalmente vazia (todas as 5 subseções
+  sem item elegível), escolha o próximo tema seguindo a distribuição de
+  pilares de conteúdo do DNA diretamente (não escolha sempre o mesmo
   pilar).
 - Defina: keyword primária (uma da lista do DNA, ainda não usada em nenhum
   artigo publicado — se o tema veio da fila de sugeridos e não casa

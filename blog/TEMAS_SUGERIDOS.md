@@ -2,8 +2,7 @@
 
 Fila de temas para os próximos artigos do blog. Sempre que o Dr. Vitor
 sugerir um tema (em conversa com o Claude, ou diretamente aqui), adiciona
-uma linha na seção "Pendentes". Ordem é prioridade: o item mais antigo
-(primeiro da lista) é usado primeiro.
+uma linha na subseção do pilar correspondente, em "Pendentes".
 
 A skill `blog-post` (`.claude/skills/blog-post/SKILL.md`) lê esta fila antes
 de escolher um tema pela distribuição de pilares do `DNA.md`. Se houver algo
@@ -17,7 +16,42 @@ Cada item abaixo tem um objetivo de SEO (a keyword-alvo, use como base pra
 escolher a keyword primária real da lista do DNA, ou adicione ao DNA se não
 existir ainda) e um briefing (os pontos que o Dr. Vitor quer que o artigo
 cubra — use como roteiro das seções H2, não precisa ser 1 H2 por bullet
-exatamente, mas todos os pontos devem aparecer no texto).
+exatamente, mas todos os pontos devem aparecer no texto). Itens sem
+briefing explícito: escreva com base no conhecimento médico geral do
+Dr. Vitor sobre o assunto, seguindo o tom e as regras de compliance do DNA
+normalmente — o título já deixa claro o ângulo esperado.
+
+**Como escolher o próximo item (regra a partir de 2026-08-27):** os itens
+abaixo estão agrupados por pilar de conteúdo do `DNA.md`, não mais numa
+lista única em ordem numérica estrita. A lista antiga (seguir sempre o
+número mais baixo) fez o blog publicar 9 artigos seguidos do mesmo pilar
+(Calvície e tricologia, entre 2026-08-05 e 2026-08-26), o que foge bastante
+da distribuição pretendida no DNA. A partir de agora:
+
+1. Confira os pilares (`meta.category`) dos últimos 4-5 artigos publicados
+   (veja "Já publicados" abaixo, ou rode `ls content/` e olhe a `category`
+   dos arquivos mais recentes).
+2. Identifique qual dos 5 pilares listados abaixo está há mais tempo sem
+   aparecer nessas publicações recentes.
+3. Dentro da subseção desse pilar, pegue o item mais antigo (primeiro da
+   subseção) que ainda não tenha nota de "já coberto" ou "pular". Esse é o
+   tema desta execução.
+4. Se a subseção desse pilar não tiver nenhum item elegível no momento,
+   passe pro próximo pilar mais atrasado na rotação.
+
+Distribuição-alvo (mesma do `DNA.md`): Técnica FUE e tecnologia ~30%,
+Dúvidas e medos antes da cirurgia ~25%, Pós-operatório e recuperação ~20%,
+Calvície/tricologia geral e tratamentos clínicos ~15%, Casos especiais
+~10%. Dentro do Pilar 4, alterne entre os dois grupos (calvície geral /
+medicamentos e tratamentos) a cada escolha, em vez de esgotar um grupo
+inteiro antes do outro.
+
+### Bloco inicial (itens 2-20)
+
+Primeira leva de sugestões, anterior ao lote grande organizado por pilar
+(itens 21-122). Todos os itens deste bloco já estão cobertos por artigos
+publicados ou marcados para pular — não há nenhum pendente aqui. Mantido só
+como histórico das decisões:
 
 ### 6. O que é a técnica FUE?
 - **Objetivo SEO**: FUE
@@ -82,15 +116,125 @@ exatamente, mas todos os pontos devem aparecer no texto).
 
 ---
 
-Os itens 21-120 abaixo vieram de um lote maior enviado pelo Dr. Vitor,
-organizado em 5 pilares. A ordem de uso continua sendo sequencial (os itens
-2-20 acima têm prioridade por terem entrado primeiro na fila); dentro deste
-lote, siga a ordem numérica. Itens sem briefing explícito: escreva com base
-no conhecimento médico geral do Dr. Vitor sobre o assunto, seguindo o tom e
-as regras de compliance do DNA normalmente — o título já deixa claro o
-ângulo esperado.
+Os itens 21-122 abaixo vieram de um lote maior enviado pelo Dr. Vitor,
+organizado originalmente em 5 pilares próprios (Tudo sobre calvície,
+Medicamentos e tratamentos, Transplante capilar, Tecnologia, Casos
+especiais). Em 2026-08-27, esse lote foi reagrupado nos 5 pilares de
+conteúdo do `DNA.md` (ver regra de escolha acima), porque os pilares
+originais do Dr. Vitor misturavam temas de técnica, dúvidas pré-cirúrgicas
+e pós-operatório dentro do mesmo bloco "Transplante capilar (61-90)", o que
+levava a sequências longas do mesmo pilar do DNA quando lidos em ordem
+numérica pura. Os números de cada item (identificadores históricos) foram
+mantidos como estavam, só a agrupação/ordem de leitura mudou.
 
-#### Pilar: Tudo sobre calvície (21-40)
+## Pilar 1 — Técnica FUE e tecnologia (~30% da fila)
+
+Como funciona a técnica, etapas da cirurgia do ponto de vista técnico,
+diferenças para FUT, tecnologia e instrumental usados.
+
+### 61. Quantos fios preciso transplantar?
+### 62. O que são unidades foliculares?
+### 63. O que é densidade capilar?
+### 65. Como desenhamos a linha frontal?
+### 88. Como preservar a área doadora
+### 89. O que é superextração?
+### 91. O que é FUE Premium?
+### 92. O que é Implanter Pen?
+### 93. Por que usamos microscópios?
+- Nota (2026-07-29): coberto pelo item 17 ("Por que o microscópio faz
+  diferença na cirurgia?"), publicado como `microscopio-no-transplante-capilar`.
+  Pular a menos que surja um ângulo claramente distinto (este item já cobre
+  ampliação, triagem, transecção, sobrevivência do enxerto e o papel da
+  equipe).
+### 94. Como os enxertos são armazenados
+### 95. Qual a temperatura ideal dos enxertos?
+### 96. Tempo fora do corpo influencia?
+### 97. Punch manual ou motorizado?
+### 98. Diferença entre punch de 0,8 e 1 mm
+### 99. O que é transecção folicular?
+### 100. Como aumentar a sobrevivência dos enxertos
+### 101. O papel da equipe cirúrgica
+### 102. O que diferencia uma cirurgia premium?
+### 103. Como reduzir o trauma dos enxertos
+### 104. Bioestimulação durante a cirurgia
+### 105. O futuro do transplante capilar
+
+## Pilar 2 — Dúvidas e medos antes da cirurgia (~25% da fila)
+
+Dor, resultado natural, "cara de transplantado", conforto durante a
+cirurgia, decisão sobre reoperar.
+
+### 64. O que é uma hairline natural?
+- Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
+  pacote editorial externo). Avalie antes de produzir.
+### 66. Quanto tempo dura a cirurgia?
+### 67. Posso assistir TV durante a cirurgia?
+### 68. Posso dormir durante o transplante?
+### 69. Como funciona a sedação venosa?
+- Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
+  editorial externo). Avalie antes de produzir.
+### 85. Segunda cirurgia é comum?
+### 86. Quantas cirurgias uma pessoa pode fazer?
+### 87. Quando vale a pena reoperar?
+### 90. Como evitar transplantes artificiais
+- Nota: tema próximo dos artigos publicados `como-identificar-transplante-capilar-natural`
+  e `sinais-transplante-capilar-mal-feito` (pacote editorial externo).
+  Diferencie o ângulo (ex.: foco em prevenção/planejamento, não em
+  identificação pós-cirurgia) antes de produzir.
+
+## Pilar 3 — Pós-operatório e recuperação (~20% da fila)
+
+Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
+
+### 70. Quando posso voltar ao trabalho?
+### 71. Quando posso usar boné?
+### 72. Quando posso cortar o cabelo?
+### 73. Quando posso fazer academia?
+### 74. Quando posso voltar a nadar?
+### 75. Posso tomar sol?
+### 76. Como lavar o cabelo após a cirurgia?
+### 77. Crostas: quanto tempo permanecem?
+### 78. É normal perder os fios transplantados?
+### 79. O que é Shock Loss?
+### 80. Quando o resultado começa?
+### 81. Resultado de 3 meses
+### 82. Resultado de 6 meses
+### 83. Resultado de 12 meses
+### 84. Resultado de 18 meses
+
+## Pilar 4 — Calvície, tricologia geral e tratamentos clínicos (~15% da fila)
+
+Causas da queda de cabelo e opções de tratamento não cirúrgico. Duas
+frentes que se alternam (ver regra de escolha no topo desta seção).
+
+### Calvície geral
+
+### 125. Canetas emagrecedoras (Ozempic, Mounjaro, Wegovy) e queda de cabelo
+- **Objetivo SEO**: caneta emagrecedora causa queda de cabelo / Mounjaro
+  queda de cabelo / Ozempic queda de cabelo
+- **Prioridade alta** (portado do PR #101, fechado em 2026-08-27):
+  renumerado de 123 pra 125 porque o número 123 já pertence ao artigo
+  publicado `nutraceuticos-para-queda-de-cabelo` (ver "Já publicados").
+  Colocado no topo desta subseção pra ser o próximo item elegível do
+  Pilar 4, mantendo a prioridade original do pedido do Dr. Vitor.
+- **Briefing**: tema de alta prioridade (aproveitar o hype atual do
+  Mounjaro/Ozempic/Wegovy — tirzepatida, semaglutida, liraglutida). Cobrir:
+  (1) essas canetas (agonistas de GLP-1) causam queda de cabelo direto, ou é
+  efeito colateral da perda de peso rápida (eflúvio telógeno por perda de
+  peso/restrição calórica/deficiência nutricional, mecanismo já conhecido
+  independente do medicamento em si); (2) o que dizem bula e estudos sobre
+  a incidência real; (3) é temporário ou permanente; (4) quem já tem
+  predisposição genética à calvície pode ter o processo "acelerado/
+  revelado" pelo emagrecimento rápido, mesmo sem o medicamento ser a causa
+  direta; (5) o que fazer (avaliação nutricional, reposição de proteína/
+  ferro/zinco, quando procurar avaliação capilar); (6) deixar claro que não
+  se trata de contraindicar o uso do medicamento (foge do escopo do blog
+  e da especialidade), só de explicar e orientar sobre o efeito capilar.
+  Nota de compliance: usar os nomes de substância (semaglutida, tirzepatida,
+  liraglutida) e marcas amplamente divulgadas (Ozempic, Mounjaro, Wegovy,
+  Saxenda) apenas como termos de busca/contexto informativo, nunca fazer
+  qualquer recomendação de uso, dose ou indicação desses medicamentos —
+  isso é fora da especialidade do Dr. Vitor.
 
 ### 22. Primeiros sinais da calvície masculina
 - **Briefing**: entradas; afinamento; miniaturização.
@@ -100,7 +244,6 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   `como-saber-se-estou-ficando-careca` (os três mencionam miniaturização
   explicitamente). Considerado já coberto, não escrever versão nova a menos
   que surja um ângulo claramente distinto.
-
 ### 23. Como saber se estou ficando careca?
 - Nota: já existe artigo publicado (`como-saber-se-estou-ficando-careca`,
   pacote editorial externo) com esse título quase idêntico. Pule ou
@@ -143,7 +286,35 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 39. Testosterona causa calvície?
 ### 40. Creatina provoca queda de cabelo?
 
-#### Pilar: Medicamentos e tratamentos (41-60)
+### 124. Escala PRECISE
+- **Objetivo SEO**: escala PRECISE alopecia androgenética (avaliar se vira
+  keyword primária nova do DNA na hora de escrever, ou se `calvície tem
+  cura`/outra da lista fixa encaixa melhor)
+- Sugerido pelo Dr. Vitor (2026-08-15, portado do PR #93 fechado em
+  2026-08-27): existe artigo publicado no PubMed sobre o assunto.
+- **Briefing** (levantado via PubMed nesta sessão, conferir a fonte antes de
+  publicar): a escala PRECISE é uma classificação **quantitativa** da
+  alopecia androgenética, publicada em 2023 na revista Aesthetic Plastic
+  Surgery (Pittella, Castro et al.), disponível em
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10980655/ e
+  https://pubmed.ncbi.nlm.nih.gov/37365308/. Fórmula: PRECISE = RBA/30 + TS
+  (RBA = área relativa de calvície, incluindo afinamento corrigido pelo
+  Índice de Miniaturização Capilar; TS = escore de recessão temporal, 0 a
+  0,3). Pontuação de 0 a 10, cada 30 cm² de calvície equivalendo a 1 ponto.
+  Aplicação prática: recomenda cerca de 1.500 unidades foliculares por
+  ponto da escala para planejar o transplante. Ângulo natural do artigo:
+  contraste com a escala de Norwood (`escala-de-norwood`, qualitativa/
+  comparativa por fotos) versus PRECISE (quantitativa/matemática), e como
+  uma classificação numérica ajuda a estimar a quantidade de enxertos com
+  mais objetividade. Linkar com `escala-de-norwood` e com
+  `quem-pode-fazer-transplante-capilar`. **Antes de publicar**: reler as
+  fontes originais para confirmar os números acima (foram resumidos por IA
+  a partir do texto da PMC, não conferidos folículo por fórmula pelo Dr.
+  Vitor) e adaptar a linguagem ao tom do blog, sem citar a fórmula/dosagem
+  de UF por ponto como recomendação fechada do Instituto Frauches sem
+  reforçar que a contagem real depende de avaliação individual.
+
+### Medicamentos e tratamentos
 
 ### 41. Dutasterida funciona melhor que Finasterida?
 - Nota: já existe artigo publicado (`dutasterida-para-calvicie`, pacote
@@ -177,71 +348,10 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
 ### 59. Cafeína contra queda capilar
 ### 60. O futuro do tratamento da calvície
 
-#### Pilar: Transplante capilar (61-90)
+## Pilar 5 — Casos especiais e público específico (~10% da fila)
 
-### 61. Quantos fios preciso transplantar?
-### 62. O que são unidades foliculares?
-### 63. O que é densidade capilar?
-### 64. O que é uma hairline natural?
-- Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
-  pacote editorial externo). Avalie antes de produzir.
-### 65. Como desenhamos a linha frontal?
-### 66. Quanto tempo dura a cirurgia?
-### 67. Posso assistir TV durante a cirurgia?
-### 68. Posso dormir durante o transplante?
-### 69. Como funciona a sedação venosa?
-- Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
-  editorial externo). Avalie antes de produzir.
-### 70. Quando posso voltar ao trabalho?
-### 71. Quando posso usar boné?
-### 72. Quando posso cortar o cabelo?
-### 73. Quando posso fazer academia?
-### 74. Quando posso voltar a nadar?
-### 75. Posso tomar sol?
-### 76. Como lavar o cabelo após a cirurgia?
-### 77. Crostas: quanto tempo permanecem?
-### 78. É normal perder os fios transplantados?
-### 79. O que é Shock Loss?
-### 80. Quando o resultado começa?
-### 81. Resultado de 3 meses
-### 82. Resultado de 6 meses
-### 83. Resultado de 12 meses
-### 84. Resultado de 18 meses
-### 85. Segunda cirurgia é comum?
-### 86. Quantas cirurgias uma pessoa pode fazer?
-### 87. Quando vale a pena reoperar?
-### 88. Como preservar a área doadora
-### 89. O que é superextração?
-### 90. Como evitar transplantes artificiais
-- Nota: tema próximo dos artigos publicados `como-identificar-transplante-capilar-natural`
-  e `sinais-transplante-capilar-mal-feito` (pacote editorial externo).
-  Diferencie o ângulo (ex.: foco em prevenção/planejamento, não em
-  identificação pós-cirurgia) antes de produzir.
-
-#### Pilar: Tecnologia (91-105)
-
-### 91. O que é FUE Premium?
-### 92. O que é Implanter Pen?
-### 93. Por que usamos microscópios?
-- Nota (2026-07-29): coberto pelo item 17 ("Por que o microscópio faz
-  diferença na cirurgia?"), publicado como `microscopio-no-transplante-capilar`.
-  Pular a menos que surja um ângulo claramente distinto (este item já cobre
-  ampliação, triagem, transecção, sobrevivência do enxerto e o papel da
-  equipe).
-### 94. Como os enxertos são armazenados
-### 95. Qual a temperatura ideal dos enxertos?
-### 96. Tempo fora do corpo influencia?
-### 97. Punch manual ou motorizado?
-### 98. Diferença entre punch de 0,8 e 1 mm
-### 99. O que é transecção folicular?
-### 100. Como aumentar a sobrevivência dos enxertos
-### 101. O papel da equipe cirúrgica
-### 102. O que diferencia uma cirurgia premium?
-### 103. Como reduzir o trauma dos enxertos
-### 104. Bioestimulação durante a cirurgia
-### 105. O futuro do transplante capilar
-
-#### Pilar: Casos especiais (106-120)
+Tipos de cabelo, transplante de barba/sobrancelha, público fora de
+Vitória/ES, correção de cirurgias anteriores.
 
 ### 106. Transplante em mulheres
 ### 107. Transplante para barba
@@ -269,14 +379,12 @@ as regras de compliance do DNA normalmente — o título já deixa claro o
   hub de respostas curtas com link para o artigo completo quando existe.
   Formato hub em vez de artigo único de 900-1500 palavras, então não
   conflita com a nota original de não fazer um artigo gigante.
-
 ### 121. Transplante capilar para pacientes de outros estados
 - **Objetivo SEO**: transplante capilar para quem mora fora de Vitória/ES
 - **Briefing**: como funciona o atendimento pra paciente que não é de
   Vitória/ES (avaliação à distância antes da cirurgia, o que é feito por
   telemedicina/fotos vs. o que exige presença física, cronograma da viagem
   em torno da cirurgia, acompanhamento pós-operatório à distância).
-
 ### 122. Como viajar para Vitória para fazer transplante capilar
 - **Objetivo SEO**: viajar para Vitória transplante capilar
 - **Briefing**: planejamento prático da viagem (quantos dias ficar antes/
@@ -441,3 +549,13 @@ neste lote por risco de duplicidade com o artigo de lançamento).
   `deficiencia-de-ferro-causa-queda-de-cabelo`. Itens 32 e 36 reavaliados
   e marcados como já cobertos por outros artigos (ver notas em
   Pendentes); 39 e 40 seguem pendentes para uma próxima rodada.
+
+**Nota (2026-08-27)**: os 9 artigos publicados entre `alopecia-androgenetica`
+(21, 2026-08-05) e `deficiencia-de-vitamina-d-causa-queda-de-cabelo` (38,
+2026-08-26) saíram todos do Pilar 4 (Calvície e tricologia geral), porque
+essa era a única faixa da fila antiga com itens plenamente elegíveis
+naquele momento (itens 22-37 do bloco "Tudo sobre calvície"). A partir
+desta reorganização, a fila passa a alternar entre os 5 pilares do DNA a
+cada nova publicação (ver regra de escolha em "Pendentes" acima), então o
+próximo artigo deve vir do Pilar 1 (Técnica FUE e tecnologia) ou do Pilar 2
+(Dúvidas e medos), que estão sem publicação nova desde 2026-07-31.
