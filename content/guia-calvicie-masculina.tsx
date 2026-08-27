@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre calvície masculina: primeiros sinais, diagnóstico, tratamento clínico e quando considerar a cirurgia, com links pra cada tema em detalhe.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-24",
+  updatedAt: "2026-08-26",
   readingTime: 3,
   category: "Guias",
   author: AUTHOR,
@@ -41,6 +41,7 @@ export default function Article() {
         <LI><Link href="/blog/deficiencia-de-ferro-causa-queda-de-cabelo" className="underline">{"Deficiência de ferro causa queda de cabelo?"}</Link>{": como a ferritina baixa afeta o folículo, quem tem mais risco e quando isso se soma à calvície genética."}</LI>
         <LI><Link href="/blog/alimentacao-interfere-na-calvicie" className="underline">{"Alimentação interfere na calvície?"}</Link>{": o que a dieta pode e não pode fazer pela queda de cabelo genética, e quais nutrientes têm evidência real."}</LI>
         <LI><Link href="/blog/calvicie-aos-18-anos" className="underline">{"Calvície pode começar aos 18 anos?"}</Link>{": por que o início pode ser precoce, os primeiros sinais nessa faixa etária e o que fazer diante do diagnóstico."}</LI>
+        <LI><Link href="/blog/deficiencia-de-vitamina-d-causa-queda-de-cabelo" className="underline">{"Deficiência de vitamina D causa queda de cabelo?"}</Link>{": o papel da vitamina D no ciclo capilar, quem tem mais risco de deficiência e quando vale investigar com exame."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>
