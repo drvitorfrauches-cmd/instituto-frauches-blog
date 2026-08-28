@@ -58,9 +58,9 @@ export default function Article() {
       <H2 id="existe-numero-padrao">{"Existe um número padrão de fios por estágio de calvície?"}</H2>
       <P>{"Não existe um número fechado que sirva para todo mundo no mesmo estágio, mas é possível dar uma ideia de ordem de grandeza, sempre como referência geral, nunca como orçamento fechado de uma cirurgia específica:"}</P>
       <UL>
-        <LI>{"Entradas discretas ou reforço pontual da linha frontal costumam envolver a redistribuição de algumas centenas até pouco mais de mil unidades foliculares."}</LI>
-        <LI>{"Estágios intermediários, com entradas mais avançadas e início de rarefação na coroa, costumam ficar na faixa de 1.500 a 2.500 unidades."}</LI>
-        <LI>{"Estágios avançados, com grande extensão de calvície frontal e coroa comprometida, podem demandar de 3.000 a 5.000 unidades ou mais, muitas vezes divididas em mais de uma sessão."}</LI>
+        <LI>{"Entradas discretas ou reforço pontual da linha frontal costumam envolver a redistribuição de 2 a 3 mil unidades foliculares."}</LI>
+        <LI>{"Estágios intermediários, com entradas mais avançadas e início de rarefação na coroa, costumam ficar na faixa de 4.500 a 5.000 unidades."}</LI>
+        <LI>{"Estágios avançados, com grande extensão de calvície frontal e coroa comprometida, podem demandar de 6.000 a 7.000 unidades ou mais, muitas vezes divididas em mais de uma sessão."}</LI>
       </UL>
       <P>{"Essas faixas variam tanto de paciente para paciente que só servem como referência de conversa inicial. O número real do seu caso só sai depois da avaliação, da tricoscopia e do cálculo específico da sua área a cobrir e da sua área doadora."}</P>
 
