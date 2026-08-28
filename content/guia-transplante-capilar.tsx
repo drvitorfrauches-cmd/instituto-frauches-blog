@@ -37,6 +37,7 @@ export default function Article() {
       <H2 id="planejamento-e-area-doadora">{"Planejamento e área doadora"}</H2>
       <UL>
         <LI><Link href="/blog/area-doadora-transplante-capilar" className="underline">{"Área doadora: o patrimônio do transplante capilar"}</Link>{": por que ela é limitada e como se preserva."}</LI>
+        <LI><Link href="/blog/quantos-fios-transplante-capilar" className="underline">{"Quantos fios preciso no transplante capilar"}</Link>{": como estágio da calvície, densidade e área doadora definem esse número."}</LI>
         <LI><Link href="/blog/hairline-natural-transplante-capilar" className="underline">{"Hairline natural"}</Link>{": como é desenhada a linha frontal."}</LI>
         <LI><Link href="/blog/como-identificar-transplante-capilar-natural" className="underline">{"Como identificar um transplante capilar natural"}</Link>{": os sinais de um bom planejamento."}</LI>
       </UL>

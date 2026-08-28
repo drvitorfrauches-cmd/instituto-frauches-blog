@@ -317,7 +317,8 @@ microscópio no transplante capilar, shampoo faz nascer cabelo, exames para
 queda de cabelo, calvície genética, calvície piora com a idade, escala de
 Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
 de cabelo, alimentação interfere na calvície, calvície aos 18 anos,
-deficiência de vitamina D causa queda de cabelo.
+deficiência de vitamina D causa queda de cabelo, quantos fios transplante
+capilar.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -346,6 +347,7 @@ deficiência de vitamina D causa queda de cabelo.
 - "Deficiência de ferro causa queda de cabelo?"
 - "Deficiência de vitamina D causa queda de cabelo?"
 - "Calvície pode começar aos 18 anos?"
+- "Quantos fios preciso transplantar no transplante capilar?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
