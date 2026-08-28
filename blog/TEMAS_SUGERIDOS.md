@@ -132,7 +132,6 @@ mantidos como estavam, só a agrupação/ordem de leitura mudou.
 Como funciona a técnica, etapas da cirurgia do ponto de vista técnico,
 diferenças para FUT, tecnologia e instrumental usados.
 
-### 61. Quantos fios preciso transplantar?
 ### 62. O que são unidades foliculares?
 ### 63. O que é densidade capilar?
 ### 65. Como desenhamos a linha frontal?
@@ -556,6 +555,17 @@ neste lote por risco de duplicidade com o artigo de lançamento).
 essa era a única faixa da fila antiga com itens plenamente elegíveis
 naquele momento (itens 22-37 do bloco "Tudo sobre calvície"). A partir
 desta reorganização, a fila passa a alternar entre os 5 pilares do DNA a
-cada nova publicação (ver regra de escolha em "Pendentes" acima), então o
-próximo artigo deve vir do Pilar 1 (Técnica FUE e tecnologia) ou do Pilar 2
-(Dúvidas e medos), que estão sem publicação nova desde 2026-07-31.
+cada nova publicação (ver regra de escolha em "Pendentes" acima).
+- Item 61, "Quantos fios preciso transplantar?" — publicado em 2026-08-28
+  como `quantos-fios-transplante-capilar` (Pilar 1, Técnica FUE e
+  tecnologia, sem publicação nova desde 2026-07-31 até então). Keyword
+  primária nova "quantos fios transplante capilar" (não constava na lista
+  fixa do DNA; adicionada às secundárias). Ângulo de planejamento
+  quantitativo (unidades foliculares x fios, estágio de Norwood, densidade
+  alvo, tipo de fio, teto da área doadora), distinto de
+  `area-doadora-transplante-capilar` (que cobre a capacidade da área
+  doadora em si, sem detalhar o cálculo de quantas unidades são necessárias
+  para cobrir a área receptora). Linkado com `escala-de-norwood` e
+  `area-doadora-transplante-capilar`. Próximo artigo deve vir do Pilar 2
+  (Dúvidas e medos antes da cirurgia), sem publicação nova desde
+  2026-07-31.
