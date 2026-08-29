@@ -149,7 +149,30 @@ diferenças para FUT, tecnologia e instrumental usados.
 ### 95. Qual a temperatura ideal dos enxertos?
 ### 96. Tempo fora do corpo influencia?
 ### 97. Punch manual ou motorizado?
+- **Objetivo SEO**: tipos de punch transplante capilar / qualidade do punch
+  na cirurgia
+- **Briefing** (ampliado em 2026-08-27 a pedido do Dr. Vitor): cobrir os
+  vários tipos de punch usados na cirurgia (manual x motorizado, diâmetros
+  variando de aproximadamente 0,6 a 1 mm, formato reto x afunilado/
+  perfurante), diferenciar qualidade e espessura do material (aço cirúrgico,
+  afiação, ponta romba x cortante, punches descartáveis x reutilizáveis),
+  citar marcas e sistemas conhecidos do mercado (ex.: Mamba®, UGraft Zeus®
+  "The Intelligent Punch®", WAW, Cole Instruments, sistemas de punch sáfiro/
+  sapphire) só como contexto informativo/técnico (não é comparação com
+  concorrentes — são fabricantes de equipamento, não clínicas ou médicos),
+  e explicar por que a escolha de bons materiais influencia diretamente o
+  resultado final: menos transecção folicular, cicatrizes menores, melhor
+  sobrevivência do enxerto. Absorve também o item 98 (diferença entre punch
+  de 0,8 e 1 mm), que fica coberto dentro deste mesmo artigo em vez de virar
+  um segundo texto.
+- Nota: já existe uma seção breve "Punches" em
+  `tecnologias-transplante-capilar` (só 1 parágrafo sobre diâmetro x
+  cicatriz/segurança). Este artigo deve ser bem mais aprofundado nesse
+  tema específico, então não é duplicidade — é o ângulo completo que
+  aquele artigo só tocou de raspão.
 ### 98. Diferença entre punch de 0,8 e 1 mm
+- Nota (2026-08-27): absorvido pelo item 97 (briefing ampliado acima).
+  Não escrever artigo separado — cobrir dentro do 97.
 ### 99. O que é transecção folicular?
 ### 100. Como aumentar a sobrevivência dos enxertos
 ### 101. O papel da equipe cirúrgica
