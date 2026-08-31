@@ -55,6 +55,7 @@ export default function Article() {
       <UL>
         <LI><Link href="/blog/transplante-capilar-doi" className="underline">{"Transplante capilar dói?"}</Link>{": anestesia, sedação e o que esperar durante a cirurgia."}</LI>
         <LI><Link href="/blog/sedacao-transplante-capilar" className="underline">{"Sedação no transplante capilar"}</Link>{": como funciona e a segurança do procedimento."}</LI>
+        <LI><Link href="/blog/quanto-tempo-dura-transplante-capilar" className="underline">{"Quanto tempo dura a cirurgia"}</Link>{": as etapas do dia da cirurgia e os fatores que influenciam a duração total."}</LI>
         <LI><Link href="/blog/recuperacao-transplante-capilar" className="underline">{"Recuperação do transplante capilar"}</Link>{": cuidados e cronograma dos primeiros dias."}</LI>
       </UL>
 
