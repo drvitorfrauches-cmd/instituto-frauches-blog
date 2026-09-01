@@ -260,7 +260,6 @@ cirurgia, decisão sobre reoperar.
 ### 64. O que é uma hairline natural?
 - Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
   pacote editorial externo). Avalie antes de produzir.
-### 66. Quanto tempo dura a cirurgia?
 ### 67. Posso assistir TV durante a cirurgia?
 ### 68. Posso dormir durante o transplante?
 ### 69. Como funciona a sedação venosa?
@@ -660,6 +659,21 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `area-doadora-transplante-capilar` (que cobre a capacidade da área
   doadora em si, sem detalhar o cálculo de quantas unidades são necessárias
   para cobrir a área receptora). Linkado com `escala-de-norwood` e
-  `area-doadora-transplante-capilar`. Próximo artigo deve vir do Pilar 2
-  (Dúvidas e medos antes da cirurgia), sem publicação nova desde
-  2026-07-31.
+  `area-doadora-transplante-capilar`.
+- Item 66, "Quanto tempo dura a cirurgia?" — publicado em 2026-08-31 como
+  `quanto-tempo-dura-transplante-capilar` (Pilar 2, Dúvidas e medos antes da
+  cirurgia, sem publicação nova desde 2026-07-31 até então). Keyword
+  primária nova "quanto tempo dura o transplante capilar" (não constava na
+  lista fixa do DNA; adicionada às secundárias e à Intenção GEO). Ângulo de
+  aprofundamento real (por que a cirurgia demora tantas horas, fatores que
+  mudam a duração, etapas do dia da cirurgia, como é passar tantas horas
+  sedado), distinto da menção de duas frases em uma FAQ de
+  `transplante-capilar-fue-o-que-e`, que não desenvolve o tema. Item 64
+  reavaliado antes deste e mantido como "avaliar antes de produzir" por
+  sobreposição com `hairline-natural-transplante-capilar`; itens 67, 68 e
+  90 seguem pendentes (67 e 68 têm sobreposição parcial com a seção "Como é
+  passar tantas horas em uma cirurgia?" deste novo artigo, mas ainda não o
+  suficiente para marcar como cobertos). Linkado com
+  `sedacao-transplante-capilar`, `tecnica-fue-transplante-capilar` e
+  `quantos-fios-transplante-capilar`. Próximo artigo deve vir do Pilar 3
+  (Pós-operatório e recuperação), sem publicação nova desde 2026-07-25.
