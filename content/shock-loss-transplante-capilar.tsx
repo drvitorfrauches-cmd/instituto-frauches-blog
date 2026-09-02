@@ -7,7 +7,7 @@ export const meta: PostMeta = {
   slug: "shock-loss-transplante-capilar",
   title: "O que é shock loss no transplante capilar?",
   description:
-    "Shock loss é a queda temporária de fios após o transplante capilar, dos enxertos ou dos fios nativos. Entenda por que acontece e quando ela é esperada.",
+    "Shock loss é a queda temporária de fios após o transplante capilar, dos enxertados ou dos fios nativos. Entenda por que acontece e quando ela é esperada.",
   publishedAt: "2026-09-02",
   updatedAt: "2026-09-02",
   readingTime: 9,
@@ -44,7 +44,7 @@ export default function Article() {
       <P>{"Não existe uma forma de fazer transplante capilar sem nenhum grau de trauma tecidual, então algum nível de shock loss é considerado parte esperada do processo, não uma complicação rara. O que muda de paciente para paciente é a extensão: alguns notam uma queda quase imperceptível, outros percebem uma rarefação temporária mais visível na área operada."}</P>
 
       <H2 id="quanto-tempo-dura">{"Quanto tempo dura o shock loss?"}</H2>
-      <P>{"Na linha do tempo típica divulgada pela clínica, a queda inicial dos fios transplantados concentra-se entre o primeiro e o segundo mês após a cirurgia. A partir do terceiro mês, a queda já reduz de forma significativa e os primeiros fios novos começam a aparecer. Entre o sexto e o décimo segundo mês, o crescimento evolui progressivamente até o resultado considerado definitivo."}</P>
+      <P>{"Na linha do tempo típica divulgada pela nossa clínica, a queda inicial dos fios transplantados concentra-se entre o primeiro e o segundo mês após a cirurgia. A partir do terceiro mês, a queda já reduz de forma significativa e os primeiros fios novos começam a aparecer. Entre o sexto e o décimo segundo mês, o crescimento evolui progressivamente até o resultado considerado definitivo."}</P>
       <P>{"O shock loss dos fios nativos costuma seguir um cronograma parecido, embora a recuperação de cada fio dependa da saúde daquele folículo específico antes da cirurgia. Fios nativos que já estavam bastante miniaturizados por causa da calvície têm uma chance um pouco menor de voltar a crescer com a mesma densidade, porque já estavam mais próximos do fim natural do próprio ciclo, independente da cirurgia."}</P>
 
       <H2 id="e-reversivel">{"O shock loss é reversível?"}</H2>
@@ -59,7 +59,7 @@ export default function Article() {
         <LI><Strong>{"Evolução ao longo dos meses:"}</Strong>{" o critério mais confiável é o tempo. Shock loss melhora progressivamente a partir do terceiro mês. Uma falha real de fixação não mostra essa retomada de crescimento com o passar dos meses."}</LI>
         <LI><Strong>{"Acompanhamento fotográfico:"}</Strong>{" registrar a evolução com fotos padronizadas, sempre na mesma luz e no mesmo ângulo, facilita perceber a diferença entre uma fase esperada de repouso e uma estagnação real."}</LI>
       </OL>
-      <P>{"Na dúvida, o caminho não é tentar interpretar sozinho o que está vendo no espelho. É levar essa dúvida para o médico que acompanhou a cirurgia, que consegue avaliar o couro cabeludo diretamente e comparar com o planejamento original do caso."}</P>
+      <P>{"Na dúvida, o caminho não é tentar interpretar sozinho o que está vendo no espelho. É levar essa dúvida para o médico que realizou a sua cirurgia, que consegue avaliar o couro cabeludo diretamente e comparar com o planejamento original do caso."}</P>
 
       <H2 id="fatores-de-risco">{"O que aumenta o risco de shock loss?"}</H2>
       <P>{"Alguns fatores tornam o shock loss mais provável ou mais extenso, sem que isso represente um erro na cirurgia:"}</P>
