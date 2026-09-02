@@ -287,7 +287,11 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 ### 76. Como lavar o cabelo após a cirurgia?
 ### 77. Crostas: quanto tempo permanecem?
 ### 78. É normal perder os fios transplantados?
-### 79. O que é Shock Loss?
+- Nota (2026-09-02): avaliado antes de escrever. O artigo
+  `recuperacao-transplante-capilar` já tem um H3 dedicado ("O cabelo
+  transplantado cai?"), e o novo artigo `shock-loss-transplante-capilar`
+  aprofunda o mecanismo completo. Considerado já coberto, não escrever
+  versão nova a menos que surja um ângulo claramente distinto.
 ### 80. Quando o resultado começa?
 ### 81. Resultado de 3 meses
 ### 82. Resultado de 6 meses
@@ -675,5 +679,24 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   passar tantas horas em uma cirurgia?" deste novo artigo, mas ainda não o
   suficiente para marcar como cobertos). Linkado com
   `sedacao-transplante-capilar`, `tecnica-fue-transplante-capilar` e
-  `quantos-fios-transplante-capilar`. Próximo artigo deve vir do Pilar 3
-  (Pós-operatório e recuperação), sem publicação nova desde 2026-07-25.
+  `quantos-fios-transplante-capilar`.
+- Item 79, "O que é Shock Loss?" — publicado em 2026-09-02 como
+  `shock-loss-transplante-capilar` (Pilar 3, Pós-operatório e recuperação,
+  sem publicação nova desde 2026-07-25 até então). Keyword primária nova
+  "shock loss transplante capilar" (não constava na lista fixa do DNA;
+  adicionada às secundárias e à Intenção GEO). Itens 70 a 78 avaliados antes
+  deste: todos já estão cobertos em profundidade pelos H2/H3 de
+  `recuperacao-transplante-capilar` (voltar ao trabalho, boné, cortar o
+  cabelo, academia, tomar sol, lavar o cabelo, crostas, queda do fio
+  transplantado) ou por `resultado-transplante-capilar-linha-do-tempo`
+  (itens 80 a 84, cronograma de resultado mês a mês), com exceção do item 74
+  (nadar), que segue pendente por não ter ainda um ângulo distinto o
+  suficiente pra artigo próprio (é citado de passagem em
+  `recuperacao-transplante-capilar`). Item 79 foi escolhido por ser o único
+  totalmente elegível da subseção, com um ângulo raso hoje (só 1-2 frases
+  em outros artigos) e volume de busca próprio como termo técnico do
+  paciente pesquisando após notar queda pós-cirúrgica. Linkado com
+  `recuperacao-transplante-capilar`, `resultado-transplante-capilar-linha-do-tempo`
+  e `minoxidil-para-queda-de-cabelo`. Próximo artigo deve vir do Pilar 4
+  (Calvície, tricologia geral e tratamentos clínicos), sem publicação nova
+  desde 2026-08-26.

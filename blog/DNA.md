@@ -318,7 +318,8 @@ queda de cabelo, calvície genética, calvície piora com a idade, escala de
 Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
 de cabelo, alimentação interfere na calvície, calvície aos 18 anos,
 deficiência de vitamina D causa queda de cabelo, quantos fios transplante
-capilar, quanto tempo dura o transplante capilar.
+capilar, quanto tempo dura o transplante capilar, shock loss transplante
+capilar.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -349,6 +350,7 @@ capilar, quanto tempo dura o transplante capilar.
 - "Calvície pode começar aos 18 anos?"
 - "Quantos fios preciso transplantar no transplante capilar?"
 - "Quanto tempo dura a cirurgia de transplante capilar?"
+- "O que é shock loss no transplante capilar?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
