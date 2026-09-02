@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-09-01",
+  updatedAt: "2026-09-02",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
