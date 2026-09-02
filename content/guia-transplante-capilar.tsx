@@ -57,6 +57,7 @@ export default function Article() {
         <LI><Link href="/blog/sedacao-transplante-capilar" className="underline">{"Sedação no transplante capilar"}</Link>{": como funciona e a segurança do procedimento."}</LI>
         <LI><Link href="/blog/quanto-tempo-dura-transplante-capilar" className="underline">{"Quanto tempo dura a cirurgia"}</Link>{": as etapas do dia da cirurgia e os fatores que influenciam a duração total."}</LI>
         <LI><Link href="/blog/recuperacao-transplante-capilar" className="underline">{"Recuperação do transplante capilar"}</Link>{": cuidados e cronograma dos primeiros dias."}</LI>
+        <LI><Link href="/blog/shock-loss-transplante-capilar" className="underline">{"O que é shock loss"}</Link>{": por que alguns fios caem nas primeiras semanas após a cirurgia, e quando isso é esperado."}</LI>
       </UL>
 
       <H2 id="resultado">{"Resultado"}</H2>
