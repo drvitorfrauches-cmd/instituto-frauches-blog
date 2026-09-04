@@ -13,6 +13,10 @@ export const meta: PostMeta = {
   readingTime: 9,
   category: "Tratamentos capilares",
   author: AUTHOR,
+  coverImage: {
+    src: "/blog/laser-para-queda-de-cabelo/cover.jpg",
+    alt: "Capacete de laser terapêutico e pente de laser para queda de cabelo sobre uma bancada clínica neutra",
+  },
 };
 
 export default function Article() {
