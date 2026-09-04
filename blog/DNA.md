@@ -319,7 +319,7 @@ Norwood, dormir mal causa queda de cabelo, deficiência de ferro causa queda
 de cabelo, alimentação interfere na calvície, calvície aos 18 anos,
 deficiência de vitamina D causa queda de cabelo, quantos fios transplante
 capilar, quanto tempo dura o transplante capilar, shock loss transplante
-capilar.
+capilar, laser para queda de cabelo.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -351,6 +351,7 @@ capilar.
 - "Quantos fios preciso transplantar no transplante capilar?"
 - "Quanto tempo dura a cirurgia de transplante capilar?"
 - "O que é shock loss no transplante capilar?"
+- "Laser para queda de cabelo funciona?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido
