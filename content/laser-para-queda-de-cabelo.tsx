@@ -49,7 +49,7 @@ export default function Article() {
       <P>{"A escolha entre os formatos costuma ser mais uma questão de rotina e conforto do que de eficácia comprovadamente superior de um sobre o outro, desde que o aparelho tenha número de diodos e tempo de sessão compatíveis com o que a literatura testou."}</P>
 
       <H2 id="para-quem-o-laser-costuma-ser-indicado">{"Para quem o laser costuma ser indicado?"}</H2>
-      <P>{"O laser tende a funcionar melhor em quem ainda tem folículos miniaturizados, mas ativos, geralmente em estágios iniciais a moderados de alopecia androgenética (escala de Norwood até a faixa intermediária em homens, ou padrão Ludwig leve a moderado em mulheres). Também é discutido como suporte no pós-operatório de transplante capilar, para apoiar a recuperação dos fios nativos ao redor da área operada."}</P>
+      <P>{"O laser tende a funcionar melhor em quem ainda tem folículos miniaturizados, mas ativos, geralmente em estágios iniciais a moderados de alopecia androgenética (escala de Norwood até a faixa intermediária em homens, ou padrão Ludwig leve a moderado em mulheres). Também é muito discutido como suporte no pós-operatório de transplante capilar, para apoiar a recuperação dos fios nativos ao redor da área operada."}</P>
       <UL>
         <LI>{"Alopecia androgenética em fase inicial, com miniaturização ainda reversível."}</LI>
         <LI>{"Pacientes que não toleram ou preferem não usar minoxidil tópico ou oral."}</LI>
