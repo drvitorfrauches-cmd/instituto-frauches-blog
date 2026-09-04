@@ -39,6 +39,7 @@ export default function Article() {
         <LI><Link href="/blog/mesoterapia-capilar" className="underline">{"Mesoterapia capilar"}</Link>{": indicações e riscos."}</LI>
         <LI><Link href="/blog/exossomos-para-queda-de-cabelo" className="underline">{"Exossomos para queda de cabelo"}</Link>{": evidências, riscos e cuidados."}</LI>
         <LI><Link href="/blog/nutraceuticos-para-queda-de-cabelo" className="underline">{"Nutracêuticos para queda de cabelo"}</Link>{": o que são, como agem marcas como Actrisave, Bioarct, Bloome e Keranat, e o que diz a evidência científica."}</LI>
+        <LI><Link href="/blog/laser-para-queda-de-cabelo" className="underline">{"Laser para queda de cabelo"}</Link>{": como funciona o laser de baixa intensidade, capacete de laser, evidências e para quem costuma ser indicado."}</LI>
       </UL>
 
       <H2 id="produtos-de-venda-livre">{"Produtos de venda livre"}</H2>

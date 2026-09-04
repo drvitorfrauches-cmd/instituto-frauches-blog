@@ -413,18 +413,37 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 ### Medicamentos e tratamentos
 
 ### 41. Dutasterida funciona melhor que Finasterida?
-- Nota: já existe artigo publicado (`dutasterida-para-calvicie`, pacote
-  editorial externo) sobre dutasterida em geral. Este item pode focar
-  especificamente na comparação com finasterida, ângulo ainda não coberto.
+- Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
+  `dutasterida-para-calvicie` já tem um H2 dedicado ("Dutasterida é mais
+  eficaz que finasterida?") e um H3 ("Dutasterida faz nascer mais cabelo
+  que finasterida?"), cobrindo mecanismo, eficácia comparativa, mitos e
+  perguntas para a consulta. Considerado já coberto, não escrever versão
+  nova a menos que surja um ângulo claramente distinto.
 ### 42. Finasterida tópica vale a pena?
+- Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
+  `finasterida-para-calvicie` já tem um H2 dedicado ("Finasterida oral ou
+  tópica?") e um H3 ("Finasterida tópica não tem efeitos sistêmicos?"),
+  incluindo o alerta da FDA de 2025 sobre formulações manipuladas.
+  Considerado já coberto, não escrever versão nova a menos que surja um
+  ângulo claramente distinto.
 ### 43. Minoxidil oral ou tópico?
 - Nota: já existe artigo publicado (`minoxidil-para-queda-de-cabelo` e
   `minoxidil-funciona`) cobrindo isso. Avalie antes de produzir.
 ### 44. Quando começar o tratamento clínico?
 ### 45. Posso parar o Minoxidil?
+- Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
+  `minoxidil-para-queda-de-cabelo` já tem um H2 ("O que acontece se
+  parar?") e um H3 ("Posso parar gradualmente?"). Considerado já coberto,
+  não escrever versão nova a menos que surja um ângulo claramente
+  distinto.
 ### 46. O que acontece se parar a Finasterida?
 ### 47. Shampoo antiqueda funciona?
-### 48. Laser para queda de cabelo funciona?
+- Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
+  `shampoo-faz-nascer-cabelo` já cobre exatamente este ângulo (o que
+  shampoos antiqueda contêm de ativo, o que a evidência sustenta, quando o
+  problema já passou do ponto em que um produto de banho resolve).
+  Considerado já coberto, não escrever versão nova a menos que surja um
+  ângulo claramente distinto.
 ### 49. MMP para calvície
 - Nota: já existe artigo publicado (`mmp-capilar`, pacote editorial
   externo). Avalie antes de produzir.
@@ -438,7 +457,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 ### 53. PRF x PRP
 ### 54. Microagulhamento funciona?
 ### 55. LED capilar
-### 56. Capacete de laser realmente funciona?
 ### 57. Suplementos para cabelo
 ### 58. Biotina realmente funciona?
 ### 59. Cafeína contra queda capilar
@@ -700,3 +718,19 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   e `minoxidil-para-queda-de-cabelo`. Próximo artigo deve vir do Pilar 4
   (Calvície, tricologia geral e tratamentos clínicos), sem publicação nova
   desde 2026-08-26.
+- Item 48, "Laser para queda de cabelo funciona?" — publicado em 2026-09-04
+  como `laser-para-queda-de-cabelo` (Pilar 4, subgrupo "Medicamentos e
+  tratamentos"). Os dois últimos artigos do Pilar 4 (item 31,
+  `calvicie-aos-18-anos`, e item 38,
+  `deficiencia-de-vitamina-d-causa-queda-de-cabelo`) tinham saído seguidos
+  do subgrupo "Calvície geral", então esta escolha alternou pro subgrupo
+  "Medicamentos e tratamentos", conforme a regra de alternância do topo
+  desta seção. Keyword primária nova "laser para queda de cabelo" (não
+  constava na lista fixa do DNA; adicionada às secundárias e à Intenção
+  GEO). Absorve o item 56 ("Capacete de laser realmente funciona?"), que
+  virou uma seção dedicada dentro do mesmo artigo em vez de artigo
+  separado, já que é o mesmo mecanismo (LLLT) em formato de aparelho
+  diferente. Itens 41, 42, 45 e 47 reavaliados antes deste e marcados como
+  já cobertos por outros artigos (ver notas em Pendentes). Linkado com
+  `minoxidil-para-queda-de-cabelo` e `tecnologias-transplante-capilar`
+  (que já tinha uma seção breve "Laser de baixa intensidade").
