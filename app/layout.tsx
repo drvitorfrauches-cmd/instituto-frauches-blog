@@ -6,6 +6,7 @@ import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-LP6N2JKP9G";
+const GOOGLE_ADS_ID = "G-SLVYCHW3F4";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,6 +56,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}');
+            gtag('config', '${GOOGLE_ADS_ID}');
           `}
         </Script>
       </body>
