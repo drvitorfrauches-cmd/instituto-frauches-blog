@@ -10,6 +10,7 @@ import {
   ORGANIZATION_JSON_LD,
   PHONE_DISPLAY,
   PHONE_TEL,
+  SAME_AS,
   SITE_NAME,
   SITE_URL,
   WHATSAPP_URL,
@@ -42,6 +43,7 @@ export default function SobrePage() {
     description: AUTHOR_CREDENTIALS.join(". "),
     url: `${SITE_URL}/sobre`,
     image: `${SITE_URL}/author/dr-vitor-frauches.jpg`,
+    sameAs: SAME_AS,
     worksFor: ORGANIZATION_JSON_LD,
     memberOf: [
       { "@type": "Organization", name: "International Society of Hair Restoration Surgery" },

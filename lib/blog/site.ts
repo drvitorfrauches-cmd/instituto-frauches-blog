@@ -12,6 +12,10 @@ export const WHATSAPP_URL = `https://wa.me/5527992858541?text=${encodeURICompone
 
 export const INSTAGRAM_URL = "https://instagram.com/drvitorfrauches";
 
+export const FACEBOOK_URL = "https://www.facebook.com/sietransplantecapilar/";
+
+export const COMMERCIAL_SITE_URL = "https://drvitorfrauches.com.br/";
+
 export const LOGO_PATH = "/brand/logo.jpg";
 
 export const PHONE_DISPLAY = "(27) 99285-8541";
@@ -29,6 +33,8 @@ export const ADDRESS = {
 
 export const ADDRESS_DISPLAY = `${ADDRESS.street}, ${ADDRESS.city} - ${ADDRESS.region}, ${ADDRESS.postalCode}`;
 
+export const SAME_AS = [COMMERCIAL_SITE_URL, INSTAGRAM_URL, FACEBOOK_URL];
+
 export const ORGANIZATION_JSON_LD = {
   "@type": "MedicalOrganization" as const,
   name: SITE_NAME,
@@ -43,6 +49,7 @@ export const ORGANIZATION_JSON_LD = {
     postalCode: ADDRESS.postalCode,
     addressCountry: ADDRESS.country,
   },
+  sameAs: SAME_AS,
 };
 
 export const AUTHOR = {
