@@ -20,6 +20,9 @@ export function SiteFooter() {
           <Link href="/sobre" className="hover:underline">
             Sobre o Dr. Vitor Frauches
           </Link>
+          <Link href="/politica-de-privacidade" className="hover:underline">
+            Política de Privacidade
+          </Link>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">
             WhatsApp
           </a>
