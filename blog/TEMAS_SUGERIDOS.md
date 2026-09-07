@@ -467,7 +467,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
-### 106. Transplante em mulheres
 ### 107. Transplante para barba
 ### 108. Transplante para sobrancelhas
 ### 109. Transplante após queimaduras
@@ -734,3 +733,19 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   já cobertos por outros artigos (ver notas em Pendentes). Linkado com
   `minoxidil-para-queda-de-cabelo` e `tecnologias-transplante-capilar`
   (que já tinha uma seção breve "Laser de baixa intensidade").
+- Item 106, "Transplante em mulheres" — publicado em 2026-09-07 como
+  `calvicie-feminina-transplante-capilar` (Pilar 5, Casos especiais e
+  público específico). Os últimos 5 artigos publicados antes deste vinham
+  dos Pilares 4, 3, 2, 1 e 4 (`laser-para-queda-de-cabelo`,
+  `shock-loss-transplante-capilar`, `quanto-tempo-dura-transplante-capilar`,
+  `quantos-fios-transplante-capilar`,
+  `deficiencia-de-vitamina-d-causa-queda-de-cabelo`), então o Pilar 5 era o
+  único sem nenhuma aparição recente, conforme a regra de rotação do topo
+  desta seção. Keyword primária nova "calvície feminina" (já constava na
+  lista fixa do DNA, mas nunca tinha sido usada como primária em nenhum
+  título). Categorizado como "Transplante capilar" no `guia-transplante-capilar`
+  (seção "Planejamento e área doadora"), por ser mais sobre candidatura e
+  planejamento cirúrgico específico para mulheres do que sobre calvície em
+  geral. Linkado com `escala-de-norwood` (escala de Ludwig) e
+  `quem-pode-fazer-transplante-capilar`. Próximo artigo deve evitar
+  repetir o Pilar 5 ou o Pilar 4 antes de cobrir Pilares 1, 2 ou 3.
