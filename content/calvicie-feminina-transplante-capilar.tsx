@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Calvície feminina tem solução no transplante capilar? Entenda as causas, quando a cirurgia é indicada em mulheres e o que muda no planejamento.",
   publishedAt: "2026-09-07",
-  updatedAt: "2026-09-07",
+  updatedAt: "2026-09-14",
   readingTime: 8,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -23,7 +23,7 @@ export default function Article() {
   return (
     <>
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
-      <P>{"Calvície feminina tem solução com transplante capilar, mas não do mesmo jeito automático que costuma valer para homens. O transplante funciona em mulheres quando existe uma área doadora saudável e uma região de perda bem delimitada para receber os novos fios, e essas duas condições só se confirmam com uma avaliação médica individual. O padrão mais comum de queda em mulheres costuma ser difuso, espalhado por boa parte do couro cabeludo, diferente do recuo mais localizado na linha frontal e na coroa que costuma aparecer em homens."}</P>
+      <P>{"Calvície feminina tem solução com transplante capilar, mas não do mesmo jeito automático que costuma valer para homens. O transplante funciona em mulheres quando existe uma área doadora saudável e uma região de perda bem delimitada para receber os novos fios, e essas duas condições só se confirmam com uma consulta médica individual. O padrão mais comum de queda em mulheres costuma ser difuso, espalhado por boa parte do couro cabeludo, diferente do recuo mais localizado na linha frontal e na coroa que costuma aparecer em homens."}</P>
       <P>{"Por isso, antes de pensar em cirurgia, é preciso investigar a causa da queda. Alguns tipos de calvície feminina respondem bem ao transplante. Outros respondem melhor a tratamento clínico isolado. E alguns exigem tratar primeiro uma causa hormonal, nutricional ou inflamatória antes de qualquer decisão cirúrgica."}</P>
       <Cta href={WHATSAPP_URL}>{"Notou afinamento difuso ou a risca do cabelo mais larga do que antes e não sabe se é candidata ao transplante capilar? Uma avaliação com tricoscopia mostra o padrão exato da sua calvície antes de qualquer decisão."}</Cta>
 
@@ -55,7 +55,7 @@ export default function Article() {
       <P>{"Existe uma escala própria para classificar o padrão mais comum de calvície em mulheres, a escala de Ludwig, dividida em estágios que descrevem o grau de afinamento na região central do couro cabeludo. Ela funciona de um jeito diferente da escala de Norwood, usada quase só em homens, porque o padrão de perda observado também é diferente. Explico a diferença completa entre as duas classificações, e em que situação um caso feminino chega a ser descrito pela escala masculina, no artigo sobre a "}<Link href="/blog/escala-de-norwood" className="underline">{"escala de Norwood"}</Link>{"."}</P>
 
       <H2 id="o-transplante-capilar-em-mulheres-é-diferente-do-masculino">{"O transplante capilar em mulheres é diferente do masculino?"}</H2>
-      <P>{"O mecanismo cirúrgico é o mesmo: extração individual de folículos pela técnica FUE (Follicular Unit Extraction, ou extração de unidade folicular) e implantação um a um na área a ser tratada. O que muda é o raciocínio de planejamento. Em homens, o desenho costuma focar em recompor uma linha frontal recuada e cobrir a coroa. Em mulheres, o objetivo mais comum é aumentar a densidade em uma faixa central mais fina, sem criar um contraste artificial com o cabelo ao redor."}</P>
+      <P>{"O mecanismo cirúrgico é o mesmo: extração individual de folículos pela técnica FUE (Follicular Unit Extraction, ou extração de unidade folicular) e implantação um a um na área a ser tratada. O que muda é o raciocínio de planejamento. Em homens, o desenho costuma focar em recompor uma linha frontal recuada e cobrir a coroa. Em mulheres, o objetivo mais comum é aumentar a densidade em uma faixa central mais fina, sem criar um contraste artificial com o cabelo ao redor. E lembrando que a cirurgia em mulheres é sempre sem a raspagens dos cabelos. "}</P>
       <P>{"O desenho da linha frontal também segue um padrão diferente. A linha natural feminina costuma ser mais arredondada e mais baixa, sem os recuos triangulares nas têmporas que aparecem no padrão masculino. Reproduzir um formato tipicamente masculino em uma paciente mulher é um dos erros de planejamento mais fáceis de notar depois, por isso esse desenho exige atenção específica na avaliação."}</P>
 
       <H2 id="preciso-raspar-a-cabeça-para-fazer-transplante-capilar-sendo-mulher">{"Preciso raspar a cabeça para fazer transplante capilar sendo mulher?"}</H2>
