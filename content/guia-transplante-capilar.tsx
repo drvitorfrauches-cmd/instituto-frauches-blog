@@ -68,6 +68,11 @@ export default function Article() {
         <LI><Link href="/blog/transplante-capilar-e-definitivo" className="underline">{"Transplante capilar dura para sempre?"}</Link>{": a durabilidade dos fios e o papel do tratamento clínico complementar."}</LI>
       </UL>
 
+      <H2 id="casos-especiais">{"Casos especiais"}</H2>
+      <UL>
+        <LI><Link href="/blog/transplante-de-barba" className="underline">{"Transplante de barba"}</Link>{": como funciona a mesma técnica FUE aplicada ao rosto, e quem é candidato."}</LI>
+      </UL>
+
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
       <P>{"Reunimos as dúvidas mais comuns sobre transplante capilar, com respostas diretas, em um só lugar: "}<Link href="/blog/faq-transplante-capilar" className="underline">{"FAQ completo sobre transplante capilar"}</Link>{"."}</P>
 

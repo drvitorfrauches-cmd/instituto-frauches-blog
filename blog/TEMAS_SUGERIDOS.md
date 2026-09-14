@@ -468,7 +468,6 @@ Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
 ### 106. Transplante em mulheres
-### 107. Transplante para barba
 ### 108. Transplante para sobrancelhas
 ### 109. Transplante após queimaduras
 ### 110. Correção de transplantes antigos
@@ -734,3 +733,16 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   já cobertos por outros artigos (ver notas em Pendentes). Linkado com
   `minoxidil-para-queda-de-cabelo` e `tecnologias-transplante-capilar`
   (que já tinha uma seção breve "Laser de baixa intensidade").
+- Item 107, "Transplante para barba" — publicado em 2026-09-14 como
+  `transplante-de-barba` (Pilar 5, Casos especiais e público específico,
+  sem publicação nova desde `transplante-capilar-espirito-santo-como-escolher-clinica`
+  em 2026-07-31, mais de 6 semanas atrás). Keyword primária "transplante de
+  barba" (já constava nas secundárias do DNA). Ângulo: mesma técnica FUE
+  aplicada ao rosto, reserva compartilhada com a área doadora do couro
+  cabeludo, angulação/direção específica do pelo facial e riscos de
+  resultado artificial nessa área. Categorizado no `guia-transplante-capilar`,
+  nova seção "Casos especiais" (não havia seção adequada nas 5 existentes).
+  Nota: o PR aberto de `calvicie-feminina-transplante-capilar` (item 106,
+  "Transplante em mulheres") ainda não foi mesclado na data desta escolha,
+  então o item 106 foi tratado como já coberto/em revisão para fins de
+  rotação, e este artigo (item 107) foi o próximo elegível do Pilar 5.
