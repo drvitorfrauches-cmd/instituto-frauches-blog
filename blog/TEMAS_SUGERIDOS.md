@@ -467,7 +467,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
-### 107. Transplante para barba
 ### 108. Transplante para sobrancelhas
 ### 109. Transplante após queimaduras
 ### 110. Correção de transplantes antigos
@@ -749,3 +748,15 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   geral. Linkado com `escala-de-norwood` (escala de Ludwig) e
   `quem-pode-fazer-transplante-capilar`. Próximo artigo deve evitar
   repetir o Pilar 5 ou o Pilar 4 antes de cobrir Pilares 1, 2 ou 3.
+- Item 107, "Transplante para barba" — publicado em 2026-09-14 como
+  `transplante-de-barba` (Pilar 5, Casos especiais e público específico).
+  Keyword primária "transplante de barba" (já constava nas secundárias do
+  DNA). Ângulo: mesma técnica FUE aplicada ao rosto, reserva compartilhada
+  com a área doadora do couro cabeludo, angulação/direção específica do
+  pelo facial e riscos de resultado artificial nessa área. Categorizado no
+  `guia-transplante-capilar`, nova seção "Casos especiais" (não havia seção
+  adequada nas 5 existentes). Nota: esta escolha foi feita em paralelo à
+  publicação do item 106 acima (`calvicie-feminina-transplante-capilar`,
+  PR ainda aberto no momento desta escolha) — os dois são artigos
+  distintos do mesmo pilar, publicados quase ao mesmo tempo por execuções
+  agendadas diferentes, sem conflito de conteúdo entre si.
