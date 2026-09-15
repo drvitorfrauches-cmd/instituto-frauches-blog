@@ -40,6 +40,7 @@ export default function Article() {
         <LI><Link href="/blog/quantos-fios-transplante-capilar" className="underline">{"Quantos fios preciso no transplante capilar"}</Link>{": como estágio da calvície, densidade e área doadora definem esse número."}</LI>
         <LI><Link href="/blog/hairline-natural-transplante-capilar" className="underline">{"Hairline natural"}</Link>{": como é desenhada a linha frontal."}</LI>
         <LI><Link href="/blog/como-identificar-transplante-capilar-natural" className="underline">{"Como identificar um transplante capilar natural"}</Link>{": os sinais de um bom planejamento."}</LI>
+        <LI><Link href="/blog/calvicie-feminina-transplante-capilar" className="underline">{"Calvície feminina: transplante capilar funciona?"}</Link>{": causas da queda em mulheres, critérios de candidatura e o que muda no planejamento."}</LI>
       </UL>
 
       <H2 id="decisao-e-orcamento">{"Decisão e orçamento"}</H2>
