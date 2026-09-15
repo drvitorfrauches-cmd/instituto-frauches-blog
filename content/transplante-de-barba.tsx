@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Transplante de barba usa a mesma técnica FUE do couro cabeludo. Entenda como funciona, de onde vêm os fios e quem é candidato ao procedimento.",
   publishedAt: "2026-09-14",
-  updatedAt: "2026-09-14",
-  readingTime: 8,
+  updatedAt: "2026-09-15",
+  readingTime: 7,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -28,7 +28,7 @@ export default function Article() {
 
       <H2 id="o-que-e-o-transplante-de-barba">{"O que é o transplante de barba?"}</H2>
       <P>{"É um procedimento cirúrgico que aumenta a densidade de pelos faciais transplantando folículos de uma região doadora para a área do rosto com falha, rarefação ou ausência de pelos. O princípio é o mesmo do transplante capilar tradicional: cada folículo continua vivo e mantém sua característica original de crescimento depois de reimplantado, então um fio retirado do couro cabeludo continua crescendo como fio de cabelo, só que agora na região do rosto."}</P>
-      <P>{"O procedimento ganhou popularidade nos últimos anos por dois motivos combinados: a barba passou a ter mais peso estético no visual masculino, e a técnica FUE tornou a extração folicular precisa o suficiente para reproduzir a direção e a curvatura naturais dos pelos faciais, que são bem diferentes dos fios do couro cabeludo."}</P>
+      <P>{"O procedimento ganhou popularidade nos últimos anos por dois motivos combinados: a barba passou a ter mais peso estético no visual masculino, e a técnica FUE tornou a extração e a implantação folicular precisa o suficiente para reproduzir a direção e a curvatura naturais dos pelos faciais, que são bem diferentes dos fios do couro cabeludo."}</P>
 
       <H2 id="quem-precisa-de-transplante-de-barba">{"Quem costuma buscar esse procedimento?"}</H2>
       <P>{"Os motivos variam bastante, e o planejamento muda de acordo com cada um:"}</P>
@@ -55,7 +55,7 @@ export default function Article() {
       <P>{"Assim como no couro cabeludo, o Protocolo Frauches Precision FUE® também orienta o transplante de barba: planejamento individualizado, respeito à direção natural de cada região do rosto e cuidado redobrado com a angulação, já que qualquer erro de ângulo fica muito mais visível numa área tão próxima e exposta quanto o rosto."}</P>
 
       <H2 id="transplante-de-barba-doi">{"Transplante de barba dói?"}</H2>
-      <P>{"O procedimento é feito com anestesia local, e a maioria dos casos não exige sedação venosa completa como no transplante capilar, já que a área tratada costuma ser menor. Durante a cirurgia o paciente não sente dor, e no pós-operatório imediato é comum um inchaço leve e sensibilidade na região, controlados com a medicação orientada pela equipe médica."}</P>
+      <P>{"O procedimento é feito com anestesia local, e sedação venosa completa como no transplante capilar. Durante a cirurgia o paciente não sente dor, e no pós-operatório imediato é comum um inchaço leve e sensibilidade na região, controlados com a medicação orientada pela equipe médica."}</P>
       <P>{"A recuperação tende a ser mais rápida do que a de um transplante capilar convencional, justamente pela extensão menor da área trabalhada, mas o cronograma exato varia conforme a quantidade de folículos implantados e a resposta individual de cada paciente."}</P>
 
       <H2 id="quantos-foliculos-transplante-de-barba">{"Quantos folículos costumam ser necessários?"}</H2>
