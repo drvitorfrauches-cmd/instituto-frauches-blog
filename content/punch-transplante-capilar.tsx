@@ -42,9 +42,9 @@ export default function Article() {
         <LI><Strong>{"Preservação:"}</Strong>{" manter os enxertos em condições apropriadas durante a espera pela implantação."}</LI>
       </OL>
       <P>{"O punch pode ser utilizado manualmente ou acoplado a um sistema motorizado. O instrumento auxilia a liberação; a retirada do enxerto pode ocorrer com pinça ou com mecanismos específicos do equipamento ("}<a href="https://ishrs.org/fue-instruments-and-their-use/" className="underline" target="_blank" rel="noopener noreferrer">{"instrumentos utilizados na FUE, ISHRS"}</a>{")."}</P>
-      <P>{"A solução de armazenamento ajuda a preservar os enxertos durante a espera. A redução do tempo fora do corpo depende da organização das etapas cirúrgicas, e não simplesmente de colocar o tecido em uma solução ("}<a href="https://pubmed.ncbi.nlm.nih.gov/15629165/" className="underline" target="_blank" rel="noopener noreferrer">{"pesquisa sobre preservação de enxertos"}</a>{")."}</P>
+      <P>{"Já a solução de armazenamento na qual os folículos são colocados logo após a extração ajuda a preservar os enxertos durante a espera. A redução do tempo fora do corpo depende da organização das etapas cirúrgicas, e não simplesmente de colocar o tecido em uma solução ("}<a href="https://pubmed.ncbi.nlm.nih.gov/15629165/" className="underline" target="_blank" rel="noopener noreferrer">{"pesquisa sobre preservação de enxertos"}</a>{")."}</P>
 
-      <H3>{"Cortar a haste do cabelo é diferente de lesionar o folículo"}</H3>
+      <H3>{"Cortar a haste do cabelo é diferente de lesionar o folículo?"}</H3>
       <P>{"A haste é a parte do cabelo que vemos acima da pele. Cortá-la não equivale a cortar as estruturas responsáveis pela produção de um novo fio."}</P>
       <P>{"Em algumas modalidades de FUE sem raspagem, o próprio punch encurta a haste durante a obtenção do enxerto. Isso pode fazer parte da técnica. O objetivo fundamental é preservar as estruturas foliculares necessárias ao crescimento ("}<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5404446/" className="underline" target="_blank" rel="noopener noreferrer">{"estudo sobre FUE sem raspagem"}</a>{")."}</P>
       <P>{"Já a "}<Link href="/blog/tecnica-fue-transplante-capilar" className="underline">{"transecção folicular"}</Link>{" é o corte acidental de parte do folículo durante a extração. Dependendo da localização e da extensão da lesão, ela pode comprometer o aproveitamento do enxerto. Uma unidade com vários folículos também pode apresentar lesão em apenas parte deles."}</P>
@@ -93,7 +93,7 @@ export default function Article() {
 
       <H3>{"Borda contínua e borda serrilhada"}</H3>
       <P>{"Uma borda pode ser contínua ou apresentar pequenas irregularidades, dentes ou ondulações."}</P>
-      <P>{"Serrilhado não é sinônimo de rombo. O desenho da borda e seu grau de afiamento são características diferentes. Por isso, não é correto assumir que todo punch serrilhado corta menos o folículo ou é necessariamente mais indicado para cabelos curvos."}</P>
+      <P>{"O desenho da borda e seu grau de afiamento são características diferentes. Por isso, não é correto assumir que todo punch serrilhado corta menos o folículo ou é necessariamente mais indicado para cabelos curvos."}</P>
 
       <H3>{"Geometrias híbridas e pontas alargadas"}</H3>
       <P>{"Alguns instrumentos combinam características de corte e dissecção. Outros apresentam uma extremidade alargada, semelhante à abertura de uma pequena trombeta."}</P>
@@ -124,7 +124,7 @@ export default function Article() {
 
       <H2 id="instituto-frauches">{"Como o Instituto Frauches aborda a escolha do punch?"}</H2>
       <P>{"No Frauches Precision FUE®, a escolha do instrumental é apresentada como parte do planejamento individualizado do transplante capilar."}</P>
-      <P>{"O Instituto Frauches, em Vitória, ES, informa utilizar plataformas como Mamba e UGraft Zeus em sua prática. A seleção do punch e dos ajustes deve considerar as características dos cabelos, da pele e dos enxertos obtidos durante o procedimento."}</P>
+      <P>{"O Instituto Frauches, em Vitória, ES, informa utilizar plataformas como Mamba e UGraft Zeus em sua prática. A seleção do punch e dos ajustes deve considerar as características dos cabelos, da pele e dos enxertos obtidos durante o procedimento. Sendo utilizado punchs de no máximo 1 mm de diâmetro externo."}</P>
       <P>{"Essa descrição corresponde à abordagem institucional. O nome de um equipamento ou protocolo não representa, por si só, comprovação de superioridade ou garantia de uma taxa específica de aproveitamento."}</P>
       <P>{"O planejamento também precisa definir "}<Link href="/blog/quantos-fios-transplante-capilar" className="underline">{"quantas unidades foliculares"}</Link>{" serão necessárias e como preservar a área doadora para as necessidades atuais e futuras."}</P>
 
