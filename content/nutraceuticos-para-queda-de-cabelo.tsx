@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que são nutracêuticos capilares como Actrisave, Bioarct, Bloome e Keranat, o que a evidência científica diz e quando complementam o tratamento.",
   publishedAt: "2026-07-27",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-09-15",
   readingTime: 6,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -67,6 +67,18 @@ export default function Article() {
         <LI>{"O anúncio promete reverter calvície sozinho, sem mencionar avaliação médica?"}</LI>
         <LI>{"Esse produto está sendo usado no lugar de investigar a causa real da queda?"}</LI>
       </UL>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Nutracêutico é a mesma coisa que vitamina para cabelo?"}</H3>
+      <P>{"Não exatamente. Um nutracêutico costuma ser formulado especificamente para o metabolismo do folículo piloso, com dose e combinação de ativos pensada para esse fim, enquanto uma vitamina genérica supre uma carência nutricional ampla, sem esse direcionamento. Na prática, porém, boa parte das fórmulas de mercado combina ambos os conceitos na mesma cápsula."}</P>
+      <H3>{"Posso tomar nutracêutico sem fazer exame antes?"}</H3>
+      <P>{"Pode, mas o benefício esperado é menor sem saber se existe deficiência nutricional real por trás da queda. A evidência mais sólida sobre nutracêuticos é justamente em quem tem carência documentada de ferro, zinco ou vitamina D corrigida pelo produto, não em quem já tem os níveis normais."}</P>
+      <H3>{"Qual desses quatro produtos tem mais evidência científica?"}</H3>
+      <P>{"Entre Actrisave, Bio-Arct, Bloomé e Keranat, o Keranat é o único com estudo clínico controlado, duplo-cego e randomizado citado em seu material, ainda que com amostra pequena e feito só em mulheres. Os demais se apoiam em teste de laboratório ou em alegação sem estudo clínico específico disponível."}</P>
+      <H3>{"Nutracêutico pode ser usado junto com minoxidil ou finasterida?"}</H3>
+      <P>{"Sim, costuma ser usado como reforço, não como substituto. O tratamento farmacológico atua sobre a causa hormonal da alopecia androgenética, enquanto o nutracêutico pode dar suporte à qualidade do fio nativo, inclusive no período de recuperação após um transplante capilar."}</P>
+      <H3>{"Quanto tempo leva para perceber efeito de um nutracêutico?"}</H3>
+      <P>{"Como qualquer intervenção sobre o ciclo capilar, o prazo costuma ser de meses, não de semanas. O próprio estudo citado pelo Keranat mediu resultado após 3 meses de uso contínuo, e não há motivo para esperar resposta mais rápida com outros produtos da categoria."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O resultado de qualquer tratamento, incluindo nutracêuticos, varia conforme diagnóstico, estado nutricional e avaliação individual de cada paciente."}</Callout>
 

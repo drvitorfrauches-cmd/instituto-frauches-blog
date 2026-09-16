@@ -7,9 +7,9 @@ export const meta: PostMeta = {
   slug: "guia-tratamentos-capilares",
   title: "Tratamentos capilares: comece por aqui",
   description:
-    "Por onde começar sobre tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP, mesoterapia e exossomos, com evidência, indicação e limites de cada um.",
+    "Por onde começar sobre tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP e mesoterapia, com evidência, indicação e limites de cada um.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-03",
+  updatedAt: "2026-09-15",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
