@@ -133,7 +133,21 @@ Como funciona a técnica, etapas da cirurgia do ponto de vista técnico,
 diferenças para FUT, tecnologia e instrumental usados.
 
 ### 62. O que são unidades foliculares?
+- Nota (2026-09-16): avaliado antes de escrever o item 97. O artigo
+  `tecnica-fue-transplante-capilar` já tem um H2 dedicado ("O que é uma
+  unidade folicular?"), cobrindo definição, composição (um a mais fios,
+  glândula sebácea, tecido de suporte) e classificação por número de fios.
+  Considerado já coberto, não escrever versão nova a menos que surja um
+  ângulo claramente distinto.
 ### 63. O que é densidade capilar?
+- Nota (2026-09-16): avaliado antes de escrever o item 97. O artigo
+  `quantos-fios-transplante-capilar` já tem um H2 dedicado ("O que é
+  densidade capilar e por que ela importa no cálculo?"), cobrindo definição,
+  faixa normal (80-100 UF/cm² na área doadora) e por que o planejamento não
+  busca replicar a densidade original. Considerado coberto o suficiente por
+  ora, não escrever versão nova a menos que surja um ângulo claramente
+  distinto (ex.: comparação entre densidade doadora x receptora em mais
+  profundidade).
 ### 65. Como desenhamos a linha frontal?
 ### 88. Como preservar a área doadora
 ### 89. O que é superextração?
@@ -148,102 +162,6 @@ diferenças para FUT, tecnologia e instrumental usados.
 ### 94. Como os enxertos são armazenados
 ### 95. Qual a temperatura ideal dos enxertos?
 ### 96. Tempo fora do corpo influencia?
-### 97. Punch no transplante capilar: por que a qualidade do instrumento faz diferença no resultado?
-- **Título sugerido**: "Punch no transplante capilar: por que a qualidade do
-  instrumento faz diferença no resultado?"
-- **Objetivo SEO (keyword principal)**: punch transplante capilar
-- **Palavras-chave secundárias**: punch FUE; instrumento transplante
-  capilar; extração folicular; cirurgia FUE; área doadora; cicatrização
-  transplante capilar; punch Trivellini; punch Mamba; punch Zeus; punch
-  híbrido; punch serrilhado; punch liso.
-- **Briefing completo (fornecido pelo Dr. Vitor em 2026-08-27)**: quase
-  nenhum paciente sabe que o punch existe, mas ele influencia diretamente
-  três coisas que importam pro paciente: cicatrização da área doadora,
-  preservação dos folículos e qualidade do resultado final. Artigo começa
-  educativo e termina mostrando por que isso é um dos motivos para escolher
-  uma clínica de alto padrão — autoridade técnica sem parecer propaganda,
-  mostrando que tecnologia só faz diferença quando usada por um cirurgião
-  experiente.
-  - **Público**: pacientes pesquisando transplante capilar, comparando
-    clínicas, ou que acreditam que "toda cirurgia é igual".
-  - **Intenção de busca a responder**: o que é punch; qual punch é melhor;
-    qual o tamanho do punch; punch maior estraga a área doadora?; existe
-    diferença entre clínicas?
-  - **Estrutura sugerida** (12 seções, adaptar pra H2/H3 do padrão do
-    blog, não precisa ser 1:1):
-    1. O que é o punch no transplante capilar? (instrumento que retira cada
-       unidade folicular na FUE; primeiro contato do cirurgião com o
-       folículo; analogia: retirar uma muda de planta sem machucar as
-       raízes).
-    2. Como funciona um punch? (incisão circular ao redor do folículo,
-       objetivo não é cortar o cabelo, é preservar a unidade folicular
-       inteira).
-    3. O diâmetro do punch faz diferença? (diâmetros comuns: 0,75 / 0,80 /
-       0,85 / 0,90 / 0,95 / 1,00 mm; um aumento pequeno em mm representa
-       aumento bem maior de área removida — considerar um gráfico/
-       infográfico comparando área removida em 0,80 / 0,90 / 1,00 mm; não
-       existe tamanho universal, depende de espessura do fio, número de
-       fios, curvatura, etnia, tipo de pele).
-    4. Quanto tecido um punch realmente remove? (mostrar de forma visual
-       que +0,1 mm aumenta desproporcionalmente a área de tecido retirada).
-    5. Punch pequeno sempre é melhor? (não — punch muito pequeno aumenta
-       transecção, lesão do folículo e dificuldade técnica; punch maior
-       preserva melhor alguns folículos; o segredo é o punch correto para
-       aquele paciente, não o menor possível).
-    6. Existem punches diferentes? (dezenas de fabricantes; diferenças de
-       material, afiamento, acabamento, precisão, tratamento térmico,
-       resistência, geometria).
-    7. Tipos de ponta (punch liso, serrilhado, híbrido, rombo, afiado —
-       quando cada um costuma ser usado).
-    8. Rotação ou oscilação? (motores modernos: rotação contínua,
-       oscilação, movimentos híbridos, e como isso influencia a
-       transecção).
-    9. As principais marcas utilizadas no mundo (sem virar propaganda —
-       citar como referência técnica: Trivellini, Devroye, Cole
-       Instruments, WAW, Mamba, Zeus, UGraft, Safe System; cada uma com
-       proposta diferente. Nota de compliance: são fabricantes de
-       equipamento, não clínicas/médicos concorrentes — citação factual,
-       não comparação vedada pelo CFM).
-    10. Tecnologia sozinha não faz milagre (o melhor punch do mundo não
-        compensa ângulo errado, profundidade errada, torque inadequado ou
-        pouca experiência — o instrumento é só parte do resultado).
-    11. O que utilizamos no Instituto Frauches (parte própria: o Protocolo
-        Frauches Precision FUE® usa diferentes punches conforme tipo de
-        fio, calibre, espessura e curvatura; menciona equipamentos de alto
-        padrão como os sistemas Mamba e Zeus associados a planejamento
-        individualizado, buscando menor transecção e maior preservação da
-        área doadora — sem afirmar que existe "o melhor punch" em
-        absoluto, o melhor é o escolhido pra aquele paciente, respeitando a
-        regra de não prometer resultado do DNA).
-    12. Como perguntar isso ao seu médico? (fechamento com perguntas que o
-        paciente pode levar à consulta: qual diâmetro costuma usar; vocês
-        adaptam o punch por paciente; qual taxa de transecção vocês
-        buscam; o punch muda conforme o tipo de cabelo; quem realiza a
-        extração).
-  - **Conclusão sugerida**: o punch parece um simples cilindro metálico,
-    mas é um dos instrumentos que mais influenciam a qualidade da extração
-    folicular; junto com experiência do cirurgião, tecnologia moderna e
-    planejamento individualizado, ajuda a preservar a área doadora, reduzir
-    o trauma cirúrgico e aumentar as chances de resultado natural e
-    duradouro.
-  - **Ideias de imagem** (gerar via Higgsfield, conceitos still-life/
-    editoriais, nunca foto real de paciente): macro de punches de diâmetros
-    diferentes lado a lado; infográfico de área removida por diâmetro;
-    esquema de rotação contínua x oscilação x híbrido. Evitar imagem de
-    "microscopia de folículo transeccionado" ou fotos do centro cirúrgico
-    em uso — foge do padrão de imagem conceitual/abstrata do blog (ver
-    regras de imagem do `blog/DNA.md`), usar só se o Dr. Vitor fornecer
-    fotos reais próprias e autorizar.
-  - Absorve o item 98 (diferença entre punch de 0,8 e 1 mm), coberto na
-    seção 3/4 acima em vez de virar um segundo artigo.
-- Nota: já existe uma seção breve "Punches" em
-  `tecnologias-transplante-capilar` (só 1 parágrafo sobre diâmetro x
-  cicatriz/segurança). Este artigo é bem mais aprofundado nesse tema
-  específico, então não é duplicidade — é o ângulo completo que aquele
-  artigo só tocou de raspão.
-### 98. Diferença entre punch de 0,8 e 1 mm
-- Nota (2026-08-27): absorvido pelo item 97 (briefing completo acima).
-  Não escrever artigo separado — cobrir dentro do 97.
 ### 99. O que é transecção folicular?
 ### 100. Como aumentar a sobrevivência dos enxertos
 ### 101. O papel da equipe cirúrgica
@@ -760,3 +678,27 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   PR ainda aberto no momento desta escolha) — os dois são artigos
   distintos do mesmo pilar, publicados quase ao mesmo tempo por execuções
   agendadas diferentes, sem conflito de conteúdo entre si.
+- Item 97, "Punch no transplante capilar: por que a qualidade do
+  instrumento faz diferença no resultado?" — publicado em 2026-09-16 como
+  `punch-transplante-capilar` (Pilar 1, Técnica FUE e tecnologia, sem
+  publicação nova desde 2026-08-28, item 61). Os últimos 5 artigos
+  publicados antes deste vinham dos Pilares 5, 5, 4, 3 e 2
+  (`transplante-de-barba`, `calvicie-feminina-transplante-capilar`,
+  `laser-para-queda-de-cabelo`, `shock-loss-transplante-capilar`,
+  `quanto-tempo-dura-transplante-capilar`), então o Pilar 1 era o único sem
+  nenhuma aparição recente. Título encurtado para "Punch no transplante
+  capilar: por que ele importa?" pra caber no limite de ~65 caracteres.
+  Keyword primária nova "punch transplante capilar" (não constava na lista
+  fixa do DNA; adicionada às secundárias e à Intenção GEO, junto com "Punch
+  maior estraga a área doadora?"). Usou o briefing completo de 12 seções já
+  registrado neste item, condensado em H2/H3 (definição, diâmetro e área
+  removida com números concretos, tipos de ponta, rotação x oscilação,
+  marcas usadas no mundo, tecnologia x experiência do cirurgião, o que o
+  Instituto Frauches usa, FAQ e checklist de perguntas pra consulta).
+  Absorve o item 98 (diferença entre punch de 0,8 e 1 mm), coberto dentro
+  da seção de diâmetro. Itens 62 e 63 reavaliados antes deste e marcados
+  como já cobertos por outros artigos (ver notas em Pendentes). Linkado com
+  `tecnica-fue-transplante-capilar`, `tecnologias-transplante-capilar`,
+  `quantos-fios-transplante-capilar` e `area-doadora-transplante-capilar`.
+  Próximo artigo deve evitar repetir o Pilar 1 antes de cobrir os Pilares
+  2, 3, 4 ou 5.
