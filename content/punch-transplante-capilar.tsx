@@ -14,8 +14,8 @@ export const meta: PostMeta = {
   category: "Técnica FUE",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/punch-transplante-capilar/cover.png",
-    alt: "Punches cirúrgicos de diferentes diâmetros organizados sobre uma bandeja clínica, usados na extração folicular do transplante capilar",
+    src: "/blog/punch-transplante-capilar/cover.jpg",
+    alt: "Punch cirúrgico Trivellini utilizado na extração folicular do transplante capilar, o mesmo modelo em uso no Instituto Frauches",
   },
 };
 
