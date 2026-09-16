@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Shampoo faz nascer cabelo de verdade? Entenda o que a ciência diz sobre shampoos antiqueda, o que eles fazem pelo couro cabeludo e quando procurar tratamento.",
   publishedAt: "2026-08-03",
-  updatedAt: "2026-08-03",
+  updatedAt: "2026-09-15",
   readingTime: 7,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -76,6 +76,18 @@ export default function Article() {
       <H2 id="shampoo-substitui-tratamento-medico">{"Shampoo substitui o tratamento médico para calvície?"}</H2>
       <P>{"Não. Nenhum shampoo, mesmo os com ativo estudado, substitui diagnóstico médico nem tratamento indicado para alopecia androgenética estabelecida. O papel dele é auxiliar na saúde do couro cabeludo e, no melhor cenário, ajudar a preservar fios que ainda estão ativos. Quando a calvície já tem padrão definido, com miniaturização progressiva do folículo, o caminho passa por avaliação médica, tratamento clínico direcionado à causa e, se a perda de densidade já for relevante, planejamento cirúrgico."}</P>
       <P>{"No Instituto Frauches, essa avaliação começa sempre pela tricoscopia e pela investigação da causa da queda, antes de qualquer recomendação de produto ou procedimento. É esse diagnóstico, não o rótulo do shampoo, que define o tratamento certo para cada paciente."}</P>
+
+      <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
+      <H3>{"Shampoo antiqueda vale a pena ou é só marketing?"}</H3>
+      <P>{"Depende do ativo e da expectativa. Shampoos com cetoconazol ou cafeína têm algum efeito real, ainda que modesto, sobre espessura e queda de fios já ativos. O problema é a promessa de "}<Strong>{"nascer cabelo novo"}</Strong>{" em área já sem crescimento, que nenhum shampoo sustenta."}</P>
+      <H3>{"Existe algum shampoo que realmente faz o cabelo crescer mais rápido?"}</H3>
+      <P>{"Não no sentido de acelerar o ciclo capilar. O crescimento acontece na papila dérmica, estrutura que o shampoo não alcança de forma relevante pelo pouco tempo de contato no banho. Produtos com cetoconazol ou cafeína podem ajudar a preservar fios finos já em atividade, o que é diferente de fazer o cabelo crescer mais rápido."}</P>
+      <H3>{"Trocar de shampoo toda semana ajuda a encontrar o ideal mais rápido?"}</H3>
+      <P>{"Não, faz o oposto. Poucos dias de uso não são suficientes pra avaliar efeito nenhum, positivo ou negativo, sobre o couro cabeludo. Vale usar o mesmo produto por semanas antes de julgar se ele faz diferença."}</P>
+      <H3>{"Shampoo com cafeína é mais eficaz que shampoo comum?"}</H3>
+      <P>{"Tem alguma evidência in vitro favorável, mas o tempo de contato do shampoo (enxaguado em seguida) limita bastante essa ação. Tônicos e produtos sem enxágue, que ficam mais tempo em contato com o couro cabeludo, costumam mostrar efeito mais consistente com o mesmo ativo."}</P>
+      <H3>{"Quando devo parar de trocar de shampoo e procurar um médico?"}</H3>
+      <P>{"Quando já testou produtos diferentes por meses sem resultado perceptível, quando há rarefação visível em entradas ou coroa, ou quando existe histórico familiar de calvície. Nesses casos, o próximo passo é diagnóstico com tricoscopia, não mais uma troca de produto."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A causa da queda de cabelo e o tratamento indicado variam de paciente para paciente, conforme avaliação individual."}</Callout>
 

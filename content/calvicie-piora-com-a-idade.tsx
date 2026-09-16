@@ -7,9 +7,9 @@ export const meta: PostMeta = {
   slug: "calvicie-piora-com-a-idade",
   title: "A calvície piora com a idade?",
   description:
-    "A calvície piora com a idade? Veja o que realmente avança com o tempo, quando o processo tende a estabilizar e como diferenciar calvície genética do envelhecimento capilar comum.",
+    "A calvície piora com a idade? Veja o que avança com o tempo, quando tende a estabilizar e como diferenciar calvície genética de envelhecimento capilar.",
   publishedAt: "2026-08-12",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-09-15",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
