@@ -58,6 +58,7 @@ export default function Article() {
         <LI><Link href="/blog/transplante-capilar-doi" className="underline">{"Transplante capilar dói?"}</Link>{": anestesia, sedação e o que esperar durante a cirurgia."}</LI>
         <LI><Link href="/blog/sedacao-transplante-capilar" className="underline">{"Sedação no transplante capilar"}</Link>{": como funciona e a segurança do procedimento."}</LI>
         <LI><Link href="/blog/quanto-tempo-dura-transplante-capilar" className="underline">{"Quanto tempo dura a cirurgia"}</Link>{": as etapas do dia da cirurgia e os fatores que influenciam a duração total."}</LI>
+        <LI><Link href="/blog/dormir-durante-transplante-capilar" className="underline">{"Posso dormir durante a cirurgia?"}</Link>{": como funciona a sedação venosa e por que o paciente dorme o procedimento inteiro."}</LI>
         <LI><Link href="/blog/recuperacao-transplante-capilar" className="underline">{"Recuperação do transplante capilar"}</Link>{": cuidados e cronograma dos primeiros dias."}</LI>
         <LI><Link href="/blog/shock-loss-transplante-capilar" className="underline">{"O que é shock loss"}</Link>{": por que alguns fios caem nas primeiras semanas após a cirurgia, e quando isso é esperado."}</LI>
       </UL>

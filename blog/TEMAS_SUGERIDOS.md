@@ -178,8 +178,6 @@ cirurgia, decisão sobre reoperar.
 ### 64. O que é uma hairline natural?
 - Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
   pacote editorial externo). Avalie antes de produzir.
-### 67. Posso assistir TV durante a cirurgia?
-### 68. Posso dormir durante o transplante?
 ### 69. Como funciona a sedação venosa?
 - Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
   editorial externo). Avalie antes de produzir.
@@ -702,3 +700,39 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `quantos-fios-transplante-capilar` e `area-doadora-transplante-capilar`.
   Próximo artigo deve evitar repetir o Pilar 1 antes de cobrir os Pilares
   2, 3, 4 ou 5.
+- Itens 67 e 68, "Posso assistir TV durante a cirurgia?" e "Posso dormir
+  durante o transplante?" — publicados juntos em 2026-09-18 como
+  `dormir-durante-transplante-capilar` (Pilar 2, Dúvidas e medos antes da
+  cirurgia, sem publicação nova desde 2026-08-31, item 66). Os últimos 5
+  artigos publicados antes deste vinham dos Pilares 3, 4, 5, 5 e 1
+  (`shock-loss-transplante-capilar`, `laser-para-queda-de-cabelo`,
+  `calvicie-feminina-transplante-capilar`, `transplante-de-barba`,
+  `punch-transplante-capilar`), então o Pilar 2 era o mais atrasado na
+  rotação. Keyword primária nova "posso dormir durante o transplante
+  capilar" (não constava na lista fixa do DNA; adicionada às secundárias e
+  à Intenção GEO, junto com "Qual a diferença entre sedação venosa e
+  sedação oral no transplante capilar?"). **Correção de rumo em
+  2026-09-18**: a primeira versão deste artigo (mesmo PR #118) misturava
+  sedação venosa com sedação oral e com pacientes acordados assistindo
+  TV/ouvindo música durante a cirurgia, como se fossem opções equivalentes
+  oferecidas pela clínica. O Dr. Vitor corrigiu isso depois de ler o PR: no
+  Instituto Frauches só se usa sedação venosa, e o paciente dorme a
+  cirurgia inteira, sem despertar no meio do procedimento (não existe
+  intervalo consciente nem o cenário de "assistir TV durante a extração").
+  O PR #118 foi fechado e o artigo reescrito do zero com esse ângulo:
+  explica como a sedação venosa funciona, contrasta com a sedação oral
+  (mais leve, usada em clínicas com menos estrutura, paciente consciente
+  durante boa parte do procedimento) e reforça por que o Instituto Frauches
+  optou por usar sempre sedação venosa (conforto do paciente e estabilidade
+  para a equipe cirúrgica numa cirurgia longa). **Isso pode indicar uma
+  inconsistência a revisar em `sedacao-transplante-capilar`** (pacote
+  editorial externo, publicado antes desta correção), que menciona "alguns
+  pacientes preferem estar acordados. A decisão é individual" e descreve
+  múltiplos níveis de sedação como se fossem opções oferecidas pela
+  clínica; vale confirmar com o Dr. Vitor se esse artigo também precisa de
+  ajuste antes de usá-lo como referência em textos futuros. Diferenciado de
+  `quanto-tempo-dura-transplante-capilar` (que só tem um parágrafo breve
+  sobre o tema). Categorizado no `guia-transplante-capilar` (seção
+  "Cirurgia, dor e recuperação"). Item 64 segue como "avalie antes de
+  produzir"; itens 85, 86, 87 e 90 seguem pendentes. Próximo artigo deve
+  evitar repetir o Pilar 2 antes de cobrir os Pilares 1, 3, 4 ou 5.
