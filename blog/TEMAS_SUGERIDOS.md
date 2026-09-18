@@ -178,8 +178,6 @@ cirurgia, decisão sobre reoperar.
 ### 64. O que é uma hairline natural?
 - Nota: já existe artigo publicado (`hairline-natural-transplante-capilar`,
   pacote editorial externo). Avalie antes de produzir.
-### 67. Posso assistir TV durante a cirurgia?
-### 68. Posso dormir durante o transplante?
 ### 69. Como funciona a sedação venosa?
 - Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
   editorial externo). Avalie antes de produzir.
@@ -702,3 +700,27 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `quantos-fios-transplante-capilar` e `area-doadora-transplante-capilar`.
   Próximo artigo deve evitar repetir o Pilar 1 antes de cobrir os Pilares
   2, 3, 4 ou 5.
+- Itens 67 e 68, "Posso assistir TV durante a cirurgia?" e "Posso dormir
+  durante o transplante?" — publicados juntos em 2026-09-18 como
+  `dormir-durante-transplante-capilar` (Pilar 2, Dúvidas e medos antes da
+  cirurgia, sem publicação nova desde 2026-08-31, item 66). Os últimos 5
+  artigos publicados antes deste vinham dos Pilares 3, 4, 5, 5, 1
+  (`shock-loss-transplante-capilar`, `laser-para-queda-de-cabelo`,
+  `calvicie-feminina-transplante-capilar`, `transplante-de-barba`,
+  `punch-transplante-capilar`), então o Pilar 2 era o mais atrasado na
+  rotação. Keyword primária nova "posso dormir durante o
+  transplante capilar" (não constava na lista fixa do DNA; adicionada às
+  secundárias e à Intenção GEO). Os dois itens foram combinados num só
+  artigo por cobrirem a mesma dúvida de fundo (o que é possível fazer
+  durante as horas de cirurgia: dormir, assistir algo, ouvir música),
+  diferenciado de `sedacao-transplante-capilar` (mecanismo clínico da
+  sedação, segurança, quem pode fazer) e de
+  `quanto-tempo-dura-transplante-capilar` (que só tem um parágrafo breve
+  sobre o assunto, dentro da seção "Como é passar tantas horas em uma
+  cirurgia?"). Item 64 reavaliado antes deste e mantido como "avalie antes
+  de produzir" por sobreposição com `hairline-natural-transplante-capilar`;
+  itens 85, 86, 87 e 90 seguem pendentes. Linkado com
+  `sedacao-transplante-capilar`, `quanto-tempo-dura-transplante-capilar` e
+  categorizado no `guia-transplante-capilar` (seção "Cirurgia, dor e
+  recuperação"). Próximo artigo deve evitar repetir o Pilar 2 antes de
+  cobrir os Pilares 1, 3, 4 ou 5.
