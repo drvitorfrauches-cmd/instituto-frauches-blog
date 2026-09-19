@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Descubra se dá para dormir durante o transplante capilar, como funciona a sedação venosa e por que essa é a opção usada no Instituto Frauches.",
   publishedAt: "2026-09-18",
-  updatedAt: "2026-09-18",
-  readingTime: 8,
+  updatedAt: "2026-09-19",
+  readingTime: 7,
   category: "Dúvidas frequentes",
   author: AUTHOR,
   coverImage: {
@@ -32,16 +32,16 @@ export default function Article() {
       <P>{"O detalhamento completo desse tipo de sedação, a avaliação anestésica prévia, o jejum necessário e a monitorização durante a cirurgia estão no nosso artigo sobre "}<Link href="/blog/sedacao-transplante-capilar" className="underline">{"sedação no transplante capilar"}</Link>{"."}</P>
 
       <H2 id="diferenca-sedacao-venosa-oral">{"Qual a diferença entre sedação venosa e sedação oral?"}</H2>
-      <P>{"São dois métodos bem diferentes, e a diferença importa na hora de decidir onde operar. Na "}<Strong>{"sedação oral"}</Strong>{", o paciente toma um comprimido ansiolítico antes da cirurgia. O efeito é mais leve: reduz a ansiedade, mas o paciente segue consciente durante boa parte do procedimento, sente a passagem das horas e precisa tolerar ficar imóvel na mesma posição por muito mais tempo sem o auxílio de um sono induzido. Já na sedação venosa, o nível de sono é profundo e constante, mantido por um anestesiologista dedicado, com monitorização contínua de sinais vitais."}</P>
+      <P>{"São dois métodos bem diferentes, e a diferença importa na hora de decidir onde operar. Na "}<Strong>{"sedação oral"}</Strong>{", o paciente toma um comprimido ansiolítico antes da cirurgia. O efeito é mais leve: reduz a ansiedade, mas o paciente segue consciente durante toda parte do procedimento, sente a passagem das horas e precisa tolerar ficar imóvel na mesma posição por muito mais tempo sem o auxílio de um sono induzido. Já na sedação venosa, o nível de sono é profundo e constante, mantido por um anestesiologista dedicado, com monitorização contínua de sinais vitais."}</P>
       <P>{"A sedação oral exige menos estrutura, porque não depende necessariamente de uma equipe de anestesiologia presente durante toda a cirurgia, o que a torna mais simples de oferecer. A sedação venosa, por outro lado, exige centro cirúrgico equipado, monitorização e um anestesiologista dedicado ao paciente do início ao fim. É uma estrutura mais completa, e é também o motivo de nem toda clínica oferecer essa opção como padrão."}</P>
 
       <H2 id="por-que-instituto-frauches-usa-sedacao-venosa">{"Por que o Instituto Frauches opta sempre pela sedação venosa?"}</H2>
       <P>{"Por conforto do paciente e por qualidade cirúrgica. Uma cirurgia de 8 a 12 horas é naturalmente cansativa, e a sedação venosa remove por completo a percepção dessas horas: o paciente simplesmente dorme, sem ansiedade acumulada, sem desconforto de posição prolongada, sem a fadiga mental de acompanhar cada etapa consciente."}</P>
       <UL>
         <LI><Strong>{"Para o paciente:"}</Strong>{" nenhuma lembrança do tempo em sala cirúrgica, sem ansiedade durante a extração e a implantação, e uma recuperação da sedação tranquila, já com a cirurgia concluída."}</LI>
-        <LI><Strong>{"Para a equipe cirúrgica:"}</Strong>{" um paciente completamente imóvel e relaxado permite mais precisão na extração folicular sob microscópio, reduz o risco de movimentos involuntários durante etapas de alta precisão e mantém o mesmo padrão de trabalho da primeira à última hora."}</LI>
+        <LI><Strong>{"Para a equipe cirúrgica:"}</Strong>{" um paciente completamente imóvel e relaxado permite mais precisão na extração folicular sob lupas de magnificação, reduz o risco de movimentos involuntários durante etapas de alta precisão e mantém o mesmo padrão de trabalho da primeira à última hora."}</LI>
       </UL>
-      <P>{"Por esses dois motivos, o Instituto Frauches optou por não trabalhar com sedação oral nem com o paciente acordado durante a cirurgia: a sedação venosa é a estrutura usada em toda cirurgia, sem exceção, dentro do "}<Link href="/blog/tecnica-fue-transplante-capilar" className="underline">{"Protocolo Frauches Precision FUE®"}</Link>{"."}</P>
+      <P>{"Por esses dois motivos, o Instituto Frauches optou por não mais trabalhar com sedação oral nem com o paciente acordado durante a cirurgia: a sedação venosa é a estrutura usada em toda cirurgia, sem exceção, dentro do "}<Link href="/blog/tecnica-fue-transplante-capilar" className="underline">{"Protocolo Frauches Precision FUE®"}</Link>{"."}</P>
 
       <H2 id="risco-de-acordar-no-meio">{"Existe risco de acordar no meio da cirurgia?"}</H2>
       <P>{"Não. A profundidade da sedação venosa é monitorada e ajustada em tempo real pelo anestesiologista durante toda a cirurgia, especificamente para manter o paciente dormindo de forma constante, sem oscilações de consciência entre uma etapa e outra. Isso é diferente de uma sedação leve ou oral, em que picos de ansiedade ou consciência parcial podem, sim, acontecer ao longo do procedimento."}</P>
@@ -57,15 +57,15 @@ export default function Article() {
       <P>{"O detalhamento de quem pode ou não fazer esse tipo de sedação, incluindo casos específicos como apneia do sono, está no nosso artigo sobre "}<Link href="/blog/sedacao-transplante-capilar" className="underline">{"sedação no transplante capilar"}</Link>{"."}</P>
 
       <H2 id="isso-muda-em-non-shave-fue">{"Isso muda em non-shave FUE, sem raspar o cabelo?"}</H2>
-      <P>{"Não, do ponto de vista da sedação. O nível de sedação venosa é o mesmo independentemente de a cirurgia ser non-shave FUE (sem raspar o cabelo) ou shave FUE (com raspagem total): em ambos os casos, o paciente dorme do início ao fim. O que muda é apenas a duração total do procedimento, já que a extração em non-shave costuma exigir um pouco mais de tempo da equipe para localizar cada folículo entre os fios mais longos, o que só significa mais tempo de sono sob sedação, não uma experiência diferente para o paciente."}</P>
+      <P>{"Não, do ponto de vista da sedação. O nível de sedação venosa é o mesmo independentemente de a cirurgia ser non-shave FUE (sem raspar o cabelo) ou shaved FUE (com raspagem total): em ambos os casos, o paciente dorme do início ao fim. O que muda é apenas a duração total do procedimento, já que a extração em non-shave costuma exigir um pouco mais de tempo da equipe para localizar cada folículo entre os fios mais longos, o que só significa mais tempo de sono sob sedação, não uma experiência diferente para o paciente."}</P>
 
       <H2 id="como-e-o-momento-de-acordar">{"Como é o momento de acordar da cirurgia?"}</H2>
-      <P>{"O despertar acontece já na sala de recuperação, com a cirurgia e o curativo finalizados. É normal sentir um pouco de sonolência e desorientação nos primeiros minutos, algo esperado depois de horas de sedação, que passa de forma gradual sob observação da equipe até a liberação para alta. O transplante capilar é um procedimento ambulatorial: não há necessidade de internação, e o paciente recebe alta no mesmo dia, já com as orientações de cuidado para os primeiros dias em mãos."}</P>
+      <P>{"O despertar acontece de forma gradual com a cirurgia e o curativo finalizados. É normal sentir um pouco de sonolência e desorientação nos primeiros minutos, algo esperado depois de horas de sedação, que passa de forma gradual sob observação da equipe até a liberação para alta. O transplante capilar é um procedimento ambulatorial: não há necessidade de internação, e o paciente recebe alta no mesmo dia, já com as orientações de cuidado para os primeiros dias em mãos."}</P>
       <P>{"O passo a passo completo de como o dia da cirurgia é organizado, da chegada à alta, está em nosso artigo sobre "}<Link href="/blog/quanto-tempo-dura-transplante-capilar" className="underline">{"quanto tempo dura o transplante capilar"}</Link>{"."}</P>
 
       <H2 id="medo-de-ficar-tantas-horas">{"É normal ter medo de ficar tantas horas em cirurgia?"}</H2>
       <P>{"É uma das dúvidas mais comuns na consulta, e faz sentido surgir antes de entender como funciona a sedação venosa. A ideia de passar de 8 a 12 horas em uma sala cirúrgica soa mais desgastante do que realmente é na prática, exatamente porque o paciente não vivencia essas horas de forma consciente. Não existe o desconforto de contar o tempo, de sentir cansaço de postura ou de acompanhar cada etapa: para quem está sedado, a percepção é de que a cirurgia durou muito menos tempo do que de fato durou."}</P>
-      <P>{"Se o medo de ficar acordado durante a cirurgia é o que está adiando a decisão de operar, vale trazer isso diretamente para a avaliação. Explicar como a sedação venosa elimina exatamente esse ponto costuma resolver boa parte da ansiedade antes mesmo do dia da cirurgia."}</P>
+      <P>{"Se o medo de ficar acordado durante a cirurgia é o que está adiando a decisão de operar, vale trazer isso diretamente para a consulta. Explicar como a sedação venosa elimina exatamente esse ponto costuma resolver boa parte da ansiedade antes mesmo do dia da cirurgia."}</P>
 
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
       <H3>{"Sedação venosa é igual a anestesia geral?"}</H3>
