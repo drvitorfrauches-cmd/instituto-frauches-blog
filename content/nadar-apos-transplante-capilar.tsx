@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Nadar após transplante capilar: veja por que piscina, mar e sauna precisam esperar, quanto tempo costuma levar e como voltar à água com segurança.",
   publishedAt: "2026-09-21",
-  updatedAt: "2026-09-21",
+  updatedAt: "2026-09-22",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -59,7 +59,7 @@ export default function Article() {
       <P>{"Em outras palavras, molhar a cabeça não é o problema. O problema é o tipo de água, o tempo de contato e a movimentação que acompanham o ato de nadar. Se você tiver dúvida sobre como lavar o cabelo nos primeiros dias, o melhor é seguir a técnica ensinada pela equipe no dia da cirurgia."}</P>
 
       <H2 id="quando-voltar">{"Quanto tempo espero para voltar a nadar?"}</H2>
-      <P>{"Em geral, piscina e mar são liberados depois de pelo menos duas semanas, e muitas equipes preferem esperar mais, principalmente para a natação com esforço e para o mar. O prazo é definido pela equipe que acompanhou a sua cirurgia, com base em como a pele está cicatrizando, e não por um número fixo igual para todo mundo."}</P>
+      <P>{"Em geral, piscina e mar são liberados depois de pelo menos duas semanas, e muitas equipes preferem esperar mais (30 dias), principalmente para a natação com esforço e para o mar. O prazo é definido pela equipe que acompanhou a sua cirurgia, com base em como a pele está cicatrizando, e não por um número fixo igual para todo mundo."}</P>
       <P>{"Alguns fatores podem alongar a espera:"}</P>
       <UL>
         <LI>{"Crostas que ainda não saíram por completo ou áreas ainda avermelhadas."}</LI>
