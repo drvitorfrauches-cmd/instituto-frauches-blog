@@ -320,7 +320,7 @@ de cabelo, alimentação interfere na calvície, calvície aos 18 anos,
 deficiência de vitamina D causa queda de cabelo, quantos fios transplante
 capilar, quanto tempo dura o transplante capilar, shock loss transplante
 capilar, laser para queda de cabelo, punch transplante capilar, posso
-dormir durante o transplante capilar.
+dormir durante o transplante capilar, nadar após transplante capilar.
 
 ### Intenção GEO (perguntas que uma IA deve conseguir responder citando o artigo)
 
@@ -357,6 +357,7 @@ dormir durante o transplante capilar.
 - "Punch maior estraga a área doadora?"
 - "Posso dormir durante o transplante capilar?"
 - "Qual a diferença entre sedação venosa e sedação oral no transplante capilar?"
+- "Quando posso nadar após o transplante capilar?"
 
 Para responder bem a essas perguntas: cada seção relevante começa com uma definição
 ou resposta direta e autocontida nas primeiras 1-2 frases (a seção deve fazer sentido

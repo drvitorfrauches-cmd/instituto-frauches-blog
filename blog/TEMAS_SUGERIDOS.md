@@ -198,7 +198,6 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 ### 71. Quando posso usar boné?
 ### 72. Quando posso cortar o cabelo?
 ### 73. Quando posso fazer academia?
-### 74. Quando posso voltar a nadar?
 ### 75. Posso tomar sol?
 ### 76. Como lavar o cabelo após a cirurgia?
 ### 77. Crostas: quanto tempo permanecem?
@@ -736,3 +735,28 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   "Cirurgia, dor e recuperação"). Item 64 segue como "avalie antes de
   produzir"; itens 85, 86, 87 e 90 seguem pendentes. Próximo artigo deve
   evitar repetir o Pilar 2 antes de cobrir os Pilares 1, 3, 4 ou 5.
+- Item 74, "Quando posso voltar a nadar?" — publicado em 2026-09-21 como
+  `nadar-apos-transplante-capilar` (Pilar 3, Pós-operatório e recuperação,
+  sem publicação nova desde 2026-09-02, item 79). Os últimos 5 artigos
+  publicados antes deste vinham dos Pilares 2, 1, 5, 5 e 4
+  (`dormir-durante-transplante-capilar`, `punch-transplante-capilar`,
+  `transplante-de-barba`, `calvicie-feminina-transplante-capilar`,
+  `laser-para-queda-de-cabelo`), então o Pilar 3 era o mais atrasado na
+  rotação e o item 74 era o único ainda elegível da subseção (os demais
+  itens do Pilar 3 já estão cobertos por `recuperacao-transplante-capilar`
+  e `resultado-transplante-capilar-linha-do-tempo`). Keyword primária nova
+  "nadar após transplante capilar" (não constava na lista fixa do DNA;
+  adicionada às secundárias e à Intenção GEO). Ângulo ampliado além da
+  natação: piscina (cloro e touca), mar e praia, sauna, banheira de
+  hidromassagem e vapor, diferença entre imersão e banho de chuveiro
+  orientado, roteiro de retorno gradual e sinais de alerta. O prazo de
+  liberação não foi apresentado como número fixo do Instituto (o DNA não
+  registra um protocolo específico para água): o artigo diz que costuma ser
+  de no mínimo duas semanas e que a equipe define caso a caso. **Vale o Dr.
+  Vitor confirmar o prazo real usado pela clínica para piscina e mar e, se
+  quiser, ajustar o artigo e registrar no DNA.** Linkado com
+  `recuperacao-transplante-capilar` e
+  `resultado-transplante-capilar-linha-do-tempo`. Próximo artigo deve
+  evitar repetir o Pilar 3 antes de cobrir os Pilares 4, 1, 5 ou 2 (o mais
+  atrasado hoje é o Pilar 4, que tem o item 125 sobre canetas emagrecedoras
+  como prioridade alta).
