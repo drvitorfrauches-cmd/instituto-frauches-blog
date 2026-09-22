@@ -131,17 +131,17 @@ export default async function BlogPostPage({
         />
       )}
 
-      <Link href="/blog" className="mb-4 inline-block text-sm text-neutral-500 hover:underline">
+      <Link href="/blog" className="mb-4 inline-block text-sm text-stone hover:text-pine">
         ← Voltar para o blog
       </Link>
 
       <Breadcrumbs category={meta.category} title={meta.title} slug={meta.slug} />
 
-      <span className="mb-2 block text-xs font-medium uppercase tracking-wide text-neutral-500">
+      <span className="font-data mb-3 block text-xs tracking-[0.1em] text-pine uppercase">
         {meta.category} · {meta.readingTime} min de leitura
       </span>
-      <h1 className="mb-4 text-3xl font-bold text-neutral-900">{meta.title}</h1>
-      <p className="mb-3 text-sm text-neutral-500">
+      <h1 className="font-display mb-4 text-3xl font-medium text-balance text-ink sm:text-4xl">{meta.title}</h1>
+      <p className="font-data mb-4 text-xs text-stone-soft">
         Publicado em{" "}
         {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
           timeZone: "UTC",
@@ -156,7 +156,7 @@ export default async function BlogPostPage({
           width={1200}
           height={675}
           priority
-          className="mb-10 aspect-video w-full rounded-lg object-cover"
+          className="mb-10 aspect-video w-full border border-line object-cover"
         />
       )}
 
@@ -164,7 +164,7 @@ export default async function BlogPostPage({
         <Content />
       </article>
 
-      <div className="mt-10 border-t border-neutral-200 pt-8">
+      <div className="mt-10 border-t border-line pt-8">
         <AuthorBox
           authorName={meta.author.name}
           publishedAt={meta.publishedAt}

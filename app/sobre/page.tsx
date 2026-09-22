@@ -64,12 +64,12 @@ export default function SobrePage() {
           alt="Dr. Vitor Frauches, médico especialista em transplante capilar e tricologia"
           width={900}
           height={1200}
-          className="aspect-[3/4] w-40 flex-none rounded-lg object-cover sm:w-48"
+          className="aspect-[3/4] w-40 flex-none border border-line object-cover sm:w-48"
           priority
         />
         <div>
-          <h1 className="mb-1 text-3xl font-bold text-neutral-900">{AUTHOR.name}</h1>
-          <p className="text-neutral-600">{AUTHOR.role}</p>
+          <h1 className="font-display mb-1.5 text-3xl font-medium text-ink">{AUTHOR.name}</h1>
+          <p className="text-stone">{AUTHOR.role}</p>
         </div>
       </div>
 

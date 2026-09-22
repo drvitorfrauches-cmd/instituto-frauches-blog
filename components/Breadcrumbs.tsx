@@ -36,21 +36,25 @@ export function Breadcrumbs({
   };
 
   return (
-    <nav aria-label="breadcrumb" className="mb-4 text-sm text-neutral-500">
+    <nav aria-label="breadcrumb" className="mb-4 text-sm text-stone">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <ol className="flex flex-wrap items-center gap-1">
+      <ol className="flex flex-wrap items-center gap-1.5">
         {crumbs.map((crumb, i) => (
-          <li key={i} className="flex items-center gap-1">
-            {i > 0 && <span aria-hidden="true">›</span>}
+          <li key={i} className="flex items-center gap-1.5">
+            {i > 0 && (
+              <span aria-hidden="true" className="text-stone-soft">
+                /
+              </span>
+            )}
             {crumb.href ? (
-              <Link href={crumb.href} className="hover:underline">
+              <Link href={crumb.href} className="hover:text-pine">
                 {crumb.name}
               </Link>
             ) : (
-              <span className="text-neutral-400">{crumb.name}</span>
+              <span className="text-stone-soft">{crumb.name}</span>
             )}
           </li>
         ))}

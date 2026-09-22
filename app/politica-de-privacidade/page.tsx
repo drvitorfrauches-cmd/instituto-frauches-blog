@@ -30,10 +30,10 @@ const LAST_UPDATED = "6 de setembro de 2026";
 export default function PoliticaDePrivacidadePage() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-16">
-      <h1 className="mb-2 text-3xl font-bold text-neutral-900">
+      <h1 className="font-display mb-2 text-3xl font-medium text-ink">
         Política de Privacidade
       </h1>
-      <p className="mb-10 text-sm text-neutral-500">
+      <p className="font-data mb-10 text-xs text-stone-soft">
         Última atualização: {LAST_UPDATED}
       </p>
 

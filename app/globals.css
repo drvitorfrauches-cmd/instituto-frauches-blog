@@ -1,19 +1,72 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #24221f;
+  --paper: #f7f3ec;
+  --paper-raised: #fffdf9;
+  --stone: #766f63;
+  --stone-soft: #a39a8b;
+  --line: #ddd5c7;
+  --pine: #2e5c52;
+  --pine-soft: #e4ede9;
+  --pine-ink: #16332c;
+  --mast-bg: #24221f;
+  --mast-fg: #f7f3ec;
+  --mast-muted: #a39a8b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #f2eee6;
+    --paper: #18160f;
+    --paper-raised: #201d16;
+    --stone: #b3a999;
+    --stone-soft: #776f60;
+    --line: #3a352b;
+    --pine: #86c0b0;
+    --pine-soft: #223530;
+    --pine-ink: #cfe6de;
+  }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-stone: var(--stone);
+  --color-stone-soft: var(--stone-soft);
+  --color-line: var(--line);
+  --color-pine: var(--pine);
+  --color-pine-soft: var(--pine-soft);
+  --color-pine-ink: var(--pine-ink);
+  --color-mast-bg: var(--mast-bg);
+  --color-mast-fg: var(--mast-fg);
+  --color-mast-muted: var(--mast-muted);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-public-sans);
+  --font-data: var(--font-plex-mono);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--pine-soft);
+  color: var(--pine-ink);
+}
+
+a.underline {
+  text-decoration-color: var(--stone-soft);
+  text-underline-offset: 3px;
+}
+a.underline:hover {
+  color: var(--pine);
+  text-decoration-color: var(--pine);
+}
+
+:focus-visible {
+  outline: 2px solid var(--pine);
+  outline-offset: 2px;
 }

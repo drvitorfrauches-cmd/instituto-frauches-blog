@@ -73,10 +73,13 @@ export default function BlogIndexPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <h1 className="mb-2 text-3xl font-bold text-neutral-900">
+      <span className="font-data mb-3 block text-xs tracking-[0.14em] text-pine uppercase">
+        Tricologia e transplante capilar
+      </span>
+      <h1 className="font-display mb-3 max-w-3xl text-4xl font-medium text-balance text-ink sm:text-5xl">
         Blog do Instituto Frauches
       </h1>
-      <p className="mb-10 max-w-2xl text-neutral-600">
+      <p className="mb-12 max-w-xl text-stone">
         Conteúdo educativo sobre transplante capilar, tricologia e calvície,
         assinado pelo{" "}
         <Link href="/sobre" className="underline">
@@ -85,7 +88,7 @@ export default function BlogIndexPage() {
         .
       </p>
 
-      <div className="mb-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <div className="mb-14 grid grid-cols-1 gap-px border border-line bg-line sm:grid-cols-3">
         {JOURNEYS.map((journey) => {
           const post = posts.find((p) => p.slug === journey.slug);
           if (!post) return null;
@@ -93,12 +96,12 @@ export default function BlogIndexPage() {
             <Link
               key={journey.slug}
               href={`/blog/${journey.slug}`}
-              className="group block rounded-xl border border-neutral-200 bg-white p-5 transition-colors hover:border-neutral-400"
+              className="group block bg-paper-raised p-6 transition-colors hover:bg-pine-soft"
             >
-              <p className="mb-1 text-base font-semibold text-neutral-900 group-hover:underline">
+              <p className="font-display mb-2 text-lg font-medium text-ink group-hover:text-pine-ink">
                 {journey.question}
               </p>
-              <p className="text-sm text-neutral-600">{journey.subtitle}</p>
+              <p className="text-sm text-stone">{journey.subtitle}</p>
             </Link>
           );
         })}

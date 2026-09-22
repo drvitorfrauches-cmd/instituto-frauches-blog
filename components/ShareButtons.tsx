@@ -38,21 +38,23 @@ export function ShareButtons({ url, title }: { url: string; title: string }) {
 
   return (
     <div className="mb-8 flex flex-wrap items-center gap-2 text-sm">
-      <span className="text-neutral-500">Compartilhar:</span>
+      <span className="font-data text-xs tracking-wide text-stone-soft uppercase">
+        Compartilhar
+      </span>
       {links.map((link) => (
         <a
           key={link.label}
           href={link.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-neutral-300 px-3 py-1 text-neutral-700 hover:border-neutral-500"
+          className="border border-line px-3 py-1 text-ink hover:border-pine hover:text-pine"
         >
           {link.label}
         </a>
       ))}
       <button
         onClick={copyLink}
-        className="rounded-full border border-neutral-300 px-3 py-1 text-neutral-700 hover:border-neutral-500"
+        className="border border-line px-3 py-1 text-ink hover:border-pine hover:text-pine"
       >
         {copied ? "Link copiado!" : "Copiar link"}
       </button>

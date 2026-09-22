@@ -20,19 +20,19 @@ export function AuthorBox({
   const reviewDate = updatedAt ?? publishedAt;
 
   return (
-    <div className="mb-8 rounded-lg border border-neutral-200 p-4 text-sm text-neutral-600">
-      <p className="mb-1 font-medium text-neutral-900">
+    <div className="mb-8 border border-line p-5 text-sm text-stone">
+      <p className="mb-2 font-medium text-ink">
         Escrito e revisado por{" "}
         <Link href="/sobre" className="underline">
           {authorName}
         </Link>
       </p>
-      <ul className="mb-2 list-none">
+      <ul className="mb-3 list-none space-y-0.5">
         {AUTHOR_CREDENTIALS.map((credential) => (
           <li key={credential}>{credential}</li>
         ))}
       </ul>
-      <p className="text-neutral-500">
+      <p className="font-data text-xs text-stone-soft">
         Última revisão médica: {formatMonthYear(reviewDate)}
       </p>
     </div>

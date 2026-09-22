@@ -2,14 +2,14 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 
 export function P({ children }: { children: ReactNode }) {
-  return <p className="mb-5 leading-relaxed text-neutral-800">{children}</p>;
+  return <p className="mb-5 leading-[1.75] text-ink">{children}</p>;
 }
 
 export function H2({ id, children }: { id: string; children: ReactNode }) {
   return (
     <h2
       id={id}
-      className="mb-4 mt-10 scroll-mt-24 text-2xl font-semibold text-neutral-900"
+      className="mb-4 mt-12 scroll-mt-24 font-display text-2xl font-medium text-balance text-ink"
     >
       {children}
     </h2>
@@ -18,7 +18,7 @@ export function H2({ id, children }: { id: string; children: ReactNode }) {
 
 export function H3({ children }: { children: ReactNode }) {
   return (
-    <h3 className="mb-3 mt-8 text-xl font-semibold text-neutral-900">
+    <h3 className="mb-3 mt-8 text-lg font-semibold text-balance text-ink">
       {children}
     </h3>
   );
@@ -26,7 +26,7 @@ export function H3({ children }: { children: ReactNode }) {
 
 export function UL({ children }: { children: ReactNode }) {
   return (
-    <ul className="mb-5 list-disc space-y-2 pl-6 text-neutral-800">
+    <ul className="mb-5 list-disc space-y-2 pl-6 text-ink marker:text-pine">
       {children}
     </ul>
   );
@@ -34,7 +34,7 @@ export function UL({ children }: { children: ReactNode }) {
 
 export function OL({ children }: { children: ReactNode }) {
   return (
-    <ol className="mb-5 list-decimal space-y-2 pl-6 text-neutral-800">
+    <ol className="mb-5 list-decimal space-y-2 pl-6 text-ink marker:font-data marker:text-pine">
       {children}
     </ol>
   );
@@ -45,12 +45,12 @@ export function LI({ children }: { children: ReactNode }) {
 }
 
 export function Strong({ children }: { children: ReactNode }) {
-  return <strong className="font-semibold text-neutral-900">{children}</strong>;
+  return <strong className="font-semibold text-ink">{children}</strong>;
 }
 
 export function Quote({ children }: { children: ReactNode }) {
   return (
-    <blockquote className="mb-5 border-l-4 border-neutral-300 pl-4 italic text-neutral-700">
+    <blockquote className="mb-5 border-l-2 border-pine py-1 pl-5 italic text-stone">
       {children}
     </blockquote>
   );
@@ -76,10 +76,10 @@ export function Figure({
         alt={alt}
         width={width}
         height={height}
-        className="w-full rounded-lg object-cover"
+        className="w-full border border-line object-cover"
       />
       {caption && (
-        <figcaption className="mt-2 text-center text-sm text-neutral-500">
+        <figcaption className="mt-2 text-center text-sm text-stone">
           {caption}
         </figcaption>
       )}
@@ -89,7 +89,7 @@ export function Figure({
 
 export function Callout({ children }: { children: ReactNode }) {
   return (
-    <div className="mb-5 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+    <div className="mb-5 border border-line bg-pine-soft p-4 text-sm text-pine-ink">
       {children}
     </div>
   );
@@ -97,13 +97,13 @@ export function Callout({ children }: { children: ReactNode }) {
 
 export function Cta({ children, href }: { children: ReactNode; href: string }) {
   return (
-    <div className="mb-6 flex flex-col gap-3 rounded-lg border border-neutral-200 bg-neutral-50 p-4 sm:flex-row sm:items-center sm:justify-between">
-      <p className="text-sm text-neutral-800">{children}</p>
+    <div className="mb-6 flex flex-col gap-3 border border-line p-4 sm:flex-row sm:items-center sm:justify-between">
+      <p className="text-sm text-ink">{children}</p>
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="shrink-0 rounded-md bg-neutral-900 px-4 py-2 text-center text-sm font-semibold text-white hover:bg-neutral-800"
+        className="shrink-0 bg-ink px-4 py-2 text-center text-sm font-semibold text-paper hover:bg-pine"
       >
         Agendar avaliação
       </a>
