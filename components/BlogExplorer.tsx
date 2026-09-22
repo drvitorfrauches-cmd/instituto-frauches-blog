@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import type { PostMeta } from "@/lib/blog/types";
 import { WHATSAPP_URL } from "@/lib/blog/site";
@@ -10,14 +11,6 @@ function normalize(text: string): string {
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase();
-}
-
-function formatDate(iso: string): string {
-  return new Date(`${iso}T00:00:00`).toLocaleDateString("pt-BR", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  });
 }
 
 export default function BlogExplorer({ posts }: { posts: PostMeta[] }) {
@@ -46,37 +39,40 @@ export default function BlogExplorer({ posts }: { posts: PostMeta[] }) {
         className="mb-10 w-full max-w-xl border border-line bg-paper-raised px-4 py-3 text-sm text-ink placeholder:text-stone-soft focus:border-pine focus:outline-none"
       />
 
-      <ul>
-        {filteredPosts.map((post, i) => {
+      <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+        {filteredPosts.map((post) => {
           const isGuide = post.category === "Guias";
           return (
-            <li
-              key={post.slug}
-              className="grid grid-cols-1 gap-2 border-t border-line py-6 first:border-t-0 sm:grid-cols-[3.5rem_1fr_9rem] sm:gap-7 sm:py-7"
-            >
-              <span className="font-data hidden text-xs text-stone-soft sm:block sm:pt-1">
-                {String(i + 1).padStart(2, "0")}
-              </span>
+            <li key={post.slug} className={isGuide ? "border border-pine/30 bg-pine-soft/40 p-3" : ""}>
               <Link href={`/blog/${post.slug}`} className="group block">
-                <span className="mb-2 flex flex-wrap items-center gap-2 text-[0.68rem] font-medium tracking-[0.1em] text-pine uppercase">
+                {post.coverImage ? (
+                  <Image
+                    src={post.coverImage.src}
+                    alt={post.coverImage.alt}
+                    width={600}
+                    height={338}
+                    className="mb-3 aspect-video w-full border border-line object-cover"
+                  />
+                ) : (
+                  <div className="mb-3 aspect-video w-full border border-line bg-paper-raised" />
+                )}
+                <span className="mb-1.5 flex flex-wrap items-center gap-2 text-[0.68rem] font-medium tracking-[0.1em] text-pine uppercase">
                   {isGuide && (
                     <span className="bg-pine px-1.5 py-0.5 text-[0.62rem] tracking-[0.08em] text-paper">
                       Comece por aqui
                     </span>
                   )}
-                  <span>{post.category}</span>
+                  <span className="font-data normal-case tracking-normal text-stone">
+                    {post.category} · {post.readingTime} min de leitura
+                  </span>
                 </span>
-                <h2 className="font-display mb-1.5 text-xl leading-snug font-medium text-balance text-ink group-hover:text-pine">
+                <h2 className="font-display mb-1.5 line-clamp-2 text-lg leading-snug font-medium text-ink group-hover:text-pine">
                   {post.title}
                 </h2>
-                <p className="line-clamp-2 max-w-[60ch] text-sm text-stone">
+                <p className="line-clamp-2 text-sm text-stone">
                   {post.description}
                 </p>
               </Link>
-              <div className="font-data flex gap-4 text-xs text-stone-soft sm:flex-col sm:gap-1 sm:text-right">
-                <span>{post.readingTime} min</span>
-                <span>{formatDate(post.publishedAt)}</span>
-              </div>
             </li>
           );
         })}
