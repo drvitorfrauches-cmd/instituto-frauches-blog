@@ -220,33 +220,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 
 ### Calvície geral
 
-### 125. Canetas emagrecedoras (Ozempic, Mounjaro, Wegovy) e queda de cabelo
-- **Objetivo SEO**: caneta emagrecedora causa queda de cabelo / Mounjaro
-  queda de cabelo / Ozempic queda de cabelo
-- **Prioridade alta** (portado do PR #101, fechado em 2026-08-27):
-  renumerado de 123 pra 125 porque o número 123 já pertence ao artigo
-  publicado `nutraceuticos-para-queda-de-cabelo` (ver "Já publicados").
-  Colocado no topo desta subseção pra ser o próximo item elegível do
-  Pilar 4, mantendo a prioridade original do pedido do Dr. Vitor.
-- **Briefing**: tema de alta prioridade (aproveitar o hype atual do
-  Mounjaro/Ozempic/Wegovy — tirzepatida, semaglutida, liraglutida). Cobrir:
-  (1) essas canetas (agonistas de GLP-1) causam queda de cabelo direto, ou é
-  efeito colateral da perda de peso rápida (eflúvio telógeno por perda de
-  peso/restrição calórica/deficiência nutricional, mecanismo já conhecido
-  independente do medicamento em si); (2) o que dizem bula e estudos sobre
-  a incidência real; (3) é temporário ou permanente; (4) quem já tem
-  predisposição genética à calvície pode ter o processo "acelerado/
-  revelado" pelo emagrecimento rápido, mesmo sem o medicamento ser a causa
-  direta; (5) o que fazer (avaliação nutricional, reposição de proteína/
-  ferro/zinco, quando procurar avaliação capilar); (6) deixar claro que não
-  se trata de contraindicar o uso do medicamento (foge do escopo do blog
-  e da especialidade), só de explicar e orientar sobre o efeito capilar.
-  Nota de compliance: usar os nomes de substância (semaglutida, tirzepatida,
-  liraglutida) e marcas amplamente divulgadas (Ozempic, Mounjaro, Wegovy,
-  Saxenda) apenas como termos de busca/contexto informativo, nunca fazer
-  qualquer recomendação de uso, dose ou indicação desses medicamentos —
-  isso é fora da especialidade do Dr. Vitor.
-
 ### 22. Primeiros sinais da calvície masculina
 - **Briefing**: entradas; afinamento; miniaturização.
 - Nota (2026-08-14): avaliado antes de escrever. O briefing (entradas,
@@ -760,3 +733,27 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   evitar repetir o Pilar 3 antes de cobrir os Pilares 4, 1, 5 ou 2 (o mais
   atrasado hoje é o Pilar 4, que tem o item 125 sobre canetas emagrecedoras
   como prioridade alta).
+- Item 125, "Canetas emagrecedoras (Ozempic, Mounjaro, Wegovy) e queda de
+  cabelo" — publicado em 2026-09-24 como `caneta-emagrecedora-queda-de-cabelo`
+  (Pilar 4, subgrupo "Calvície geral", sem publicação nova do Pilar 4 desde
+  2026-09-04, item 48). Os últimos 5 artigos publicados antes deste vinham
+  dos Pilares 3, 2, 1, 5 e 5, então o Pilar 4 era o mais atrasado na
+  rotação; o último artigo do Pilar 4 (`laser-para-queda-de-cabelo`) era do
+  subgrupo "Medicamentos e tratamentos", então esta escolha alternou para
+  "Calvície geral", onde o item 125 estava no topo com prioridade alta.
+  Keyword primária nova "caneta emagrecedora causa queda de cabelo" (não
+  constava na lista fixa do DNA; adicionada às secundárias e à Intenção
+  GEO). Cobre os 6 pontos do briefing: eflúvio telógeno pela perda de peso
+  rápida x efeito direto do medicamento, o que bula e estudos relatam (sem
+  citar percentuais específicos, só a direção dos achados), temporária x
+  permanente, calvície genética "revelada" pelo emagrecimento, o que fazer
+  (proteína, exames, reposição orientada, tricoscopia) e seção explícita
+  deixando claro que o blog não indica nem contraindica o medicamento.
+  Acrescentou uma seção sobre transplante capilar em quem está emagrecendo
+  (esperar o peso estabilizar e o eflúvio passar antes de planejar).
+  Categorizado no `guia-calvicie-masculina` (seção "Primeiros sinais e
+  diagnóstico"). Linkado com `deficiencia-de-ferro-causa-queda-de-cabelo`,
+  `alimentacao-interfere-na-calvicie`, `alopecia-androgenetica`,
+  `exames-para-queda-de-cabelo` e `minoxidil-para-queda-de-cabelo`.
+  Próximo artigo deve evitar repetir o Pilar 4 antes de cobrir os Pilares
+  1, 5, 2 ou 3 (o mais atrasado hoje é o Pilar 1, último em 2026-09-16).
