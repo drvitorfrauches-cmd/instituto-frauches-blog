@@ -159,9 +159,6 @@ diferenças para FUT, tecnologia e instrumental usados.
   Pular a menos que surja um ângulo claramente distinto (este item já cobre
   ampliação, triagem, transecção, sobrevivência do enxerto e o papel da
   equipe).
-### 94. Como os enxertos são armazenados
-### 95. Qual a temperatura ideal dos enxertos?
-### 96. Tempo fora do corpo influencia?
 ### 99. O que é transecção folicular?
 ### 100. Como aumentar a sobrevivência dos enxertos
 ### 101. O papel da equipe cirúrgica
@@ -757,3 +754,32 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `exames-para-queda-de-cabelo` e `minoxidil-para-queda-de-cabelo`.
   Próximo artigo deve evitar repetir o Pilar 4 antes de cobrir os Pilares
   1, 5, 2 ou 3 (o mais atrasado hoje é o Pilar 1, último em 2026-09-16).
+- Itens 94, 95 e 96, "Como os enxertos são armazenados", "Qual a
+  temperatura ideal dos enxertos?" e "Tempo fora do corpo influencia?" —
+  publicados juntos em 2026-09-25 como
+  `armazenamento-enxertos-transplante-capilar` (Pilar 1, Técnica FUE e
+  tecnologia, sem publicação nova desde 2026-09-16, item 97). Os últimos 5
+  artigos publicados antes deste vinham dos Pilares 4, 3, 2, 1 e 5, então o
+  Pilar 1 era o mais atrasado. Itens 62, 63 (já marcados), 65 (coberto por
+  `hairline-natural-transplante-capilar`, que já explica como a linha
+  frontal é desenhada), 88 e 89 (cobertos pelas seções de preservação e
+  superextração de `area-doadora-transplante-capilar`), 91 e 92 (termo de
+  marketing sem ângulo definido / implanter já coberto em
+  `tecnologias-transplante-capilar`, ver item 18) foram avaliados antes e
+  pulados nesta rodada; 94-96 eram os primeiros itens do pilar só citados
+  de passagem (2-3 frases) em outros artigos. Os três viraram um único
+  artigo por serem a mesma etapa da cirurgia. Keyword primária nova
+  "armazenamento dos enxertos no transplante capilar" (não constava na
+  lista fixa do DNA; sugerida para as secundárias). O artigo não cita
+  temperatura, solução ou tempo específicos como protocolo do Instituto
+  Frauches (o DNA não registra esses dados); fala em faixa "de poucos graus
+  acima de zero" e em tendência dos estudos, sem percentuais. **Vale o Dr.
+  Vitor confirmar a solução e a temperatura usadas na clínica e, se quiser,
+  acrescentar ao artigo e ao DNA.** Item 100 (sobrevivência dos enxertos) e
+  103 (reduzir trauma) ficaram parcialmente cobertos pelas seções
+  "Manipulação" e "O que uma equipe faz, na prática" deste artigo; avaliar
+  antes de produzir. Categorizado no `guia-transplante-capilar` (seção "A
+  técnica"). Linkado com `microscopio-no-transplante-capilar`,
+  `graftis-contagem-ao-vivo-transplante-capilar` e
+  `resultado-transplante-capilar-linha-do-tempo`. Próximo artigo deve
+  evitar repetir o Pilar 1 antes de cobrir os Pilares 5, 2, 3 ou 4.

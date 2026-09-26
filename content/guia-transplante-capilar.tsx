@@ -33,6 +33,7 @@ export default function Article() {
         <LI><Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">{"Graftis: controle de qualidade no transplante capilar"}</Link>{": o sistema próprio do Instituto Frauches para contagem folicular ao vivo."}</LI>
         <LI><Link href="/blog/microscopio-no-transplante-capilar" className="underline">{"Microscópio no transplante capilar"}</Link>{": por que a triagem sob aumento reduz a transecção e ajuda na sobrevivência do enxerto."}</LI>
         <LI><Link href="/blog/punch-transplante-capilar" className="underline">{"Punch no transplante capilar"}</Link>{": por que o diâmetro e o tipo do instrumento influenciam a extração e a cicatrização da área doadora."}</LI>
+        <LI><Link href="/blog/armazenamento-enxertos-transplante-capilar" className="underline">{"Armazenamento dos enxertos no transplante capilar"}</Link>{": solução, temperatura e tempo fora do corpo na sobrevivência dos folículos."}</LI>
       </UL>
 
       <H2 id="planejamento-e-area-doadora">{"Planejamento e área doadora"}</H2>
