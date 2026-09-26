@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda como funciona o armazenamento dos enxertos no transplante capilar: solução, temperatura, tempo fora do corpo e o impacto na sobrevivência dos fios.",
   publishedAt: "2026-09-25",
-  updatedAt: "2026-09-25",
+  updatedAt: "2026-09-26",
   readingTime: 12,
   category: "Técnica FUE",
   author: AUTHOR,
