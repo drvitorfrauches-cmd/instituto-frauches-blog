@@ -349,7 +349,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
-### 108. Transplante para sobrancelhas
 ### 109. Transplante após queimaduras
 ### 110. Correção de transplantes antigos
 ### 111. Correção de hairline artificial
@@ -780,21 +779,39 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `graftis-contagem-ao-vivo-transplante-capilar` e
   `resultado-transplante-capilar-linha-do-tempo`. Próximo artigo deve
   evitar repetir o Pilar 1 antes de cobrir os Pilares 5, 2, 3 ou 4.
+- Item 108, "Transplante para sobrancelhas" — publicado em 2026-09-28 como
+  `transplante-de-sobrancelha` (Pilar 5, Casos especiais e público
+  específico, sem publicação nova desde 2026-09-14, item 107). Os últimos 5
+  artigos publicados antes deste vinham dos Pilares 1, 4, 3, 2 e 1, então o
+  Pilar 5 era o mais atrasado e o item 108 era o primeiro da subseção.
+  Keyword primária "transplante de sobrancelha" (já constava nas
+  secundárias do DNA, nunca usada como primária). Ângulo: indicações
+  (depilação excessiva, cicatriz, micropigmentação sem volume, alopecia
+  areata estabilizada), contraindicações por causa ativa (alopecia frontal
+  fibrosante, tireoide, tricotilomania), escolha de fios únicos da nuca,
+  as três direções de crescimento da sobrancelha, recuperação, o fio que
+  cresce como cabelo e comparação com micropigmentação. Não cita número
+  fixo de fios nem prazos como protocolo próprio do Instituto Frauches
+  (faixas gerais com nota de variação individual). Categorizado no
+  `guia-transplante-capilar` (seção "Casos especiais"). Linkado com
+  `transplante-de-barba`, `exames-para-queda-de-cabelo`,
+  `area-doadora-transplante-capilar` e `shock-loss-transplante-capilar`.
+  Próximo artigo deve evitar repetir o Pilar 5 antes de cobrir os Pilares
+  2, 3, 4 ou 1 (o mais atrasado hoje é o Pilar 2, último em 2026-09-18).
 - Itens 85, 86 e 87, "Segunda cirurgia é comum?", "Quantas cirurgias uma
   pessoa pode fazer?" e "Quando vale a pena reoperar?" — publicados juntos
   em 2026-09-30 como `segunda-cirurgia-transplante-capilar` (Pilar 2,
   Dúvidas e medos antes da cirurgia, sem publicação nova desde 2026-09-18,
-  item 67/68). Os últimos 5 artigos (contando o PR #125 ainda aberto,
-  `transplante-de-sobrancelha`, Pilar 5) vinham dos Pilares 5, 1, 4, 3 e 2,
-  então o Pilar 2 era o mais atrasado. Itens 64 e 69 pulados por já terem
-  artigo publicado (`hairline-natural-transplante-capilar` e
-  `sedacao-transplante-capilar`). Os três itens viraram um único artigo por
-  responderem à mesma decisão (reoperar ou não), que antes só aparecia em
-  FAQs de 1-2 frases. Keyword primária nova "segunda cirurgia de
-  transplante capilar" (não constava na lista fixa do DNA; sugerida para
-  as secundárias e para a Intenção GEO). Categorizado no
-  `guia-transplante-capilar` (seção "Resultado"). Linkado com
-  `area-doadora-transplante-capilar`, `escala-de-norwood`,
+  item 67/68). Os últimos 5 artigos (contando `transplante-de-sobrancelha`,
+  Pilar 5, já mesclado) vinham dos Pilares 5, 1, 4, 3 e 2, então o Pilar 2
+  era o mais atrasado. Itens 64 e 69 pulados por já terem artigo publicado
+  (`hairline-natural-transplante-capilar` e `sedacao-transplante-capilar`).
+  Os três itens viraram um único artigo por responderem à mesma decisão
+  (reoperar ou não), que antes só aparecia em FAQs de 1-2 frases. Keyword
+  primária nova "segunda cirurgia de transplante capilar" (não constava na
+  lista fixa do DNA; sugerida para as secundárias e para a Intenção GEO).
+  Categorizado no `guia-transplante-capilar` (seção "Resultado"). Linkado
+  com `area-doadora-transplante-capilar`, `escala-de-norwood`,
   `resultado-transplante-capilar-linha-do-tempo`,
   `transplante-capilar-e-definitivo`, `recuperacao-transplante-capilar` e
   `quanto-tempo-dura-transplante-capilar`. Item 90 segue pendente no
