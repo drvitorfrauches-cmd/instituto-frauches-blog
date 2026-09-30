@@ -352,7 +352,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
-### 108. Transplante para sobrancelhas
 ### 109. Transplante após queimaduras
 ### 110. Correção de transplantes antigos
 ### 111. Correção de hairline artificial
@@ -783,3 +782,22 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `graftis-contagem-ao-vivo-transplante-capilar` e
   `resultado-transplante-capilar-linha-do-tempo`. Próximo artigo deve
   evitar repetir o Pilar 1 antes de cobrir os Pilares 5, 2, 3 ou 4.
+- Item 108, "Transplante para sobrancelhas" — publicado em 2026-09-28 como
+  `transplante-de-sobrancelha` (Pilar 5, Casos especiais e público
+  específico, sem publicação nova desde 2026-09-14, item 107). Os últimos 5
+  artigos publicados antes deste vinham dos Pilares 1, 4, 3, 2 e 1, então o
+  Pilar 5 era o mais atrasado e o item 108 era o primeiro da subseção.
+  Keyword primária "transplante de sobrancelha" (já constava nas
+  secundárias do DNA, nunca usada como primária). Ângulo: indicações
+  (depilação excessiva, cicatriz, micropigmentação sem volume, alopecia
+  areata estabilizada), contraindicações por causa ativa (alopecia frontal
+  fibrosante, tireoide, tricotilomania), escolha de fios únicos da nuca,
+  as três direções de crescimento da sobrancelha, recuperação, o fio que
+  cresce como cabelo e comparação com micropigmentação. Não cita número
+  fixo de fios nem prazos como protocolo próprio do Instituto Frauches
+  (faixas gerais com nota de variação individual). Categorizado no
+  `guia-transplante-capilar` (seção "Casos especiais"). Linkado com
+  `transplante-de-barba`, `exames-para-queda-de-cabelo`,
+  `area-doadora-transplante-capilar` e `shock-loss-transplante-capilar`.
+  Próximo artigo deve evitar repetir o Pilar 5 antes de cobrir os Pilares
+  2, 3, 4 ou 1 (o mais atrasado hoje é o Pilar 2, último em 2026-09-18).
