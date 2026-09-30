@@ -178,9 +178,6 @@ cirurgia, decisão sobre reoperar.
 ### 69. Como funciona a sedação venosa?
 - Nota: já existe artigo publicado (`sedacao-transplante-capilar`, pacote
   editorial externo). Avalie antes de produzir.
-### 85. Segunda cirurgia é comum?
-### 86. Quantas cirurgias uma pessoa pode fazer?
-### 87. Quando vale a pena reoperar?
 ### 90. Como evitar transplantes artificiais
 - Nota: tema próximo dos artigos publicados `como-identificar-transplante-capilar-natural`
   e `sinais-transplante-capilar-mal-feito` (pacote editorial externo).
@@ -801,3 +798,23 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   `area-doadora-transplante-capilar` e `shock-loss-transplante-capilar`.
   Próximo artigo deve evitar repetir o Pilar 5 antes de cobrir os Pilares
   2, 3, 4 ou 1 (o mais atrasado hoje é o Pilar 2, último em 2026-09-18).
+- Itens 85, 86 e 87, "Segunda cirurgia é comum?", "Quantas cirurgias uma
+  pessoa pode fazer?" e "Quando vale a pena reoperar?" — publicados juntos
+  em 2026-09-30 como `segunda-cirurgia-transplante-capilar` (Pilar 2,
+  Dúvidas e medos antes da cirurgia, sem publicação nova desde 2026-09-18,
+  item 67/68). Os últimos 5 artigos (contando `transplante-de-sobrancelha`,
+  Pilar 5, já mesclado) vinham dos Pilares 5, 1, 4, 3 e 2, então o Pilar 2
+  era o mais atrasado. Itens 64 e 69 pulados por já terem artigo publicado
+  (`hairline-natural-transplante-capilar` e `sedacao-transplante-capilar`).
+  Os três itens viraram um único artigo por responderem à mesma decisão
+  (reoperar ou não), que antes só aparecia em FAQs de 1-2 frases. Keyword
+  primária nova "segunda cirurgia de transplante capilar" (não constava na
+  lista fixa do DNA; sugerida para as secundárias e para a Intenção GEO).
+  Categorizado no `guia-transplante-capilar` (seção "Resultado"). Linkado
+  com `area-doadora-transplante-capilar`, `escala-de-norwood`,
+  `resultado-transplante-capilar-linha-do-tempo`,
+  `transplante-capilar-e-definitivo`, `recuperacao-transplante-capilar` e
+  `quanto-tempo-dura-transplante-capilar`. Item 90 segue pendente no
+  Pilar 2. Próximo artigo deve evitar repetir o Pilar 2 antes de cobrir os
+  Pilares 3, 4, 1 ou 5 (o mais atrasado hoje é o Pilar 3, último em
+  2026-09-21).
