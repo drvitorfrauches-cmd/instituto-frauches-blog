@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante de sobrancelha usa a técnica FUE para repor fios com direção e ângulo naturais. Veja quem pode fazer, como é a cirurgia e os cuidados depois.",
   publishedAt: "2026-09-28",
-  updatedAt: "2026-09-28",
+  updatedAt: "2026-09-30",
   readingTime: 10,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -23,7 +23,7 @@ export default function Article() {
   return (
     <>
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
-      <P>{"O transplante de sobrancelha é uma cirurgia que repõe fios em sobrancelhas ralas, falhadas ou ausentes usando a técnica FUE (Follicular Unit Extraction, ou extração de unidade folicular). Os folículos são retirados um a um, geralmente da nuca, e implantados na sobrancelha respeitando a direção, o ângulo e a densidade de cada região. Como o fio transplantado mantém a característica da área de onde veio, o resultado tende a ser permanente, mas cresce como cabelo e precisa ser aparado."}</P>
+      <P>{"O transplante de sobrancelha é uma cirurgia que repõe fios em sobrancelhas ralas, falhadas ou ausentes usando a técnica FUE Long Hair (Follicular Unit Extraction, ou extração de unidade folicular com fios longos). Os folículos são retirados um a um, geralmente da nuca, e implantados na sobrancelha respeitando a direção, o ângulo e a densidade de cada região. Como o fio transplantado mantém a característica da área de onde veio, o resultado tende a ser permanente, mas cresce como cabelo e precisa ser aparado."}</P>
       <P>{"Costuma ser indicado para quem perdeu fios por depilação excessiva ao longo dos anos, cicatriz, queimadura ou micropigmentação que não resolveu a falta de volume real. Quando a causa é uma doença em atividade, a cirurgia espera."}</P>
       <Cta href={WHATSAPP_URL}>{"Sua sobrancelha afinou depois de anos de pinça ou tem uma falha que a maquiagem não disfarça? Uma avaliação mostra primeiro qual é a causa e se o transplante faz sentido no seu caso."}</Cta>
 
@@ -64,7 +64,7 @@ export default function Article() {
         <LI><Strong>{"Anestesia local e sedação venosa:"}</Strong>{" as duas regiões (nuca e sobrancelha) recebem anestesia local, e o paciente fica sob sedação venosa durante o procedimento."}</LI>
         <LI><Strong>{"Extração na nuca:"}</Strong>{" os folículos são retirados um a um com punch de pequeno diâmetro, sem corte linear e sem pontos."}</LI>
         <LI><Strong>{"Separação no microscópio:"}</Strong>{" os enxertos são triados e mantidos em solução resfriada até a implantação, reduzindo o tempo de exposição e o trauma."}</LI>
-        <LI><Strong>{"Implantação fio a fio:"}</Strong>{" cada fio entra numa incisão muito pequena, feita num ângulo quase rente à pele e na direção certa daquela parte da sobrancelha."}</LI>
+        <LI><Strong>{"Implantação fio a fio:"}</Strong>{" cada fio entra numa incisão muito pequena, feita num ângulo quase rente à pele e na direção certa daquela parte da sobrancelha, com o auxilio do implanter."}</LI>
       </OL>
       <P>{"A cirurgia costuma levar algumas horas, bem menos que um transplante capilar completo. No Instituto Frauches, o Protocolo Frauches Precision FUE® orienta também esse planejamento, com mapeamento da falha, escolha de fios compatíveis e atenção redobrada à angulação."}</P>
 
@@ -72,7 +72,7 @@ export default function Article() {
       <P>{"Porque a sobrancelha tem três direções de crescimento diferentes em poucos centímetros, e errar qualquer uma delas deixa o resultado artificial. Isso é o que mais diferencia esse procedimento de um transplante no couro cabeludo."}</P>
       <UL>
         <LI><Strong>{"Início (perto do nariz):"}</Strong>{" os fios crescem para cima, quase na vertical, levemente abertos em leque."}</LI>
-        <LI><Strong>{"Corpo:"}</Strong>{" os fios de cima apontam para baixo e para fora, os de baixo apontam para cima e para fora. Eles se cruzam e formam uma espécie de trama no meio da sobrancelha."}</LI>
+        <LI><Strong>{"Corpo:"}</Strong>{" os fios de cima apontam para baixo e para fora, os de baixo apontam para cima e para fora. Eles se cruzam e formam uma espécie de trama ou espinah de peixe, no meio da sobrancelha."}</LI>
         <LI><Strong>{"Cauda:"}</Strong>{" os fios deitam quase na horizontal, em direção à têmpora."}</LI>
       </UL>
       <P>{"Além da direção, o ângulo em relação à pele é muito fechado. Um fio implantado \"em pé\" vai crescer espetado, e nenhum gel resolve isso de forma definitiva. A densidade também não é uniforme: o corpo da sobrancelha é mais cheio, a cauda afina, e as bordas precisam de fios espaçados para o contorno não ficar com cara de carimbo."}</P>
