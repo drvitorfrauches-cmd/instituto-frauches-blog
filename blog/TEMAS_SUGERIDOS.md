@@ -36,6 +36,9 @@ da distribuição pretendida no DNA. A partir de agora:
 3. Dentro da subseção desse pilar, pegue o item mais antigo (primeiro da
    subseção) que ainda não tenha nota de "já coberto" ou "pular". Esse é o
    tema desta execução.
+   Exceção: itens do lote 2 (ids 201-300) com a linha **Prioridade** (muito
+   alta antes de alta) têm preferência sobre os demais da mesma subseção,
+   mesmo que estejam mais abaixo.
 4. Se a subseção desse pilar não tiver nenhum item elegível no momento,
    passe pro próximo pilar mais atrasado na rotação.
 
@@ -127,6 +130,27 @@ levava a sequências longas do mesmo pilar do DNA quando lidos em ordem
 numérica pura. Os números de cada item (identificadores históricos) foram
 mantidos como estavam, só a agrupação/ordem de leitura mudou.
 
+## Lote 2 (2026-10-03): 100 temas para os próximos meses
+
+O Dr. Vitor enviou uma nova lista de 100 temas (três grupos: tratamento clínico
+e diagnóstico, transplante e planejamento cirúrgico, pós-operatório). Cada tema
+foi encaixado no pilar do `DNA.md` mais próximo e leva o id **200 + número da
+lista do Dr. Vitor** (o tema 15 dele é o item 215), para não colidir com os ids
+antigos. Dentro de cada subseção, os itens do lote 2 estão ordenados por
+prioridade (muito alta, alta, sem marca), e o ângulo é o que ele sugeriu.
+
+Regras para escrever qualquer item do lote 2:
+- Conferir a nota de sobreposição do item antes de escrever: boa parte dos temas
+  já tem uma seção curta em artigo publicado. Nesses casos o artigo novo
+  aprofunda e linka o existente, sem copiar texto.
+- Efeitos adversos de medicamentos (finasterida, dutasterida, minoxidil oral),
+  hormônios, anabolizantes e anticoagulantes: informar com evidência e sem
+  alarmismo, e nunca orientar dose, início, suspensão ou retomada por conta
+  própria (a decisão é do médico que acompanha, conforme CFM e o `DNA.md`).
+- Evitar colisão de keyword primária com artigo já publicado (ver a nota do item
+  272, por exemplo) e não comparar clínicas ou médicos pelo nome.
+- Após publicar, mover o item para "Já publicados" como de costume.
+
 ## Pilar 1 — Técnica FUE e tecnologia (~30% da fila)
 
 Como funciona a técnica, etapas da cirurgia do ponto de vista técnico,
@@ -167,6 +191,141 @@ diferenças para FUT, tecnologia e instrumental usados.
 ### 104. Bioestimulação durante a cirurgia
 ### 105. O futuro do transplante capilar
 
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 242. Miniaturização na área doadora: por que ela muda completamente o planejamento
+- **Objetivo SEO**: miniaturização área doadora
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): tricoscopia pré-operatória.
+- **Prioridade**: muito alta
+
+### 245. Transplante da coroa: por que o redemoinho torna essa região mais difícil?
+- **Objetivo SEO**: transplante capilar coroa
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): whorl, direção e alto consumo de enxertos.
+- **Prioridade**: muito alta
+
+### 264. DHI e FUE são técnicas concorrentes? Entenda a confusão
+- **Objetivo SEO**: DHI ou FUE
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): explicar corretamente que FUE se refere à extração e DHI à implantação.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): `tecnologias-transplante-capilar` já tem uma seção sobre DHI. Foco aqui: desfazer a confusão (FUE é extração, DHI é implantação). Linkar `tecnologias-transplante-capilar` e `tecnica-fue-transplante-capilar`.
+
+### 237. Como calcular a densidade da área doadora antes do transplante capilar?
+- **Objetivo SEO**: densidade área doadora
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): unidades foliculares/cm², calibre e planejamento.
+- **Prioridade**: alta
+- Nota (2026-10-03): `quantos-fios-transplante-capilar` e `area-doadora-transplante-capilar` já tocam em densidade. Foco aqui: como medir a densidade da área doadora (UF/cm², tricoscopia). Ver também o item 63 ("O que é densidade capilar?").
+
+### 238. Fio fino ou grosso: por que o calibre muda tanto o resultado do transplante?
+- **Objetivo SEO**: calibre cabelo transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): cobertura visual.
+
+### 239. Cor do cabelo e da pele influencia o resultado do transplante?
+- **Objetivo SEO**: cor cabelo transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): contraste e ilusão de densidade.
+
+### 240. Relação entre área doadora e área receptora: por que não dá para cobrir tudo sempre
+- **Objetivo SEO**: área doadora área receptora transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): matemática do planejamento. Excelente para pacientes grau alto.
+- Nota (2026-10-03): `quantos-fios-transplante-capilar` e `area-doadora-transplante-capilar` já cobrem parte da relação entre área doadora e receptora. Aprofundar a matemática para graus avançados e linkar os dois.
+
+### 241. Onde começa e termina a zona segura da área doadora?
+- **Objetivo SEO**: zona segura área doadora
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): limites anatômicos e progressão futura.
+- Nota (2026-10-03): `area-doadora-transplante-capilar` já fala de limites da área doadora. Aprofundar a zona segura e a progressão futura.
+
+### 243. Donor dominance: por que o cabelo transplantado mantém características da área doadora?
+- **Objetivo SEO**: donor dominance transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): conceito científico pouco explorado em português.
+
+### 244. Por que a extração deve ser distribuída pela área doadora?
+- **Objetivo SEO**: extração área doadora FUE
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): homogeneidade x aspecto “comido por traça”.
+
+### 246. Reconstrução dos picos temporais: o detalhe que muda o enquadramento do rosto
+- **Objetivo SEO**: transplante picos temporais
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): temporal peaks e naturalidade.
+
+### 247. Ângulo frontotemporal: por que ele muda com a idade?
+- **Objetivo SEO**: ângulo frontotemporal transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): evitar hairlines juvenis artificiais.
+
+### 248. Por que usamos folículos de um fio na primeira linha da hairline?
+- **Objetivo SEO**: folículos de um fio hairline
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): naturalidade microscópica.
+
+### 249. Onde devem ser colocadas unidades foliculares de dois, três e quatro fios?
+- **Objetivo SEO**: unidades foliculares transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): distribuição estratégica para densidade.
+- Nota (2026-10-03): Ver nota do item 62 da fila antiga (unidades foliculares já têm um H2 em `tecnica-fue-transplante-capilar`). Aqui o foco é onde colocar cada tipo (um, dois, três e quatro fios).
+
+### 250. Densidade real x densidade visual no transplante capilar
+- **Objetivo SEO**: densidade transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): por que mais enxertos nem sempre significam melhor cobertura.
+- Nota (2026-10-03): Possível sobreposição com `quantos-fios-transplante-capilar` (densidade desejada). Foco aqui: densidade real x densidade visual.
+
+### 251. Dense packing: colocar muitos enxertos muito próximos é sempre melhor?
+- **Objetivo SEO**: dense packing transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): densidade versus vascularização e segurança.
+
+### 252. Megassessão e gigassessão no transplante capilar: quando fazem sentido?
+- **Objetivo SEO**: megassessão transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): grandes números de unidades foliculares sem transformar quantidade em marketing.
+
+### 253. Transplante capilar em um dia ou em dois dias: existe diferença?
+- **Objetivo SEO**: transplante capilar dois dias
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): tempo cirúrgico, enxertos e logística.
+- Nota (2026-10-03): `quanto-tempo-dura-transplante-capilar` já explica a duração do dia de cirurgia. Foco aqui: transplante em um ou dois dias (logística, número de enxertos, qualidade).
+
+### 259. Capping na FUE: o que acontece quando o punch separa apenas a parte superficial do enxerto?
+- **Objetivo SEO**: capping FUE
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): conteúdo técnico que reforça autoridade.
+
+### 260. Buried graft: o que é um folículo enterrado durante a extração FUE?
+- **Objetivo SEO**: buried graft FUE
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): complicação técnica e prevenção.
+
+### 261. Lapidação dos enxertos: por que preparar a unidade folicular antes da implantação?
+- **Objetivo SEO**: lapidação enxertos transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): microscopia e controle de qualidade. Excelente para sua expertise docente.
+
+### 262. Isquemia e reperfusão dos enxertos: o que acontece enquanto o folículo está fora do corpo?
+- **Objetivo SEO**: isquemia enxerto transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): fisiologia do enxerto e sobrevivência.
+
+### 263. Implanter ou pinça: qual a diferença na implantação dos fios?
+- **Objetivo SEO**: implanter ou pinça transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): manipulação, direção e experiência. Forte para o seu posicionamento.
+- Nota (2026-10-03): Item 18 da fila antiga já foi marcado como coberto por `tecnologias-transplante-capilar` (H3 "Implanter é melhor que pinça?"). Avaliar junto com o item 92 (Implanter Pen) e o 267 (implanter afiado x rombo) para não gerar três artigos repetidos.
+
+### 265. DNI x DHI: qual a diferença na implantação com implanters?
+- **Objetivo SEO**: DNI DHI transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pré-incisão + implanter rombo versus implantação/incisão simultânea.
+- Nota (2026-10-03): Ver itens 264 e 266 (DHI x FUE e pré-incisão): avaliar se DNI x DHI e pré-incisão x implantação direta viram um único artigo.
+
+### 266. Pré-incisão ou implantação direta: o que muda no transplante capilar?
+- **Objetivo SEO**: pré incisão transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): planejamento de sítios receptores.
+
+### 267. Implanter afiado x implanter rombo: qual a diferença?
+- **Objetivo SEO**: implanter afiado rombo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): excelente conteúdo técnico sem concorrência relevante.
+
+### 268. O tamanho da incisão receptora influencia cicatrização e densidade?
+- **Objetivo SEO**: incisão transplante capilar tamanho
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): compatibilidade com o enxerto e trauma tecidual.
+
+### 269. Popping no transplante capilar: por que um enxerto pode sair quando outro é implantado?
+- **Objetivo SEO**: popping transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pressão tecidual e densidade.
+
+### 270. Tumescência no transplante capilar: para que serve?
+- **Objetivo SEO**: tumescência transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): controle anatômico, anestesia e plano de trabalho.
+
+### 271. Bloqueios anestésicos no transplante capilar: como funcionam?
+- **Objetivo SEO**: bloqueio anestésico transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): frontal, occipital e conforto cirúrgico.
+
 ## Pilar 2 — Dúvidas e medos antes da cirurgia (~25% da fila)
 
 Dor, resultado natural, "cara de transplantado", conforto durante a
@@ -183,6 +342,33 @@ cirurgia, decisão sobre reoperar.
   e `sinais-transplante-capilar-mal-feito` (pacote editorial externo).
   Diferencie o ângulo (ex.: foco em prevenção/planejamento, não em
   identificação pós-cirurgia) antes de produzir.
+
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 256. Área doadora fraca: ainda é possível fazer transplante capilar?
+- **Objetivo SEO**: área doadora fraca transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): uma das melhores dúvidas comerciais para seu blog.
+- Nota (2026-10-03): `area-doadora-transplante-capilar` já aborda reserva limitada. Foco aqui: o que ainda é possível quando a área doadora é fraca (BHT, expectativa, indicação).
+
+### 272. Quem realmente pode realizar cada etapa do transplante capilar?
+- **Objetivo SEO**: quem pode fazer transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): responsabilidade médica, equipe e o que perguntar antes da cirurgia. Grande potencial comercial.
+- Nota (2026-10-03): ATENÇÃO, colisão de keyword: `quem pode fazer transplante capilar` já é o tema de `quem-pode-fazer-transplante-capilar` (candidatura do paciente). Este item trata de quem executa cada etapa (médico, equipe, responsabilidade). Usar outra keyword primária, por exemplo "quem realiza o transplante capilar", e linkar o artigo existente. Relacionado ao item 101 da fila antiga (papel da equipe cirúrgica). Manter o tom factual, sem comparar clínicas (Resolução CFM 2.336/2023).
+
+### 273. Diabetes e transplante capilar: é possível operar com segurança?
+- **Objetivo SEO**: diabetes transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): controle glicêmico, cicatrização e avaliação.
+- Nota (2026-10-03): `quem-pode-fazer-transplante-capilar` e `sedacao-transplante-capilar` já têm trechos sobre diabetes. Aprofundar controle glicêmico, cicatrização e avaliação pré-operatória; não orientar mudança de medicação.
+
+### 274. Quem usa anticoagulante pode fazer transplante capilar?
+- **Objetivo SEO**: anticoagulante transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): segurança e necessidade de decisão médica, sem orientar suspensão por conta própria.
+- Nota (2026-10-03): `exames-antes-do-transplante-capilar` já cita anticoagulantes. Aprofundar; nunca orientar suspensão por conta própria, a decisão é médica (como o Dr. Vitor já indicou).
+
+### 275. Transplante capilar depois dos 60 ou 70 anos: idade é um limite?
+- **Objetivo SEO**: transplante capilar idosos
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): excelente para combater uma objeção real e gerar histórias de casos.
+- Nota (2026-10-03): `quem-pode-fazer-transplante-capilar` tem um FAQ "Existe idade máxima para o transplante capilar?". Aprofundar (avaliação clínica, área doadora, expectativa).
 
 ## Pilar 3 — Pós-operatório e recuperação (~20% da fila)
 
@@ -206,6 +392,128 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 ### 82. Resultado de 6 meses
 ### 83. Resultado de 12 meses
 ### 84. Resultado de 18 meses
+
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 276. Primeiras 24 horas após o transplante capilar: o que é normal?
+- **Objetivo SEO**: primeiras 24 horas transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): checklist objetivo.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem uma seção "Primeiras 24 horas". O satélite aprofunda em formato de checklist e linka o artigo principal.
+
+### 296. Quando reiniciar minoxidil após o transplante capilar?
+- **Objetivo SEO**: minoxidil depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): timing, irritação e individualização.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): Tema sensível: não orientar dose nem retomada por conta própria, a decisão é do médico que acompanha. Linkar `minoxidil-para-queda-de-cabelo` (seção "Minoxidil antes e depois do transplante").
+
+### 297. Preciso continuar finasterida ou dutasterida depois do transplante?
+- **Objetivo SEO**: finasterida depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): preservar fios nativos versus fios transplantados.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): Tema sensível: não orientar suspensão nem uso por conta própria. Linkar `finasterida-para-calvicie` e `dutasterida-para-calvicie` (ambos têm seção sobre antes e depois do transplante).
+
+### 290. Cigarro e transplante capilar: fumar pode prejudicar os enxertos?
+- **Objetivo SEO**: fumar depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): nicotina, microcirculação e cicatrização.
+- **Prioridade**: alta
+- Nota (2026-10-03): `quem-pode-fazer-transplante-capilar` tem um FAQ "Fumantes podem fazer transplante capilar?". Aprofundar nicotina, microcirculação e cicatrização.
+
+### 277. Como dormir depois do transplante capilar sem encostar nos enxertos?
+- **Objetivo SEO**: como dormir depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): posição, travesseiro e edema. Excelente busca long-tail.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem uma seção "Dormir após o transplante" e `dormir-durante-transplante-capilar` é sobre sedação (outro assunto). Aprofundar posição, travesseiro e edema.
+
+### 278. Inchaço depois do transplante capilar: quando é normal e quando preocupar?
+- **Objetivo SEO**: inchaço transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): edema frontal e sinais de alerta.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem o H2 "Edema no rosto é normal?". O satélite aprofunda o edema frontal e os sinais de alerta.
+
+### 279. Quanto tempo dura a vermelhidão após o transplante capilar?
+- **Objetivo SEO**: vermelhidão transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): fototipo, cicatrização e expectativa social.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem um FAQ "Quanto tempo dura a vermelhidão?". Aprofundar fototipo, cicatrização e expectativa social.
+
+### 280. Coceira após transplante capilar: posso coçar?
+- **Objetivo SEO**: coceira transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): cicatrização versus trauma aos enxertos.
+
+### 281. Dormência no couro cabeludo depois do transplante: é normal?
+- **Objetivo SEO**: dormência transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): alteração sensitiva temporária.
+
+### 282. Foliculite depois do transplante capilar: por que aparecem espinhas?
+- **Objetivo SEO**: foliculite transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): crescimento dos fios, higiene e quando avaliar.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem a seção "Foliculite e espinhas". Ver também o item 288 (espinhas na área doadora): avaliar unir os dois.
+
+### 283. Infecção no transplante capilar: quais são os sinais de alerta?
+- **Objetivo SEO**: infecção transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): febre, dor crescente, secreção e vermelhidão progressiva.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem a seção "Sinais de alerta". O satélite detalha febre, dor crescente, secreção e vermelhidão progressiva.
+
+### 284. Sangramento depois do transplante capilar: quando é esperado?
+- **Objetivo SEO**: sangramento transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pequenas crostas versus sangramento persistente.
+
+### 285. Meu enxerto caiu? Como diferenciar um fio, uma crosta e um folículo
+- **Objetivo SEO**: enxerto caiu transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): dúvida que gera enorme ansiedade. Potencial AEO muito alto.
+- Nota (2026-10-03): Ver `shock-loss-transplante-capilar` e o item 78 da fila antiga ("É normal perder os fios transplantados?"). Foco aqui: diferenciar fio, crosta e folículo.
+
+### 286. Ugly duckling phase: a fase em que o transplante parece ter piorado
+- **Objetivo SEO**: ugly duckling transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): queda dos fios, aparência temporária e ansiedade.
+- Nota (2026-10-03): Sobreposição com `shock-loss-transplante-capilar`, `resultado-transplante-capilar-linha-do-tempo` e o item 78 da fila antiga. Foco aqui: a fase em que o transplante parece pior (ugly duckling) e a ansiedade do paciente.
+
+### 287. Como cicatriza a área doadora depois da FUE?
+- **Objetivo SEO**: cicatrização área doadora FUE
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pontos avermelhados, marcas e evolução.
+
+### 288. Espinhas na área doadora depois do transplante: o que pode ser?
+- **Objetivo SEO**: espinhas área doadora transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): foliculite, pelos encravados e inflamação.
+- Nota (2026-10-03): Ver nota do item 282 (foliculite): avaliar unir os dois.
+
+### 289. Quando posso beber álcool depois do transplante capilar?
+- **Objetivo SEO**: álcool depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): medicações, sangramento, hidratação e recuperação.
+
+### 291. Quando posso ter relação sexual depois do transplante capilar?
+- **Objetivo SEO**: sexo depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): esforço físico, pressão e risco de trauma. Excelente long-tail.
+
+### 292. Viajar de avião depois do transplante capilar: quando é seguro?
+- **Objetivo SEO**: avião depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pacientes de outros estados e internacionais. Muito alinhado à sua clínica.
+- Nota (2026-10-03): Ver o item 122 da fila (viajar para Vitória) e o item 121; `recuperacao-transplante-capilar` já cita viagem. Linkar os três.
+
+### 293. Quando posso usar capacete depois do transplante capilar?
+- **Objetivo SEO**: capacete depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): moto, profissão e atrito na região receptora.
+- Nota (2026-10-03): Sobreposição com o item 71 da fila antiga ("Quando posso usar boné?"), com `bone-causa-calvicie-masculina` e com o FAQ de capacete em `recuperacao-transplante-capilar`. Foco aqui: moto, profissão e atrito.
+
+### 294. Quando posso voltar a usar gel, pomada, spray ou fibras capilares?
+- **Objetivo SEO**: pomada depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): cosméticos e cicatrização.
+
+### 295. Quando posso pintar ou descolorir o cabelo após o transplante?
+- **Objetivo SEO**: pintar cabelo depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): tintura, descoloração e irritação química.
+- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem a seção "Quando posso cortar ou pintar o cabelo?". Aprofundar tintura, descoloração e irritação química.
+
+### 298. PRP depois do transplante capilar melhora o resultado?
+- **Objetivo SEO**: PRP depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): evidência, potencial benefício e limites.
+
+### 299. Laser de baixa intensidade no pós-transplante: ajuda na recuperação?
+- **Objetivo SEO**: laser depois transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): fotobiomodulação e evidência disponível.
+- Nota (2026-10-03): `laser-para-queda-de-cabelo` já foi publicado. Foco aqui: fotobiomodulação especificamente no pós-transplante, com a evidência disponível.
+
+### 300. Por que a coroa pode crescer mais devagar que a região frontal após o transplante?
+- **Objetivo SEO**: coroa demora crescer transplante capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): vascularização, ciclo folicular, percepção visual e cronologia do resultado.
 
 ## Pilar 4 — Calvície, tricologia geral e tratamentos clínicos (~15% da fila)
 
@@ -292,6 +600,88 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
   de UF por ponto como recomendação fechada do Instituto Frauches sem
   reforçar que a contagem real depende de avaliação individual.
 
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 226. Reposição de testosterona acelera a calvície?
+- **Objetivo SEO**: testosterona causa calvície
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): TRT, DHT e predisposição genética.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): Duplicado do item 39 ("Testosterona causa calvície?", Pilar 4). Escrever um único artigo com o ângulo do Dr. Vitor (TRT, DHT e predisposição) e marcar o item 39 como coberto.
+
+### 221. É possível ter calvície e eflúvio telógeno ao mesmo tempo?
+- **Objetivo SEO**: calvície e eflúvio telógeno
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): sobreposição de diagnósticos.
+- **Prioridade**: alta
+
+### 224. Dermatite seborreica causa queda de cabelo?
+- **Objetivo SEO**: dermatite seborreica queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): inflamação x alopecia androgenética.
+- **Prioridade**: alta
+
+### 219. Tricoscopia no acompanhamento da calvície: o que conseguimos medir?
+- **Objetivo SEO**: tricoscopia calvície
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): miniaturização, densidade e calibre.
+
+### 220. Miniaturização capilar: o que esse número significa na tricoscopia?
+- **Objetivo SEO**: miniaturização capilar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): explicar um conceito técnico de forma simples.
+
+### 222. DUPA: a calvície difusa que pode contraindicar o transplante capilar
+- **Objetivo SEO**: DUPA cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): Diffuse Unpatterned Alopecia e área doadora. Excelente conteúdo de autoridade.
+
+### 223. Alopecia retrógrada: quando a área doadora também começa a afinar
+- **Objetivo SEO**: alopecia retrógrada
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): nuca, laterais e impacto no transplante.
+
+### 225. Psoríase no couro cabeludo e queda de cabelo: existe relação?
+- **Objetivo SEO**: psoríase queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): doença inflamatória e perda temporária.
+
+### 227. Anabolizantes podem acelerar a queda de cabelo?
+- **Objetivo SEO**: anabolizante queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): andrógenos, DHT e predisposição. Forte potencial social + Google.
+- Nota (2026-10-03): Tema sensível: informar o mecanismo (andrógenos, DHT, predisposição) sem incentivar ou instruir o uso de anabolizantes.
+
+### 228. Menopausa e queda de cabelo: por que os fios afinam?
+- **Objetivo SEO**: menopausa queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): hormônios e alopecia feminina.
+- Nota (2026-10-03): `calvicie-feminina-transplante-capilar` tem um FAQ "A menopausa piora a calvície feminina?" e `calvicie-piora-com-a-idade` cita menopausa. Aprofundar hormônios e opções de manejo.
+
+### 229. Síndrome dos ovários policísticos e queda de cabelo
+- **Objetivo SEO**: SOP queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): hiperandrogenismo e diagnóstico diferencial.
+
+### 230. Espironolactona para calvície feminina: quando é utilizada?
+- **Objetivo SEO**: espironolactona queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): antiandrogênio em mulheres e contraindicações.
+
+### 231. Eflúvio telógeno crônico: quando a queda dura meses ou anos
+- **Objetivo SEO**: eflúvio telógeno crônico
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): diferenciação da alopecia androgenética.
+
+### 232. Queda de cabelo após cirurgia e anestesia: por que acontece?
+- **Objetivo SEO**: queda cabelo depois cirurgia
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): eflúvio provocado por estresse fisiológico.
+
+### 233. Queda de cabelo depois da Covid: ainda pode acontecer?
+- **Objetivo SEO**: queda cabelo pós covid
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): eflúvio pós-infeccioso.
+- Nota (2026-10-03): `queda-de-cabelo-e-normal` já tem um FAQ "Covid e outras infecções podem causar queda?". Aprofundar o eflúvio pós-infeccioso e a cronologia da recuperação.
+
+### 234. Tireoide ou calvície? Como diferenciar as causas de afinamento
+- **Objetivo SEO**: tireoide queda cabelo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): hipotireoidismo, hipertireoidismo e alopecia androgenética.
+
+### 235. Alopecia areata ou calvície? Como diferenciar
+- **Objetivo SEO**: alopecia areata ou calvície
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): placas x miniaturização androgenética.
+
+### 236. Alopecia por tração: quando penteados começam a destruir os folículos
+- **Objetivo SEO**: alopecia por tração
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): prevenção, reversibilidade e transplante em casos tardios.
+- Nota (2026-10-03): `bone-causa-calvicie-masculina` tem um FAQ sobre elástico apertado e tração, e cita a página da AAD sobre penteados que puxam. Aprofundar a alopecia por tração (estágios, reversibilidade, transplante em casos tardios).
+
 ### Medicamentos e tratamentos
 
 ### 41. Dutasterida funciona melhor que Finasterida?
@@ -344,6 +734,97 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 ### 59. Cafeína contra queda capilar
 ### 60. O futuro do tratamento da calvície
 
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 215. Finasterida + minoxidil: por que a combinação é tão utilizada?
+- **Objetivo SEO**: finasterida e minoxidil juntos
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): mecanismos complementares e expectativas.
+- **Prioridade**: muito alta
+- Nota (2026-10-03): Já existe H2 "Pode combinar com minoxidil?" em `finasterida-para-calvicie` e "Pode combinar com finasterida ou dutasterida?" em `minoxidil-para-queda-de-cabelo`. O artigo novo vira o hub da combinação (mecanismos complementares, expectativas, acompanhamento), linkando os dois.
+
+### 201. Finasterida e fertilidade masculina: ela altera o espermograma?
+- **Objetivo SEO**: finasterida fertilidade masculina
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): evidências, reversibilidade e quando investigar.
+- **Prioridade**: alta
+- Nota (2026-10-03): `finasterida-para-calvicie` já tem um H2 curto "Finasterida prejudica fertilidade?". Este item aprofunda (espermograma, reversibilidade, quando investigar), então não é duplicidade, mas linkar o artigo e não repetir o texto.
+
+### 210. Minoxidil oral faz mal para o coração?
+- **Objetivo SEO**: minoxidil oral coração
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): pressão arterial, frequência cardíaca e seleção do paciente.
+- **Prioridade**: alta
+- Nota (2026-10-03): `minoxidil-para-queda-de-cabelo` já tem H2 "Efeitos adversos do minoxidil oral" e FAQ "Minoxidil oral é perigoso?". Aprofundar o lado cardiovascular (pressão, frequência, seleção do paciente) sem orientar dose ou uso.
+
+### 213. Minoxidil espuma ou solução: qual a diferença?
+- **Objetivo SEO**: minoxidil espuma ou solução
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): tolerabilidade, veículo e adesão.
+- **Prioridade**: alta
+
+### 218. Como saber se o tratamento da calvície está funcionando?
+- **Objetivo SEO**: como saber tratamento calvície funcionando
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): fotografias, densidade, calibre e tricoscopia.
+- **Prioridade**: alta
+
+### 202. Homem usando finasterida pode tentar engravidar a parceira?
+- **Objetivo SEO**: finasterida gravidez parceira
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): exposição pelo sêmen, mitos e recomendações médicas.
+
+### 203. Finasterida altera o PSA? O que homens precisam saber
+- **Objetivo SEO**: finasterida PSA
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): interpretação do exame e comunicação ao urologista.
+- Nota (2026-10-03): `finasterida-para-calvicie` já tem um H2 "Finasterida altera o PSA?". Aprofundar a interpretação do exame e a conversa com o urologista; se ficar redundante, tratar junto com o item 209 (dutasterida e PSA) em um único artigo.
+
+### 204. Finasterida pode causar ginecomastia?
+- **Objetivo SEO**: finasterida ginecomastia
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): frequência, sinais e conduta.
+
+### 205. Síndrome pós-finasterida existe? O que sabemos até hoje
+- **Objetivo SEO**: síndrome pós finasterida
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): tema controverso tratado sem alarmismo. Potencial alto de buscas e citações por IA.
+- Nota (2026-10-03): `finasterida-para-calvicie` já tem H2 sobre humor e FAQ "Efeitos persistem depois de parar?" (com o alerta da EMA de 2025). Item sensível: manter o tom sem alarmismo e sem minimizar. Relacionado ao item 46 (o que acontece se parar a finasterida).
+
+### 206. Efeito nocebo da finasterida: expectativa pode aumentar efeitos colaterais?
+- **Objetivo SEO**: finasterida efeito nocebo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): estudos controlados e comunicação médico-paciente.
+
+### 207. Dutasterida permanece quanto tempo no organismo?
+- **Objetivo SEO**: meia vida dutasterida
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): meia-vida longa e implicações práticas.
+- Nota (2026-10-03): `dutasterida-para-calvicie` já tem um FAQ "Quanto tempo permanece no organismo?". Aprofundar (meia-vida, doação de sangue, planejamento); ver também o item 208 (dutasterida e fertilidade).
+
+### 208. Dutasterida pode afetar a fertilidade masculina?
+- **Objetivo SEO**: dutasterida fertilidade
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): sêmen, espermograma e planejamento familiar.
+- Nota (2026-10-03): `dutasterida-para-calvicie` já tem um H2 "Dutasterida afeta fertilidade?". Aprofundar sêmen, espermograma e planejamento familiar; linkar o artigo.
+
+### 209. Dutasterida interfere no PSA?
+- **Objetivo SEO**: dutasterida PSA
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): screening prostático e interpretação correta.
+- Nota (2026-10-03): `dutasterida-para-calvicie` já tem um H2 "Dutasterida altera PSA?". Ver nota do item 203; avaliar unir finasterida e dutasterida em um único artigo sobre PSA.
+
+### 211. Hipertricose com minoxidil oral: por que acontece e o que fazer?
+- **Objetivo SEO**: minoxidil hipertricose
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): crescimento de pelos corporais e manejo.
+- Nota (2026-10-03): `minoxidil-para-queda-de-cabelo` já tem um FAQ "Minoxidil dá pelos no rosto?". Aprofundar a hipertricose e o manejo.
+
+### 212. Minoxidil oral causa inchaço?
+- **Objetivo SEO**: minoxidil oral edema
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): retenção hídrica, tornozelos e sinais de alerta.
+- Nota (2026-10-03): `minoxidil-para-queda-de-cabelo` já cobre efeitos adversos do oral em geral. Aprofundar o edema e os sinais de alerta (inchaço nos tornozelos, falta de ar).
+
+### 214. Minoxidil causa coceira e descamação no couro cabeludo?
+- **Objetivo SEO**: minoxidil coceira couro cabeludo
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): propilenoglicol, dermatite e alternativas.
+
+### 216. Dutasterida + minoxidil: quando essa associação é considerada?
+- **Objetivo SEO**: dutasterida e minoxidil juntos
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): casos selecionados e acompanhamento.
+- Nota (2026-10-03): `dutasterida-para-calvicie` já tem um H2 "Dutasterida pode ser combinada com minoxidil?". Aprofundar casos selecionados e acompanhamento.
+
+### 217. Meu tratamento para calvície parou de funcionar. O que pode ter acontecido?
+- **Objetivo SEO**: tratamento calvície parou de funcionar
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): progressão, adesão, diagnóstico e expectativas. Excelente AEO.
+- Nota (2026-10-03): Pode linkar com o item 218 (como saber se o tratamento está funcionando) e com o item 44 da fila antiga. Cuidado para não sugerir troca de medicação por conta própria.
+
 ## Pilar 5 — Casos especiais e público específico (~10% da fila)
 
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
@@ -385,6 +866,28 @@ Vitória/ES, correção de cirurgias anteriores.
   perto da clínica, o que fazer na cidade durante a recuperação, cuidados
   de viagem específicos do pós-operatório FUE). Linkar com o item 121
   (público de fora do estado) e com `recuperacao-transplante-capilar`.
+
+#### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
+
+### 255. Body Hair Transplant: é possível usar pelos do corpo no couro cabeludo?
+- **Objetivo SEO**: body hair transplant
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): barba, tórax, limitações e características distintas.
+- **Prioridade**: alta
+
+### 254. Barba como área doadora para transplante capilar: quando pode ser utilizada?
+- **Objetivo SEO**: barba como área doadora transplante
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): BHT para pacientes com reserva limitada.
+- Nota (2026-10-03): Ver também o item 255 (Body Hair Transplant): avaliar se barba como área doadora e BHT viram um único artigo.
+
+### 257. Já fiz FUT. Posso fazer FUE em uma segunda cirurgia?
+- **Objetivo SEO**: FUE depois de FUT
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): combinação de técnicas e reserva doadora.
+- Nota (2026-10-03): `quem-pode-fazer-transplante-capilar` tem um FAQ sobre segunda cirurgia e `segunda-cirurgia-transplante-capilar` já cobre reoperação em geral. Foco aqui: FUE depois de FUT (combinação de técnicas e reserva doadora). Linkar `fue-ou-fut`.
+
+### 258. Como melhorar uma cicatriz linear de FUT?
+- **Objetivo SEO**: cicatriz FUT correção
+- **Briefing** (ângulo sugerido pelo Dr. Vitor): FUE sobre cicatriz, camuflagem e limitações.
+- Nota (2026-10-03): `fue-ou-fut` e `sinais-transplante-capilar-mal-feito` citam a cicatriz da FUT. Foco aqui: opções de correção (FUE sobre cicatriz, camuflagem, limitações).
 
 ## Já publicados
 
