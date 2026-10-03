@@ -60,6 +60,10 @@ perguntas, então:
 - **Evite ambiguidade de autoria e fonte.** O nome do Dr. Vitor Frauches e do
   Instituto Frauches deve aparecer de forma clara na página (isso já é
   resolvido pelo template de artigo e pelo JSON-LD `MedicalWebPage`).
+- **Use fontes verificáveis.** Afirmação de eficácia ou segurança com estudo
+  em humanos citado (desenho, ano, limitação) e bloco "Referências" com links
+  do PubMed dá à IA algo concreto para citar e reforça a credibilidade do
+  texto médico. O processo de busca está no Passo 2b da skill `blog-post`.
 
 ## Antes de considerar pronto
 
