@@ -475,5 +475,15 @@ mais próxima):
   prática.
 - Linkar para 1-3 artigos relacionados já publicados no blog (internal linking) —
   checar o registry para saber quais existem.
+- **Embasamento científico (PubMed, obrigatório em todo artigo).** Os artigos
+  se apoiam em estudos **em humanos** sobre tricologia e transplante capilar,
+  buscados no conector PubMed (processo no Passo 2b da skill `blog-post`).
+  Cada artigo termina com um bloco "Referências" de 3 a 6 itens (link do
+  PubMed e, quando houver, do DOI). Só se cita estudo lido de fato, com PMID
+  retornado pelo conector, e nunca se escreve número que não esteja no
+  resumo. Estudo em animais, in vitro e veterinário fica de fora. A evidência
+  é apresentada com desenho, ano e limitação, e nunca como garantia de
+  resultado individual, nem para eleger "o melhor" produto ou comparar
+  clínicas (compliance acima).
 - Terminar levando naturalmente para agendar avaliação com o Dr. Vitor Frauches
   (CTA definido acima), sem virar anúncio nem prometer resultado.

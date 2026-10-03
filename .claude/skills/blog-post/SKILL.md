@@ -53,6 +53,56 @@ Leia por inteiro, nesta ordem:
   (kebab-case, com a keyword), meta description (140-160 caracteres) e
   categoria.
 
+## Passo 2b — Pesquisar evidência científica no PubMed (obrigatório)
+
+Todo artigo precisa ser embasado em estudos científicos **em humanos** sobre
+tricologia e transplante capilar, encontrados no conector PubMed. Isso vale
+para as rodadas automáticas e para as manuais. Faça a pesquisa depois de
+escolher o tema e antes de escrever.
+
+1. **Carregue as ferramentas do conector.** Elas são deferidas e o nome leva o
+   id do servidor, então rode `ToolSearch` com a query `pubmed` e carregue as
+   que terminam em `search_articles`, `get_article_metadata`,
+   `lookup_article_by_citation` e, se precisar, `find_related_articles` e
+   `get_full_text_article`.
+2. **Busque de 2 a 4 vezes, em inglês, sempre com o filtro de humanos e o
+   assunto capilar.** Modelos que funcionam:
+   - `"Alopecia"[MeSH Terms] AND "Finasteride"[MeSH Terms] AND "Humans"[MeSH Terms]`
+   - `"Hair Follicle"[MeSH Terms] AND hair transplantation AND "Humans"[MeSH Terms] AND follicular unit extraction`
+   - Para priorizar desenho forte, acrescente
+     `AND (Randomized Controlled Trial[Publication Type] OR Meta-Analysis[Publication Type] OR Systematic Review[Publication Type])`.
+
+   Use `date_from` de uns 10 anos atrás (mais antigo só para estudo de
+   referência) e `max_results` entre 5 e 10. Se vier 0 resultado, a consulta
+   está restritiva demais: tire os filtros de tipo de publicação um por vez
+   antes de trocar de assunto (combinar `[Title/Abstract]` com tipo de
+   publicação já retornou 0 num teste).
+3. **Escopo.** Só entra o que for de tricologia, dermatologia capilar ou
+   cirurgia de restauração capilar, em pessoas: alopecia androgenética,
+   eflúvios, outras alopecias, folículo piloso, tricoscopia, tratamentos para
+   queda de cabelo, FUE/FUT, implantação, área doadora e recuperação do
+   transplante. **Descarte** estudo em animais, in vitro, veterinário e
+   qualquer artigo fora do tema capilar (nos testes sem filtro já apareceram
+   uma revisão sobre cães e uma sobre camundongos).
+4. **Leia antes de citar.** Rode `get_article_metadata` nos PMIDs candidatos
+   (de 3 a 6). Confira em `mesh_terms` se tem "Humans" e em `article_types`
+   qual é o desenho. Nunca cite só pelo título, **nunca use PMID que o
+   conector não retornou** (nada de PMID de memória) e nunca escreva número
+   (percentual, tamanho de amostra, prazo) que não esteja no resumo.
+5. **Hierarquia de evidência:** meta-análise ou revisão sistemática de
+   estudos em humanos, depois ensaio clínico randomizado, coorte prospectiva,
+   estudo retrospectivo ou série de casos, e por último revisão narrativa ou
+   consenso. Se só existir evidência fraca ou amostra pequena, o texto diz
+   isso.
+6. **Se não houver estudo em humanos relevante para um ponto, não force
+   citação.** Escreva que faltam estudos, ou fale em termos gerais sem
+   atribuir a um paper.
+7. **Se o conector PubMed não estiver disponível** (o `ToolSearch` não
+   encontra as ferramentas, ou elas dão erro), não invente referência. Use só
+   fontes que já aparecem em artigos publicados sobre o mesmo assunto
+   (confira o bloco "Referências" deles), e avise na descrição do PR que a
+   pesquisa PubMed não pôde ser feita, para o Dr. Vitor revisar.
+
 ## Passo 3 — Escrever o artigo
 
 - Copie `content/transplante-capilar-fue-o-que-e.tsx` como modelo de
@@ -78,6 +128,29 @@ Leia por inteiro, nesta ordem:
   GEO" do DNA).
 - Inclua 1-3 links internos (`<Link href="/blog/<slug-existente>">`) para
   artigos já publicados, quando fizer sentido — sem forçar.
+- **Evidência no texto (a partir do Passo 2b).** Apoie as afirmações de
+  eficácia, segurança e mecanismo nos estudos que você leu. Cite de forma
+  natural, dizendo o desenho e o ano ("uma revisão sistemática de 2023...",
+  "um ensaio randomizado com 46 homens, de 2026..."), e **sempre junto com a
+  limitação** (amostra pequena, curto prazo, população específica, financiado
+  pelo fabricante). Sem marcadores numéricos tipo [1]. A evidência descreve
+  grupos de estudo e nunca vira promessa de resultado individual (regras de
+  compliance do DNA continuam valendo). Não use estudo para dizer que um
+  produto ou técnica é "o melhor" nem para comparar clínicas.
+- **Bloco "Referências" (3 a 6 itens)**, como último `H2` do artigo, depois
+  do `Callout` de disclaimer (mesma posição de `dutasterida-para-calvicie`).
+  Um `UL` com um `LI` por estudo, no formato abaixo. Só entram estudos que
+  você leu no Passo 2b e que sustentam algo dito no texto. Inclua o link do
+  PubMed e, quando o conector devolveu DOI, o link do DOI logo depois (a
+  atribuição ao PubMed e o DOI são exigência de uso do conector). O editor
+  do `/admin` preserva esse formato.
+
+  ```tsx
+  <LI><a href="https://pubmed.ncbi.nlm.nih.gov/<PMID>/" className="underline" target="_blank" rel="noopener noreferrer">{"Sobrenome AB et al. Título curto. Periódico, ano."}</a> <a href="https://doi.org/<DOI>" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+  ```
+
+  Fontes institucionais (EMA, FDA, Anvisa, CFM, ISHRS, AAD) podem entrar
+  como itens extras, sem link de DOI.
 - Termine com um `Callout` de disclaimer médico (mesmo texto do artigo de
   exemplo, adaptado) e uma chamada para agendar avaliação linkando para
   `WHATSAPP_URL` (exportado de `lib/blog/site.ts`), como já é feito nos dois
@@ -162,7 +235,13 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
 5. Conte as palavras do corpo do artigo. Se ficar abaixo de 1400, volte e
    aprofunde alguma seção antes de prosseguir — não abra o PR com um artigo
    curto demais.
-6. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
+6. **Confira as referências (Passo 2b).** O artigo tem o bloco "Referências"
+   com 3 a 6 itens; cada PMID citado foi retornado pelo conector nesta
+   execução; todos os estudos são em humanos e do tema capilar; cada número,
+   amostra ou prazo citado no texto bate com o resumo do estudo; e toda
+   afirmação de eficácia ou segurança que cita estudo traz a limitação dele.
+   Se faltar algum desses pontos, corrija antes de seguir.
+7. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
    prossiga para o passo 8.
 
 ## Passo 8 — Entregar (regra fixa: Pull Request)
@@ -184,7 +263,11 @@ ao usuário qual abordagem usar — é sempre esta:
 5. `git push -u origin blog/<slug>`.
 6. Abrir o PR: `gh pr create --title "blog: <título>" --body "<resumo do
    artigo: tema, keyword primária, pilar de conteúdo, contagem de
-   palavras>"`.
+   palavras, e a **lista de estudos usados**: PMID, desenho (ex.: ensaio
+   randomizado, revisão sistemática), tamanho da amostra quando houver, e a
+   afirmação do texto que cada um sustenta>"`. Essa lista é o que permite ao
+   Dr. Vitor conferir as fontes no painel `/admin` antes de aprovar. Se a
+   pesquisa PubMed não pôde ser feita, diga isso aqui.
 
 Termine a execução resumindo: tema e por que foi escolhido, keyword primária,
 slug/URL (`/blog/<slug>`), contagem de palavras, e o link do PR aberto.
