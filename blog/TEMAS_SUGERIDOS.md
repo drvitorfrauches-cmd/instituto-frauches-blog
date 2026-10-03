@@ -312,13 +312,18 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 - Nota: já existe artigo publicado (`minoxidil-para-queda-de-cabelo` e
   `minoxidil-funciona`) cobrindo isso. Avalie antes de produzir.
 ### 44. Quando começar o tratamento clínico?
+- Nota (2026-10-03): avaliado antes de escrever o item 46. Os artigos
+  `calvicie-genetica-pode-ser-evitada` (H2 "Quando começar a agir faz
+  diferença?", com o conceito de janela de oportunidade) e
+  `calvicie-tem-cura` (H2 "Por que começar o tratamento cedo faz
+  diferença") já respondem esta pergunta. Considerado já coberto, não
+  escrever versão nova a menos que surja um ângulo claramente distinto.
 ### 45. Posso parar o Minoxidil?
 - Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
   `minoxidil-para-queda-de-cabelo` já tem um H2 ("O que acontece se
   parar?") e um H3 ("Posso parar gradualmente?"). Considerado já coberto,
   não escrever versão nova a menos que surja um ângulo claramente
   distinto.
-### 46. O que acontece se parar a Finasterida?
 ### 47. Shampoo antiqueda funciona?
 - Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
   `shampoo-faz-nascer-cabelo` já cobre exatamente este ângulo (o que
@@ -818,3 +823,31 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   Pilar 2. Próximo artigo deve evitar repetir o Pilar 2 antes de cobrir os
   Pilares 3, 4, 1 ou 5 (o mais atrasado hoje é o Pilar 3, último em
   2026-09-21).
+- Item 46, "O que acontece se parar a Finasterida?" — publicado em
+  2026-10-03 como `parar-de-tomar-finasterida` (Pilar 4, subgrupo
+  "Medicamentos e tratamentos"). Os últimos 5 artigos publicados antes
+  deste vinham dos Pilares 2, 5, 1, 4 e 3, então o Pilar 3 era o mais
+  atrasado, mas a subseção dele não tem item elegível (70 a 84 já cobertos
+  por `recuperacao-transplante-capilar`,
+  `resultado-transplante-capilar-linha-do-tempo`,
+  `shock-loss-transplante-capilar` e `nadar-apos-transplante-capilar`),
+  então a escolha passou para o Pilar 4, o seguinte na rotação (último em
+  2026-09-24, subgrupo "Calvície geral", por isso desta vez o subgrupo
+  "Medicamentos e tratamentos"). Item 44 avaliado antes e marcado como já
+  coberto (ver nota em Pendentes); 46 era o primeiro item elegível, tratado
+  até então só em frases soltas de `finasterida-para-calvicie` e na FAQ de
+  `calvicie-tem-cura`. Keyword primária nova "parar de tomar finasterida"
+  (não constava na lista fixa do DNA; sugerida para as secundárias, junto
+  com a pergunta "O que acontece se parar a finasterida?" na Intenção
+  GEO). Dados usados: redução de cerca de 70% da DHT circulante, retorno da
+  DHT em cerca de 14 dias e reversão do efeito em até 12 meses (informações
+  de bula), intervalo de um mês para doação de sangue. **Vale o Dr. Vitor
+  conferir esses números e a seção sobre fertilidade antes de mesclar.**
+  Categorizado no `guia-tratamentos-capilares` (seção "Medicamentos com
+  mais evidência"). Linkado com `finasterida-para-calvicie`,
+  `minoxidil-para-queda-de-cabelo`, `transplante-capilar-e-definitivo` e
+  `segunda-cirurgia-transplante-capilar`. **O Pilar 3 está sem itens
+  elegíveis na fila**: vale o Dr. Vitor sugerir novos temas de
+  pós-operatório. Próximo artigo deve evitar repetir o Pilar 4 antes de
+  cobrir os Pilares 1, 5 ou 2 (o mais atrasado com item elegível hoje é o
+  Pilar 1, último em 2026-09-25).
