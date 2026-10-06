@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre tratamentos capilares: minoxidil, finasterida, dutasterida, PRP, MMP e mesoterapia, com evidência, indicação e limites de cada um.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-09-15",
+  updatedAt: "2026-10-06",
   readingTime: 2,
   category: "Guias",
   author: AUTHOR,
@@ -28,6 +28,7 @@ export default function Article() {
       <UL>
         <LI><Link href="/blog/minoxidil-para-queda-de-cabelo" className="underline">{"Minoxidil para queda de cabelo"}</Link>{": tópico, oral, tempo de resultado e efeitos adversos."}</LI>
         <LI><Link href="/blog/finasterida-para-calvicie" className="underline">{"Finasterida para calvície"}</Link>{": como age, resultados esperados e cuidados."}</LI>
+        <LI><Link href="/blog/parar-de-tomar-finasterida" className="underline">{"Parar de tomar finasterida: o que acontece com o cabelo?"}</Link>{": linha do tempo depois da suspensão, pausas, retomada e o que muda para quem já fez transplante."}</LI>
         <LI><Link href="/blog/dutasterida-para-calvicie" className="underline">{"Dutasterida para calvície"}</Link>{": eficácia, riscos e comparação com a finasterida."}</LI>
       </UL>
 
