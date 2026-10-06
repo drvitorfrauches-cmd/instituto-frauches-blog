@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Primeiras 24 horas após o transplante capilar: veja o que é normal sentir, o que fazer, o que evitar, como dormir e quais sinais pedem contato com a equipe.",
   publishedAt: "2026-10-05",
-  updatedAt: "2026-10-05",
+  updatedAt: "2026-10-06",
   readingTime: 12,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -23,7 +23,7 @@ export default function Article() {
   return (
     <>
       <H2 id="resposta-direta">{"O que é normal nas primeiras 24 horas após o transplante capilar?"}</H2>
-      <P>{"Nas primeiras 24 horas após o transplante capilar, é normal ter um gotejamento discreto de sangue ou líquido claro na área doadora, pequenos pontos de sangue seco ao redor de cada enxerto, sensação de couro cabeludo anestesiado ou repuxando, dor leve a moderada controlada com a medicação prescrita e sonolência se houve sedação. Nada disso indica problema. O que foge do esperado é sangramento que não para com compressão suave, dor forte que piora, febre, falta de ar ou alteração na visão."}</P>
+      <P>{"Nas primeiras 24 horas após o transplante capilar, é normal ter um gotejamento discreto de sangue ou líquido claro na área doadora, pequenos pontos de sangue seco ao redor de cada enxerto, sensação de couro cabeludo anestesiado ou repuxando, dor leve controlada com a medicação prescrita e sonolência se houve sedação. Nada disso indica problema. O que foge do esperado é sangramento que não para com compressão suave, dor forte que piora, febre, falta de ar ou alteração na visão."}</P>
       <P>{"A tarefa do paciente nesse primeiro dia é simples de dizer e exige atenção para cumprir: não encostar, não esfregar e não bater a área que recebeu os fios. Quase todas as orientações abaixo derivam dessa regra."}</P>
 
       <Cta href={WHATSAPP_URL}>{"Vai operar em breve e quer entender como será o seu primeiro dia em casa ou no hotel? Na avaliação, o pós-operatório é planejado junto com a cirurgia."}</Cta>
@@ -39,7 +39,7 @@ export default function Article() {
         <LI><Strong>{"Gotejamento na área doadora:"}</Strong>{" a nuca e as laterais têm centenas ou milhares de microfuros da extração FUE (Follicular Unit Extraction, ou extração de unidade folicular). Um pouco de sangue ou de líquido rosado no curativo e na fronha é comum na primeira noite."}</LI>
         <LI><Strong>{"Pontinhos vermelhos e crostas iniciais na área receptora:"}</Strong>{" cada enxerto fica com um pequeno coágulo ao redor. Eles secam e viram as crostas que saem nas lavagens dos dias seguintes."}</LI>
         <LI><Strong>{"Dormência e sensação de repuxar:"}</Strong>{" resultado da anestesia e do líquido infiltrado no couro cabeludo durante a cirurgia. A sensibilidade volta aos poucos."}</LI>
-        <LI><Strong>{"Dor leve a moderada, mais na área doadora:"}</Strong>{" aparece quando a anestesia passa, geralmente à noite, e costuma responder à medicação prescrita."}</LI>
+        <LI><Strong>{"Dor leve, mais na área doadora:"}</Strong>{" aparece quando a anestesia passa, geralmente à noite, e costuma responder à medicação prescrita."}</LI>
         <LI><Strong>{"Sonolência e cansaço:"}</Strong>{" efeito da sedação e de um dia inteiro de cirurgia."}</LI>
         <LI><Strong>{"Vermelhidão difusa:"}</Strong>{" a pele operada fica rosada ou avermelhada, com intensidade que varia conforme o tom de pele."}</LI>
       </UL>
@@ -80,7 +80,7 @@ export default function Article() {
       <P>{"Não precisa passar a noite sentado e acordado. Dormir mal não ajuda a cicatrização, e uma posição elevada e estável já cumpre o papel. A posição de sono nos dias seguintes está detalhada no artigo sobre a "}<Link href="/blog/recuperacao-transplante-capilar" className="underline">{"recuperação do transplante capilar"}</Link>{"."}</P>
 
       <H2 id="a-testa-incha-no-primeiro-dia">{"A testa já incha nas primeiras 24 horas?"}</H2>
-      <P>{"Em geral, não. O inchaço (edema) da testa, quando acontece, costuma aparecer entre o segundo e o quarto dia, porque o líquido infiltrado no couro cabeludo durante a cirurgia desce com a gravidade em direção à testa e às pálpebras. No primeiro dia, o mais comum é só uma sensação de peso ou de pele esticada."}</P>
+      <P>{"Em geral, não. O inchaço (edema) da testa, quando acontece, costuma aparecer entre o segundo e o terceiro dia, porque o líquido infiltrado no couro cabeludo durante a cirurgia desce com a gravidade em direção à testa e às pálpebras. No primeiro dia, o mais comum é só uma sensação de peso ou de pele esticada."}</P>
       <P>{"A frequência desse inchaço varia muito entre os estudos. Uma revisão de escopo de 2024, com 43 publicações sobre FUE e FUT (a técnica que retira uma faixa de couro cabeludo), encontrou relatos de edema frontal em até 50% dos pacientes e de crostas em até 54,8%. Os próprios autores avisam que essas ocorrências na área receptora são mal definidas na literatura e aparecem com faixas muito amplas."}</P>
       <P>{"A técnica cirúrgica influencia. Um estudo prospectivo multicêntrico de 2025, com 1.167 pacientes em quatro centros, comparou dois protocolos de infiltração do couro cabeludo: no grupo com a solução de corticoide já conhecida, 8,94% dos pacientes tiveram edema (1,4% com edema intenso ao redor dos olhos); no grupo com o protocolo modificado, 2,66%, sem casos intensos. O estudo não foi randomizado e avalia um protocolo específico daqueles centros, então não dá para transportar os percentuais para qualquer clínica. Ele mostra, de todo modo, que o edema depende em parte de decisões tomadas dentro do centro cirúrgico."}</P>
       <P>{"Da parte do paciente, o que ajuda é manter a cabeça elevada, evitar abaixá-la e usar a medicação e a faixa quando a equipe prescrever."}</P>
@@ -126,11 +126,11 @@ export default function Article() {
       <H2 id="referencias">{"Referências"}</H2>
       <P>{"Estudos consultados no PubMed para este artigo:"}</P>
       <UL>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/16442039/" className="underline" target="_blank" rel="noopener noreferrer">{"Bernstein RM, Rassman WR. Graft anchoring in hair transplantation. Dermatologic Surgery, 2006."}</a> <a href="https://doi.org/10.1111/j.1524-4725.2006.32033.x" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M et al. Complications following hair transplantation: a systematic literature review and meta-analysis. Aesthetic Plastic Surgery, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A scoping review on complications in modern hair transplantation. Aesthetic Plastic Surgery, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40663782/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun Y et al. Comprehensive prevention for edema after hair transplantation: a multicenter study of 1167 patients. Plastic and Reconstructive Surgery, 2025."}</a> <a href="https://doi.org/10.1097/PRS.0000000000012284" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40920315/" className="underline" target="_blank" rel="noopener noreferrer">{"Arencibia Pérez N, Guerrero Roldán MJ. Donor site healing in follicular unit extraction hair transplantation. Cellular and Molecular Biology, 2025."}</a> <a href="https://doi.org/10.14715/cmb/2025.71.8.14" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/16442039/" className="underline" target="_blank" rel="noopener noreferrer">{"Bernstein RM, Rassman WR. Graft anchoring in hair transplantation. Dermatologic Surgery, 2006."}</a>{" "}<a href="https://doi.org/10.1111/j.1524-4725.2006.32033.x" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M et al. Complications following hair transplantation: a systematic literature review and meta-analysis. Aesthetic Plastic Surgery, 2025."}</a>{" "}<a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A scoping review on complications in modern hair transplantation. Aesthetic Plastic Surgery, 2024."}</a>{" "}<a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40663782/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun Y et al. Comprehensive prevention for edema after hair transplantation: a multicenter study of 1167 patients. Plastic and Reconstructive Surgery, 2025."}</a>{" "}<a href="https://doi.org/10.1097/PRS.0000000000012284" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40920315/" className="underline" target="_blank" rel="noopener noreferrer">{"Arencibia Pérez N, Guerrero Roldán MJ. Donor site healing in follicular unit extraction hair transplantation. Cellular and Molecular Biology, 2025."}</a>{" "}<a href="https://doi.org/10.14715/cmb/2025.71.8.14" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
       </UL>
       <P>{"Quer planejar a cirurgia e o pós-operatório de acordo com a sua rotina? O próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
