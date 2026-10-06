@@ -395,12 +395,6 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
 
-### 276. Primeiras 24 horas após o transplante capilar: o que é normal?
-- **Objetivo SEO**: primeiras 24 horas transplante capilar
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): checklist objetivo.
-- **Prioridade**: muito alta
-- Nota (2026-10-03): `recuperacao-transplante-capilar` já tem uma seção "Primeiras 24 horas". O satélite aprofunda em formato de checklist e linka o artigo principal.
-
 ### 296. Quando reiniciar minoxidil após o transplante capilar?
 - **Objetivo SEO**: minoxidil depois transplante capilar
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): timing, irritação e individualização.
@@ -1354,3 +1348,8 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   pós-operatório. Próximo artigo deve evitar repetir o Pilar 4 antes de
   cobrir os Pilares 1, 5 ou 2 (o mais atrasado com item elegível hoje é o
   Pilar 1, último em 2026-09-25).
+- Item 276, "Primeiras 24 horas após o transplante capilar: o que é normal?" — publicado em
+  2026-10-05 como `primeiras-24-horas-transplante-capilar`. Keyword primária
+  nova "primeiras 24 horas transplante capilar" (objetivo SEO do item; não
+  consta na lista fixa do DNA, considerar adicioná-la às secundárias).
+  Satélite em formato de checklist de `recuperacao-transplante-capilar`.
