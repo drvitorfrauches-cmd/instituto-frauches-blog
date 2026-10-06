@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Parar de tomar finasterida faz o cabelo cair? Veja o que acontece nos meses seguintes, se dá para pausar ou retomar e como fica quem já fez transplante.",
   publishedAt: "2026-10-03",
-  updatedAt: "2026-10-03",
+  updatedAt: "2026-10-06",
   readingTime: 10,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -23,7 +23,7 @@ export default function Article() {
   return (
     <>
       <H2 id="resposta-direta">{"Resposta direta"}</H2>
-      <P>{"Parar de tomar finasterida faz a calvície genética retomar o caminho que seguiria sem o remédio. A finasterida não cura a alopecia androgenética (nome técnico da calvície de origem genética e hormonal), ela controla o processo enquanto está em uso. Depois da suspensão, o hormônio que o medicamento bloqueava volta ao nível anterior em cerca de duas semanas, e o ganho obtido com o tratamento costuma se perder aos poucos, em um prazo de até 12 meses."}</P>
+      <P>{"Parar de tomar finasterida faz a calvície genética retomar o caminho que seguiria sem o remédio. A finasterida não cura a alopecia androgenética (nome técnico da calvície de origem genética e hormonal), ela controla o processo enquanto está em uso. Depois da suspensão, o hormônio que o medicamento bloqueava volta ao nível anterior em cerca de duas a 4 semanas, e o ganho obtido com o tratamento costuma se perder aos poucos, em um prazo de até 12 meses."}</P>
       <P>{"O cabelo não cai todo de uma vez. O que acaba é a proteção: os fios que se mantinham mais grossos por causa do remédio voltam a afinar. O ritmo muda de pessoa para pessoa, e a decisão de suspender merece uma conversa com o médico que acompanha o caso antes de ser colocada em prática."}</P>
       <Cta href={WHATSAPP_URL}>{"Pensando em parar a finasterida, ou já parou e notou mais queda? Uma avaliação com tricoscopia mostra o estado atual dos fios e quais alternativas existem para o seu caso."}</Cta>
 
