@@ -193,11 +193,6 @@ diferenças para FUT, tecnologia e instrumental usados.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
 
-### 242. Miniaturização na área doadora: por que ela muda completamente o planejamento
-- **Objetivo SEO**: miniaturização área doadora
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): tricoscopia pré-operatória.
-- **Prioridade**: muito alta
-
 ### 245. Transplante da coroa: por que o redemoinho torna essa região mais difícil?
 - **Objetivo SEO**: transplante capilar coroa
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): whorl, direção e alto consumo de enxertos.
@@ -1353,3 +1348,14 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   nova "primeiras 24 horas transplante capilar" (objetivo SEO do item; não
   consta na lista fixa do DNA, considerar adicioná-la às secundárias).
   Satélite em formato de checklist de `recuperacao-transplante-capilar`.
+- Item 242, "Miniaturização na área doadora: por que ela muda completamente o
+  planejamento" — publicado em 2026-10-07 como
+  `miniaturizacao-area-doadora-transplante-capilar` (Pilar 1, Técnica FUE e
+  tecnologia, o mais atrasado na rotação, último em 2026-09-25; item do
+  lote 2 com prioridade muito alta). Keyword primária nova "miniaturização
+  na área doadora" (objetivo SEO do item; não consta na lista fixa do DNA,
+  considerar adicioná-la às secundárias). Título encurtado para caber no
+  limite de ~65 caracteres. Toca de passagem em DUPA e alopecia retrógrada
+  (itens 222 e 223, que seguem pendentes para artigos próprios) e em zona
+  segura (item 241). Categorizado no `guia-transplante-capilar` (seção
+  "Planejamento e área doadora").
