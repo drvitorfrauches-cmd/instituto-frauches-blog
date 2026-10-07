@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Miniaturização na área doadora: o que é, como a tricoscopia pré-operatória identifica e por que ela muda o planejamento do transplante capilar.",
   publishedAt: "2026-10-07",
   updatedAt: "2026-10-07",
-  readingTime: 10,
+  readingTime: 11,
   category: "Técnica FUE",
   author: AUTHOR,
   coverImage: {
@@ -43,7 +43,7 @@ export default function Article() {
       <P>{"A olho nu, quase nada disso se percebe. A nuca pode parecer cheia no espelho e já mostrar esses sinais na lente."}</P>
 
       <H2 id="como-a-tricoscopia-avalia-a-area-doadora">{"Como a tricoscopia pré-operatória avalia a área doadora?"}</H2>
-      <P>{"A tricoscopia é o exame do couro cabeludo e dos fios com uma lente de aumento acoplada a uma câmera. No Instituto Frauches, o tricoscópio amplia a imagem em até 100 vezes. O exame é feito no consultório, não dói e não exige preparo. Na avaliação para cirurgia, ele segue mais ou menos este roteiro:"}</P>
+      <P>{"A tricoscopia é o exame do couro cabeludo e dos fios com uma lente de aumento acoplada a uma câmera. No Instituto Frauches, o tricoscópio amplia a imagem em até 100 vezes e podendo ser associado a IA (HairMetrix). O exame é feito no consultório, não dói e não exige preparo. Na avaliação para cirurgia, ele segue mais ou menos este roteiro:"}</P>
       <OL>
         <LI>{"Examinar vários pontos da faixa doadora: o centro da nuca, a borda de cima (perto da coroa), a borda de baixo (perto do pescoço) e as laterais, acima das orelhas."}</LI>
         <LI>{"Contar quantas unidades foliculares existem por centímetro quadrado em cada ponto."}</LI>
