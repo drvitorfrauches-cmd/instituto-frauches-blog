@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-10-07",
-  readingTime: 3,
+  updatedAt: "2026-10-09",
+  readingTime: 4,
   category: "Guias",
   author: AUTHOR,
   coverImage: {
@@ -80,6 +80,7 @@ export default function Article() {
       <UL>
         <LI><Link href="/blog/transplante-de-barba" className="underline">{"Transplante de barba"}</Link>{": como funciona a mesma técnica FUE aplicada ao rosto, e quem é candidato."}</LI>
         <LI><Link href="/blog/transplante-de-sobrancelha" className="underline">{"Transplante de sobrancelha"}</Link>{": quem pode fazer, por que a direção dos fios é o ponto mais crítico e como é a recuperação."}</LI>
+        <LI><Link href="/blog/body-hair-transplant" className="underline">{"Body hair transplant"}</Link>{": quando pelos da barba e do tórax entram como área doadora, e quais são os limites desse recurso."}</LI>
       </UL>
 
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
