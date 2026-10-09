@@ -863,16 +863,6 @@ Vitória/ES, correção de cirurgias anteriores.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
 
-### 255. Body Hair Transplant: é possível usar pelos do corpo no couro cabeludo?
-- **Objetivo SEO**: body hair transplant
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): barba, tórax, limitações e características distintas.
-- **Prioridade**: alta
-
-### 254. Barba como área doadora para transplante capilar: quando pode ser utilizada?
-- **Objetivo SEO**: barba como área doadora transplante
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): BHT para pacientes com reserva limitada.
-- Nota (2026-10-03): Ver também o item 255 (Body Hair Transplant): avaliar se barba como área doadora e BHT viram um único artigo.
-
 ### 257. Já fiz FUT. Posso fazer FUE em uma segunda cirurgia?
 - **Objetivo SEO**: FUE depois de FUT
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): combinação de técnicas e reserva doadora.
@@ -1359,3 +1349,16 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   (itens 222 e 223, que seguem pendentes para artigos próprios) e em zona
   segura (item 241). Categorizado no `guia-transplante-capilar` (seção
   "Planejamento e área doadora").
+- Itens 255 e 254, "Body Hair Transplant: é possível usar pelos do corpo no couro
+  cabeludo?" e "Barba como área doadora para transplante capilar: quando pode
+  ser utilizada?" — publicados juntos em 2026-10-09 como `body-hair-transplant`
+  (Pilar 5, Casos especiais e público específico, o mais atrasado na rotação,
+  último em 2026-09-28; item 255 com prioridade alta). Os dois viraram um único
+  artigo, como sugeria a nota do item 254: a barba ganhou um H2 próprio dentro
+  do texto. Keyword primária nova "body hair transplant" (objetivo SEO do
+  item; não consta na lista fixa do DNA, considerar adicioná-la às
+  secundárias). O artigo não afirma que o Instituto Frauches realiza BHT de
+  rotina (o DNA não registra isso): diz que a avaliação define de onde os
+  folículos podem sair. **Vale o Dr. Vitor confirmar se e como a clínica usa
+  barba e pelos do corpo como área doadora e ajustar o texto.** Categorizado
+  no `guia-transplante-capilar` (seção "Casos especiais").
