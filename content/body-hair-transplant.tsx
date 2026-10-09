@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Body hair transplant usa pelos da barba, do tórax e de outras regiões no couro cabeludo. Veja quando é indicado, o que muda no fio e quais são os limites.",
   publishedAt: "2026-10-09",
   updatedAt: "2026-10-09",
-  readingTime: 11,
+  readingTime: 12,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
