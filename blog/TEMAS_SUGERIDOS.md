@@ -1364,8 +1364,9 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   DNA, escolhida para não colidir com `quem-pode-fazer-transplante-capilar`;
   vale adicionar ao DNA). Apoiado em 6 revisões e diretrizes do PubMed, todas
   de opinião de especialistas (não há ensaio clínico sobre o tema). O texto
-  cita a Lei 12.842/2013 e a posição da ISHRS sobre etapas indelegáveis e
-  não afirma quem executa extração e implante no Instituto Frauches (o DNA
-  não registra isso). **Vale o Dr. Vitor conferir a parte legal e, se
-  quiser, acrescentar como a equipe da clínica se divide.** Categorizado no
+  cita a Lei 12.842/2013 e a posição da ISHRS sobre etapas indelegáveis.
+  A divisão de etapas na clínica (extração e pré-incisões pelos médicos,
+  implantação pela equipe cirúrgica) foi informada pelo Dr. Vitor em
+  2026-10-12 e registrada no DNA. **Vale o Dr. Vitor conferir a parte
+  legal.** Categorizado no
   `guia-transplante-capilar` (seção "Decisão e orçamento").
