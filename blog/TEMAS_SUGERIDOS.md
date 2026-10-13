@@ -344,11 +344,7 @@ cirurgia, decisão sobre reoperar.
 - **Objetivo SEO**: área doadora fraca transplante
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): uma das melhores dúvidas comerciais para seu blog.
 - Nota (2026-10-03): `area-doadora-transplante-capilar` já aborda reserva limitada. Foco aqui: o que ainda é possível quando a área doadora é fraca (BHT, expectativa, indicação).
-
-### 272. Quem realmente pode realizar cada etapa do transplante capilar?
-- **Objetivo SEO**: quem pode fazer transplante capilar
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): responsabilidade médica, equipe e o que perguntar antes da cirurgia. Grande potencial comercial.
-- Nota (2026-10-03): ATENÇÃO, colisão de keyword: `quem pode fazer transplante capilar` já é o tema de `quem-pode-fazer-transplante-capilar` (candidatura do paciente). Este item trata de quem executa cada etapa (médico, equipe, responsabilidade). Usar outra keyword primária, por exemplo "quem realiza o transplante capilar", e linkar o artigo existente. Relacionado ao item 101 da fila antiga (papel da equipe cirúrgica). Manter o tom factual, sem comparar clínicas (Resolução CFM 2.336/2023).
+- Nota (2026-10-12): adiado uma rodada, sem marcar como coberto. Os dois artigos imediatamente anteriores (`miniaturizacao-area-doadora-transplante-capilar`, 2026-10-07, e `body-hair-transplant`, 2026-10-09) já eram sobre área doadora, e este seria o terceiro seguido. Continua elegível; ao escrever, linkar os dois e evitar repetir o conteúdo de BHT.
 
 ### 273. Diabetes e transplante capilar: é possível operar com segurança?
 - **Objetivo SEO**: diabetes transplante capilar
@@ -1362,3 +1358,15 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   folículos podem sair. **Vale o Dr. Vitor confirmar se e como a clínica usa
   barba e pelos do corpo como área doadora e ajustar o texto.** Categorizado
   no `guia-transplante-capilar` (seção "Casos especiais").
+- Item 272 (lote 2), "Quem realmente pode realizar cada etapa do transplante
+  capilar?" — publicado em 2026-10-12 como `quem-realiza-transplante-capilar`.
+  Keyword primária "quem realiza o transplante capilar" (fora da lista do
+  DNA, escolhida para não colidir com `quem-pode-fazer-transplante-capilar`;
+  vale adicionar ao DNA). Apoiado em 6 revisões e diretrizes do PubMed, todas
+  de opinião de especialistas (não há ensaio clínico sobre o tema). O texto
+  cita a Lei 12.842/2013 e a posição da ISHRS sobre etapas indelegáveis.
+  A divisão de etapas na clínica (extração e pré-incisões pelos médicos,
+  implantação pela equipe cirúrgica) foi informada pelo Dr. Vitor em
+  2026-10-12 e registrada no DNA. **Vale o Dr. Vitor conferir a parte
+  legal.** Categorizado no
+  `guia-transplante-capilar` (seção "Decisão e orçamento").

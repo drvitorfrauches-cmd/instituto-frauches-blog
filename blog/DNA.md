@@ -65,6 +65,11 @@ tudo em todo artigo):**
   artigo mencionar lâminas/blades de incisão, descreva esse fato real, nunca
   lâmina de safira genérica (erro já cometido uma vez no artigo
   `tecnologias-transplante-capilar`, corrigido em 2026-07-26 — não repetir).
+- **Quem executa cada etapa (informado pelo Dr. Vitor em 2026-10-12)**: toda a
+  extração dos folículos e todas as pré-incisões (canais da área receptora)
+  são feitas exclusivamente pelos médicos. A implantação (colocação do
+  folículo nas pré-incisões com o implanter) é feita pela equipe cirúrgica.
+  Use esse fato sempre que um artigo falar de quem realiza a cirurgia.
 - Endereço/estrutura: Av. Rio Branco, 507, sala 1, Santa Lúcia, Vitória/ES; centro
   cirúrgico próprio, equipe de anestesistas, atende pacientes de outras regiões do
   Brasil e do exterior (pré-avaliação online, recomendação de 3 dias em Vitória
