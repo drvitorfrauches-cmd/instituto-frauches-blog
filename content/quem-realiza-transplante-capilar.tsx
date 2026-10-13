@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Quem realiza o transplante capilar: veja o que cabe ao médico, o que a equipe faz sob supervisão e o que perguntar antes de marcar a sua cirurgia.",
   publishedAt: "2026-10-12",
-  updatedAt: "2026-10-12",
-  readingTime: 10,
+  updatedAt: "2026-10-13",
+  readingTime: 11,
   category: "Dúvidas frequentes",
   author: AUTHOR,
   coverImage: {
@@ -94,7 +94,7 @@ export default function Article() {
 
       <H2 id="conclusao">{"O que fazer com essa informação?"}</H2>
       <P>{"Antes de comparar orçamentos, compare quem estará na sala. Peça o nome e o CRM de quem vai operar, entenda o que a equipe faz e confirme quem responde se algo sair do previsto. As revisões citadas aqui são, em sua maioria, opinião de especialistas, sem números sólidos por trás. Ainda assim, todas chegam à mesma recomendação: a cirurgia capilar deve ser planejada e conduzida por um médico treinado, com uma equipe que ele conhece e supervisiona."}</P>
-      <P>{"No Instituto Frauches, a divisão é esta: toda a extração dos folículos e todas as pré-incisões (os canais da área receptora) são feitas exclusivamente pelos médicos. A implantação, que é a colocação de cada folículo nas pré-incisões com o implanter, fica com a nossa equipe cirúrgica, treinada para essa etapa e supervisionada pelos médicos."}</P>
+      <P>{"No Instituto Frauches, a divisão é esta: toda a extração dos folículos e todas as pré-incisões (os canais da área receptora) são feitas exclusivamente pelos médicos. A implantação, que é a colocação de cada folículo nas pré-incisões com o implanter, fica com a nossa equipe cirúrgica, treinada para essa etapa e supervisionada pelos médicos durante todo o tempo."}</P>
       <P>{"Cada cirurgia segue o Protocolo Frauches Precision FUE®, que cobre o mapeamento da calvície, o planejamento da linha frontal, a definição da quantidade de folículos e a preservação da área doadora, em centro cirúrgico próprio e com equipe de anestesistas. A indicação e o resultado variam de paciente para paciente e dependem de avaliação médica individual."}</P>
 
       <Callout>{"Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição individual. A indicação do transplante capilar, o planejamento e a condução da cirurgia dependem de avaliação médica presencial, considerando histórico, exame do couro cabeludo, riscos, contraindicações e objetivos de cada paciente. As menções à legislação têm caráter informativo e não constituem orientação jurídica."}</Callout>
