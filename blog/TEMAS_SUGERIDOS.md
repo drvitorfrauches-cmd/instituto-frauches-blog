@@ -555,6 +555,8 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
   que surja um ângulo claramente distinto (ex.: uma vitamina específica
   ainda não aprofundada isoladamente).
 ### 39. Testosterona causa calvície?
+- Nota (2026-10-14): coberto pelo item 226, publicado como
+  `testosterona-causa-calvicie-masculina`. Pular.
 ### 40. Creatina provoca queda de cabelo?
 
 ### 124. Escala PRECISE
@@ -586,12 +588,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
   reforçar que a contagem real depende de avaliação individual.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
-
-### 226. Reposição de testosterona acelera a calvície?
-- **Objetivo SEO**: testosterona causa calvície
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): TRT, DHT e predisposição genética.
-- **Prioridade**: muito alta
-- Nota (2026-10-03): Duplicado do item 39 ("Testosterona causa calvície?", Pilar 4). Escrever um único artigo com o ângulo do Dr. Vitor (TRT, DHT e predisposição) e marcar o item 39 como coberto.
 
 ### 221. É possível ter calvície e eflúvio telógeno ao mesmo tempo?
 - **Objetivo SEO**: calvície e eflúvio telógeno
@@ -1370,3 +1366,11 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   2026-10-12 e registrada no DNA. **Vale o Dr. Vitor conferir a parte
   legal.** Categorizado no
   `guia-transplante-capilar` (seção "Decisão e orçamento").
+- Item 226, "Reposição de testosterona acelera a calvície?" (cobre também o
+  item 39) — publicado em 2026-10-14 como
+  `testosterona-causa-calvicie-masculina`. Pilar 4 (calvície geral), escolhido
+  por ser o pilar há mais tempo sem aparecer (último: `parar-de-tomar-finasterida`,
+  2026-10-03). Keyword primária: calvície masculina. Apoiado em 6 estudos do
+  PubMed. **Não há ensaio com reposição de testosterona em homens cisgênero
+  tendo cabelo como desfecho**; o texto diz isso e usa dados de pessoas
+  transgênero só para o mecanismo. Categorizado no `guia-calvicie-masculina`.
