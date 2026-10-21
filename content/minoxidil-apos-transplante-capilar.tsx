@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Saiba quando é seguro voltar a usar minoxidil depois de um transplante capilar, como aplicar sem prejudicar os enxertos e como combinar com o planejamento médico.",
   publishedAt: "2026-10-20",
   updatedAt: "2026-10-21",
-  readingTime: 7,
+  readingTime: 8,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -130,9 +130,9 @@ export default function Article() {
       <H2 id="referencias">{"Referências"}</H2>
 
       <UL>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40965846/" className="underline" target="_blank" rel="noopener noreferrer">{"Lei J et al. Efficacy and Safety of Rb-bFGF in Hair Transplantation: A Prospective and Comparative Study. Journal of Cosmetic Dermatology, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70464" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41714473/" className="underline" target="_blank" rel="noopener noreferrer">{"Kearney CA et al. Androgenetic Alopecia in Women: A Narrative Review of Pathophysiology, Clinical Evaluation, and Treatments. American Journal of Clinical Dermatology, 2026."}</a> <a href="https://doi.org/10.1007/s40257-026-01009-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40386829/" className="underline" target="_blank" rel="noopener noreferrer">{"Dhurat R et al. Real-World Efficacy and Safety of Cuticapil Stem Hair Serum as an Add-On to Minoxidil in Androgenetic Alopecia: A Prospective Observational Study. Journal of Cosmetic Dermatology, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70247" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40965846/" className="underline" target="_blank" rel="noopener noreferrer">{"Lei J et al. Efficacy and Safety of Rb-bFGF in Hair Transplantation: A Prospective and Comparative Study. Journal of Cosmetic Dermatology, 2025."}</a>{" "}<a href="https://doi.org/10.1111/jocd.70464" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41714473/" className="underline" target="_blank" rel="noopener noreferrer">{"Kearney CA et al. Androgenetic Alopecia in Women: A Narrative Review of Pathophysiology, Clinical Evaluation, and Treatments. American Journal of Clinical Dermatology, 2026."}</a>{" "}<a href="https://doi.org/10.1007/s40257-026-01009-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40386829/" className="underline" target="_blank" rel="noopener noreferrer">{"Dhurat R et al. Real-World Efficacy and Safety of Cuticapil Stem Hair Serum as an Add-On to Minoxidil in Androgenetic Alopecia: A Prospective Observational Study. Journal of Cosmetic Dermatology, 2025."}</a>{" "}<a href="https://doi.org/10.1111/jocd.70247" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
       </UL>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O timing de reintrodução de minoxidil após transplante capilar é individual e deve ser definido com seu cirurgião ou médico acompanhante. Nunca comece, pause ou mude a dose de minoxidil por conta própria sem orientação médica."}</Callout>
