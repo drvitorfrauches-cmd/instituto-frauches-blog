@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Saiba quando é seguro voltar a usar minoxidil depois de um transplante capilar, como aplicar sem prejudicar os enxertos e como combinar com o planejamento médico.",
   publishedAt: "2026-10-20",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   readingTime: 7,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -39,7 +39,7 @@ export default function Article() {
 
       <H2 id="timeline-minoxidil">{"Timeline típica: quando começar minoxidil após transplante"}</H2>
 
-      <P>{"Não existe uma data exata e única para todos. No entanto, a prática clínica e a fisiologia da cicatrização oferecem uma orientação geral:"}</P>
+      <P>{"Não existe uma data exata e única para todos. No entanto, a prática clínica e a fisiologia da cicatrização oferecem uma orientação geral para quem usa o minoxidil na forma tópica (aplicado no couro cabeludo):"}</P>
 
       <UL>
         <LI><Strong>{"Primeiras 7 a 10 dias:"}</Strong>{" a zona receptora (onde os folículos foram implantados) é extremamente sensível. Nenhum produto tópico deve ser aplicado nessa área, apenas os medicamentos e soluções específicas orientados pelo cirurgião."}</LI>
@@ -48,6 +48,12 @@ export default function Article() {
       </UL>
 
       <P>{"Essa é uma linha orientadora, não uma regra rígida. Alguns pacientes podem tolerar minoxidil mais cedo; outros podem precisar aguardar um pouco mais. O que importa é a conversa com seu médico no acompanhamento pós-operatório."}</P>
+
+      <H2 id="como-conduzimos-no-instituto-frauches">{"Como o Instituto Frauches conduz o minoxidil no pós-operatório?"}</H2>
+
+      <P>{"Na nossa prática, no Instituto Frauches, não utilizamos medicações na forma tópica e damos preferência às medicações por via oral. Por isso, nos nossos pacientes o minoxidil é reintroduzido já na primeira semana de pós-operatório, e não só depois que a área receptora termina de cicatrizar, como acontece nos protocolos que dependem do minoxidil aplicado no couro cabeludo. Como o comprimido não é aplicado sobre a área recém-operada, a cicatrização local deixa de ser o fator que define o momento de retomar."}</P>
+
+      <P>{"Essa é a rotina da nossa equipe, e não uma regra para todos os casos: a decisão de usar o minoxidil oral e o momento exato continuam sendo individuais, com avaliação da pressão arterial, da tolerância cardiovascular e do histórico de cada paciente (veja mais na seção sobre minoxidil oral, adiante). Quem opera em outro serviço deve seguir a orientação do médico responsável pela própria cirurgia."}</P>
 
       <H2 id="fatores-timing">{"Fatores que mudam o timing da reintrodução do minoxidil"}</H2>
 
@@ -99,7 +105,7 @@ export default function Article() {
 
       <H2 id="minoxidil-oral">{"Minoxidil oral após transplante capilar"}</H2>
 
-      <P>{"Se você usava minoxidil oral (em comprimido) antes da cirurgia, o timing de retomada é geralmente mais flexível do que o tópico, já que não afeta a cicatrização da pele. Muitos pacientes conseguem retomar minoxidil oral mais cedo no pós-operatório. No entanto, essa decisão também depende de avaliação individual — sua pressão arterial, sua tolerância cardiovascular e outros fatores de saúde entram na conta. Confira sempre com seu médico."}</P>
+      <P>{"Se você usava minoxidil oral (em comprimido) antes da cirurgia, o timing de retomada é geralmente mais flexível do que o tópico, já que não afeta a cicatrização da pele. Muitos pacientes conseguem retomar minoxidil oral mais cedo no pós-operatório. No Instituto Frauches, essa retomada acontece já na primeira semana. Ainda assim, a decisão também depende de avaliação individual: sua pressão arterial, sua tolerância cardiovascular e outros fatores de saúde entram na conta. Confira sempre com seu médico."}</P>
 
       <H2 id="expectativas">{"Expectativas realistas"}</H2>
 
