@@ -15,7 +15,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/minoxidil-apos-transplante-capilar/cover.jpg",
-    alt: "Medicamentos e produtos de cuidado capilar em uma mesa de consultório dermatológico",
+    alt: "Porta-comprimidos com comprimidos brancos, copo de água, toalha dobrada e travesseiro cervical sobre uma mesa de cabeceira, representando a rotina de medicação oral no pós-operatório do transplante capilar",
   },
 };
 
