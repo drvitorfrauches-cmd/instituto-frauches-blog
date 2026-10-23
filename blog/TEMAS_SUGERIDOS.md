@@ -193,11 +193,6 @@ diferenças para FUT, tecnologia e instrumental usados.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
 
-### 245. Transplante da coroa: por que o redemoinho torna essa região mais difícil?
-- **Objetivo SEO**: transplante capilar coroa
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): whorl, direção e alto consumo de enxertos.
-- **Prioridade**: muito alta
-
 ### 264. DHI e FUE são técnicas concorrentes? Entenda a confusão
 - **Objetivo SEO**: DHI ou FUE
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): explicar corretamente que FUE se refere à extração e DHI à implantação.
@@ -1374,3 +1369,16 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   PubMed. **Não há ensaio com reposição de testosterona em homens cisgênero
   tendo cabelo como desfecho**; o texto diz isso e usa dados de pessoas
   transgênero só para o mecanismo. Categorizado no `guia-calvicie-masculina`.
+- Item 245 (lote 2), "Transplante da coroa: por que o redemoinho torna essa
+  região mais difícil?" — publicado em 2026-10-23 como
+  `transplante-capilar-coroa-redemoinho`. Pilar 1 (Técnica FUE e tecnologia),
+  escolhido por ser o pilar há mais tempo sem aparecer nos últimos 5 artigos
+  (últimos pilares: 3, 4, 4, 2, 5). Keyword primária: "transplante capilar
+  coroa" (já constava na lista de secundárias do DNA). Apoiado em 3 estudos
+  do PubMed sobre transplante em coroa, densidade capilar e desafios técnicos.
+  Cobre whorl (redemoinho), direção complexa dos fios, densidade necessária,
+  cicatrização específica da coroa e planejamento para reoperação. Categorizado
+  no `guia-transplante-capilar` (seção "A técnica"). Imagem de capa gerada
+  conforme o padrão da DNA (clinical editorial style). Próximo artigo deve
+  evitar repetir o Pilar 1 antes de cobrir os Pilares 5, 2, 3 ou 4 (o mais
+  atrasado com itens elegíveis é o Pilar 5, item 109 em fila).
