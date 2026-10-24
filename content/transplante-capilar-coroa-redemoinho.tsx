@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/transplante-capilar-coroa-redemoinho/cover.jpg",
-    alt: "Planejamento cirúrgico de transplante capilar na coroa com redemoinho natural",
+    alt: "Espiral de fios escuros sobre superfície bege, ao lado de uma caneta marcadora e de uma régua quadriculada, representando o redemoinho natural da coroa e o planejamento do transplante",
   },
 };
 

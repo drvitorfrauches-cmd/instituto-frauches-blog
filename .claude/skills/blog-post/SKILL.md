@@ -235,13 +235,23 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
 5. Conte as palavras do corpo do artigo. Se ficar abaixo de 1400, volte e
    aprofunde alguma seção antes de prosseguir — não abra o PR com um artigo
    curto demais.
-6. **Confira as referências (Passo 2b).** O artigo tem o bloco "Referências"
+6. **Confira a imagem de capa.** O arquivo apontado por `meta.coverImage.src`
+   existe em `public/` e não está vazio (a pasta `public/blog/<slug>/` já foi
+   publicada vazia três vezes, deixando a capa quebrada). Rode:
+   `for f in content/<slug>.tsx; do s=$(grep -m1 -oE 'src: "/blog/[^"]+"' $f | sed 's/src: "//;s/"//'); [ -s "public$s" ] && echo OK || echo "CAPA AUSENTE: $s"; done`.
+   Se a geração de imagem falhar ou estiver sem créditos, **não abra o PR
+   com `coverImage` apontando para arquivo inexistente**: gere por outro
+   meio (ver DNA, seção Imagens) ou remova o campo `coverImage` e avise no PR.
+   Confirme também que o arquivo é JPEG de verdade (`file`), e converta com
+   `sips -s format jpeg` se vier em PNG. Adicione a capa ao `git add` do
+   Passo 8 e confira `git status` antes do commit.
+7. **Confira as referências (Passo 2b).** O artigo tem o bloco "Referências"
    com 3 a 6 itens; cada PMID citado foi retornado pelo conector nesta
    execução; todos os estudos são em humanos e do tema capilar; cada número,
    amostra ou prazo citado no texto bate com o resumo do estudo; e toda
    afirmação de eficácia ou segurança que cita estudo traz a limitação dele.
    Se faltar algum desses pontos, corrija antes de seguir.
-7. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
+8. Se o build falhar e você não conseguir corrigir, **pare e reporte** — não
    prossiga para o passo 8.
 
 ## Passo 8 — Entregar (regra fixa: Pull Request)
