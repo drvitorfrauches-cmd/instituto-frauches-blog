@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-10-24",
+  updatedAt: "2026-10-26",
   readingTime: 4,
   category: "Guias",
   author: AUTHOR,
@@ -65,6 +65,7 @@ export default function Article() {
         <LI><Link href="/blog/dormir-durante-transplante-capilar" className="underline">{"Posso dormir durante a cirurgia?"}</Link>{": como funciona a sedação venosa e por que o paciente dorme o procedimento inteiro."}</LI>
         <LI><Link href="/blog/recuperacao-transplante-capilar" className="underline">{"Recuperação do transplante capilar"}</Link>{": cuidados e cronograma dos primeiros dias."}</LI>
         <LI><Link href="/blog/minoxidil-apos-transplante-capilar" className="underline">{"Quando reiniciar minoxidil após o transplante"}</Link>{": timing, irritação e como combinar com o plano médico de recuperação."}</LI>
+        <LI><Link href="/blog/finasterida-dutasterida-apos-transplante" className="underline">{"Continuar finasterida ou dutasterida após o transplante capilar"}</Link>{": por que manter o medicamento é essencial para preservar o cabelo nativo e quando é obrigatório."}</LI>
         <LI><Link href="/blog/shock-loss-transplante-capilar" className="underline">{"O que é shock loss"}</Link>{": por que alguns fios caem nas primeiras semanas após a cirurgia, e quando isso é esperado."}</LI>
         <LI><Link href="/blog/primeiras-24-horas-transplante-capilar" className="underline">{"Primeiras 24 horas após o transplante capilar"}</Link>{": o que é normal no primeiro dia, checklist de cuidados e sinais de alerta."}</LI>
         <LI><Link href="/blog/nadar-apos-transplante-capilar" className="underline">{"Nadar após transplante capilar"}</Link>{": por que piscina, mar e sauna precisam esperar, e como voltar à água com segurança."}</LI>
