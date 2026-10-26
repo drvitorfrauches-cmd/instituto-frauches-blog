@@ -235,16 +235,17 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
 5. Conte as palavras do corpo do artigo. Se ficar abaixo de 1400, volte e
    aprofunde alguma seção antes de prosseguir — não abra o PR com um artigo
    curto demais.
-6. **Confira a imagem de capa.** O arquivo apontado por `meta.coverImage.src`
-   existe em `public/` e não está vazio (a pasta `public/blog/<slug>/` já foi
-   publicada vazia três vezes, deixando a capa quebrada). Rode:
-   `for f in content/<slug>.tsx; do s=$(grep -m1 -oE 'src: "/blog/[^"]+"' $f | sed 's/src: "//;s/"//'); [ -s "public$s" ] && echo OK || echo "CAPA AUSENTE: $s"; done`.
-   Se a geração de imagem falhar ou estiver sem créditos, **não abra o PR
-   com `coverImage` apontando para arquivo inexistente**: gere por outro
-   meio (ver DNA, seção Imagens) ou remova o campo `coverImage` e avise no PR.
-   Confirme também que o arquivo é JPEG de verdade (`file`), e converta com
-   `sips -s format jpeg` se vier em PNG. Adicione a capa ao `git add` do
-   Passo 8 e confira `git status` antes do commit.
+6. **Confira a imagem de capa.** Rode `npm run check:covers` (o `npm run
+   build` também roda essa checagem sozinho e **falha** se alguma capa estiver
+   ausente ou vazia). A pasta `public/blog/<slug>/` já foi publicada vazia
+   quatro vezes, deixando a capa quebrada, a última com apenas um `.gitkeep`
+   no lugar da imagem. Isso acontece quando a geração de imagem falha na
+   execução agendada (Higgsfield sem permissão ou sem crédito). Se falhar,
+   **não crie `.gitkeep` nem abra o PR com `coverImage` apontando para arquivo
+   inexistente**: tente de novo, use o fallback do DNA (seção Imagens) ou
+   remova o campo `coverImage` e avise no PR. Salve em
+   `public/blog/<slug>/cover.jpg` (converta com `sips -s format jpeg` se vier
+   em PNG), faça `git add` da imagem e confira `git status` antes do commit.
 7. **Confira as referências (Passo 2b).** O artigo tem o bloco "Referências"
    com 3 a 6 itens; cada PMID citado foi retornado pelo conector nesta
    execução; todos os estudos são em humanos e do tema capilar; cada número,

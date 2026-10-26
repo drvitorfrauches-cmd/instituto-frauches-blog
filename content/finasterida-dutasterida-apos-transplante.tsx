@@ -15,7 +15,7 @@ export const meta: PostMeta = {
   author: AUTHOR,
   coverImage: {
     src: "/blog/finasterida-dutasterida-apos-transplante/cover.jpg",
-    alt: "Medicamentos para preservação de cabelo após transplante capilar",
+    alt: "Dois frascos de vidro âmbar com tampas brancas, comprimidos brancos, um porta-comprimidos e um calendário de mesa sobre uma mesa bege, representando o uso contínuo de medicação após o transplante capilar",
   },
 };
 
