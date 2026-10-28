@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   category: "Dúvidas frequentes",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/quanto-tempo-dura-transplante-capilar/cover.png",
+    src: "/blog/quanto-tempo-dura-transplante-capilar/cover.jpg",
     alt: "Relógio de mesa clínico ao lado de instrumentos cirúrgicos de transplante capilar, representando a duração da cirurgia",
   },
 };

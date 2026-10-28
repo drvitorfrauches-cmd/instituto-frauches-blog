@@ -244,8 +244,11 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
    **não crie `.gitkeep` nem abra o PR com `coverImage` apontando para arquivo
    inexistente**: tente de novo, use o fallback do DNA (seção Imagens) ou
    remova o campo `coverImage` e avise no PR. Salve em
-   `public/blog/<slug>/cover.jpg` (converta com `sips -s format jpeg` se vier
-   em PNG), faça `git add` da imagem e confira `git status` antes do commit.
+   `public/blog/<slug>/cover.jpg` já redimensionada e comprimida, sempre com
+   `sips -Z 1600 -s format jpeg -s formatOptions 80 <entrada> --out <saida>`
+   (a imagem gerada vem em PNG de 2048 px e uns 2-3 MB; comprimida fica em
+   200-400 KB, e cada deploy da Vercel guarda uma cópia de todas as imagens,
+   então imagem pesada esgota o armazenamento do plano grátis), faça `git add` da imagem e confira `git status` antes do commit.
 7. **Confira as referências (Passo 2b).** O artigo tem o bloco "Referências"
    com 3 a 6 itens; cada PMID citado foi retornado pelo conector nesta
    execução; todos os estudos são em humanos e do tema capilar; cada número,

@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/escala-de-norwood/cover.png",
+    src: "/blog/escala-de-norwood/cover.jpg",
     alt: "Ilustração clínica de estágios progressivos de calvície ao lado de uma lupa sobre uma mesa de consultório, representando a escala de Norwood",
   },
 };

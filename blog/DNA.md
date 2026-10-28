@@ -226,6 +226,13 @@ Todo artigo deve ter uma **imagem de capa** (`meta.coverImage`, 16:9, mínimo
 de imagens no corpo do texto (via primitiva `Figure`) é opcional, use quando
 uma etapa do procedimento ou um conceito ficar mais claro ilustrado.
 
+**Tamanho do arquivo:** salve a capa como JPEG com no máximo 1600 px de
+largura e qualidade 80 (`sips -Z 1600 -s format jpeg -s formatOptions 80`),
+ficando entre 200 e 400 KB. O site nunca exibe a imagem acima de ~1200 px, e
+cada deploy da Vercel guarda uma cópia de todas as imagens: em outubro de
+2026 as capas sem compressão (2-3,6 MB cada) levaram o projeto ao limite de
+10 GB de armazenamento do plano grátis.
+
 - **Geração**: use a ferramenta de geração de imagem (Higgsfield), modelo
   `z_image` com `aspect_ratio: "16:9"`. Esse modelo produz fotografia/still-life
   editorial limpa, sem tentar simular foto real de paciente, o que evita
