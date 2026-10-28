@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/dormir-mal-causa-queda-de-cabelo/cover.png",
+    src: "/blog/dormir-mal-causa-queda-de-cabelo/cover.jpg",
     alt: "Ilustração editorial de um despertador ao lado de fios de cabelo sobre uma mesa clínica neutra, representando a relação entre sono e queda capilar",
   },
 };

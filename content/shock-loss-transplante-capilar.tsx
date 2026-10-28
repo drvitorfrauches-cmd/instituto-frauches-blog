@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/shock-loss-transplante-capilar/cover.png",
+    src: "/blog/shock-loss-transplante-capilar/cover.jpg",
     alt: "Fios de cabelo isolados sobre uma bandeja clínica neutra, representando a queda temporária de shock loss após o transplante capilar",
   },
 };

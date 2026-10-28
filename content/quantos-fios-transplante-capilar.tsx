@@ -14,7 +14,7 @@ export const meta: PostMeta = {
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
-    src: "/blog/quantos-fios-transplante-capilar/cover.png",
+    src: "/blog/quantos-fios-transplante-capilar/cover.jpg",
     alt: "Tricoscópio e planilha de planejamento capilar sobre mesa clínica, representando o cálculo de quantos fios são necessários no transplante capilar",
   },
 };
