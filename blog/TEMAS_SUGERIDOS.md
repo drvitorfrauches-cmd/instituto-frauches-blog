@@ -811,7 +811,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
 Vitória/ES, correção de cirurgias anteriores.
 
-### 109. Transplante após queimaduras
 ### 110. Correção de transplantes antigos
 ### 111. Correção de hairline artificial
 ### 112. Transplante após micropigmentação
@@ -1382,3 +1381,10 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   conforme o padrão da DNA (clinical editorial style). Próximo artigo deve
   evitar repetir o Pilar 1 antes de cobrir os Pilares 5, 2, 3 ou 4 (o mais
   atrasado com itens elegíveis é o Pilar 5, item 109 em fila).
+- Item 109, "Transplante após queimaduras" — publicado em 2026-10-30 como
+  `transplante-capilar-apos-queimadura`. Pilar 5 (Casos especiais), ausente
+  dos últimos 5 artigos (últimos pilares: 2, 3, 1, 4, 3). Keyword primária:
+  "transplante capilar após queimadura" (não constava na lista do DNA).
+  Apoiado em 6 estudos do PubMed, todos observacionais ou revisão de estudos
+  observacionais; o texto deixa essa limitação explícita. Categorizado no
+  `guia-transplante-capilar` (seção "Casos especiais").
