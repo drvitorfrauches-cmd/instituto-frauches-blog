@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-10-26",
+  updatedAt: "2026-10-30",
   readingTime: 4,
   category: "Guias",
   author: AUTHOR,
@@ -55,6 +55,7 @@ export default function Article() {
         <LI><Link href="/blog/o-que-perguntar-consulta-transplante-capilar" className="underline">{"O que perguntar antes do transplante capilar"}</Link>{": o checklist pra levar na consulta."}</LI>
         <LI><Link href="/blog/quem-realiza-transplante-capilar" className="underline">{"Quem realiza o transplante capilar"}</Link>{": o que cabe ao médico, o que a equipe faz sob supervisão e o que perguntar sobre isso."}</LI>
         <LI><Link href="/blog/exames-antes-do-transplante-capilar" className="underline">{"Exames antes do transplante capilar"}</Link>{": o que costuma ser pedido na avaliação pré-operatória."}</LI>
+        <LI><Link href="/blog/transplante-capilar-apos-60-anos" className="underline">{"Transplante capilar depois dos 60 anos"}</Link>{": por que a idade não é uma barreira, e como a avaliação muda quando você é paciente mais velho."}</LI>
       </UL>
 
       <H2 id="cirurgia-dor-e-recuperacao">{"Cirurgia, dor e recuperação"}</H2>
