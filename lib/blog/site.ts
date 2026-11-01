@@ -16,6 +16,8 @@ export const FACEBOOK_URL = "https://www.facebook.com/sietransplantecapilar/";
 
 export const COMMERCIAL_SITE_URL = "https://drvitorfrauches.com.br/";
 
+export const GOOGLE_BUSINESS_URL = "https://www.google.com/maps?cid=16302926809718731228";
+
 export const LOGO_PATH = "/brand/logo.jpg";
 
 export const PHONE_DISPLAY = "(27) 99285-8541";
@@ -33,7 +35,7 @@ export const ADDRESS = {
 
 export const ADDRESS_DISPLAY = `${ADDRESS.street}, ${ADDRESS.city} - ${ADDRESS.region}, ${ADDRESS.postalCode}`;
 
-export const SAME_AS = [COMMERCIAL_SITE_URL, INSTAGRAM_URL, FACEBOOK_URL];
+export const SAME_AS = [COMMERCIAL_SITE_URL, INSTAGRAM_URL, FACEBOOK_URL, GOOGLE_BUSINESS_URL];
 
 export const ORGANIZATION_JSON_LD = {
   "@type": "MedicalClinic" as const,
