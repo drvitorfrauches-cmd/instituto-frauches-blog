@@ -36,9 +36,17 @@ export const ADDRESS_DISPLAY = `${ADDRESS.street}, ${ADDRESS.city} - ${ADDRESS.r
 export const SAME_AS = [COMMERCIAL_SITE_URL, INSTAGRAM_URL, FACEBOOK_URL];
 
 export const ORGANIZATION_JSON_LD = {
-  "@type": "MedicalOrganization" as const,
+  "@type": "MedicalClinic" as const,
+  "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,
+  logo: {
+    "@type": "ImageObject" as const,
+    url: `${SITE_URL}${LOGO_PATH}`,
+    width: 600,
+    height: 600,
+  },
+  image: `${SITE_URL}${LOGO_PATH}`,
   telephone: PHONE_TEL,
   taxID: CNPJ,
   address: {
