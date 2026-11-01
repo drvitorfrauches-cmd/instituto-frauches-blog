@@ -3,7 +3,7 @@ import { Fraunces, IBM_Plex_Mono, Public_Sans } from "next/font/google";
 import Script from "next/script";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LOGO_PATH, SITE_NAME, SITE_URL } from "@/lib/blog/site";
+import { LOGO_PATH, ORGANIZATION_JSON_LD, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import "./globals.css";
 
 const GA_MEASUREMENT_ID = "G-LP6N2JKP9G";
@@ -52,6 +52,15 @@ export default function RootLayout({
       className={`${fraunces.variable} ${publicSans.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              ...ORGANIZATION_JSON_LD,
+            }),
+          }}
+        />
         <SiteHeader />
         {children}
         <SiteFooter />
