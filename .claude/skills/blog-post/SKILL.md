@@ -177,14 +177,12 @@ Siga a seção "Imagens" de `blog/DNA.md`. Resumo:
    ilustração conceitual, nunca rosto de paciente ou "resultado" fingido). Se
    `z_image` estiver indisponível, verifique modelos alternativos com
    `models_explore` antes de tentar `recraft_v4_1` (historicamente exige
-   plano pago e retorna 403). **Se nenhuma ferramenta de geração tiver
-   crédito disponível**: não publique o artigo sem capa e não pare a
-   execução, publique o restante do PR normalmente e passe ao Dr. Vitor, na
-   mensagem final da execução, o prompt pronto da seção "Alternativa: gerar
-   com Nano Banana Pro" de `blog/DNA.md`, adaptado ao tema deste artigo
-   específico. Quando ele colar a imagem gerada na conversa depois, siga o
-   procedimento descrito na mesma seção do DNA para localizar, salvar e
-   commitar a imagem num commit adicional no mesmo PR.
+   plano pago e retorna 403). **Artigo sem capa não
+   é publicado.** Se nenhuma ferramenta de geração funcionar (sem crédito ou sem
+   permissão), tente de novo e, persistindo, **pare sem abrir PR**: o build falha
+   sem capa. Informe o erro na mensagem final da execução e passe ao Dr. Vitor o
+   prompt pronto da seção "Alternativa: gerar com Nano Banana Pro" de
+   `blog/DNA.md`, adaptado ao tema deste artigo.
 2. Salve o arquivo em `public/blog/<slug>/cover.jpg`.
 3. Preencha `meta.coverImage = { src: "/blog/<slug>/cover.jpg", alt: "..." }`
    no arquivo do artigo, com alt text descritivo (pode incluir a keyword
@@ -236,14 +234,14 @@ de `blog/DNA.md` para os 3 guias existentes e o formato exato dos blocos):
    aprofunde alguma seção antes de prosseguir — não abra o PR com um artigo
    curto demais.
 6. **Confira a imagem de capa.** Rode `npm run check:covers` (o `npm run
-   build` também roda essa checagem sozinho e **falha** se alguma capa estiver
-   ausente ou vazia). A pasta `public/blog/<slug>/` já foi publicada vazia
+   build` também roda essa checagem sozinho e **falha** se algum artigo estiver sem
+   capa ou com capa vazia). A pasta `public/blog/<slug>/` já foi publicada vazia
    quatro vezes, deixando a capa quebrada, a última com apenas um `.gitkeep`
    no lugar da imagem. Isso acontece quando a geração de imagem falha na
    execução agendada (Higgsfield sem permissão ou sem crédito). Se falhar,
-   **não crie `.gitkeep` nem abra o PR com `coverImage` apontando para arquivo
-   inexistente**: tente de novo, use o fallback do DNA (seção Imagens) ou
-   remova o campo `coverImage` e avise no PR. Salve em
+   **não crie `.gitkeep`, não remova o campo `coverImage` e não abra o PR**: tente
+   de novo e, persistindo, siga a regra do Passo 4. A trava também reprova artigo
+   sem o campo `coverImage`, caso de "transplante capilar após os 60 anos", publicado sem capa. Salve em
    `public/blog/<slug>/cover.jpg` já redimensionada e comprimida, sempre com
    `sips -Z 1600 -s format jpeg -s formatOptions 80 <entrada> --out <saida>`
    (a imagem gerada vem em PNG de 2048 px e uns 2-3 MB; comprimida fica em

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Falha se algum artigo apontar para uma capa que não existe, está vazia ou não é imagem (JPEG/PNG).
+// Falha se algum artigo não tiver capa, apontar para uma que não existe, está vazia ou não é imagem (JPEG/PNG).
 // Extensão .jpg com conteúdo PNG é tolerada: navegador e next/image identificam pelo conteúdo.
 import fs from "node:fs";
 import path from "node:path";
@@ -11,7 +11,10 @@ const problems = [];
 for (const file of fs.readdirSync(contentDir).filter((f) => f.endsWith(".tsx"))) {
   const source = fs.readFileSync(path.join(contentDir, file), "utf8");
   const match = source.match(/coverImage:\s*\{[^}]*?src:\s*"([^"]+)"/s);
-  if (!match) continue;
+  if (!match) {
+    problems.push(`${file}: artigo sem meta.coverImage`);
+    continue;
+  }
   const cover = path.join(root, "public", match[1]);
   if (!fs.existsSync(cover) || fs.statSync(cover).size < 1024) {
     problems.push(`${file}: capa ausente ou vazia em public${match[1]}`);
