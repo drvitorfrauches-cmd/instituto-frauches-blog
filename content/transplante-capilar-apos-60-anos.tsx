@@ -12,6 +12,10 @@ export const meta: PostMeta = {
   updatedAt: "2026-10-30",
   readingTime: 7,
   author: AUTHOR,
+  coverImage: {
+    src: "/blog/transplante-capilar-apos-60-anos/cover.jpg",
+    alt: "Óculos de leitura sobre prancheta, tricoscópio, estetoscópio e medidor de pressão em mesa de consultório, representando a avaliação para transplante capilar depois dos 60 anos",
+  },
 };
 
 export default function Article() {
