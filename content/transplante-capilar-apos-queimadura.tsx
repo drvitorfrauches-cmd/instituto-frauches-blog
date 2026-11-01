@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar após queimadura é possível em parte dos casos. Veja como a cicatriz muda a avaliação, o que os estudos mostram e quais são os limites.",
   publishedAt: "2026-10-30",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-11-01",
   readingTime: 10,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -118,22 +118,16 @@ export default function Article() {
 
       <Cta href={WHATSAPP_URL}>{"Quer que a cicatriz e a área doadora sejam examinadas antes de decidir? Agende uma avaliação com o Dr. Vitor Frauches."}</Cta>
 
-      <P>
-        Este artigo faz parte do nosso{" "}
-        <Link href="/blog/guia-transplante-capilar" className="underline">
-          guia completo do transplante capilar
-        </Link>
-        .
-      </P>
+      <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
 
       <H2 id="referencias">{"Referências"}</H2>
       <UL>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38369852/" className="underline" target="_blank" rel="noopener noreferrer">{"Niu Y et al. Autologous follicular unit extraction transplant for postburn cicatricial alopecia: a single-center's retrospective case series. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16237" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33874675/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhang W et al. Clinical application and curative effect observation of follicular unit extraction and transplantation in the treatment of cicatricial alopecia. Zhonghua Shao Shang Za Zhi, 2021."}</a> <a href="https://doi.org/10.3760/cma.j.cn501120-20200315-00170" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/35764578/" className="underline" target="_blank" rel="noopener noreferrer">{"Dai JJ et al. Clinical effects of autologous follicular unit extraction transplantation in the treatment of small area secondary cicatricial alopecia after burns. Zhonghua Shao Shang Yu Chuang Mian Xiu Fu Za Zhi, 2022."}</a> <a href="https://doi.org/10.3760/cma.j.cn501120-20210224-00064" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/34000048/" className="underline" target="_blank" rel="noopener noreferrer">{"Agaoglu G et al. Hair transplantation in burn scar alopecia after combined non-ablative fractional laser and microfat graft treatment. Aesthet Surg J, 2021."}</a> <a href="https://doi.org/10.1093/asj/sjab225" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/30593127/" className="underline" target="_blank" rel="noopener noreferrer">{"Tang S et al. Staged reconstructive treatment for extensive irregular cicatricial alopecia after burn. Medicine (Baltimore), 2018."}</a> <a href="https://doi.org/10.1097/MD.0000000000013522" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40439233/" className="underline" target="_blank" rel="noopener noreferrer">{"Yii V et al. A systematic review of follicular unit graft survival rates after hair transplantation in primary cicatricial alopecia. Dermatol Surg, 2025."}</a> <a href="https://doi.org/10.1097/DSS.0000000000004707" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38369852/" className="underline" target="_blank" rel="noopener noreferrer">{"Niu Y et al. Autologous follicular unit extraction transplant for postburn cicatricial alopecia: a single-center's retrospective case series. J Cosmet Dermatol, 2024."}</a>{" "}<a href="https://doi.org/10.1111/jocd.16237" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33874675/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhang W et al. Clinical application and curative effect observation of follicular unit extraction and transplantation in the treatment of cicatricial alopecia. Zhonghua Shao Shang Za Zhi, 2021."}</a>{" "}<a href="https://doi.org/10.3760/cma.j.cn501120-20200315-00170" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/35764578/" className="underline" target="_blank" rel="noopener noreferrer">{"Dai JJ et al. Clinical effects of autologous follicular unit extraction transplantation in the treatment of small area secondary cicatricial alopecia after burns. Zhonghua Shao Shang Yu Chuang Mian Xiu Fu Za Zhi, 2022."}</a>{" "}<a href="https://doi.org/10.3760/cma.j.cn501120-20210224-00064" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/34000048/" className="underline" target="_blank" rel="noopener noreferrer">{"Agaoglu G et al. Hair transplantation in burn scar alopecia after combined non-ablative fractional laser and microfat graft treatment. Aesthet Surg J, 2021."}</a>{" "}<a href="https://doi.org/10.1093/asj/sjab225" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/30593127/" className="underline" target="_blank" rel="noopener noreferrer">{"Tang S et al. Staged reconstructive treatment for extensive irregular cicatricial alopecia after burn. Medicine (Baltimore), 2018."}</a>{" "}<a href="https://doi.org/10.1097/MD.0000000000013522" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40439233/" className="underline" target="_blank" rel="noopener noreferrer">{"Yii V et al. A systematic review of follicular unit graft survival rates after hair transplantation in primary cicatricial alopecia. Dermatol Surg, 2025."}</a>{" "}<a href="https://doi.org/10.1097/DSS.0000000000004707" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
       </UL>
     </>
   );
