@@ -44,6 +44,7 @@ export default function Article() {
         <LI><Link href="/blog/deficiencia-de-vitamina-d-causa-queda-de-cabelo" className="underline">{"Deficiência de vitamina D causa queda de cabelo?"}</Link>{": o papel da vitamina D no ciclo capilar, quem tem mais risco de deficiência e quando vale investigar com exame."}</LI>
         <LI><Link href="/blog/testosterona-causa-calvicie-masculina" className="underline">{"Testosterona causa calvície masculina?"}</Link>{": o papel da DHT e da genética, o que os estudos mostram sobre níveis hormonais e o que muda para quem faz reposição."}</LI>
         <LI><Link href="/blog/caneta-emagrecedora-queda-de-cabelo" className="underline">{"Caneta emagrecedora causa queda de cabelo?"}</Link>{": por que Ozempic, Mounjaro e Wegovy podem levar a uma queda temporária pelo emagrecimento rápido e quando ela revela uma calvície genética."}</LI>
+        <LI><Link href="/blog/calvicie-e-efluvio-telogeno" className="underline">{"Calvície e eflúvio telógeno ao mesmo tempo: é possível?"}</Link>{": como as duas condições se sobrepõem, o que a tricoscopia ajuda a separar e o que muda no tratamento."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>
