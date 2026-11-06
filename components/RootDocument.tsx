@@ -1,10 +1,9 @@
-import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Mono, Public_Sans } from "next/font/google";
 import Script from "next/script";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LOGO_PATH, ORGANIZATION_JSON_LD, SITE_NAME, SITE_URL } from "@/lib/blog/site";
-import "./globals.css";
+import { ORGANIZATION_JSON_LD } from "@/lib/blog/site";
+import { HTML_LANG, type Locale } from "@/lib/i18n";
 
 const GA_MEASUREMENT_ID = "G-LP6N2JKP9G";
 const GOOGLE_ADS_ID = "G-SLVYCHW3F4";
@@ -26,29 +25,17 @@ const plexMono = IBM_Plex_Mono({
   weight: ["400", "500"],
 });
 
-export const metadata: Metadata = {
-  title: "Transplante Capilar e Tricologia | Instituto Frauches",
-  description:
-    "Conteúdo educativo sobre transplante capilar FUE, tricologia, calvície e tratamentos capilares, assinado pelo Dr. Vitor Frauches. Agende sua avaliação.",
-  verification: {
-    google: "xWPxYfpzRIg4Z-iynPZShG3nYBxgpZthHYdluABAo0I",
-  },
-  openGraph: {
-    type: "website",
-    siteName: SITE_NAME,
-    url: SITE_URL,
-    images: [{ url: `${SITE_URL}${LOGO_PATH}` }],
-  },
-};
-
-export default function RootLayout({
+// Documento HTML comum às duas raízes (português e inglês); muda só o idioma.
+export function RootDocument({
+  locale,
   children,
-}: Readonly<{
+}: {
+  locale: Locale;
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
-      lang="pt-BR"
+      lang={HTML_LANG[locale]}
       className={`${fraunces.variable} ${publicSans.variable} ${plexMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col font-sans">
@@ -61,9 +48,9 @@ export default function RootLayout({
             }),
           }}
         />
-        <SiteHeader />
+        <SiteHeader locale={locale} />
         {children}
-        <SiteFooter />
+        <SiteFooter locale={locale} />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"

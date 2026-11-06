@@ -95,7 +95,15 @@ export function Callout({ children }: { children: ReactNode }) {
   );
 }
 
-export function Cta({ children, href }: { children: ReactNode; href: string }) {
+export function Cta({
+  children,
+  href,
+  label = "Agendar avaliação",
+}: {
+  children: ReactNode;
+  href: string;
+  label?: string;
+}) {
   return (
     <div className="mb-6 flex flex-col gap-3 border border-line p-4 sm:flex-row sm:items-center sm:justify-between">
       <p className="text-sm text-ink">{children}</p>
@@ -105,7 +113,7 @@ export function Cta({ children, href }: { children: ReactNode; href: string }) {
         rel="noopener noreferrer"
         className="shrink-0 bg-ink px-4 py-2 text-center text-sm font-semibold text-paper hover:bg-pine"
       >
-        Agendar avaliação
+        {label}
       </a>
     </div>
   );

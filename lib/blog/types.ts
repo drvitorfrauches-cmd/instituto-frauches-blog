@@ -23,4 +23,6 @@ export interface PostMeta {
   author: PostAuthor;
   /** optional cover/thumbnail shown on /blog and at the top of the article */
   coverImage?: PostImage;
+  /** English articles only: slug of the Portuguese article this one adapts (hreflang pair) */
+  translationOf?: string;
 }

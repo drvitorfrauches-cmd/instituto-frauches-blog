@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/en/blog",
+        destination: "/en",
+        permanent: false,
+      },
+      {
         source: "/blog/minoxidil-funciona",
         destination: "/blog/minoxidil-para-queda-de-cabelo",
         permanent: true,

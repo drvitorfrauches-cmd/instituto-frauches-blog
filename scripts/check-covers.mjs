@@ -5,11 +5,17 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const contentDir = path.join(root, "content");
 const problems = [];
+const files = ["content", "content-en"]
+  .map((dir) => path.join(root, dir))
+  .filter((dir) => fs.existsSync(dir))
+  .flatMap((dir) =>
+    fs.readdirSync(dir).filter((f) => f.endsWith(".tsx")).map((f) => path.join(dir, f)),
+  );
 
-for (const file of fs.readdirSync(contentDir).filter((f) => f.endsWith(".tsx"))) {
-  const source = fs.readFileSync(path.join(contentDir, file), "utf8");
+for (const filePath of files) {
+  const file = path.relative(root, filePath);
+  const source = fs.readFileSync(filePath, "utf8");
   const match = source.match(/coverImage:\s*\{[^}]*?src:\s*"([^"]+)"/s);
   if (!match) {
     problems.push(`${file}: artigo sem meta.coverImage`);
