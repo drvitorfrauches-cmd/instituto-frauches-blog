@@ -29,6 +29,7 @@ export default function Article() {
         <LI><Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"O que é transplante capilar FUE"}</Link>{": guia completo sobre a técnica, do início ao fim."}</LI>
         <LI><Link href="/blog/tecnica-fue-transplante-capilar" className="underline">{"Como funciona a técnica FUE"}</Link>{": extração, punch, cicatrizes e diferenças para a FUT."}</LI>
         <LI><Link href="/blog/fue-ou-fut" className="underline">{"FUE ou FUT"}</Link>{": qual a diferença e por que a FUE é hoje a mais usada."}</LI>
+        <LI><Link href="/blog/dhi-ou-fue" className="underline">{"DHI ou FUE"}</Link>{": por que FUE descreve a extração e DHI a implantação, e o que realmente muda na cirurgia."}</LI>
         <LI><Link href="/blog/tecnologias-transplante-capilar" className="underline">{"Tecnologias no transplante capilar"}</Link>{": o que cada equipamento realmente muda no resultado."}</LI>
         <LI><Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">{"Graftis: controle de qualidade no transplante capilar"}</Link>{": o sistema próprio do Instituto Frauches para contagem folicular ao vivo."}</LI>
         <LI><Link href="/blog/microscopio-no-transplante-capilar" className="underline">{"Microscópio no transplante capilar"}</Link>{": por que a triagem sob aumento reduz a transecção e ajuda na sobrevivência do enxerto."}</LI>
@@ -70,7 +71,6 @@ export default function Article() {
         <LI><Link href="/blog/shock-loss-transplante-capilar" className="underline">{"O que é shock loss"}</Link>{": por que alguns fios caem nas primeiras semanas após a cirurgia, e quando isso é esperado."}</LI>
         <LI><Link href="/blog/primeiras-24-horas-transplante-capilar" className="underline">{"Primeiras 24 horas após o transplante capilar"}</Link>{": o que é normal no primeiro dia, checklist de cuidados e sinais de alerta."}</LI>
         <LI><Link href="/blog/nadar-apos-transplante-capilar" className="underline">{"Nadar após transplante capilar"}</Link>{": por que piscina, mar e sauna precisam esperar, e como voltar à água com segurança."}</LI>
-        <LI><Link href="/blog/fumar-depois-transplante-capilar" className="underline">{"Fumar depois do transplante capilar"}</Link>{": como a nicotina afeta a circulação dos enxertos, o que os estudos mostram e como planejar a pausa do cigarro."}</LI>
       </UL>
 
       <H2 id="resultado">{"Resultado"}</H2>

@@ -198,12 +198,6 @@ diferenças para FUT, tecnologia e instrumental usados.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
 
-### 264. DHI e FUE são técnicas concorrentes? Entenda a confusão
-- **Objetivo SEO**: DHI ou FUE
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): explicar corretamente que FUE se refere à extração e DHI à implantação.
-- **Prioridade**: muito alta
-- Nota (2026-10-03): `tecnologias-transplante-capilar` já tem uma seção sobre DHI. Foco aqui: desfazer a confusão (FUE é extração, DHI é implantação). Linkar `tecnologias-transplante-capilar` e `tecnica-fue-transplante-capilar`.
-
 ### 237. Como calcular a densidade da área doadora antes do transplante capilar?
 - **Objetivo SEO**: densidade área doadora
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): unidades foliculares/cm², calibre e planejamento.
@@ -1403,3 +1397,11 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   como protocolo do Instituto Frauches (o DNA não registra). **Vale o Dr.
   Vitor confirmar o prazo usado na clínica.** Categorizado no
   `guia-transplante-capilar` (seção "Cirurgia, dor e recuperação").
+- Item 264, "DHI e FUE são técnicas concorrentes? Entenda a confusão" — publicado
+  em 2026-11-06 como `dhi-ou-fue`. Pilar 1 (Técnica FUE), o mais atrasado
+  considerando também os PRs abertos em 2026-11-06 (eflúvio, Pilar 4, e fumar,
+  Pilar 3); últimos pilares: 4, 1, 3, 2, 5, 4, 3. Keyword primária: "DHI ou
+  FUE" (não constava na lista do DNA). Apoiado em 5 estudos do PubMed
+  (revisão narrativa, comparativo retrospectivo pré-incisão x stick and place,
+  consenso com revisão sistemática, estudo retrospectivo de velocidade e série
+  de casos). Categorizado no `guia-transplante-capilar` (seção "A técnica").
