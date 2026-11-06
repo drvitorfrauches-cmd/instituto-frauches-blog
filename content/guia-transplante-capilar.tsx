@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Por onde começar sobre transplante capilar: técnica FUE, área doadora, preço, dor, recuperação, resultado e como escolher uma clínica, tudo em um só lugar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-11-01",
+  updatedAt: "2026-11-06",
   readingTime: 4,
   category: "Guias",
   author: AUTHOR,
@@ -71,6 +71,7 @@ export default function Article() {
         <LI><Link href="/blog/shock-loss-transplante-capilar" className="underline">{"O que é shock loss"}</Link>{": por que alguns fios caem nas primeiras semanas após a cirurgia, e quando isso é esperado."}</LI>
         <LI><Link href="/blog/primeiras-24-horas-transplante-capilar" className="underline">{"Primeiras 24 horas após o transplante capilar"}</Link>{": o que é normal no primeiro dia, checklist de cuidados e sinais de alerta."}</LI>
         <LI><Link href="/blog/nadar-apos-transplante-capilar" className="underline">{"Nadar após transplante capilar"}</Link>{": por que piscina, mar e sauna precisam esperar, e como voltar à água com segurança."}</LI>
+        <LI><Link href="/blog/fumar-depois-transplante-capilar" className="underline">{"Fumar depois do transplante capilar"}</Link>{": como a nicotina afeta a circulação dos enxertos, o que os estudos mostram e como planejar a pausa do cigarro."}</LI>
       </UL>
 
       <H2 id="resultado">{"Resultado"}</H2>

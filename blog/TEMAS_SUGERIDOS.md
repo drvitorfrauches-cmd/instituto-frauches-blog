@@ -387,12 +387,6 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 - **Prioridade**: muito alta
 - Nota (2026-10-03): Tema sensível: não orientar suspensão nem uso por conta própria. Linkar `finasterida-para-calvicie` e `dutasterida-para-calvicie` (ambos têm seção sobre antes e depois do transplante).
 
-### 290. Cigarro e transplante capilar: fumar pode prejudicar os enxertos?
-- **Objetivo SEO**: fumar depois transplante capilar
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): nicotina, microcirculação e cicatrização.
-- **Prioridade**: alta
-- Nota (2026-10-03): `quem-pode-fazer-transplante-capilar` tem um FAQ "Fumantes podem fazer transplante capilar?". Aprofundar nicotina, microcirculação e cicatrização.
-
 ### 277. Como dormir depois do transplante capilar sem encostar nos enxertos?
 - **Objetivo SEO**: como dormir depois transplante capilar
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): posição, travesseiro e edema. Excelente busca long-tail.
@@ -577,11 +571,6 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
   reforçar que a contagem real depende de avaliação individual.
 
 #### Lote 2, sugerido em 2026-10-03 (id = número do Dr. Vitor + 200)
-
-### 221. É possível ter calvície e eflúvio telógeno ao mesmo tempo?
-- **Objetivo SEO**: calvície e eflúvio telógeno
-- **Briefing** (ângulo sugerido pelo Dr. Vitor): sobreposição de diagnósticos.
-- **Prioridade**: alta
 
 ### 224. Dermatite seborreica causa queda de cabelo?
 - **Objetivo SEO**: dermatite seborreica queda cabelo
@@ -1382,6 +1371,27 @@ cada nova publicação (ver regra de escolha em "Pendentes" acima).
   Apoiado em 6 estudos do PubMed, todos observacionais ou revisão de estudos
   observacionais; o texto deixa essa limitação explícita. Categorizado no
   `guia-transplante-capilar` (seção "Casos especiais").
+- Item 221 (lote 2), "É possível ter calvície e eflúvio telógeno ao mesmo
+  tempo?" — publicado em 2026-11-02 como `calvicie-e-efluvio-telogeno`. Pilar 4
+  (subgrupo "Calvície geral"), o mais atrasado na rotação (últimos pilares: 5,
+  2, 3, 1, 4; o último do Pilar 4 foi o item 218, de "Medicamentos e
+  tratamentos"). Keyword primária: "calvície e eflúvio telógeno" (objetivo SEO
+  do item; não consta na lista do DNA, considerar adicioná-la às secundárias).
+  Apoiado em 6 estudos do PubMed. Não foi encontrado estudo que meça a
+  frequência da sobreposição na população geral ou em homens; o texto diz
+  isso. Categorizado no `guia-calvicie-masculina` (seção "Primeiros sinais e
+  diagnóstico").
+- Item 290 (lote 2), "Cigarro e transplante capilar: fumar pode prejudicar os
+  enxertos?" — publicado em 2026-11-06 como `fumar-depois-transplante-capilar`.
+  Pilar 3 (Pós-operatório e recuperação), o mais atrasado na rotação (últimos
+  pilares: 4 no PR #148 ainda aberto, 5, 2, 3, 1); item com prioridade alta.
+  Keyword primária: "fumar depois do transplante capilar" (fora da lista do
+  DNA; sugerida para as secundárias). Apoiado em 5 estudos do PubMed, todos
+  observacionais (não há ensaio controlado sobre cigarro e transplante
+  capilar); o texto deixa a limitação explícita. Não cita prazo fixo de pausa
+  como protocolo do Instituto Frauches (o DNA não registra). **Vale o Dr.
+  Vitor confirmar o prazo usado na clínica.** Categorizado no
+  `guia-transplante-capilar` (seção "Cirurgia, dor e recuperação").
 - Item 264, "DHI e FUE são técnicas concorrentes? Entenda a confusão" — publicado
   em 2026-11-06 como `dhi-ou-fue`. Pilar 1 (Técnica FUE), o mais atrasado
   considerando também os PRs abertos em 2026-11-06 (eflúvio, Pilar 4, e fumar,
