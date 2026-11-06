@@ -40,7 +40,8 @@ Leia por inteiro, nesta ordem:
   arquivo: veja os pilares (`meta.category`) dos últimos 4-5 artigos
   publicados, identifique qual dos 5 pilares do DNA está há mais tempo sem
   aparecer, e pegue o item mais antigo ainda não coberto na subseção desse
-  pilar. Se a subseção estiver sem item elegível, passe pro próximo pilar
+  pilar. Um item já está coberto se aparece em "Já publicados" **ou** em
+  algum arquivo de `blog/publicados/` (rode `cat blog/publicados/*.md`). Se a subseção estiver sem item elegível, passe pro próximo pilar
   mais atrasado na rotação.
 - Só se a fila de sugeridos estiver totalmente vazia (todas as 5 subseções
   sem item elegível), escolha o próximo tema seguindo a distribuição de
@@ -263,13 +264,16 @@ branch principal. Como a automação roda sozinha (via schedule), não pergunte
 ao usuário qual abordagem usar — é sempre esta:
 
 1. Criar uma branch nova: `git checkout -b blog/<slug>`.
-2. Se o tema veio da fila de `blog/TEMAS_SUGERIDOS.md`, edite esse arquivo
-   agora: remova a linha da seção "Pendentes" e adicione em "Já publicados"
-   com o slug e a data (ex.: `- Transplante capilar dói? — publicado em
-   2026-07-24 como transplante-capilar-doi`). Se o tema veio da rotação de
-   pilares do DNA (fila vazia), não mexa neste arquivo.
+2. Se o tema veio da fila de `blog/TEMAS_SUGERIDOS.md`, **não edite esse
+   arquivo**. Registre a publicação num arquivo novo, `blog/publicados/<slug>.md`,
+   com o número do item, o título, a data, o pilar, a keyword primária e as
+   observações (o mesmo texto que antes ia em "Já publicados"). Motivo: vários
+   PRs de artigo ficam abertos ao mesmo tempo e todos editavam o mesmo ponto de
+   `TEMAS_SUGERIDOS.md`, e o conflito travava a publicação pelo painel /admin
+   (PRs #115, #126, #130, #149, #150). Um arquivo por artigo nunca conflita. Se
+   o tema veio da rotação de pilares do DNA (fila vazia), não crie o arquivo.
 3. `git add content/<slug>.tsx public/blog/<slug>/ content/<slug-do-guia>.tsx`
-   (mais `blog/TEMAS_SUGERIDOS.md` se você editou ele no passo anterior). Não
+   (mais `blog/publicados/<slug>.md` se você criou ele no passo anterior). Não
    adicione outros arquivos alterados por acidente.
 4. `git commit -m "blog: <título do artigo>"`.
 5. `git push -u origin blog/<slug>`.

@@ -10,6 +10,11 @@ pendente aqui, o tema pendente tem prioridade sobre a rotação automática de
 pilares. Depois que o artigo é publicado, o item é movido para "Já
 publicados" com o slug e a data, como parte do mesmo commit/PR do artigo.
 
+**Desde 2026-11-06, a publicação não edita mais este arquivo:** cada artigo
+registra o item em `blog/publicados/<slug>.md`, para os PRs abertos ao mesmo
+tempo não entrarem em conflito. Um item está coberto se aparece em "Já
+publicados" abaixo ou em `blog/publicados/`.
+
 ## Pendentes
 
 Cada item abaixo tem um objetivo de SEO (a keyword-alvo, use como base pra
