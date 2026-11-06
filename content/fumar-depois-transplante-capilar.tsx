@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Fumar depois do transplante capilar reduz a circulação no couro cabeludo e pode atrapalhar a cicatrização. Veja o que os estudos mostram e como se preparar.",
   publishedAt: "2026-11-06",
-  updatedAt: "2026-11-06",
+  updatedAt: "2026-11-07",
   readingTime: 11,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -26,7 +26,7 @@ export default function Article() {
 
       <H2 id="resposta-direta">{"Resposta direta: posso fumar depois do transplante capilar?"}</H2>
 
-      <P>{"O ideal é não fumar nas semanas que antecedem a cirurgia e nas semanas seguintes, até a liberação do médico. A nicotina contrai os pequenos vasos da pele e o monóxido de carbono reduz o oxigênio levado pelo sangue. No pós-operatório, isso significa menos nutrição para folículos que acabaram de ser colocados em um tecido novo e uma cicatrização mais lenta, tanto na área receptora quanto na área doadora."}</P>
+      <P>{"No Instituto Frauches, pedimos que o paciente pare de fumar 10 dias antes da cirurgia e fique sem fumar por 15 dias depois dela. A nicotina contrai os pequenos vasos da pele e o monóxido de carbono reduz o oxigênio levado pelo sangue. No pós-operatório, isso significa menos nutrição para folículos que acabaram de ser colocados em um tecido novo e uma cicatrização mais lenta, tanto na área receptora quanto na área doadora."}</P>
 
       <P>{"Fumar não faz o transplante \"dar errado\" automaticamente. Muitos fumantes operam e têm bom resultado. O cigarro entra na conta como um fator de risco que se soma a outros, e é um dos poucos que o paciente consegue controlar sozinho."}</P>
 
@@ -64,15 +64,15 @@ export default function Article() {
 
       <H2 id="quanto-tempo-sem-fumar">{"Quanto tempo devo ficar sem fumar antes e depois da cirurgia?"}</H2>
 
-      <P>{"O prazo exato é definido na avaliação, caso a caso. Na cirurgia em geral, a orientação mais comum é interromper o cigarro algumas semanas antes do procedimento e manter a pausa durante as primeiras semanas de cicatrização, porque o efeito da nicotina sobre os vasos não desaparece no mesmo dia em que a pessoa para. Não existe estudo específico de transplante capilar que tenha comparado prazos diferentes de pausa, então essa recomendação vem da fisiologia e da experiência cirúrgica, não de um número testado em ensaio."}</P>
+      <P>{"No Instituto Frauches, a orientação é parar de fumar 10 dias antes da cirurgia e ficar sem fumar por 15 dias depois dela. A pausa começa antes porque o efeito da nicotina sobre os vasos não desaparece no mesmo dia em que a pessoa para, e continua depois porque é nas duas primeiras semanas que os enxertos se fixam. A avaliação pode ajustar esse prazo em casos específicos. Não existe estudo específico de transplante capilar que tenha comparado prazos diferentes de pausa, então essa recomendação vem da fisiologia e da experiência cirúrgica, não de um número testado em ensaio."}</P>
 
       <P>{"Na prática, o raciocínio é este:"}</P>
 
       <OL>
-        <LI><Strong>{"Antes da cirurgia:"}</Strong>{" quanto antes parar, melhor. A circulação da pele e a oxigenação do sangue melhoram progressivamente nas semanas seguintes à última tragada."}</LI>
+        <LI><Strong>{"Antes da cirurgia:"}</Strong>{" pare pelo menos 10 dias antes. Parar mais cedo só ajuda, porque a circulação da pele e a oxigenação do sangue melhoram progressivamente depois da última tragada."}</LI>
         <LI><Strong>{"Dia da cirurgia e primeiras 24 horas:"}</Strong>{" nenhum cigarro. É o período em que o enxerto depende do líquido ao redor e em que a sedação ainda está sendo eliminada. O artigo sobre as "}<Link href="/blog/primeiras-24-horas-transplante-capilar" className="underline">{"primeiras 24 horas após o transplante capilar"}</Link>{" detalha os outros cuidados desse dia."}</LI>
-        <LI><Strong>{"Primeira e segunda semanas:"}</Strong>{" os enxertos estão se fixando e as crostas estão saindo. É a fase mais sensível para a circulação local."}</LI>
-        <LI><Strong>{"Depois da liberação:"}</Strong>{" se a pausa já durou semanas, vale considerar não voltar. A parte mais difícil, a abstinência dos primeiros dias, já passou."}</LI>
+        <LI><Strong>{"Primeiros 15 dias:"}</Strong>{" os enxertos estão se fixando e as crostas estão saindo. É a fase mais sensível para a circulação local."}</LI>
+        <LI><Strong>{"Depois da liberação:"}</Strong>{" depois de quase quatro semanas sem fumar, vale considerar não voltar. A parte mais difícil, a abstinência dos primeiros dias, já passou."}</LI>
       </OL>
 
       <P>{"Se você não consegue parar completamente, diga isso na consulta. Reduzir muito o número de cigarros é melhor do que manter o consumo habitual, e omitir o hábito impede que a equipe planeje a cirurgia levando o risco em conta."}</P>
@@ -93,7 +93,7 @@ export default function Article() {
 
       <H2 id="como-se-preparar">{"Como se preparar para ficar sem fumar no pós-operatório?"}</H2>
 
-      <P>{"Parar de fumar por algumas semanas é mais fácil com um plano do que com força de vontade pura. Algumas medidas que ajudam:"}</P>
+      <P>{"Ficar quase quatro semanas sem fumar é mais fácil com um plano do que com força de vontade pura. Algumas medidas que ajudam:"}</P>
 
       <UL>
         <LI>{"Marque a data de parada com antecedência, junto com a data da cirurgia, e não deixe para o último dia."}</LI>
@@ -126,7 +126,7 @@ export default function Article() {
       <P>{"Um cigarro isolado dificilmente decide o resultado sozinho, e não há estudo que meça esse efeito. O risco está na soma: cada cigarro provoca vasoconstrição por algum tempo, e vários por dia mantêm a circulação reduzida durante a fase em que os enxertos se fixam. Se escorregar, não desista da pausa, retome e avise a equipe."}</P>
 
       <H3>{"Posso voltar a fumar quando as crostas saírem?"}</H3>
-      <P>{"A saída das crostas indica que a superfície cicatrizou, mas os folículos ainda estão se adaptando por baixo. O momento de liberação é definido pelo médico que acompanha você. Do ponto de vista dos fios nativos e da saúde em geral, o melhor cenário é não voltar."}</P>
+      <P>{"A saída das crostas indica que a superfície cicatrizou, mas os folículos ainda estão se adaptando por baixo. No Instituto Frauches, a orientação é ficar sem fumar por 15 dias depois da cirurgia, e o médico que acompanha você confirma a liberação. Do ponto de vista dos fios nativos e da saúde em geral, o melhor cenário é não voltar."}</P>
 
       <H3>{"Fumante tem resultado pior no transplante capilar?"}</H3>
       <P>{"Não há estudo controlado que meça o resultado final em fumantes e não fumantes. O que existe são séries de complicações em que o tabagismo aparece com frequência e a explicação fisiológica sobre circulação e oxigenação. O resultado varia de paciente para paciente e depende de muitos fatores, avaliados individualmente."}</P>
