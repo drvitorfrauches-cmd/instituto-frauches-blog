@@ -10,7 +10,7 @@ export const meta: PostMeta = {
     "Fumar depois do transplante capilar reduz a circulação no couro cabeludo e pode atrapalhar a cicatrização. Veja o que os estudos mostram e como se preparar.",
   publishedAt: "2026-11-06",
   updatedAt: "2026-11-06",
-  readingTime: 10,
+  readingTime: 11,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
@@ -44,7 +44,7 @@ export default function Article() {
         <LI><Strong>{"Substâncias irritantes e oxidantes:"}</Strong>{" aumentam a inflamação local e atrapalham as células responsáveis por fechar pequenas feridas."}</LI>
       </UL>
 
-      <P>{"Em uma cirurgia com milhares de microincisões, a soma desses efeitos pode aparecer como crostas que demoram mais a sair, vermelhidão mais prolongada e, nos casos raros e graves, sofrimento de uma área inteira do couro cabeludo."}</P>
+      <P>{"Em uma cirurgia com milhares de microincisões, a soma desses efeitos pode aparecer como crostas que demoram mais a sair, vermelhidão mais prolongada e, nos casos raros e graves, sofrimento ou necrose de uma área inteira do couro cabeludo."}</P>
 
       <H2 id="o-que-os-estudos-mostram">{"O que os estudos mostram sobre fumar e transplante capilar?"}</H2>
 
