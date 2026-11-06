@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/lib/blog/registry";
+import { getAllEnPosts, getAllPosts } from "@/lib/blog/registry";
 import { SITE_URL, SITE_NAME } from "@/lib/blog/site";
 
 export const dynamic = "force-static";
@@ -50,6 +50,18 @@ export async function GET() {
   lines.push("## Sobre");
   lines.push("");
   lines.push(`- [Sobre o Dr. Vitor Frauches](${SITE_URL}/sobre)`);
+  lines.push("");
+
+  lines.push("## English (international patients)");
+  lines.push("");
+  lines.push(
+    `- [Hair transplant in Brazil for international patients](${SITE_URL}/en): ` +
+      "how the trip to Vitória is organized, English-speaking team and concierge.",
+  );
+  lines.push(`- [About Dr. Vitor Frauches](${SITE_URL}/en/about)`);
+  for (const post of getAllEnPosts()) {
+    lines.push(`- [${post.title}](${SITE_URL}/en/blog/${post.slug}): ${post.description}`);
+  }
 
   return new Response(lines.join("\n"), {
     headers: { "Content-Type": "text/plain; charset=utf-8" },

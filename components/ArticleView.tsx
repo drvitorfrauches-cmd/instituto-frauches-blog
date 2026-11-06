@@ -1,79 +1,55 @@
-import type { Metadata } from "next";
+import type { ComponentType } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { getAllPosts, getPostComponent, getPostMeta } from "@/lib/blog/registry";
-import { ORGANIZATION_JSON_LD, SITE_NAME, SITE_URL } from "@/lib/blog/site";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
-import { extractFaqs, extractHowTo } from "@/lib/blog/structured-data";
+import { ORGANIZATION_JSON_LD } from "@/lib/blog/site";
+import type { FaqItem, HowToData } from "@/lib/blog/structured-data";
+import type { PostMeta } from "@/lib/blog/types";
+import { UI, type Locale } from "@/lib/i18n";
 
-export async function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
-}
-
-export async function generateMetadata({
-  params,
+// Corpo comum da página de artigo, em português ou inglês.
+export function ArticleView({
+  meta,
+  Content,
+  url,
+  authorUrl,
+  faqs,
+  howTo,
+  locale,
+  otherLanguageHref,
 }: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
-  const { slug } = await params;
-  const meta = getPostMeta(slug);
-  if (!meta) return {};
-
-  const titleWithSuffix = `${meta.title} | ${SITE_NAME}`;
-
-  return {
-    title: titleWithSuffix.length <= 70 ? titleWithSuffix : meta.title,
-    description: meta.description,
-    alternates: { canonical: `${SITE_URL}/blog/${meta.slug}` },
-    openGraph: {
-      title: meta.title,
-      description: meta.description,
-      type: "article",
-      publishedTime: meta.publishedAt,
-      authors: [meta.author.name],
-      url: `${SITE_URL}/blog/${meta.slug}`,
-      images: meta.coverImage ? [{ url: `${SITE_URL}${meta.coverImage.src}` }] : undefined,
-    },
-  };
-}
-
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
+  meta: PostMeta;
+  Content: ComponentType;
+  url: string;
+  authorUrl: string;
+  faqs: FaqItem[];
+  howTo: HowToData | null;
+  locale: Locale;
+  otherLanguageHref?: string;
 }) {
-  const { slug } = await params;
-  const meta = getPostMeta(slug);
-  const load = getPostComponent(slug);
-
-  if (!meta || !load) {
-    notFound();
-  }
-
-  const { default: Content } = await load();
+  const t = UI[locale];
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": ["MedicalWebPage", "BlogPosting"],
     headline: meta.title,
     description: meta.description,
+    inLanguage: locale === "en" ? "en" : "pt-BR",
     datePublished: meta.publishedAt,
     dateModified: meta.updatedAt ?? meta.publishedAt,
     author: {
       "@type": "Person",
       name: meta.author.name,
       jobTitle: meta.author.role,
-      url: `${SITE_URL}/sobre`,
+      url: authorUrl,
     },
     publisher: ORGANIZATION_JSON_LD,
-    mainEntityOfPage: `${SITE_URL}/blog/${meta.slug}`,
-    image: meta.coverImage ? `${SITE_URL}${meta.coverImage.src}` : undefined,
+    mainEntityOfPage: url,
+    image: meta.coverImage ? `${new URL(url).origin}${meta.coverImage.src}` : undefined,
   };
 
-  const faqs = extractFaqs(meta.slug);
   const faqJsonLd =
     faqs.length > 0
       ? {
@@ -90,7 +66,6 @@ export default async function BlogPostPage({
         }
       : null;
 
-  const howTo = extractHowTo(meta.slug, meta.title);
   const howToJsonLd = howTo
     ? {
         "@context": "https://schema.org",
@@ -123,23 +98,34 @@ export default async function BlogPostPage({
         />
       )}
 
-      <Link href="/blog" className="mb-4 inline-block text-sm text-stone hover:text-pine">
-        ← Voltar para o blog
-      </Link>
+      <div className="mb-4 flex flex-wrap items-baseline justify-between gap-3">
+        <Link href={t.blogHref} className="inline-block text-sm text-stone hover:text-pine">
+          {t.backToBlog}
+        </Link>
+        {otherLanguageHref && (
+          <Link
+            href={otherLanguageHref}
+            hrefLang={locale === "pt" ? "en" : "pt-BR"}
+            className="font-data text-xs text-stone hover:text-pine"
+          >
+            {t.otherLanguage}
+          </Link>
+        )}
+      </div>
 
-      <Breadcrumbs category={meta.category} title={meta.title} slug={meta.slug} />
+      <Breadcrumbs category={meta.category} title={meta.title} slug={meta.slug} locale={locale} />
 
       <span className="font-data mb-3 block text-xs tracking-[0.1em] text-pine uppercase">
-        {meta.category} · {meta.readingTime} min de leitura
+        {meta.category} · {meta.readingTime} {t.readingTime}
       </span>
       <h1 className="font-display mb-4 text-3xl font-medium text-balance text-ink sm:text-4xl">{meta.title}</h1>
       <p className="font-data mb-4 text-xs text-stone-soft">
-        Publicado em{" "}
-        {new Date(meta.publishedAt).toLocaleDateString("pt-BR", {
+        {t.publishedOn}{" "}
+        {new Date(meta.publishedAt).toLocaleDateString(t.dateLocale, {
           timeZone: "UTC",
         })}
       </p>
-      <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
+      <ShareButtons url={url} title={meta.title} locale={locale} />
 
       {meta.coverImage && (
         <Image
@@ -161,8 +147,9 @@ export default async function BlogPostPage({
           authorName={meta.author.name}
           publishedAt={meta.publishedAt}
           updatedAt={meta.updatedAt}
+          locale={locale}
         />
-        <ShareButtons url={`${SITE_URL}/blog/${meta.slug}`} title={meta.title} />
+        <ShareButtons url={url} title={meta.title} locale={locale} />
       </div>
     </main>
   );

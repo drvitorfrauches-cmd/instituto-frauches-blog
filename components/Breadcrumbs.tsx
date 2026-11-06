@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CATEGORY_TO_GUIDE } from "@/lib/blog/categories";
 import { SITE_URL } from "@/lib/blog/site";
+import { UI, type Locale } from "@/lib/i18n";
 
 interface Crumb {
   name: string;
@@ -11,13 +12,16 @@ export function Breadcrumbs({
   category,
   title,
   slug,
+  locale = "pt",
 }: {
   category: string;
   title: string;
   slug: string;
+  locale?: Locale;
 }) {
-  const guideSlug = CATEGORY_TO_GUIDE[category];
-  const crumbs: Crumb[] = [{ name: "Início", href: "/" }];
+  const t = UI[locale];
+  const guideSlug = locale === "pt" ? CATEGORY_TO_GUIDE[category] : undefined;
+  const crumbs: Crumb[] = [{ name: t.home, href: t.homeHref }];
 
   if (guideSlug && guideSlug !== slug) {
     crumbs.push({ name: category, href: `/blog/${guideSlug}` });

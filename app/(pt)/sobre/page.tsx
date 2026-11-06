@@ -23,7 +23,14 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
-  alternates: { canonical: `${SITE_URL}/sobre` },
+  alternates: {
+    canonical: `${SITE_URL}/sobre`,
+    languages: {
+      "pt-BR": `${SITE_URL}/sobre`,
+      en: `${SITE_URL}/en/about`,
+      "x-default": `${SITE_URL}/en/about`,
+    },
+  },
   openGraph: {
     title: TITLE,
     description: DESCRIPTION,

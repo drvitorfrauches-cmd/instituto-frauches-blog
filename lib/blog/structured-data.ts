@@ -2,8 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { parseArticle } from "@/lib/admin/article-blocks";
 
-function readSource(slug: string): string {
-  return fs.readFileSync(path.join(process.cwd(), "content", `${slug}.tsx`), "utf8");
+function readSource(slug: string, dir: string): string {
+  return fs.readFileSync(path.join(process.cwd(), dir, `${slug}.tsx`), "utf8");
 }
 
 function plainText(markup: string): string {
@@ -18,8 +18,8 @@ export interface FaqItem {
   answer: string;
 }
 
-export function extractFaqs(slug: string): FaqItem[] {
-  const { blocks } = parseArticle(readSource(slug));
+export function extractFaqs(slug: string, dir = "content"): FaqItem[] {
+  const { blocks } = parseArticle(readSource(slug, dir));
   const faqs: FaqItem[] = [];
 
   for (let i = 0; i < blocks.length; i++) {
@@ -39,10 +39,14 @@ export interface HowToData {
   steps: string[];
 }
 
-const HOWTO_TRIGGER = /etapas|passo a passo|passos são/i;
+const HOWTO_TRIGGER = /etapas|passo a passo|passos são|steps|step by step/i;
 
-export function extractHowTo(slug: string, articleTitle: string): HowToData | null {
-  const { blocks } = parseArticle(readSource(slug));
+export function extractHowTo(
+  slug: string,
+  articleTitle: string,
+  dir = "content",
+): HowToData | null {
+  const { blocks } = parseArticle(readSource(slug, dir));
 
   for (let i = 0; i < blocks.length; i++) {
     const block = blocks[i];

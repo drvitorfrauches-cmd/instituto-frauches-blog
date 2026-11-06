@@ -1,8 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import { UI, type Locale } from "@/lib/i18n";
 
-export function ShareButtons({ url, title }: { url: string; title: string }) {
+export function ShareButtons({
+  url,
+  title,
+  locale = "pt",
+}: {
+  url: string;
+  title: string;
+  locale?: Locale;
+}) {
+  const t = UI[locale];
   const [copied, setCopied] = useState(false);
   const encodedUrl = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
@@ -39,7 +49,7 @@ export function ShareButtons({ url, title }: { url: string; title: string }) {
   return (
     <div className="mb-8 flex flex-wrap items-center gap-2 text-sm">
       <span className="font-data text-xs tracking-wide text-stone-soft uppercase">
-        Compartilhar
+        {t.share}
       </span>
       {links.map((link) => (
         <a
@@ -56,7 +66,7 @@ export function ShareButtons({ url, title }: { url: string; title: string }) {
         onClick={copyLink}
         className="border border-line px-3 py-1 text-ink hover:border-pine hover:text-pine"
       >
-        {copied ? "Link copiado!" : "Copiar link"}
+        {copied ? t.linkCopied : t.copyLink}
       </button>
     </div>
   );

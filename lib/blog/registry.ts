@@ -3,8 +3,6 @@ import path from "node:path";
 import type { ComponentType } from "react";
 import type { PostMeta } from "./types";
 
-const CONTENT_DIR = path.join(process.cwd(), "content");
-
 interface ContentModule {
   meta: PostMeta;
   default: ComponentType;
@@ -15,36 +13,47 @@ export interface PostEntry {
   load: () => Promise<ContentModule>;
 }
 
-function getSlugs(): string[] {
-  if (!fs.existsSync(CONTENT_DIR)) return [];
+function getSlugs(dir: string): string[] {
+  const contentDir = path.join(process.cwd(), dir);
+  if (!fs.existsSync(contentDir)) return [];
   return fs
-    .readdirSync(CONTENT_DIR)
+    .readdirSync(contentDir)
     .filter((file) => file.endsWith(".tsx"))
     .map((file) => file.replace(/\.tsx$/, ""));
 }
 
-function loadModuleSync(slug: string): ContentModule {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  return require(`../../content/${slug}.tsx`) as ContentModule;
+// Os caminhos dos imports ficam literais para o bundler empacotar cada pasta.
+function buildPtRegistry(): PostEntry[] {
+  return getSlugs("content").map((slug) => {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { meta } = require(`../../content/${slug}.tsx`) as ContentModule;
+    return { meta, load: () => import(`../../content/${slug}.tsx`) };
+  });
 }
 
-function buildRegistry(): PostEntry[] {
-  return getSlugs().map((slug) => {
-    const { meta } = loadModuleSync(slug);
-    return {
-      meta,
-      load: () => import(`../../content/${slug}.tsx`),
-    };
+function buildEnRegistry(): PostEntry[] {
+  return getSlugs("content-en").map((slug) => {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { meta } = require(`../../content-en/${slug}.tsx`) as ContentModule;
+    return { meta, load: () => import(`../../content-en/${slug}.tsx`) };
   });
 }
 
 let cachedRegistry: PostEntry[] | null = null;
+let cachedEnRegistry: PostEntry[] | null = null;
 
 function getRegistry(): PostEntry[] {
   if (!cachedRegistry) {
-    cachedRegistry = buildRegistry();
+    cachedRegistry = buildPtRegistry();
   }
   return cachedRegistry;
+}
+
+function getEnRegistry(): PostEntry[] {
+  if (!cachedEnRegistry) {
+    cachedEnRegistry = buildEnRegistry();
+  }
+  return cachedEnRegistry;
 }
 
 const GUIDE_ORDER = [
@@ -76,4 +85,25 @@ export function getPostComponent(
   slug: string,
 ): (() => Promise<ContentModule>) | undefined {
   return getRegistry().find((entry) => entry.meta.slug === slug)?.load;
+}
+
+export function getAllEnPosts(): PostMeta[] {
+  return getEnRegistry()
+    .map((entry) => entry.meta)
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+}
+
+export function getEnPostMeta(slug: string): PostMeta | undefined {
+  return getEnRegistry().find((entry) => entry.meta.slug === slug)?.meta;
+}
+
+export function getEnPostComponent(
+  slug: string,
+): (() => Promise<ContentModule>) | undefined {
+  return getEnRegistry().find((entry) => entry.meta.slug === slug)?.load;
+}
+
+/** Versão em inglês de um artigo em português, se existir. */
+export function getEnSlugFor(ptSlug: string): string | undefined {
+  return getEnRegistry().find((entry) => entry.meta.translationOf === ptSlug)?.meta.slug;
 }

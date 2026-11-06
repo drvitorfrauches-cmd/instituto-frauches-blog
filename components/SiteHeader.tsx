@@ -1,11 +1,39 @@
 import Link from "next/link";
-import { SITE_NAME, WHATSAPP_URL } from "@/lib/blog/site";
+import { SITE_NAME, WHATSAPP_URL, WHATSAPP_URL_EN } from "@/lib/blog/site";
+import type { Locale } from "@/lib/i18n";
 
-export function SiteHeader() {
+const NAV = {
+  pt: {
+    home: "/blog",
+    label: "Navegação principal",
+    links: [
+      { href: "/blog", label: "Blog" },
+      { href: "/blog/guia-calvicie-masculina", label: "Calvície" },
+      { href: "/blog/guia-transplante-capilar", label: "Transplante" },
+      { href: "/sobre", label: "Sobre" },
+    ],
+    language: { href: "/en", label: "EN", title: "English version" },
+    book: { href: WHATSAPP_URL, label: "Agendar" },
+  },
+  en: {
+    home: "/en",
+    label: "Main navigation",
+    links: [
+      { href: "/en", label: "International patients" },
+      { href: "/en/blog/what-is-fue-hair-transplant", label: "FUE" },
+      { href: "/en/about", label: "About" },
+    ],
+    language: { href: "/blog", label: "PT", title: "Versão em português" },
+    book: { href: WHATSAPP_URL_EN, label: "Book" },
+  },
+};
+
+export function SiteHeader({ locale = "pt" }: { locale?: Locale }) {
+  const nav = NAV[locale];
   return (
     <header className="bg-mast-bg text-mast-fg">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
-        <Link href="/blog" className="flex items-baseline gap-2.5">
+        <Link href={nav.home} className="flex items-baseline gap-2.5">
           <svg
             viewBox="0 0 32 32"
             className="h-6 w-6 flex-none"
@@ -24,26 +52,27 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav aria-label="Navegação principal" className="flex flex-wrap items-center gap-6 text-sm tracking-wide">
-          <Link href="/blog" className="text-mast-fg/85 hover:text-mast-fg">
-            Blog
-          </Link>
-          <Link href="/blog/guia-calvicie-masculina" className="text-mast-fg/85 hover:text-mast-fg">
-            Calvície
-          </Link>
-          <Link href="/blog/guia-transplante-capilar" className="text-mast-fg/85 hover:text-mast-fg">
-            Transplante
-          </Link>
-          <Link href="/sobre" className="text-mast-fg/85 hover:text-mast-fg">
-            Sobre
+        <nav aria-label={nav.label} className="flex flex-wrap items-center gap-6 text-sm tracking-wide">
+          {nav.links.map((link) => (
+            <Link key={link.href} href={link.href} className="text-mast-fg/85 hover:text-mast-fg">
+              {link.label}
+            </Link>
+          ))}
+          <Link
+            href={nav.language.href}
+            title={nav.language.title}
+            hrefLang={locale === "pt" ? "en" : "pt-BR"}
+            className="font-data text-xs text-mast-muted hover:text-mast-fg"
+          >
+            {nav.language.label}
           </Link>
           <a
-            href={WHATSAPP_URL}
+            href={nav.book.href}
             target="_blank"
             rel="noopener noreferrer"
             className="border-b border-mast-fg pb-0.5 font-medium text-mast-fg"
           >
-            Agendar
+            {nav.book.label}
           </a>
         </nav>
       </div>
