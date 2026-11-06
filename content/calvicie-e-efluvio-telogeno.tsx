@@ -9,8 +9,8 @@ export const meta: PostMeta = {
   description:
     "Calvície e eflúvio telógeno podem acontecer juntos. Entenda como reconhecer a sobreposição, como a tricoscopia ajuda no diagnóstico e o que muda no tratamento.",
   publishedAt: "2026-11-02",
-  updatedAt: "2026-11-02",
-  readingTime: 10,
+  updatedAt: "2026-11-06",
+  readingTime: 11,
   category: "Calvície e tricologia",
   author: AUTHOR,
   coverImage: {
@@ -95,7 +95,7 @@ export default function Article() {
         <LI><Strong>{"Definir o tratamento com o médico:"}</Strong>{" a escolha do medicamento considera idade, sexo, planos de gravidez, histórico clínico e tolerância."}</LI>
         <LI><Strong>{"Documentar a evolução:"}</Strong>{" fotografias padronizadas e tricoscopia ajudam a acompanhar cada componente ao longo do tempo."}</LI>
       </OL>
-      <P>{"Sobre a resposta ao tratamento, um estudo comparativo publicado como carta em 2024 avaliou o minoxidil oral em baixa dose em pacientes com alopecia androgenética isolada e em pacientes com calvície desmascarada pelo eflúvio. A eficácia e a segurança foram comparáveis entre os grupos. Como o resumo não informa o tamanho da amostra e o formato é limitado, o achado não permite generalizações. Ele também não indica esse medicamento para todos: dose, início e suspensão são decisões do médico que acompanha o caso."}</P>
+      <P>{"Sobre a resposta ao tratamento, um estudo comparativo publicado como carta em 2024 avaliou o minoxidil oral em baixa dose em pacientes com alopecia androgenética isolada e em pacientes com calvície mascarada pelo eflúvio. A eficácia e a segurança foram comparáveis entre os grupos. Como o resumo não informa o tamanho da amostra e o formato é limitado, o achado não permite generalizações. Ele também não indica esse medicamento para todos: dose, início e suspensão são decisões do médico que acompanha o caso."}</P>
 
       <H2 id="quanto-tempo">{"Quanto tempo leva para perceber a melhora?"}</H2>
       <P>{"O prazo costuma ser de alguns meses, e a evolução raramente é linear. A queda do eflúvio tende a diminuir depois que o gatilho é resolvido, mas o fio novo precisa de tempo para ganhar comprimento e fazer diferença visual. Na calvície, a resposta ao tratamento também é lenta, e a recuperação do eflúvio pode ser confundida com efeito do medicamento."}</P>
