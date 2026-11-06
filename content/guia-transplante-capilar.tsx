@@ -29,6 +29,7 @@ export default function Article() {
         <LI><Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"O que é transplante capilar FUE"}</Link>{": guia completo sobre a técnica, do início ao fim."}</LI>
         <LI><Link href="/blog/tecnica-fue-transplante-capilar" className="underline">{"Como funciona a técnica FUE"}</Link>{": extração, punch, cicatrizes e diferenças para a FUT."}</LI>
         <LI><Link href="/blog/fue-ou-fut" className="underline">{"FUE ou FUT"}</Link>{": qual a diferença e por que a FUE é hoje a mais usada."}</LI>
+        <LI><Link href="/blog/dhi-ou-fue" className="underline">{"DHI ou FUE"}</Link>{": por que FUE descreve a extração e DHI a implantação, e o que realmente muda na cirurgia."}</LI>
         <LI><Link href="/blog/tecnologias-transplante-capilar" className="underline">{"Tecnologias no transplante capilar"}</Link>{": o que cada equipamento realmente muda no resultado."}</LI>
         <LI><Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">{"Graftis: controle de qualidade no transplante capilar"}</Link>{": o sistema próprio do Instituto Frauches para contagem folicular ao vivo."}</LI>
         <LI><Link href="/blog/microscopio-no-transplante-capilar" className="underline">{"Microscópio no transplante capilar"}</Link>{": por que a triagem sob aumento reduz a transecção e ajuda na sobrevivência do enxerto."}</LI>
