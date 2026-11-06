@@ -52,6 +52,10 @@ tudo em todo artigo):**
   da calvície, planejamento da linha frontal, respeito à angulação/direção/
   densidade natural dos fios, definição da quantidade de folículos e preservação
   da área doadora.
+- **Cigarro (confirmado pelo Dr. Vitor em 2026-11-06):** o Instituto Frauches
+  pede que o paciente pare de fumar 10 dias antes da cirurgia e fique sem fumar
+  por 15 dias depois. Use esse prazo em qualquer artigo que fale de cigarro,
+  vape ou nicotina no transplante.
 - Tecnologia e recursos citáveis (útil sobretudo pra artigos do pilar
   "Tecnologia"): Mamba® System (Trivellini, rotação oscilatória e vibração
   controlada para extração), UGraft Zeus® System ("The Intelligent Punch®",
