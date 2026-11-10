@@ -8,8 +8,8 @@ export const meta: PostMeta = {
   title: "Área doadora fraca: ainda dá para fazer transplante capilar?",
   description: "Área doadora fraca impede o transplante capilar? Veja como ela é avaliada, o que ainda é possível, quando pelos do corpo entram e quando operar não compensa.",
   publishedAt: "2026-11-09",
-  updatedAt: "2026-11-09",
-  readingTime: 11,
+  updatedAt: "2026-11-10",
+  readingTime: 12,
   category: "Dúvidas frequentes",
   author: AUTHOR,
   coverImage: {
@@ -129,12 +129,12 @@ export default function Article() {
 
       <H2 id="referencias">{"Referências"}</H2>
       <UL>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37554682/" className="underline" target="_blank" rel="noopener noreferrer">{"Kumaresan M, Deepa MS. Occipital Donor Area Grading and Profile in Indian Population. J Cutan Aesthet Surg, 2023."}</a> <a href="https://doi.org/10.4103/JCAS.JCAS_46_20" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37879352/" className="underline" target="_blank" rel="noopener noreferrer">{"Keene SA et al. Follicular Unit Excision-Linear Ellipse Donor Harvesting Technique. Facial Plast Surg, 2023."}</a> <a href="https://doi.org/10.1055/a-2198-2703" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33565339/" className="underline" target="_blank" rel="noopener noreferrer">{"Gupta AK et al. Artificial hair implantation for hair restoration. J Dermatolog Treat, 2021."}</a> <a href="https://doi.org/10.1080/09546634.2021.1887442" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37984370/" className="underline" target="_blank" rel="noopener noreferrer">{"Gabel S. Utility of Follicular Unit Excision Using Nonscalp Donor Hair. Facial Plast Surg, 2023."}</a> <a href="https://doi.org/10.1055/s-0043-1776401" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40323042/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhao Y et al. Development of an Evaluation System to Classify Beard Donor Area for Hair Transplantation. Dermatol Surg, 2025."}</a> <a href="https://doi.org/10.1097/DSS.0000000000004662" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
-        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40899372/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu Q et al. Scalp Micropigmentation Is an Effective Treatment for Localized Alopecia: Technical Analysis and a Series of Ten Case Reports. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70375" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37554682/" className="underline" target="_blank" rel="noopener noreferrer">{"Kumaresan M, Deepa MS. Occipital Donor Area Grading and Profile in Indian Population. J Cutan Aesthet Surg, 2023."}</a>{" "}<a href="https://doi.org/10.4103/JCAS.JCAS_46_20" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37879352/" className="underline" target="_blank" rel="noopener noreferrer">{"Keene SA et al. Follicular Unit Excision-Linear Ellipse Donor Harvesting Technique. Facial Plast Surg, 2023."}</a>{" "}<a href="https://doi.org/10.1055/a-2198-2703" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33565339/" className="underline" target="_blank" rel="noopener noreferrer">{"Gupta AK et al. Artificial hair implantation for hair restoration. J Dermatolog Treat, 2021."}</a>{" "}<a href="https://doi.org/10.1080/09546634.2021.1887442" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37984370/" className="underline" target="_blank" rel="noopener noreferrer">{"Gabel S. Utility of Follicular Unit Excision Using Nonscalp Donor Hair. Facial Plast Surg, 2023."}</a>{" "}<a href="https://doi.org/10.1055/s-0043-1776401" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40323042/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhao Y et al. Development of an Evaluation System to Classify Beard Donor Area for Hair Transplantation. Dermatol Surg, 2025."}</a>{" "}<a href="https://doi.org/10.1097/DSS.0000000000004662" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40899372/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu Q et al. Scalp Micropigmentation Is an Effective Treatment for Localized Alopecia: Technical Analysis and a Series of Ten Case Reports. J Cosmet Dermatol, 2025."}</a>{" "}<a href="https://doi.org/10.1111/jocd.70375" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
       </UL>
 
       <P>{"Quer saber o que a sua área doadora permite? O próximo passo é uma avaliação com tricoscopia com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{". Para acompanhar outros conteúdos sobre planejamento, siga também o "}<a href={INSTAGRAM_URL} className="underline" target="_blank" rel="noopener noreferrer">{"Instagram"}</a>{"."}</P>
