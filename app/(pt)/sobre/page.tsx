@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { P, H2, UL, LI, Strong } from "@/components/article-ui";
+import { IshrsBadge } from "@/components/IshrsBadge";
 import {
   ADDRESS_DISPLAY,
   AUTHOR,
@@ -76,7 +77,8 @@ export default function SobrePage() {
         />
         <div>
           <h1 className="font-display mb-1.5 text-3xl font-medium text-ink">{AUTHOR.name}</h1>
-          <p className="text-stone">{AUTHOR.role}</p>
+          <p className="mb-4 text-stone">{AUTHOR.role}</p>
+          <IshrsBadge width={130} />
         </div>
       </div>
 
