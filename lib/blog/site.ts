@@ -85,6 +85,7 @@ export const AUTHOR_CREDENTIALS_EN = [
   "Practice in trichology and hair transplantation",
   "Postgraduate professor of trichology and hair transplantation",
   "More than 1,200 surgeries performed",
+  "Member of the ISHRS (International Society of Hair Restoration Surgery)",
 ];
 
 export const AUTHOR_CREDENTIALS = [
@@ -92,4 +93,5 @@ export const AUTHOR_CREDENTIALS = [
   "Atuação em tricologia e transplante capilar",
   "Professor de pós-graduação em tricologia e transplante capilar",
   "Mais de 1.200 cirurgias realizadas",
+  "Membro da ISHRS (International Society of Hair Restoration Surgery)",
 ];
