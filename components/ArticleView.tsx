@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShareButtons } from "@/components/ShareButtons";
-import { ORGANIZATION_JSON_LD } from "@/lib/blog/site";
+import { ORGANIZATION_JSON_LD, PHYSICIAN_JSON_LD } from "@/lib/blog/site";
 import type { FaqItem, HowToData } from "@/lib/blog/structured-data";
 import type { PostMeta } from "@/lib/blog/types";
 import { UI, type Locale } from "@/lib/i18n";
@@ -39,12 +39,9 @@ export function ArticleView({
     inLanguage: locale === "en" ? "en" : "pt-BR",
     datePublished: meta.publishedAt,
     dateModified: meta.updatedAt ?? meta.publishedAt,
-    author: {
-      "@type": "Person",
-      name: meta.author.name,
-      jobTitle: meta.author.role,
-      url: authorUrl,
-    },
+    author: { ...PHYSICIAN_JSON_LD, url: authorUrl },
+    reviewedBy: { "@id": PHYSICIAN_JSON_LD["@id"] },
+    lastReviewed: meta.updatedAt ?? meta.publishedAt,
     publisher: ORGANIZATION_JSON_LD,
     mainEntityOfPage: url,
     image: meta.coverImage ? `${new URL(url).origin}${meta.coverImage.src}` : undefined,
