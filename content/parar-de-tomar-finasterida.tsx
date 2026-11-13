@@ -42,7 +42,7 @@ export default function Article() {
       </OL>
       <P>{"Esses prazos são uma referência geral. Idade, estágio da calvície, tempo de uso e a presença de outros tratamentos (como o minoxidil) mudam bastante a experiência de cada paciente."}</P>
 
-      <P>{"Na busca que fizemos no PubMed não encontramos ensaio recente que tenha medido, com contagem de fios, o que acontece depois de suspender a finasterida; a explicação acima vem do mecanismo do remédio e da experiência clínica. O que os estudos mostram bem é a eficácia durante o uso: numa meta-análise em rede de 2025 com 33 estudos, a finasterida 1 mg foi o tratamento oral mais eficaz entre os aprovados pela FDA para a calvície masculina."}</P>
+      <P>{"Na busca que fizemos no PubMed não encontramos ensaio recente que tenha medido, com contagem de fios, o que acontece depois de suspender a finasterida; os prazos acima vêm da bula e do mecanismo do remédio. O que os estudos mostram bem é a eficácia durante o uso: numa meta-análise em rede de 2025 com 33 estudos, a finasterida 1 mg foi o tratamento oral mais eficaz entre os aprovados pela FDA para a calvície masculina."}</P>
 
       <H2 id="o-cabelo-fica-pior-do-que-antes">{"O cabelo fica pior do que era antes do tratamento?"}</H2>
       <P>{"Não existe evidência de que a suspensão provoque um efeito rebote, ou seja, uma queda maior do que a calvície causaria sozinha. Ainda assim, muitos pacientes saem com essa impressão, e há dois motivos para isso."}</P>
