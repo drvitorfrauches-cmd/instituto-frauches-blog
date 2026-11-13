@@ -81,6 +81,7 @@ export default function Article() {
         <LI><Link href="/blog/sinais-transplante-capilar-mal-feito" className="underline">{"Sinais de transplante capilar mal feito"}</Link>{": o que observar, e quando vale buscar uma correção."}</LI>
         <LI><Link href="/blog/transplante-capilar-e-definitivo" className="underline">{"Transplante capilar dura para sempre?"}</Link>{": a durabilidade dos fios e o papel do tratamento clínico complementar."}</LI>
         <LI><Link href="/blog/segunda-cirurgia-transplante-capilar" className="underline">{"Segunda cirurgia de transplante capilar"}</Link>{": quando faz sentido reoperar, quantas cirurgias a área doadora permite e quanto tempo esperar."}</LI>
+        <LI><Link href="/blog/correcao-transplante-capilar" className="underline">{"Correção de transplante capilar"}</Link>{": como tratar plugs antigos, hairline artificial e cicatriz de FUT, e o que a área doadora ainda permite."}</LI>
       </UL>
 
       <H2 id="casos-especiais">{"Casos especiais"}</H2>
