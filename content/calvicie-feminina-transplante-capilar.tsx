@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Calvície feminina tem solução no transplante capilar? Entenda as causas, quando a cirurgia é indicada em mulheres e o que muda no planejamento.",
   publishedAt: "2026-09-07",
-  updatedAt: "2026-09-14",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -41,6 +41,8 @@ export default function Article() {
         <LI><Strong>{"Deficiências nutricionais e disfunções da tireoide:"}</Strong>{" falta de ferro, vitamina D ou proteína, e alterações no hormônio tireoidiano, também aparecem como queda de cabelo difusa."}</LI>
       </UL>
 
+      <P>{"A alopecia androgenética afeta perto de 50% das mulheres ao longo da vida, segundo uma revisão de 2026, e ainda é pouco diagnosticada e pouco tratada. A mesma revisão lembra que o diagnóstico precisa descartar eflúvio telógeno crônico, alopecia areata difusa e alopecias cicatriciais, com ajuda da tricoscopia."}</P>
+
       <H2 id="toda-mulher-com-calvície-pode-fazer-transplante-capilar">{"Toda mulher com calvície pode fazer transplante capilar?"}</H2>
       <P>{"Não. O transplante funciona melhor quando existe uma área doadora estável, com folículos resistentes à miniaturização, e uma região de perda bem delimitada para receber os novos fios. Em boa parte dos casos de alopecia androgenética feminina, a miniaturização também atinge parte da região doadora, a nuca e as laterais, o que reduz o volume de folículos disponíveis e exige um planejamento mais conservador do que costuma ser necessário em homens."}</P>
       <P>{"Isso não significa que mulheres com padrão difuso estejam automaticamente fora da cirurgia. Significa que a avaliação precisa medir com precisão quanto a área doadora realmente comporta, sem prometer uma cobertura total que a biologia daquele caso não sustenta. Costumam ser boas candidatas:"}</P>
@@ -50,6 +52,8 @@ export default function Article() {
         <LI>{"Casos de alopecia por tração já estabilizada, sem sinais de inflamação ativa."}</LI>
         <LI>{"Mulheres com recuo isolado da linha frontal, sem afinamento generalizado no restante do couro cabeludo."}</LI>
       </UL>
+
+      <P>{"Uma revisão de 2025 que analisou 24 estudos sobre transplante capilar em mulheres observou que elas costumam procurar a cirurgia mais tarde do que os homens, com afinamento difuso no topo e nas têmporas, e que precisam ser avaliadas para causas sistêmicas e para sinais de alopecia cicatricial ou de tração. O planejamento, segundo os autores, foca na restauração difusa de densidade, na preservação da área doadora e no tratamento clínico associado."}</P>
 
       <H2 id="como-é-medido-o-grau-da-calvície-feminina">{"Como é medido o grau da calvície feminina?"}</H2>
       <P>{"Existe uma escala própria para classificar o padrão mais comum de calvície em mulheres, a escala de Ludwig, dividida em estágios que descrevem o grau de afinamento na região central do couro cabeludo. Ela funciona de um jeito diferente da escala de Norwood, usada quase só em homens, porque o padrão de perda observado também é diferente. Explico a diferença completa entre as duas classificações, e em que situação um caso feminino chega a ser descrito pela escala masculina, no artigo sobre a "}<Link href="/blog/escala-de-norwood" className="underline">{"escala de Norwood"}</Link>{"."}</P>
@@ -70,6 +74,8 @@ export default function Article() {
       <P>{"Sim, e em vários casos eles são o primeiro passo, não uma etapa que se pula. O minoxidil tópico, em concentrações específicas para mulheres, é o tratamento clínico mais estabelecido para alopecia androgenética feminina e costuma ser indicado antes ou junto de qualquer avaliação cirúrgica."}</P>
       <P>{"A finasterida oral, muito usada em homens, exige cautela bem maior em mulheres: não é indicada para quem está grávida, amamentando ou em idade fértil sem contracepção segura, pelo risco à formação do feto, e seu uso em mulheres na pós-menopausa só acontece em casos pontuais, sob avaliação médica específica. PRP (plasma rico em plaquetas) e mesoterapia capilar também aparecem como recursos complementares em alguns planos de tratamento, sempre depois de investigar a causa da queda."}</P>
 
+      <P>{"O shock loss, a queda temporária dos fios nativos ao redor da área operada, merece atenção especial nas mulheres. Num estudo japonês com 621 pacientes operados por FUE, ser mulher foi o principal fator de risco para esse tipo de queda, e entre as mulheres o risco aumentou com a idade."}</P>
+
       <H2 id="quanto-tempo-leva-para-ver-o-resultado-do-transplante-em-mulheres">{"Quanto tempo leva para ver o resultado do transplante em mulheres?"}</H2>
       <P>{"A linha do tempo biológica é a mesma observada em homens: os fios transplantados costumam cair entre 1 e 2 meses após a cirurgia (fase esperada do processo, não um sinal de que o procedimento falhou), os novos fios começam a nascer entre 3 e 6 meses, e a maior parte do resultado final fica visível entre 6 e 12 meses. Como em qualquer transplante capilar, o ritmo exato varia de paciente para paciente, conforme a avaliação médica de cada caso."}</P>
 
@@ -86,6 +92,14 @@ export default function Article() {
       <P>{"Sim, é uma das buscas mais comuns entre pacientes mulheres, geralmente ligada a sobrancelhas superdepiladas no passado, alopecia ou cicatrizes locais. A técnica de extração e implantação segue o mesmo princípio do transplante capilar, adaptada à densidade e ao formato natural da sobrancelha de cada paciente."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A indicação de transplante capilar ou de qualquer tratamento clínico para calvície feminina depende de avaliação individual da causa da queda, do padrão observado e da condição real da área doadora. Resultados variam de paciente para paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41714473/" className="underline" target="_blank" rel="noopener noreferrer">{"Kearney CA et al. Androgenetic Alopecia in Women: A Narrative Review of Pathophysiology, Clinical Evaluation, and Treatments. Am J Clin Dermatol, 2026."}</a> <a href="https://doi.org/10.1007/s40257-026-01009-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40911748/" className="underline" target="_blank" rel="noopener noreferrer">{"Queen D, Avram MR. Hair Transplantation in Women. J Drugs Dermatol, 2025."}</a> <a href="https://doi.org/10.36849/jdd.8988" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37816944/" className="underline" target="_blank" rel="noopener noreferrer">{"Okochi H et al. An Analysis of Risk Factors of Recipient Site Temporary Effluvium After Follicular Unit Excision: A Single-Center Retrospective Study. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03699-z" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender qual é a causa real da sua queda de cabelo e se o transplante capilar é indicado para o seu caso, veja também nosso guia sobre "}<Link href="/blog/quem-pode-fazer-transplante-capilar" className="underline">{"quem pode fazer transplante capilar"}</Link>{". O próximo passo é uma avaliação individual com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

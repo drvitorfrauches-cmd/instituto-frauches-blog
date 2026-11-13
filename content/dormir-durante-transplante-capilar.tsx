@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Descubra se dá para dormir durante o transplante capilar, como funciona a sedação venosa e por que essa é a opção usada no Instituto Frauches.",
   publishedAt: "2026-09-18",
-  updatedAt: "2026-09-19",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -34,6 +34,8 @@ export default function Article() {
       <H2 id="diferenca-sedacao-venosa-oral">{"Qual a diferença entre sedação venosa e sedação oral?"}</H2>
       <P>{"São dois métodos bem diferentes, e a diferença importa na hora de decidir onde operar. Na "}<Strong>{"sedação oral"}</Strong>{", o paciente toma um comprimido ansiolítico antes da cirurgia. O efeito é mais leve: reduz a ansiedade, mas o paciente segue consciente durante toda parte do procedimento, sente a passagem das horas e precisa tolerar ficar imóvel na mesma posição por muito mais tempo sem o auxílio de um sono induzido. Já na sedação venosa, o nível de sono é profundo e constante, mantido por um anestesiologista dedicado, com monitorização contínua de sinais vitais."}</P>
       <P>{"A sedação oral exige menos estrutura, porque não depende necessariamente de uma equipe de anestesiologia presente durante toda a cirurgia, o que a torna mais simples de oferecer. A sedação venosa, por outro lado, exige centro cirúrgico equipado, monitorização e um anestesiologista dedicado ao paciente do início ao fim. É uma estrutura mais completa, e é também o motivo de nem toda clínica oferecer essa opção como padrão."}</P>
+
+      <P>{"Na literatura, a forma mais descrita de anestesia para a FUE é a anestesia local, com bloqueio em anel ao redor do couro cabeludo, muitas vezes associada a uma sedação oral leve. Revisões técnicas lembram que a dor é um dos principais medos do paciente e que a técnica de aplicação do anestésico reduz muito esse desconforto. Num estudo com 25 pacientes, um anestésico tamponado baixou a dor média da injeção de 4,96 para 3,28 numa escala de 0 a 10."}</P>
 
       <H2 id="por-que-instituto-frauches-usa-sedacao-venosa">{"Por que o Instituto Frauches opta sempre pela sedação venosa?"}</H2>
       <P>{"Por conforto do paciente e por qualidade cirúrgica. Uma cirurgia de 8 a 12 horas é naturalmente cansativa, e a sedação venosa remove por completo a percepção dessas horas: o paciente simplesmente dorme, sem ansiedade acumulada, sem desconforto de posição prolongada, sem a fadiga mental de acompanhar cada etapa consciente."}</P>
@@ -80,6 +82,14 @@ export default function Article() {
       <P>{"Não. O nível de consciência do paciente durante o procedimento não interfere na técnica de extração e implantação, que segue o mesmo padrão de precisão independentemente da sedação."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O plano anestésico de cada cirurgia depende da avaliação pré-anestésica individual, feita junto com a equipe de anestesiologia."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38049107/" className="underline" target="_blank" rel="noopener noreferrer">{"Barusco MN. Anesthesia Techniques for Harvesting via Follicular Unit Excision. Facial Plast Surg, 2023."}</a> <a href="https://doi.org/10.1055/s-0043-1776994" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/27207354/" className="underline" target="_blank" rel="noopener noreferrer">{"Kohn T, Zari S. Local Anesthesia Techniques in Hair Restoration Surgery. J Cutan Med Surg, 2016."}</a> <a href="https://doi.org/10.1177/1203475416651052" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32304608/" className="underline" target="_blank" rel="noopener noreferrer">{"Mohmand MH, Ahmad M, Jabeen M. Pain perception of a new Ahmad-Humayun solution for local anesthesia in hair transplantation: One step ahead. J Cosmet Dermatol, 2020."}</a> <a href="https://doi.org/10.1111/jocd.13442" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se o medo de passar horas acordado ainda é o que te impede de agendar uma avaliação, vale entender melhor como a sedação venosa funciona no seu caso. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
