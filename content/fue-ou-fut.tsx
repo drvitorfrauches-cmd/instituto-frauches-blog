@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda as diferenças entre as técnicas FUE e FUT de transplante capilar, as indicações de cada uma e por que a FUE é hoje a mais usada.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -38,6 +38,8 @@ export default function Article() {
         <LI><Strong>{"Raspagem:"}</Strong>{" a FUE pode ser feita sem raspar toda a cabeça (técnica non-shave), o que a FUT não permite da mesma forma, já que a remoção da faixa exige acesso direto àquela região."}</LI>
         <LI><Strong>{"Quantidade de folículos por sessão:"}</Strong>{" a FUT historicamente permitia extrair um número maior de folículos numa única sessão. Com a evolução da tecnologia de extração da FUE, essa diferença diminuiu bastante."}</LI>
       </UL>
+
+      <P>{"Os estudos ajudam a dimensionar essas diferenças. Uma revisão de escopo de 2024 sobre complicações do transplante capilar identificou a cicatriz hipertrófica ou queloide como a complicação mais comum da área doadora na FUT, em até 15,1% dos casos. Na FUE, o risco principal é outro: extrair demais pode deixar a área doadora com aspecto falhado, descrito na literatura como aspecto “roído de traça”, além de esgotar a reserva de folículos em sessões muito grandes. Uma meta-análise de 2025 com 45 estudos considerou o transplante capilar, nas duas técnicas, em geral seguro."}</P>
 
       <H2 id="quando-cada-uma-e-indicada">{"Quando cada técnica é indicada"}</H2>
       <P>{"Hoje, a FUE é a técnica mais usada e a que costuma trazer melhor equilíbrio entre resultado natural, cicatriz discreta e recuperação confortável, e é a técnica usada no Instituto Frauches, com o Protocolo Frauches Precision FUE®. A FUT ainda pode ser considerada em situações específicas, avaliadas caso a caso, mas deixou de ser a primeira escolha na maioria dos centros de restauração capilar de alto padrão."}</P>
@@ -70,6 +72,14 @@ export default function Article() {
       <P>{"Sim, ela deixa pequenos pontos puntiformes na área doadora, um para cada folículo extraído. Eles costumam ser bem menos perceptíveis que a cicatriz linear da FUT, mas não são inexistentes."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A técnica mais indicada para cada paciente depende da avaliação da área doadora, do padrão de calvície e dos objetivos individuais."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/36928376/" className="underline" target="_blank" rel="noopener noreferrer">{"Krishnamurthy R et al. A Novel Method of Intraoperative Calculation in Follicular Unit Transplantation: The Sequential Strip and FUE Method. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03300-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M, Skorochod R, Wolf Y. Complications Following Hair Transplantation: A Systematic Literature Review and Meta-Analysis. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender qual técnica faz mais sentido para o seu caso, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é o transplante capilar FUE, como funciona cada etapa da cirurgia e por que essa técnica é hoje a referência em naturalidade e recuperação.",
   publishedAt: "2026-07-24",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -41,9 +41,13 @@ export default function Article() {
 
       <P>{"No Instituto Frauches, a taxa de fixação dos folículos transplantados divulgada é superior a 95%. É um número institucional, calculado sobre o conjunto de cirurgias já realizadas, não uma garantia individual: o resultado de cada paciente depende da avaliação do seu caso específico."}</P>
 
+      <P>{"A forma de extrair também conta. Um estudo coreano de 2024 com 15 pacientes comparou, na mesma cirurgia, o punch rotativo e o oscilatório: o aproveitamento total dos folículos foi de 88,3% com o rotativo e de 90,5% com o oscilatório, e a vantagem do oscilatório foi maior em couro cabeludo mais macio ou quando a extração precisava ser mais profunda. A amostra é pequena, mas mostra que o instrumento de extração influencia quantos fios chegam inteiros à área receptora."}</P>
+
       <H2 id="dor-e-recuperacao">{"Dói? Como é a recuperação"}</H2>
       <P>{"A cirurgia é feita com sedação venosa e anestesia local, então o paciente não sente dor durante o procedimento. No pós-operatório imediato é comum alguma sensibilidade no couro cabeludo, controlada com a medicação orientada pela equipe médica. Por não haver corte nem pontos, a recuperação da técnica FUE costuma ser mais rápida e confortável do que a de técnicas antigas."}</P>
       <P>{"Vale reforçar que cada organismo responde de um jeito. O tempo exato de cicatrização e o ritmo de crescimento dos novos fios variam de paciente para paciente, e só uma avaliação médica individual consegue estimar isso com precisão para o seu caso."}</P>
+
+      <P>{"Sobre segurança, uma revisão de escopo de 2024 encontrou, em duas grandes séries de pacientes, taxas gerais de complicação de 1,2% e 4,7%, e concluiu que complicações graves são raras nas mãos de cirurgiões experientes. Uma revisão sistemática com meta-análise de 2025, que somou 2.353 pacientes de estudos observacionais, considerou o transplante capilar em geral seguro e apontou dor, inchaço e edema na área doadora como as queixas mais relatadas."}</P>
 
       <H2 id="preservacao-area-doadora">{"Por que a área doadora importa tanto"}</H2>
       <P>{"Um dos maiores receios de quem pesquisa sobre transplante capilar é esgotar a área doadora, a região de onde os folículos são retirados. Por isso o planejamento da extração é uma das partes mais técnicas do procedimento: a quantidade e a distribuição dos folículos extraídos são calculadas para manter a densidade natural dessa região e preservar a possibilidade de sessões futuras, se um dia forem necessárias."}</P>
@@ -70,6 +74,14 @@ export default function Article() {
       <P>{"Não existe uma idade mínima rígida e universal, mas geralmente evita-se operar pacientes muito jovens, sobretudo antes dos 25 anos, já que a calvície ainda pode estar em evolução nessa fase."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O resultado de um transplante capilar varia conforme a avaliação individual de cada paciente, o padrão de calvície e a qualidade da área doadora."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M, Skorochod R, Wolf Y. Complications Following Hair Transplantation: A Systematic Literature Review and Meta-Analysis. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39152658/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim J, Ko YU, Yi KH. The condition of hair follicles produced by different punching methods during FUE surgery. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16537" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender se é candidato à técnica FUE e como seria o planejamento no seu caso, o primeiro passo é uma avaliação médica com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

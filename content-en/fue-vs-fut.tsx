@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "FUE vs FUT hair transplant: how each technique works, the differences in scarring and recovery, and when each one is indicated, explained by Dr. Vitor Frauches.",
   publishedAt: "2026-11-07",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "FUE technique",
   author: AUTHOR_EN,
@@ -42,6 +43,8 @@ export default function Article() {
         <LI><Strong>{"Shaving:"}</Strong>{" FUE can be performed without shaving the whole head (non-shave FUE). FUT does not allow this in the same way, because removing the strip requires direct access to that region."}</LI>
         <LI><Strong>{"Grafts per session:"}</Strong>{" historically, FUT allowed a larger number of follicles to be harvested in a single session. As FUE extraction technology evolved, that gap narrowed considerably."}</LI>
       </UL>
+
+      <P>{"Studies help put these differences in proportion. A 2024 scoping review of hair transplant complications identified hypertrophic scarring or keloid as the most common donor-site complication after FUT, in up to 15.1% of cases. With FUE the main risk is different: overharvesting can leave the donor area looking patchy, described in the literature as a “moth-eaten” appearance, and can deplete the follicle reserve in very large sessions. A 2025 meta-analysis of 45 studies considered hair transplantation, with either technique, generally safe."}</P>
 
       <H2 id="when-each-is-indicated">{"When is each technique indicated?"}</H2>
 
@@ -85,6 +88,14 @@ export default function Article() {
       <P>{"Yes. It leaves tiny dot-like marks in the donor area, one for each extracted follicle. They are usually much less noticeable than the linear FUT scar, but they are not invisible."}</P>
 
       <Callout>{"This content is educational and does not replace a medical consultation. The most suitable technique for each patient depends on the evaluation of the donor area, the pattern of hair loss and individual goals."}</Callout>
+
+      <H2 id="references">{"References"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/36928376/" className="underline" target="_blank" rel="noopener noreferrer">{"Krishnamurthy R et al. A Novel Method of Intraoperative Calculation in Follicular Unit Transplantation: The Sequential Strip and FUE Method. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03300-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M, Skorochod R, Wolf Y. Complications Following Hair Transplantation: A Systematic Literature Review and Meta-Analysis. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"If you would like to understand which technique makes more sense for you, "}<a href={WHATSAPP_URL_EN} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"message us on WhatsApp"}</Strong></a>{". Our team answers in English."}</P>
     </>

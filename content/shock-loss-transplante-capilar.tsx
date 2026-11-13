@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Shock loss é a queda temporária de fios após o transplante capilar, dos enxertados ou dos fios nativos. Entenda por que acontece e quando ela é esperada.",
   publishedAt: "2026-09-02",
-  updatedAt: "2026-09-02",
+  updatedAt: "2026-11-12",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -71,6 +71,8 @@ export default function Article() {
       </UL>
       <P>{"Nenhum desses fatores impede a cirurgia. Eles entram no cálculo do planejamento, e um cirurgião experiente ajusta a técnica (densidade de implante por sessão, manejo da anestesia, cuidado na manipulação do tecido) para reduzir o trauma desnecessário sem comprometer o resultado."}</P>
 
+      <P>{"O que os estudos mostram: em um estudo japonês com 621 pacientes operados por FUE, 23 tiveram shock loss na área receptora, cerca de 3,7%. Ser mulher foi o principal fator de risco identificado, e entre as mulheres o risco aumentou com a idade. Uma revisão de escopo de 2024 encontrou eflúvio em até 4,1% na área doadora e em até 6,5% na área receptora. Uma série espanhola de 28 casos descreveu ainda uma queda em linha, logo nos primeiros dias, associada a implantes de alta densidade, que se reverteu por completo em 3 meses."}</P>
+
       <H2 id="da-para-reduzir-o-risco">{"Dá para reduzir o risco de shock loss?"}</H2>
       <P>{"Existem algumas estratégias que ajudam a diminuir a chance ou a extensão do shock loss, embora nenhuma elimine o risco por completo, já que algum grau de trauma é inerente a qualquer cirurgia:"}</P>
       <OL>
@@ -96,6 +98,14 @@ export default function Article() {
       <P>{"O sinal mais confiável é a retomada do crescimento a partir do terceiro mês. Antes disso, é cedo para tirar qualquer conclusão só olhando a densidade no espelho."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A intensidade e a duração do shock loss variam de paciente para paciente, conforme o planejamento cirúrgico, a densidade da área tratada e as condições individuais do couro cabeludo antes da cirurgia."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37816944/" className="underline" target="_blank" rel="noopener noreferrer">{"Okochi H et al. An Analysis of Risk Factors of Recipient Site Temporary Effluvium After Follicular Unit Excision: A Single-Center Retrospective Study. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03699-z" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37085132/" className="underline" target="_blank" rel="noopener noreferrer">{"Mir-Bonafé JM, Mir-Bonafé JF, Mir-Bonafé M. Immediate-Onset Linear Effluvium Associated With High-Density Hair Transplantation: A Series of 28 Cases. Actas Dermosifiliogr, 2023."}</a> <a href="https://doi.org/10.1016/j.ad.2023.04.021" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você está no pós-operatório e quer entender se o que está vendo é o padrão esperado de shock loss ou algo que merece um olhar mais de perto, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{" com o Dr. Vitor Frauches."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
