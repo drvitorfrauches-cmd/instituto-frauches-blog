@@ -95,3 +95,56 @@ export const AUTHOR_CREDENTIALS = [
   "Mais de 1.200 cirurgias realizadas",
   "Membro da ISHRS (International Society of Hair Restoration Surgery)",
 ];
+
+/**
+ * Dados estruturados do Dr. Vitor como médico (Person com credenciais), usados
+ * em /sobre, /en/about e como autor e revisor de cada artigo. O @id liga todas
+ * as menções à mesma entidade.
+ */
+export const PHYSICIAN_ID = `${SITE_URL}/sobre#dr-vitor-frauches`;
+
+export const PHYSICIAN_JSON_LD = {
+  "@type": "Person" as const,
+  "@id": PHYSICIAN_ID,
+  name: AUTHOR.name,
+  url: `${SITE_URL}/sobre`,
+  image: `${SITE_URL}/author/dr-vitor-frauches.jpg`,
+  jobTitle: "Médico especialista em transplante capilar e tricologia",
+  // Perfis pessoais do Dr. Vitor; Facebook e Perfil da Empresa são da clínica.
+  sameAs: [COMMERCIAL_SITE_URL, INSTAGRAM_URL],
+  worksFor: { "@id": `${SITE_URL}/#organization` },
+  knowsAbout: [
+    "Transplante capilar",
+    "Hair transplantation",
+    "FUE (Follicular Unit Extraction)",
+    "Tricologia",
+    "Trichology",
+    "Alopecia androgenética",
+    "Androgenetic alopecia",
+  ],
+  alumniOf: [
+    { "@type": "CollegeOrUniversity" as const, name: "Universidade Federal do Espírito Santo (UFES)" },
+    { "@type": "CollegeOrUniversity" as const, name: "Universidade Federal Fluminense (UFF)" },
+    { "@type": "CollegeOrUniversity" as const, name: "EMESCAM" },
+  ],
+  hasCredential: [
+    {
+      "@type": "EducationalOccupationalCredential" as const,
+      credentialCategory: "Registro médico",
+      name: "CRM-ES 10.229",
+      recognizedBy: {
+        "@type": "Organization" as const,
+        name: "Conselho Regional de Medicina do Espírito Santo (CRM-ES)",
+      },
+    },
+  ],
+  memberOf: [
+    {
+      "@type": "Organization" as const,
+      name: "International Society of Hair Restoration Surgery (ISHRS)",
+      url: "https://www.ishrs.org",
+    },
+    { "@type": "Organization" as const, name: "World FUE Institute (WFI)" },
+    { "@type": "Organization" as const, name: "Sociedade Brasileira de Restauração Capilar e Cirurgia (SBRCC)" },
+  ],
+};

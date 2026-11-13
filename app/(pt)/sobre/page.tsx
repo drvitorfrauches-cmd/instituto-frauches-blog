@@ -9,9 +9,9 @@ import {
   CNPJ,
   INSTAGRAM_URL,
   ORGANIZATION_JSON_LD,
+  PHYSICIAN_JSON_LD,
   PHONE_DISPLAY,
   PHONE_TEL,
-  SAME_AS,
   SITE_NAME,
   SITE_URL,
   WHATSAPP_URL,
@@ -45,19 +45,9 @@ export const metadata: Metadata = {
 export default function SobrePage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: AUTHOR.name,
-    jobTitle: AUTHOR.role,
+    ...PHYSICIAN_JSON_LD,
     description: AUTHOR_CREDENTIALS.join(". "),
-    url: `${SITE_URL}/sobre`,
-    image: `${SITE_URL}/author/dr-vitor-frauches.jpg`,
-    sameAs: SAME_AS,
     worksFor: ORGANIZATION_JSON_LD,
-    memberOf: [
-      { "@type": "Organization", name: "International Society of Hair Restoration Surgery" },
-      { "@type": "Organization", name: "World FUE Institute" },
-      { "@type": "Organization", name: "Sociedade Brasileira de Restauração Capilar e Cirurgia" },
-    ],
   };
 
   return (
