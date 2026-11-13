@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "Why the hair transplant donor area is limited, what overharvesting is, and how careful planning protects your result and any future surgery.",
   publishedAt: "2026-11-07",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Hair transplant",
   author: AUTHOR_EN,
@@ -38,6 +39,8 @@ export default function Article() {
 
       <P>{"Overharvesting means extracting more follicles than the donor area can give up without a visible loss of density there. It can happen when the plan focuses on delivering a large number of grafts in one surgery without considering the long-term effect on the donor area. The result is a thin, patchy back or sides of the head, especially visible with short haircuts, and a second surgery becomes harder or impossible."}</P>
 
+      <P>{"This risk is described in the literature. A 2023 paper on calculating the extraction points to the “moth-eaten” look of an overharvested donor area, and to donor depletion in very large sessions, as limitations of FUE that have to be controlled in planning. A 2024 scoping review also recorded temporary hair loss in the donor area itself in up to 4.1% of cases."}</P>
+
       <H2 id="long-term-planning">{"How does long-term planning protect the donor area?"}</H2>
 
       <P>{"A good surgical plan does not think only about today's surgery. It considers how many follicles it makes sense to extract now, leaving a margin for possible future sessions. This matters most in younger patients, whose hair loss may still progress in the following years."}</P>
@@ -55,6 +58,8 @@ export default function Article() {
       <P>{"Hair type also counts. Thicker hair, and follicular units with more hairs each, give more visual coverage per extracted follicle. That changes the calculation of how many grafts are really needed to reach the desired density in the areas with hair loss."}</P>
 
       <P>{"For international patients, this is why photos sent in advance only give a first impression. The precise measurement of the donor area happens at the in-person evaluation in Vitória, before the final surgical plan is confirmed."}</P>
+
+      <P>{"To give a sense of the numbers: a multicenter study of 119 Chinese men with androgenetic alopecia measured an average of 76.8 follicular units per square centimeter in the safe donor area, and proposed not leaving that region below 60 units per square centimeter after extraction. These figures come from a specific population and vary from person to person, which is why individual measurement is essential."}</P>
 
       <H2 id="other-sources">{"Are there other sources of follicles besides the back of the head?"}</H2>
 
@@ -84,6 +89,14 @@ export default function Article() {
       <P>{"Not precisely. Photos give only an approximate idea. Real density per square centimeter is measured with trichoscopy during the in-person evaluation."}</P>
 
       <Callout>{"This content is educational and does not replace a medical consultation. The real capacity of your donor area can only be assessed with an in-person examination."}</Callout>
+
+      <H2 id="references">{"References"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/36928376/" className="underline" target="_blank" rel="noopener noreferrer">{"Krishnamurthy R et al. A Novel Method of Intraoperative Calculation in Follicular Unit Transplantation: The Sequential Strip and FUE Method. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03300-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32375571/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun B et al. Investigation of optimum transplant and extraction density based on the data from the donor area of Chinese androgenetic alopecia patients: a multicenter, retrospective study. J Cosmet Laser Ther, 2020."}</a> <a href="https://doi.org/10.1080/14764172.2020.1761550" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"If you would like to understand how much your donor area could provide, "}<a href={WHATSAPP_URL_EN} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"message us on WhatsApp"}</Strong></a>{". Our team answers in English and can explain how the evaluation is organized for patients traveling from abroad."}</P>
     </>

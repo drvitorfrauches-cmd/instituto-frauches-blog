@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "The hair transplant results timeline month by month: early shedding, first growth, the 6-month mark and the final result at 12 to 18 months.",
   publishedAt: "2026-11-07",
+  updatedAt: "2026-11-12",
   readingTime: 6,
   category: "Hair transplant",
   author: AUTHOR_EN,
@@ -37,11 +38,15 @@ export default function Article() {
 
       <P>{"This schedule is a general reference, not a fixed promise. The exact pace varies from patient to patient, according to factors such as age, donor area quality and individual biological response."}</P>
 
+      <P>{"Clinical studies use similar milestones. In a series of 248 patients who had hairline restoration with long-hair FUE, mean graft survival measured at 9 months was 93.1%. It is the result of a specific group and technique, and works as a reference, not a promise."}</P>
+
       <H2 id="early-shedding">{"Why is the early shedding nothing to worry about?"}</H2>
 
       <P>{"A transplanted follicle needs to settle into its new location before it produces a visible hair again. During that process, the hair that came with the follicle falls out, but the root stays alive under the skin. That is why, between the first and second month, many people feel that 'the hair has disappeared' exactly when they expected to see growth. It is part of the process, not a sign that something went wrong."}</P>
 
       <P>{"Some patients also notice temporary thinning of their native hair around the operated area, known as shock loss. It is a different phenomenon from the shedding of transplanted hairs, and in most cases it is temporary too."}</P>
+
+      <P>{"Shock loss is less common than the shedding of transplanted hairs: a 2024 scoping review found recipient-site effluvium in up to 6.5% of cases, and a Japanese study of 621 FUE patients recorded it in 23 of them, with a higher risk in women."}</P>
 
       <H2 id="when-to-worry">{"When should a patient really be concerned?"}</H2>
 
@@ -81,6 +86,14 @@ export default function Article() {
       <P>{"Standardized monthly photos under the same lighting help you follow the real evolution. A check-in with the medical team midway, which can be done remotely, also helps confirm everything is within the expected range."}</P>
 
       <Callout>{"This content is educational and does not replace a medical consultation. Growth time and the final result vary according to each patient, the pattern of hair loss and donor area quality."}</Callout>
+
+      <H2 id="references">{"References"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37816944/" className="underline" target="_blank" rel="noopener noreferrer">{"Okochi H et al. An Analysis of Risk Factors of Recipient Site Temporary Effluvium After Follicular Unit Excision: A Single-Center Retrospective Study. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03699-z" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"If you are considering a hair transplant and want to understand what to expect in your case, read our "}<Link href="/en/blog/what-is-fue-hair-transplant" className="underline">{"guide to FUE"}</Link>{" or "}<a href={WHATSAPP_URL_EN} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"message us on WhatsApp"}</Strong></a>{"."}</P>
     </>

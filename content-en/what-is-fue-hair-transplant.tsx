@@ -9,6 +9,7 @@ export const meta: PostMeta = {
   description:
     "What an FUE hair transplant is, how each step works, who it suits and what recovery looks like, explained by hair transplant surgeon Dr. Vitor Frauches.",
   publishedAt: "2026-11-07",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "FUE technique",
   author: AUTHOR_EN,
@@ -46,11 +47,15 @@ export default function Article() {
 
       <P>{"Instituto Frauches reports a graft survival rate above 95%. This is an institutional figure, calculated across the surgeries already performed, and not an individual guarantee: each patient's result depends on the assessment of their specific case."}</P>
 
+      <P>{"The extraction method matters too. A 2024 Korean study of 15 patients compared rotary and oscillating punches in the same surgery: total follicle yield was 88.3% with the rotary punch and 90.5% with the oscillating punch, and the oscillating punch did better on softer scalps or when deeper extraction was needed. The sample is small, but it shows that the extraction instrument influences how many hairs reach the recipient area intact."}</P>
+
       <H2 id="does-it-hurt">{"Does FUE hurt, and what is recovery like?"}</H2>
 
       <P>{"The surgery is performed under intravenous sedation and local anesthesia, so you do not feel pain during the procedure. In the first days afterwards some scalp tenderness is common, and it is controlled with the medication prescribed by the medical team. Because there is no incision and no stitches, FUE recovery is usually faster and more comfortable than with older techniques."}</P>
 
       <P>{"Every body responds differently. The exact healing time and the pace at which new hair grows vary from patient to patient. Our article on "}<Link href="/en/blog/hair-transplant-recovery" className="underline">{"hair transplant recovery"}</Link>{" covers the first two weeks day by day, and the "}<Link href="/en/blog/hair-transplant-results-timeline" className="underline">{"results timeline"}</Link>{" explains what to expect month by month."}</P>
+
+      <P>{"On safety, a 2024 scoping review found overall complication rates of 1.2% and 4.7% in two large patient series, and concluded that serious complications are rare in the hands of experienced surgeons. A 2025 systematic review and meta-analysis covering 2,353 patients from observational studies considered hair transplantation generally safe, with pain, swelling and edema at the donor site as the most reported complaints."}</P>
 
       <H2 id="donor-area">{"Why does the donor area matter so much?"}</H2>
 
@@ -89,6 +94,14 @@ export default function Article() {
       <P>{"There is no strict universal minimum age, but surgeons generally avoid operating on very young patients, especially before 25, because hair loss may still be progressing at that stage."}</P>
 
       <Callout>{"This content is educational and does not replace a medical consultation. The result of a hair transplant varies according to each patient's individual evaluation, pattern of hair loss and donor area quality."}</Callout>
+
+      <H2 id="references">{"References"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M, Skorochod R, Wolf Y. Complications Following Hair Transplantation: A Systematic Literature Review and Meta-Analysis. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39152658/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim J, Ko YU, Yi KH. The condition of hair follicles produced by different punching methods during FUE surgery. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16537" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"If you would like to know whether you are a candidate for FUE and how your surgery would be planned, the first step is a medical evaluation with Dr. Vitor Frauches. "}<a href={WHATSAPP_URL_EN} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Message us on WhatsApp"}</Strong></a>{"."}</P>
     </>

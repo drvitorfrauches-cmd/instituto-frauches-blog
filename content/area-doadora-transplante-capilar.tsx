@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a área doadora no transplante capilar, por que ela é limitada, o risco da superextração e como planejar sessões futuras.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -34,6 +34,8 @@ export default function Article() {
       <H2 id="superextracao">{"O risco da superextração"}</H2>
       <P>{"Superextração é extrair mais folículos do que a área doadora suporta sem perder densidade visível nessa região. Isso pode acontecer quando o planejamento prioriza entregar uma quantidade grande de folículos numa única cirurgia sem considerar o impacto estético e funcional na área doadora a longo prazo. O resultado é uma nuca ou lateral rarefeita, visível especialmente em cortes de cabelo mais curtos, além de comprometer a viabilidade de uma segunda cirurgia."}</P>
 
+      <P>{"Esse risco é descrito na literatura. Um artigo de 2023 sobre o cálculo da extração aponta o aspecto “roído de traça” da área doadora, causado por extração excessiva, e o esgotamento da área doadora em sessões muito grandes como limitações da FUE que precisam ser controladas no planejamento. Uma revisão de escopo de 2024 registrou ainda queda temporária de fios na própria área doadora em até 4,1% dos casos."}</P>
+
       <H2 id="planejamento-a-longo-prazo">{"Planejamento a longo prazo"}</H2>
       <P>{"Por isso, um bom planejamento cirúrgico não pensa só na cirurgia de hoje. Ele considera quantos folículos fazem sentido extrair agora, deixando margem para eventuais sessões futuras, principalmente em pacientes mais jovens, cuja calvície ainda pode progredir nos anos seguintes."}</P>
       <UL>
@@ -51,6 +53,8 @@ export default function Article() {
       <H2 id="como-e-avaliada">{"Como a área doadora é avaliada na prática"}</H2>
       <P>{"A avaliação costuma incluir tricoscopia (exame que amplia a imagem do couro cabeludo em até 100 vezes), permitindo medir a densidade folicular por centímetro quadrado com precisão, em vez de estimar visualmente. Esse dado, combinado com a extensão física da área doadora e o padrão de calvície do paciente, é o que permite calcular com segurança quantos folículos podem ser extraídos sem comprometer a aparência dessa região no futuro."}</P>
       <P>{"Também entra nessa avaliação o tipo de fio do paciente: cabelos mais grossos e com maior número de fios por unidade folicular rendem mais cobertura visual por folículo extraído, o que muda o cálculo de quantos folículos realmente são necessários para atingir a densidade desejada nas áreas com calvície."}</P>
+
+      <P>{"Para dar uma ideia de números: um estudo multicêntrico com 119 homens chineses com alopecia androgenética mediu, em média, 76,8 unidades foliculares por centímetro quadrado na área doadora segura, e propôs não deixar essa região abaixo de 60 unidades por centímetro quadrado depois da extração. São valores de uma população específica, que variam de pessoa para pessoa, e é por isso que a medição individual é indispensável."}</P>
 
       <H2 id="erros-comuns">{"Erros comuns no planejamento da área doadora"}</H2>
       <P>{"Um erro frequente é focar só no número total de folículos prometidos, sem considerar como a extração será distribuída pela área doadora. Concentrar a extração numa faixa estreita, mesmo respeitando o total teórico de folículos disponíveis, pode deixar aquela região visivelmente rarefeita, enquanto o restante permanece intocado. Uma extração bem planejada distribui os pontos de forma homogênea por toda a área doadora, preservando a aparência natural mesmo de perto."}</P>
@@ -71,6 +75,14 @@ export default function Article() {
       <P>{"Não com precisão. Fotos ou autoavaliação dão apenas uma noção aproximada. A densidade real por centímetro quadrado só é medida com tricoscopia, feita durante a avaliação presencial."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A capacidade real da sua área doadora só pode ser avaliada com exame presencial."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/36928376/" className="underline" target="_blank" rel="noopener noreferrer">{"Krishnamurthy R et al. A Novel Method of Intraoperative Calculation in Follicular Unit Transplantation: The Sequential Strip and FUE Method. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03300-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32375571/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun B et al. Investigation of optimum transplant and extraction density based on the data from the donor area of Chinese androgenetic alopecia patients: a multicenter, retrospective study. J Cosmet Laser Ther, 2020."}</a> <a href="https://doi.org/10.1080/14764172.2020.1761550" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"No Instituto Frauches, a preservação da área doadora é parte central do "}<Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"Protocolo Frauches Precision FUE®"}</Link>{". "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
+import { P, H2, H3, UL, OL, LI, Strong, Callout, Cta} from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja a linha do tempo mês a mês do resultado do transplante capilar: queda inicial, crescimento dos novos fios e quando esperar o resultado final.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -27,15 +27,19 @@ export default function Article() {
 
       <H2 id="linha-do-tempo">{"Linha do tempo mês a mês"}</H2>
       <OL>
-        <LI><Strong>{"1 a 2 meses:"}</Strong>{" é normal os fios transplantados caírem nessa fase. Chama-se \"shock loss\" e faz parte do processo: o folículo entra num estado de repouso antes de recomeçar a produzir um fio novo. Muitos pacientes se assustam achando que a cirurgia não funcionou, mas essa queda é esperada."}</LI>
+        <LI><Strong>{"1 a 2 meses:"}</Strong>{" é normal os fios transplantados caírem nessa fase. Isso faz parte do processo: o folículo entra num estado de repouso antes de recomeçar a produzir um fio novo. Muitos pacientes se assustam achando que a cirurgia não funcionou, mas essa queda é esperada."}</LI>
         <LI><Strong>{"3 a 6 meses:"}</Strong>{" a queda inicial reduz significativamente e os primeiros fios novos começam a aparecer, ainda finos e esparsos."}</LI>
         <LI><Strong>{"A partir de 6 meses:"}</Strong>{" o crescimento se torna mais visível. Nessa fase, cerca de 55% do resultado final já costuma estar presente, segundo o acompanhamento de casos do Instituto Frauches."}</LI>
         <LI><Strong>{"12 meses:"}</Strong>{" ponto em que a maior parte dos pacientes já enxerga o resultado que buscava, com densidade e naturalidade bem estabelecidas."}</LI>
       </OL>
       <P>{"Vale reforçar que esse cronograma é uma referência geral, não uma promessa fechada. O ritmo exato varia de paciente para paciente, conforme fatores como idade, qualidade da área doadora e resposta biológica individual ao procedimento."}</P>
 
+      <P>{"Os estudos clínicos usam marcos parecidos. Em uma série de 248 pacientes que fizeram restauração da linha frontal com FUE de fios longos, a sobrevivência média dos enxertos medida aos 9 meses foi de 93,1%. É o resultado de um grupo e de uma técnica específicos, e serve como referência, não como promessa."}</P>
+
       <H2 id="queda-inicial">{"Por que a queda inicial não é motivo de preocupação"}</H2>
       <P>{"O folículo capilar transplantado precisa \"se instalar\" na nova região antes de voltar a produzir um fio visível. Durante esse processo, o fio que veio junto com o folículo cai, mas a raiz permanece viva sob a pele. É por isso que, entre o primeiro e o segundo mês, muita gente relata a sensação de que \"o cabelo sumiu\" justamente quando esperava ver crescimento. Isso é parte esperada do processo, não sinal de que algo deu errado."}</P>
+
+      <P>{"Essa queda dos fios transplantados é diferente do shock loss, que é a queda temporária dos fios nativos ao redor da área operada. O shock loss é menos comum: uma revisão de escopo de 2024 encontrou eflúvio na área receptora em até 6,5% dos casos, e um estudo japonês com 621 pacientes operados por FUE registrou o problema em 23 deles, com risco maior em mulheres."}</P>
 
       <H2 id="quando-se-preocupar">{"Quando o paciente deve se preocupar de verdade"}</H2>
       <P>{"Sinais que justificam entrar em contato com a equipe médica incluem vermelhidão intensa e persistente, dor que piora em vez de melhorar, secreção com odor, ou ausência completa de crescimento depois de 6 meses. Fora desses casos, é normal que o processo pareça lento entre o terceiro e o sexto mês, exatamente o período em que mais pacientes ficam ansiosos."}</P>
@@ -65,6 +69,14 @@ export default function Article() {
       <P>{"Fotos padronizadas mês a mês, na mesma iluminação, ajudam a acompanhar a evolução real. Uma avaliação com a equipe médica no meio do processo também ajuda a confirmar se tudo está dentro do esperado."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O tempo de crescimento e o resultado final variam conforme cada paciente, o padrão de calvície e a qualidade da área doadora."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37816944/" className="underline" target="_blank" rel="noopener noreferrer">{"Okochi H et al. An Analysis of Risk Factors of Recipient Site Temporary Effluvium After Follicular Unit Excision: A Single-Center Retrospective Study. Aesthetic Plast Surg, 2023."}</a> <a href="https://doi.org/10.1007/s00266-023-03699-z" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você já fez a cirurgia e está no meio dessa linha do tempo, ou se ainda está avaliando o "}<Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"que é a técnica FUE"}</Link>{" e quer entender o que esperar no seu caso, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
