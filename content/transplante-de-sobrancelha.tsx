@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante de sobrancelha usa a técnica FUE para repor fios com direção e ângulo naturais. Veja quem pode fazer, como é a cirurgia e os cuidados depois.",
   publishedAt: "2026-09-28",
-  updatedAt: "2026-09-30",
+  updatedAt: "2026-11-12",
   readingTime: 10,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -58,6 +58,8 @@ export default function Article() {
       <P>{"Outro ponto: na sobrancelha se usam quase só unidades foliculares de um fio. No couro cabeludo, grupos de dois ou três fios são desejáveis para dar volume, mas na sobrancelha eles criariam tufos. Durante a separação dos enxertos no microscópio, a equipe seleciona e, quando preciso, divide as unidades para chegar a fios isolados."}</P>
       <P>{"Como a quantidade é pequena, o impacto sobre a reserva do couro cabeludo costuma ser mínimo. Mesmo assim, entra no planejamento de quem já tem sinais de calvície. A lógica de preservação está no artigo sobre "}<Link href="/blog/area-doadora-transplante-capilar" className="underline">{"área doadora no transplante capilar"}</Link>{"."}</P>
 
+      <P>{"Em uma série de 81 pacientes que receberam fios da região atrás da orelha, mais finos e de crescimento lento, foram implantadas em média cerca de 400 unidades foliculares nas mulheres e 480 nos homens, sem complicações significativas no acompanhamento de 15 meses."}</P>
+
       <H2 id="como-funciona-a-cirurgia">{"Como funciona a cirurgia de transplante de sobrancelha, etapa por etapa?"}</H2>
       <OL>
         <LI><Strong>{"Desenho com o paciente acordado:"}</Strong>{" antes de qualquer anestesia, o formato é marcado na pele e ajustado com o paciente olhando no espelho. Começo, arco e cauda são definidos a partir da anatomia do rosto e do que a pessoa quer, com uma ressalva: o desenho precisa continuar bonito daqui a 20 anos, não só seguir a moda do momento."}</LI>
@@ -76,6 +78,8 @@ export default function Article() {
         <LI><Strong>{"Cauda:"}</Strong>{" os fios deitam quase na horizontal, em direção à têmpora."}</LI>
       </UL>
       <P>{"Além da direção, o ângulo em relação à pele é muito fechado. Um fio implantado \"em pé\" vai crescer espetado, e nenhum gel resolve isso de forma definitiva. A densidade também não é uniforme: o corpo da sobrancelha é mais cheio, a cauda afina, e as bordas precisam de fios espaçados para o contorno não ficar com cara de carimbo."}</P>
+
+      <P>{"Os estudos mostram onde estão os erros mais comuns. Numa análise de 100 pacientes insatisfeitos com o transplante de sobrancelha, 36% tinham sobrancelhas ralas e 41% tinham densidade irregular e direção desordenada dos fios; em 11%, os enxertos não eram de fio único. Um estudo de 2025 com homens mostrou que um método padronizado de desenho antes da cirurgia levou a 95,24% de pacientes com melhora estética, contra 84,85% no método convencional."}</P>
 
       <H2 id="transplante-de-sobrancelha-doi">{"Transplante de sobrancelha dói?"}</H2>
       <P>{"Durante a cirurgia, o paciente não sente dor, porque o procedimento é feito com anestesia local e sedação venosa. A sensação mais relatada depois é de repuxamento e sensibilidade na nuca e na sobrancelha nos primeiros dias, controlados com a medicação prescrita."}</P>
@@ -114,6 +118,14 @@ export default function Article() {
       <P>{"Pode, depois da liberação médica. Só é preciso cuidado com pinça e cera nos fios transplantados, porque arrancá-los repetidamente pode danificar o folículo, o mesmo processo que muitas vezes levou à falha original."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A indicação do transplante de sobrancelha, a quantidade de fios e o desenho dependem sempre de avaliação individual, incluindo a investigação da causa da falha. O resultado varia de paciente para paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39090306/" className="underline" target="_blank" rel="noopener noreferrer">{"Chen L et al. Clinic Analysis and Effective Improvement Tips for Poor Eyebrow Transplantation. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04289-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40097794/" className="underline" target="_blank" rel="noopener noreferrer">{"Li H et al. An Eyebrow Design for Chinese Men Before Eyebrow Transplantation. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-04781-4" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39321534/" className="underline" target="_blank" rel="noopener noreferrer">{"Cheng H et al. Periauricular hair transplantation enhances the cosmetic results of eyebrow transplantation: A retrospective study in Chinese recipients. J Plast Reconstr Aesthet Surg, 2024."}</a> <a href="https://doi.org/10.1016/j.bjps.2024.09.008" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender se a sua falha tem indicação cirúrgica ou se o caminho é outro, o primeiro passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>

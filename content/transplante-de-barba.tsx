@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante de barba usa a mesma técnica FUE do couro cabeludo. Entenda como funciona, de onde vêm os fios e quem é candidato ao procedimento.",
   publishedAt: "2026-09-14",
-  updatedAt: "2026-09-15",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -54,6 +54,8 @@ export default function Article() {
       </UL>
       <P>{"Assim como no couro cabeludo, o Protocolo Frauches Precision FUE® também orienta o transplante de barba: planejamento individualizado, respeito à direção natural de cada região do rosto e cuidado redobrado com a angulação, já que qualquer erro de ângulo fica muito mais visível numa área tão próxima e exposta quanto o rosto."}</P>
 
+      <P>{"A literatura reforça os detalhes técnicos. Numa revisão de 2024 baseada em mais de 700 transplantes de barba, o autor aponta como passos essenciais preparar enxertos de um e dois fios com pouca pele ao redor, criar os orifícios com ângulo bem agudo e na direção certa, usando as menores lâminas possíveis, e cuidar do desenho estético."}</P>
+
       <H2 id="transplante-de-barba-doi">{"Transplante de barba dói?"}</H2>
       <P>{"O procedimento é feito com anestesia local, e sedação venosa completa como no transplante capilar. Durante a cirurgia o paciente não sente dor, e no pós-operatório imediato é comum um inchaço leve e sensibilidade na região, controlados com a medicação orientada pela equipe médica."}</P>
       <P>{"A recuperação tende a ser mais rápida do que a de um transplante capilar convencional, justamente pela extensão menor da área trabalhada, mas o cronograma exato varia conforme a quantidade de folículos implantados e a resposta individual de cada paciente."}</P>
@@ -78,6 +80,8 @@ export default function Article() {
       <P>{"Existe, e o rosto é uma área ainda mais exposta ao olhar do que o couro cabeludo, então qualquer erro de planejamento fica mais evidente. Os erros mais comuns são angulação errada (pelo de barba nasce quase raspando a pele, num ângulo bem mais fechado do que o fio de cabeça), densidade uniforme demais (uma barba real tem variação natural de densidade entre bigode, queixo e laterais, não é uma cobertura pareja) e contorno rígido demais, sem a transição gradual que o rosto real apresenta."}</P>
       <P>{"Por isso o planejamento de barba pede o mesmo cuidado técnico do transplante capilar, só que aplicado a uma anatomia diferente: entender a curvatura do rosto, a direção de crescimento em cada sub-região (o pelo do queixo cresce numa direção, o do bigode em outra) e respeitar a espessura natural do fio de cada paciente, em vez de aplicar o mesmo desenho padronizado em todo mundo."}</P>
 
+      <P>{"A barba também pode servir como área doadora para o couro cabeludo, mas nem toda barba serve. Um sistema de avaliação publicado em 2025 considera a barba inadequada para extração quando fica restrita à região ao redor da boca ou tem densidade abaixo de 8 unidades foliculares por centímetro quadrado, fios com diâmetro abaixo de 60 micrômetros ou ângulo menor que 10 graus em relação à pele."}</P>
+
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
       <H3>{"O transplante de barba usa a área doadora do couro cabeludo?"}</H3>
       <P>{"Na maioria dos casos, sim. Por isso o planejamento avalia o quadro capilar completo do paciente antes de definir quanto dessa reserva pode ser usado na barba sem comprometer uma eventual necessidade futura no couro cabeludo."}</P>
@@ -89,6 +93,14 @@ export default function Article() {
       <P>{"Depende da quantidade de folículos planejada, mas costuma ser mais curta do que um transplante capilar completo, já que a área receptora é menor."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A indicação, a quantidade de folículos e o planejamento do desenho no transplante de barba dependem sempre de avaliação individual, considerando também o quadro capilar completo do paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38936998/" className="underline" target="_blank" rel="noopener noreferrer">{"Epstein JS. Facial Hair in Hair Restoration Surgery: Beard Transplantation and Beard-To-Scalp Hair Restoration. Facial Plast Surg Clin North Am, 2024."}</a> <a href="https://doi.org/10.1016/j.fsc.2024.02.005" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40323042/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhao Y et al. Development of an Evaluation System to Classify Beard Donor Area for Hair Transplantation. Dermatol Surg, 2025."}</a> <a href="https://doi.org/10.1097/DSS.0000000000004662" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você tem falhas na barba e quer entender se é candidato ao procedimento, o primeiro passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
