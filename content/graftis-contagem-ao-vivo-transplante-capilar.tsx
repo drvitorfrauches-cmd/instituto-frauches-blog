@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Conheça o Graftis, sistema próprio do Instituto Frauches para contagem folicular ao vivo e controle de qualidade durante o transplante capilar.",
   publishedAt: "2026-07-26",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 5,
   category: "Tecnologia",
   author: AUTHOR,
@@ -50,6 +50,8 @@ export default function Article() {
         caption="Comparação, quadrante a quadrante, entre a leitura do densitômetro e a contagem manual da equipe."
       />
 
+      <P>{"Contar e examinar os enxertos é o que permite medir a qualidade da extração. Em estudos publicados, os enxertos retirados são conferidos ao microscópio: num deles, com 10 pacientes, a transecção foi maior nas laterais do que no centro da nuca; noutro, com 15 pacientes, o aproveitamento total foi de 88,3% com punch rotativo e de 90,5% com punch oscilatório. Um terceiro estudo mostrou que parte da transecção fica escondida sob a pele, 2% com um cirurgião experiente e 8% com um iniciante, por isso a contagem do que sai precisa ser lida junto com a técnica de quem extrai."}</P>
+
       <H2 id="relatorio-final">{"Relatório final e histórico de cirurgias"}</H2>
       <P>{"Ao finalizar, a cirurgia inteira fica resumida numa única tela: tempo de extração, tempo de pré-incisões, tempo total do procedimento, folículos por categoria, taxas de transecção e a diferença final entre pré-incisões e extração. Esse resumo pode ser salvo como PDF e faz parte do prontuário daquele caso."}</P>
       <P>{"Como cada cirurgia fica registrada, também consigo acompanhar indicadores ao longo do tempo, comparando o volume médio de folículos por cirurgia, o índice de fios por folículo e as taxas de transecção entre casos. Isso ajuda a manter um padrão de qualidade consistente, em vez de avaliar cada cirurgia isoladamente."}</P>
@@ -86,6 +88,14 @@ export default function Article() {
       <P>{"O Graftis foi desenvolvido internamente pelo Instituto Frauches, para uso próprio. Cada médico que eventualmente use o sistema tem login próprio e enxerga só as suas cirurgias."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O Graftis é uma ferramenta interna de organização e controle de qualidade da equipe cirúrgica; o resultado do transplante capilar continua dependendo de avaliação individual, técnica cirúrgica e biologia de cada paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/31743575/" className="underline" target="_blank" rel="noopener noreferrer">{"Mohmand MH, Ahmad M. Transection rate at different areas of scalp during follicular unit extraction/excision (FUE). J Cosmet Dermatol, 2019."}</a> <a href="https://doi.org/10.1111/jocd.13191" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39152658/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim J, Ko YU, Yi KH. The condition of hair follicles produced by different punching methods during FUE surgery. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16537" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/27035500/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim DY et al. Hidden Transection of Follicular Unit Extraction in Donor Site. Dermatol Surg, 2016."}</a> <a href="https://doi.org/10.1097/DSS.0000000000000631" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Quer entender como esse controle se aplica ao seu caso? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

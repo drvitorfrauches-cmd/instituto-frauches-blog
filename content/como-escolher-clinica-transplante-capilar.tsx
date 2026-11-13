@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja os critérios para escolher uma clínica de transplante capilar: médico especialista, planejamento, equipe, tecnologia e pós-operatório.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -28,6 +28,8 @@ export default function Article() {
       <H2 id="medico-especialista">{"Quem realiza a extração e a implantação"}</H2>
       <P>{"A primeira pergunta que vale fazer é: quem efetivamente extrai e implanta os folículos, um médico ou um técnico? Em muitos lugares, parte considerável do procedimento é conduzida por técnicos não médicos, com supervisão apenas parcial. Isso não é ilegal em todo lugar, mas muda completamente o nível de responsabilidade técnica sobre decisões que acontecem durante a cirurgia, como lidar com uma intercorrência ou ajustar o plano em tempo real."}</P>
 
+      <P>{"A experiência de quem extrai aparece nos números. Num estudo que examinou a área doadora com aumento de 20 vezes, a transecção oculta, que fica sob a pele e não aparece no enxerto retirado, foi de 2% com um cirurgião experiente e de 8% com um iniciante, embora a transecção visível fosse parecida entre os dois."}</P>
+
       <H2 id="planejamento-individualizado">{"Planejamento individualizado"}</H2>
       <P>{"Uma cirurgia de restauração capilar de qualidade começa antes da sala de cirurgia: no mapeamento da calvície, no desenho da linha frontal considerando o formato do rosto, e na definição de quantos folículos fazem sentido para aquele caso específico. Desconfie de clínicas que oferecem \"pacotes fechados\" de folículos sem antes avaliar sua área doadora e seu padrão de calvície pessoalmente."}</P>
 
@@ -41,6 +43,8 @@ export default function Article() {
         <LI>{"Equipamentos de extração e implantação de precisão (dispositivos como sistemas de rotação controlada e canetas de implante reduzem o trauma aos folículos)."}</LI>
         <LI>{"Microscópio cirúrgico para separação e preparo dos folículos."}</LI>
       </UL>
+
+      <P>{"Uma revisão de escopo de 2024 sobre complicações concluiu que complicações graves são raras nas mãos de cirurgiões experientes, e uma revisão de 2026 sobre complicações da FUE aponta a seleção cuidadosa do paciente, a técnica refinada e o pós-operatório padronizado como os pilares para reduzir riscos."}</P>
 
       <H2 id="perguntas-para-fazer">{"Perguntas que valem a pena fazer na consulta"}</H2>
       <P>{"Além de observar a estrutura, algumas perguntas diretas ajudam a entender melhor o que está sendo oferecido: quantos anos de experiência a equipe tem especificamente com transplante capilar (não só cirurgia em geral)? A avaliação da área doadora é feita pessoalmente, com exame físico, ou só por fotos enviadas online? Existe um plano B claro se a área doadora se mostrar mais limitada do que o esperado no dia da cirurgia? Uma clínica preparada responde a essas perguntas com segurança, sem enrolação."}</P>
@@ -79,6 +83,14 @@ export default function Article() {
       <P>{"Indicação ajuda, mas não substitui sua própria avaliação. Cada caso é diferente, e o que funcionou bem para outra pessoa não garante que os mesmos critérios técnicos se apliquem exatamente ao seu."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Cada clínica tem sua própria estrutura e processo; use estes critérios como referência para suas próprias perguntas na avaliação."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/27035500/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim DY et al. Hidden Transection of Follicular Unit Extraction in Donor Site. Dermatol Surg, 2016."}</a> <a href="https://doi.org/10.1097/DSS.0000000000000631" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41709896/" className="underline" target="_blank" rel="noopener noreferrer">{"Romera de Blas C et al. Complications in follicular unit excision hair transplantation: current evidence and practical approaches. Front Med, 2026."}</a> <a href="https://doi.org/10.3389/fmed.2026.1750989" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"No Instituto Frauches, cada cirurgia segue o Protocolo Frauches Precision FUE®, com planejamento individualizado, equipe médica completa e acompanhamento pós-operatório estruturado. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

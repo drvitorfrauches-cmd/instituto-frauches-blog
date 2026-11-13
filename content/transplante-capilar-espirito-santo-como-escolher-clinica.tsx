@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Saiba como escolher uma clínica de transplante capilar no Espírito Santo com 8 critérios sobre médico, segurança, área doadora e resultados.",
   publishedAt: "2026-07-31",
-  updatedAt: "2026-08-02",
+  updatedAt: "2026-11-12",
   readingTime: 10,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -44,6 +44,8 @@ export default function Article() {
         <LI>{"Comparação depreciativa com outros médicos"}</LI>
       </UL>
       <P>{"Uma clínica séria ajuda o paciente a entender o próprio caso, inclusive quando a melhor decisão é tratar primeiro, adiar a cirurgia ou não operar."}</P>
+
+      <P>{"Os estudos mostram por que esses critérios importam. Uma revisão de escopo de 2024 concluiu que complicações graves do transplante capilar são raras com cirurgiões experientes, e um estudo sobre a transecção oculta na área doadora encontrou 2% com um cirurgião experiente contra 8% com um iniciante. Uma revisão de 2025 sobre o estado da arte do transplante atribui a melhora dos resultados ao desenho cuidadoso da linha frontal e ao tratamento clínico associado."}</P>
 
       <H2 id="checklist-8-criterios">{"Checklist: 8 critérios técnicos e clínicos para avaliar"}</H2>
 
@@ -112,6 +114,14 @@ export default function Article() {
       <P>{"A melhor clínica não é necessariamente a que promete mais fios, tem o equipamento mais divulgado ou publica o antes e depois mais impressionante. É aquela que consegue explicar com clareza o que é possível fazer no seu caso, o que não dá para garantir, e como pretende cuidar da sua área doadora no presente e no futuro. "}<Link href="/blog/como-escolher-clinica-transplante-capilar" className="underline">{"Veja também nosso guia geral sobre como escolher uma clínica"}</Link>{"."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A indicação, o planejamento e o resultado do transplante capilar dependem de avaliação individual, presencial, do seu couro cabeludo e da sua área doadora."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/27035500/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim DY et al. Hidden Transection of Follicular Unit Extraction in Donor Site. Dermatol Surg, 2016."}</a> <a href="https://doi.org/10.1097/DSS.0000000000000631" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40354670/" className="underline" target="_blank" rel="noopener noreferrer">{"Queen D, Avram MR. Hair Transplantation: State of the Art. Dermatol Surg, 2025."}</a> <a href="https://doi.org/10.1097/DSS.0000000000004675" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <H2 id="conclusao">{"Conclusão"}</H2>
       <P>{"Escolher onde fazer um transplante capilar no Espírito Santo exige mais do que comparar preços e fotografias. Observe quem é o médico responsável, como o diagnóstico é feito, quais etapas ficam sob a participação dele, como a área doadora será preservada e de que forma a naturalidade será planejada."}</P>

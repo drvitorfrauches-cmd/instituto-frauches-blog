@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/blog/types";
 import Link from "next/link";
-import { P, H2, H3, Strong, Callout } from "@/components/article-ui";
+import { P, H2, H3, UL, LI, Strong, Callout } from "@/components/article-ui";
 import { AUTHOR, WHATSAPP_URL } from "@/lib/blog/site";
 
 export const meta: PostMeta = {
@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Respostas diretas às dúvidas mais comuns sobre transplante capilar: técnica FUE, dor, preço, recuperação, resultado, área doadora e como escolher uma clínica.",
   publishedAt: "2026-07-29",
-  updatedAt: "2026-07-31",
+  updatedAt: "2026-11-12",
   readingTime: 9,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -88,6 +88,8 @@ export default function Article() {
       <H3>{"O transplante capilar deixa cicatriz?"}</H3>
       <P>{"Na técnica FUE, cada ponto de extração é pequeno, semelhante a um furo de agulha, e cicatriza em poucos dias sem deixar uma linha visível, mesmo com o cabelo bem curto. Isso é diferente da FUT, que deixa uma cicatriz linear na área doadora."}</P>
 
+      <P>{"Em números: um estudo multicêntrico com 119 homens mediu, em média, 76,8 unidades foliculares por centímetro quadrado na área doadora segura e propôs não deixá-la abaixo de 60 unidades por centímetro quadrado depois da extração."}</P>
+
       <H2 id="cirurgia-e-recuperacao">{"Cirurgia e recuperação"}</H2>
 
       <H3>{"Quanto tempo dura a recuperação do transplante capilar?"}</H3>
@@ -113,6 +115,8 @@ export default function Article() {
       <H3>{"Quais são os sinais de um transplante capilar mal feito?"}</H3>
       <P>{"Entre os sinais mais comuns estão linha frontal reta e artificial, aparência de “tufos” por implantação de unidades grandes demais na frente, densidade excessiva e uniforme sem gradação natural, e cicatrizes visíveis na área doadora. Lista completa em "}<Link href="/blog/sinais-transplante-capilar-mal-feito" className="underline">{"sinais de transplante capilar mal feito"}</Link>{"."}</P>
 
+      <P>{"Os estudos ajudam a calibrar a expectativa. Numa série de 248 pacientes operados por FUE, a sobrevivência média dos enxertos aos 9 meses foi de 93,1%, e uma revisão de escopo de 2024 encontrou taxas gerais de complicação de 1,2% e 4,7% em duas grandes séries de pacientes."}</P>
+
       <H2 id="escolha-da-clinica">{"Escolha da clínica"}</H2>
 
       <H3>{"Como escolher uma boa clínica de transplante capilar?"}</H3>
@@ -125,6 +129,14 @@ export default function Article() {
       <P>{"É o método próprio do Instituto Frauches, desenvolvido pelos irmãos Dr. Vitor e Dr. Bruno Frauches, que organiza o mapeamento da calvície, o planejamento da linha frontal, o respeito à angulação e à densidade natural dos fios, a definição da quantidade de folículos e a preservação da área doadora em um fluxo único de planejamento e execução."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Indicação, técnica e resultado variam conforme cada paciente e só podem ser definidos com precisão em uma avaliação individual."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32375571/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun B et al. Investigation of optimum transplant and extraction density based on the data from the donor area of Chinese androgenetic alopecia patients: a multicenter, retrospective study. J Cosmet Laser Ther, 2020."}</a> <a href="https://doi.org/10.1080/14764172.2020.1761550" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Ainda ficou com alguma dúvida? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{" e tire suas dúvidas diretamente com quem vai planejar o seu caso."}</P>
       <P>{"Esta página faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>
