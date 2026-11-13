@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Parar de tomar finasterida faz o cabelo cair? Veja o que acontece nos meses seguintes, se dá para pausar ou retomar e como fica quem já fez transplante.",
   publishedAt: "2026-10-03",
-  updatedAt: "2026-10-06",
+  updatedAt: "2026-11-12",
   readingTime: 10,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -42,6 +42,8 @@ export default function Article() {
       </OL>
       <P>{"Esses prazos são uma referência geral. Idade, estágio da calvície, tempo de uso e a presença de outros tratamentos (como o minoxidil) mudam bastante a experiência de cada paciente."}</P>
 
+      <P>{"Na busca que fizemos no PubMed não encontramos ensaio recente que tenha medido, com contagem de fios, o que acontece depois de suspender a finasterida; a explicação acima vem do mecanismo do remédio e da experiência clínica. O que os estudos mostram bem é a eficácia durante o uso: numa meta-análise em rede de 2025 com 33 estudos, a finasterida 1 mg foi o tratamento oral mais eficaz entre os aprovados pela FDA para a calvície masculina."}</P>
+
       <H2 id="o-cabelo-fica-pior-do-que-antes">{"O cabelo fica pior do que era antes do tratamento?"}</H2>
       <P>{"Não existe evidência de que a suspensão provoque um efeito rebote, ou seja, uma queda maior do que a calvície causaria sozinha. Ainda assim, muitos pacientes saem com essa impressão, e há dois motivos para isso."}</P>
       <P>{"O primeiro é a comparação. Quem para costuma comparar o cabelo de hoje com o melhor momento do tratamento, e a diferença parece grande. O segundo é o tempo. Alguém que tratou por cinco anos e interrompe não volta para o cabelo que tinha cinco anos atrás. Tende a chegar aonde a calvície o teria levado nesses cinco anos, porque a genética não ficou parada durante o período. A perda acumulada aparece concentrada em poucos meses, e isso assusta."}</P>
@@ -61,11 +63,15 @@ export default function Article() {
       <P>{"Na maioria dos casos, sim. Nos estudos clínicos que acompanharam usuários de finasterida, os efeitos adversos sexuais regrediram em quem interrompeu o uso, e também em parte dos que continuaram tomando. Existem relatos de sintomas que persistiram depois da suspensão, e as bulas mencionam essa possibilidade. A frequência desses casos e a relação de causa com o medicamento ainda são discutidas na literatura médica."}</P>
       <P>{"Para quem sente algo diferente durante o uso, o caminho mais seguro é avisar o médico logo, sem esperar a próxima consulta. Mudança importante de humor pede contato imediato. A partir daí, a conduta pode ser suspender, ajustar ou investigar outra causa, e essa escolha funciona melhor quando é feita a dois."}</P>
 
+      <P>{"Sobre segurança no longo prazo, um estudo observacional de 2026 comparou homens com calvície que usaram finasterida 1 mg por 3 ou 5 anos com homens que não usaram, pareados por características clínicas, e encontrou menos diagnósticos de hiperplasia benigna de próstata e de câncer de próstata no grupo da finasterida. São dados de associação, não de causa."}</P>
+
       <H2 id="da-para-parar-aos-poucos-ou-fazer-pausas">{"Dá para parar aos poucos ou fazer pausas?"}</H2>
       <P>{"Reduzir a dose gradualmente não preserva o cabelo. Não há estudo mostrando que o desmame evite a perda do benefício: quando a DHT volta, a miniaturização volta junto, seja a parada lenta ou de uma vez. Diminuir a dose ou espaçar as tomadas pode fazer sentido como estratégia de manutenção, mas isso é um ajuste de tratamento definido pelo médico, diferente de parar."}</P>
       <P>{"Esquecer o comprimido por alguns dias, em uma viagem por exemplo, não costuma mudar nada. Pausas de vários meses já entram na linha do tempo descrita acima."}</P>
       <H3>{"Se eu voltar a tomar, recupero o que perdi?"}</H3>
       <P>{"Retomar a finasterida costuma estabilizar a queda de novo, mas não garante a volta ao ponto anterior. O remédio age em folículos miniaturizados que ainda estão ativos. Aqueles que atrofiaram por completo durante a pausa não respondem mais. Por isso, ciclos repetidos de parar e voltar tendem a deixar um saldo pior do que o uso regular."}</P>
+
+      <P>{"Para quem tem receio do efeito sistêmico, uma alternativa estudada é a finasterida tópica. Num ensaio randomizado de fase III com 458 homens, a versão em spray aumentou a contagem de fios em 20,2 fios na área-alvo em 24 semanas, contra 6,7 com placebo, com efeito parecido com o da finasterida oral e redução bem menor da DHT no sangue (34,5% contra 55,6%)."}</P>
 
       <H2 id="quem-fez-transplante-pode-parar">{"Quem fez transplante capilar pode parar a finasterida?"}</H2>
       <P>{"Os fios transplantados tendem a permanecer mesmo sem finasterida, porque vêm da área doadora (nuca e laterais), região naturalmente resistente à DHT. O risco está nos fios nativos, aqueles que já estavam na área receptora e ao redor dela. Eles continuam sensíveis ao hormônio e voltam a afinar quando o tratamento para."}</P>
@@ -105,6 +111,14 @@ export default function Article() {
       <P>{"Quem usou por poucos meses provavelmente ainda não tinha ganho visível, já que o resultado leva de seis meses a um ano para aparecer. Nesse cenário, a tendência é continuar no ritmo de calvície que já existia."}</P>
 
       <Callout>{"Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição médica individual. Não inicie, altere nem interrompa a finasterida por conta própria: a decisão depende de avaliação médica, considerando o estágio da calvície, o histórico de saúde e os objetivos de cada paciente. Resultados variam de pessoa para pessoa."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40586152/" className="underline" target="_blank" rel="noopener noreferrer">{"Gupta AK et al. Comparative Efficacy of Minoxidil and 5-Alpha Reductase Inhibitors Monotherapy for Male Pattern Hair Loss: Network Meta-Analysis Study of Current Empirical Evidence. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70320" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42034292/" className="underline" target="_blank" rel="noopener noreferrer">{"Adler R et al. The Risk of Benign Prostatic Hyperplasia and Prostate Cancer With Long-term, Low Dose Finasteride Use in Adult Men with Nonscarring Alopecia: A Propensity-matched Observational Study. Urology, 2026."}</a> <a href="https://doi.org/10.1016/j.urology.2026.04.027" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/34634163/" className="underline" target="_blank" rel="noopener noreferrer">{"Piraccini BM et al. Efficacy and safety of topical finasteride spray solution for male androgenetic alopecia: a phase III, randomized, controlled clinical trial. J Eur Acad Dermatol Venereol, 2022."}</a> <a href="https://doi.org/10.1111/jdv.17738" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você está em dúvida entre continuar, ajustar ou parar o tratamento, o próximo passo é medir como os seus fios estão hoje e conversar sobre as opções com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia completo de tratamentos capilares"}</Link>{"."}</P>

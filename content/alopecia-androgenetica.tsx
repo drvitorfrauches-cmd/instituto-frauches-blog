@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Alopecia androgenética: entenda o que é, por que a DHT causa a miniaturização do folículo, como ela evolui e a diferença entre o padrão masculino e feminino.",
   publishedAt: "2026-08-05",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"A causa central é a combinação entre predisposição genética herdada e a ação da di-hidrotestosterona (DHT), um hormônio derivado da testosterona pela ação da enzima 5-alfa-redutase. Em folículos sensíveis à DHT, esse hormônio se liga a receptores na raiz do fio e desencadeia um processo de enfraquecimento progressivo."}</P>
       <P>{"A herança genética da alopecia androgenética é poligênica, ou seja, envolve vários genes, não um único gene dominante. Por isso a ideia popular de que "}<Strong>{"\"calvície vem só do lado da mãe\""}</Strong>{" não é precisa: o histórico familiar dos dois lados da família, pai e mãe, contribui para o risco. Ter parentes próximos com calvície de início precoce aumenta a probabilidade, mas não garante que a pessoa vá desenvolver o mesmo padrão nem na mesma intensidade."}</P>
       <P>{"Outros fatores, como estresse crônico, tabagismo e alterações metabólicas, podem acelerar a percepção da queda em quem já tem a predisposição genética, mas não criam alopecia androgenética em quem não tem essa sensibilidade hormonal de base. É uma distinção importante: eles são agravantes, não a causa raiz."}</P>
+
+      <P>{"A genética tem peso grande. Um estudo genômico com mais de 70.000 homens estimou que a calvície masculina atinge cerca de 50% dos homens até os 50 anos, e identificou 71 regiões do genoma que, juntas, explicam 38% do risco."}</P>
 
       <H2 id="como-a-dht-causa-a-queda">{"Como a testosterona e a DHT causam a queda de cabelo?"}</H2>
       <P>{"O mecanismo se chama miniaturização folicular. A cada ciclo de crescimento, o folículo exposto à ação da DHT produz um fio um pouco mais fino e com um período de crescimento (a fase anágena) um pouco mais curto que o anterior. Com o tempo, o fio grosso e pigmentado dá lugar a um fio fino, claro e curto, até que o folículo praticamente para de produzir cabelo visível."}</P>
@@ -73,6 +75,8 @@ export default function Article() {
       </UL>
       <P>{"Essas frentes não são mutuamente excludentes. É comum um planejamento combinar tratamento clínico contínuo com transplante capilar, já que o primeiro ajuda a preservar os fios nativos que ainda restam enquanto o segundo repõe densidade na área já comprometida."}</P>
 
+      <P>{"Uma meta-análise em rede de 2025, com 33 estudos, comparou os tratamentos para a calvície masculina: a dutasterida 0,5 mg foi a opção mais eficaz, e, entre os tratamentos aprovados pela FDA, o minoxidil tópico a 5% foi o tópico mais eficaz e a finasterida 1 mg, o oral mais eficaz. Nas mulheres, uma revisão de 2026 lembra que a alopecia androgenética atinge perto de 50% ao longo da vida e ainda é pouco diagnosticada."}</P>
+
       <H2 id="quando-procurar-avaliacao">{"Quando vale procurar avaliação médica?"}</H2>
       <P>{"Quanto antes a alopecia androgenética for identificada, maior o número de folículos ainda ativos que um tratamento clínico consegue preservar. Sinais que justificam buscar avaliação incluem aumento perceptível de fios na escova ou no travesseiro por vários meses seguidos, fios visivelmente mais finos numa região específica, entradas ou coroa em processo de rarefação, ou histórico familiar relevante de calvície de início precoce."}</P>
       <P>{"No Instituto Frauches, essa avaliação sempre começa pela tricoscopia e pelo histórico do paciente, antes de qualquer indicação de tratamento clínico ou cirúrgico. É esse diagnóstico individual, não a idade nem o grau de queda isoladamente, que define o melhor caminho para cada caso."}</P>
@@ -90,6 +94,14 @@ export default function Article() {
       <P>{"Não necessariamente. Nos homens, o padrão mais comum envolve entradas e coroa, podendo se estender ao topo em estágios mais avançados. A área doadora, na região posterior e lateral da cabeça, costuma permanecer preservada mesmo em casos avançados, o que é justamente o que viabiliza o transplante capilar quando indicado."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico da alopecia androgenética e a indicação de tratamento variam de paciente para paciente, conforme avaliação individual."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/29146897/" className="underline" target="_blank" rel="noopener noreferrer">{"Pirastu N et al. GWAS for male-pattern baldness identifies 71 susceptibility loci explaining 38% of the risk. Nat Commun, 2017."}</a> <a href="https://doi.org/10.1038/s41467-017-01490-8" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40586152/" className="underline" target="_blank" rel="noopener noreferrer">{"Gupta AK et al. Comparative Efficacy of Minoxidil and 5-Alpha Reductase Inhibitors Monotherapy for Male Pattern Hair Loss: Network Meta-Analysis Study of Current Empirical Evidence. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70320" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41714473/" className="underline" target="_blank" rel="noopener noreferrer">{"Kearney CA et al. Androgenetic Alopecia in Women: A Narrative Review of Pathophysiology, Clinical Evaluation, and Treatments. Am J Clin Dermatol, 2026."}</a> <a href="https://doi.org/10.1007/s40257-026-01009-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você notou afinamento ou queda progressiva e quer confirmar se é alopecia androgenética, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>

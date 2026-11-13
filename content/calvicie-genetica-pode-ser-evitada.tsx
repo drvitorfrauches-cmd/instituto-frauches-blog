@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda por que a calvície genética não pode ser evitada por completo, mas como o diagnóstico precoce e o tratamento certo ajudam a controlar sua evolução.",
   publishedAt: "2026-08-10",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"Não. Se a predisposição genética está presente, não existe shampoo, vitamina ou hábito de vida capaz de desligar essa informação no DNA e impedir que ela se manifeste algum dia. O que existe, e essa é uma notícia melhor do que parece à primeira vista, é a possibilidade real de retardar e controlar a progressão com tratamento médico adequado."}</P>
       <P>{"A diferença entre evitar e controlar importa. Evitar significaria que a calvície nunca chegaria a começar, o que não é realista para quem carrega os genes envolvidos. Controlar significa reduzir a velocidade da perda e, em boa parte dos casos, preservar densidade por muitos anos com o tratamento certo. Essa mesma distinção, entre cura e controle, está detalhada no artigo "}<Link href="/blog/calvicie-tem-cura" className="underline">{"calvície tem cura?"}</Link></P>
 
+      <P>{"O peso da genética é alto. Num estudo com 205.327 homens do UK Biobank, a herdabilidade da calvície masculina estimada entre parentes próximos foi de 0,62, e os pesquisadores identificaram 624 regiões do genoma associadas. Outro estudo genômico, com mais de 70.000 homens, encontrou 71 regiões que, juntas, explicam 38% do risco."}</P>
+
       <H2 id="o-que-influencia-a-velocidade-da-queda">{"O que influencia a velocidade e o grau da queda?"}</H2>
       <P>{"A genética define se uma pessoa vai desenvolver calvície e, em boa parte, o padrão que ela vai seguir (entradas, coroa, topo, ou os três juntos). Mas alguns fatores influenciam a velocidade com que isso acontece e a intensidade percebida:"}</P>
       <UL>
@@ -41,6 +43,8 @@ export default function Article() {
         <LI><Strong>{"Níveis hormonais individuais:"}</Strong>{" variações naturais de testosterona e DHT entre pessoas com a mesma predisposição genética explicam por que irmãos podem evoluir de forma diferente."}</LI>
         <LI><Strong>{"Fatores que aceleram, mas não causam:"}</Strong>{" estresse crônico, sono de má qualidade, tabagismo e carências nutricionais específicas (ferro, vitamina D, zinco) não geram calvície genética sozinhos, mas podem tornar a queda mais perceptível em quem já tem a predisposição ativa."}</LI>
       </UL>
+
+      <P>{"O ambiente também aparece nos estudos. Entre 1.507 universitários turcos de 18 a 30 anos, a calvície de início precoce foi associada a histórico familiar, tabagismo e hábitos alimentares menos saudáveis, além da idade."}</P>
 
       <H2 id="heranca-paterna-ou-materna">{"A calvície genética vem mais do lado paterno ou materno?"}</H2>
       <P>{"Nenhum dos dois isoladamente. É um mito comum achar que a calvície vem só do avô materno. Esse mito existe porque um dos genes mais estudados relacionados à sensibilidade à DHT, o gene do receptor de andrógeno, fica no cromossomo X, herdado da mãe. Mas a calvície genética é poligênica: envolve vários genes, vindos tanto do lado paterno quanto do materno. Por isso é possível ter calvície acentuada mesmo com o avô materno de cabelo cheio, e o contrário também acontece."}</P>
@@ -89,6 +93,14 @@ export default function Article() {
       <P>{"Não com certeza absoluta antes dos sinais aparecerem. Histórico familiar dá uma noção de risco, mas só a tricoscopia, feita quando já existem sinais iniciais, confirma se o processo já começou e em que estágio está."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico da calvície genética e a indicação de tratamento dependem sempre de avaliação individual, presencial, com o histórico completo do paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/30573740/" className="underline" target="_blank" rel="noopener noreferrer">{"Yap CX et al. Dissection of genetic variation and evidence for pleiotropy in male pattern baldness. Nat Commun, 2018."}</a> <a href="https://doi.org/10.1038/s41467-018-07862-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/29146897/" className="underline" target="_blank" rel="noopener noreferrer">{"Pirastu N et al. GWAS for male-pattern baldness identifies 71 susceptibility loci explaining 38% of the risk. Nat Commun, 2017."}</a> <a href="https://doi.org/10.1038/s41467-017-01490-8" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33913667/" className="underline" target="_blank" rel="noopener noreferrer">{"Agaoglu E et al. Prevalence of early-onset androgenetic alopecia and its relationship with lifestyle and dietary habits. Ital J Dermatol Venerol, 2021."}</a> <a href="https://doi.org/10.23736/S2784-8671.21.06874-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você tem histórico familiar de calvície e quer entender em que fase está e quais opções fazem sentido no seu caso, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>

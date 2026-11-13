@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Calvície tem cura? Entenda o que é a alopecia androgenética, como ela é controlada, os tratamentos disponíveis e quando o transplante capilar é indicado.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -39,8 +39,12 @@ export default function Article() {
         <LI><Strong>{"Transplante capilar:"}</Strong>{" não trata a causa hormonal, mas reposiciona folículos geneticamente resistentes para as áreas com perda definitiva, restaurando a densidade visual."}</LI>
       </UL>
 
+      <P>{"Os estudos de comparação ajudam a escolher. Uma meta-análise em rede de 2025 com 33 estudos colocou a dutasterida 0,5 mg como a opção mais eficaz para a calvície masculina, o minoxidil tópico a 5% como o tópico mais eficaz e a finasterida 1 mg como o oral mais eficaz entre os aprovados pela FDA. Uma revisão sistemática de 2024 com 141 estudos reforçou a superioridade de uma abordagem combinada e individualizada."}</P>
+
       <H2 id="quanto-mais-cedo-melhor">{"Por que começar o tratamento cedo faz diferença"}</H2>
       <P>{"Um dos fatores que mais influencia o resultado do tratamento clínico é o momento em que ele começa. Folículos em fase de miniaturização (ainda ativos, mas produzindo fios cada vez mais finos) respondem melhor a minoxidil e finasterida do que folículos já completamente inativos. Isso significa que esperar anos para começar o tratamento, na esperança de que a queda \"vai parar sozinha\", geralmente reduz a margem de recuperação possível. Procurar avaliação assim que os primeiros sinais aparecem, como afinamento ou entradas discretas, é a decisão que mais impacta o resultado a longo prazo."}</P>
+
+      <P>{"O controle pode ser duradouro. Num acompanhamento retrospectivo de 99 homens coreanos que usaram dutasterida por pelo menos 5 anos, 89,9% tiveram melhora clínica e 93,9% não tiveram progressão da calvície."}</P>
 
       <H2 id="calvicie-feminina">{"E a calvície nas mulheres?"}</H2>
       <P>{"Em mulheres, a alopecia androgenética costuma se manifestar como afinamento difuso, mais do que entradas ou coroa definidas. O diagnóstico exige atenção redobrada, porque outras causas (como alterações hormonais, deficiências nutricionais ou eflúvio telógeno) podem se apresentar de forma parecida e pedem tratamento diferente. Por isso, antes de tratar como calvície genética, a investigação da causa real da queda é ainda mais importante no caso das mulheres."}</P>
@@ -70,6 +74,14 @@ export default function Article() {
       <P>{"Sim, essa combinação é comum: o tratamento clínico ajuda a preservar os fios nativos remanescentes, enquanto o transplante resolve a área já com perda definitiva. A indicação exata depende de avaliação individual."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A eficácia de qualquer tratamento varia conforme o padrão de calvície, o estágio da queda e a resposta individual de cada paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40586152/" className="underline" target="_blank" rel="noopener noreferrer">{"Gupta AK et al. Comparative Efficacy of Minoxidil and 5-Alpha Reductase Inhibitors Monotherapy for Male Pattern Hair Loss: Network Meta-Analysis Study of Current Empirical Evidence. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70320" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38852607/" className="underline" target="_blank" rel="noopener noreferrer">{"Rosenthal A et al. Management of androgenic alopecia: a systematic review of the literature. J Cosmet Laser Ther, 2024."}</a> <a href="https://doi.org/10.1080/14764172.2024.2362126" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38321615/" className="underline" target="_blank" rel="noopener noreferrer">{"Choi S et al. Long-term efficacy and safety of dutasteride 0.5 mg in Korean men with androgenetic alopecia: 5-year data demonstrating clinical improvement with sustained efficacy. J Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/1346-8138.17138" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender se o seu caso pede tratamento clínico, transplante, ou os dois combinados, o primeiro passo é uma avaliação que já leve em conta o "}<Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"que é a técnica FUE"}</Link>{" e o estágio real da sua calvície. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>
