@@ -60,6 +60,8 @@ export default function Article() {
       <P>{"O banho é permitido, com lavagem orientada. A diferença é que a lavagem do pós-operatório é curta, controlada e feita com água limpa, sem pressão direta intensa e com produtos indicados pela equipe. Ela ajuda a soltar as crostas de forma gradual. Já a imersão em água de piscina ou de mar é prolongada, sem controle da qualidade da água e sem nenhum cuidado com a pressão sobre a cabeça."}</P>
       <P>{"Em outras palavras, molhar a cabeça não é o problema. O problema é o tipo de água, o tempo de contato e a movimentação que acompanham o ato de nadar. Se você tiver dúvida sobre como lavar o cabelo nos primeiros dias, o melhor é seguir a técnica ensinada pela equipe no dia da cirurgia."}</P>
 
+      <P>{"Uma revisão de 2026 sobre complicações da FUE lista o pós-operatório padronizado entre os pilares para reduzir complicações, ao lado da seleção cuidadosa do paciente e da técnica refinada."}</P>
+
       <H2 id="quando-voltar">{"Quanto tempo espero para voltar a nadar?"}</H2>
       <P>{"Em geral, piscina e mar são liberados depois de pelo menos duas semanas, e muitas equipes preferem esperar mais (30 dias), principalmente para a natação com esforço e para o mar. O prazo é definido pela equipe que acompanhou a sua cirurgia, com base em como a pele está cicatrizando, e não por um número fixo igual para todo mundo."}</P>
       <P>{"Alguns fatores podem alongar a espera:"}</P>
@@ -119,6 +121,7 @@ export default function Article() {
       <UL>
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
         <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40920315/" className="underline" target="_blank" rel="noopener noreferrer">{"Arencibia Pérez N, Guerrero Roldán MJ. Donor site healing in follicular unit extraction hair transplantation: current evidence, cellular mechanisms, and future research directions. Cell Mol Biol (Noisy-le-grand), 2025."}</a> <a href="https://doi.org/10.14715/cmb/2025.71.8.14" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41709896/" className="underline" target="_blank" rel="noopener noreferrer">{"Romera de Blas C et al. Complications in follicular unit excision hair transplantation: current evidence and practical approaches. Front Med, 2026."}</a> <a href="https://doi.org/10.3389/fmed.2026.1750989" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
       </UL>
 
       <P>{"Quer entender como seria o seu pós-operatório e o que precisa ser planejado antes da cirurgia? O próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
