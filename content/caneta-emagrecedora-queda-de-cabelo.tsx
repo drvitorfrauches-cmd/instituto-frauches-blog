@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Caneta emagrecedora causa queda de cabelo? Entenda a relação entre Ozempic, Mounjaro e Wegovy, o emagrecimento rápido e a queda, e quando ela é temporária.",
   publishedAt: "2026-09-24",
-  updatedAt: "2026-09-24",
+  updatedAt: "2026-11-12",
   readingTime: 11,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -57,6 +57,8 @@ export default function Article() {
       </UL>
       <P>{"Outro ponto que costuma passar despercebido: queda de cabelo após emagrecimento rápido já era descrita décadas antes das canetas, em pacientes de cirurgia bariátrica e dietas de muito baixa caloria. O mecanismo é conhecido e não é exclusivo de nenhum medicamento."}</P>
 
+      <P>{"Uma meta-análise de 2026 com ensaios randomizados da semaglutida encontrou relato de queda de cabelo em 191 de 11.564 pacientes tratados, contra 36 de 9.799 nos grupos de comparação, com evidência de baixa certeza. Uma revisão de 2026 sobre o tema mostra a distância entre os estudos controlados, com 3% a 7% de queda, e os dados de vida real, que chegam a mais de 70% em alguns grupos. Segundo os autores, o padrão predominante é o eflúvio telógeno, ligado sobretudo à velocidade e ao tamanho da perda de peso, com sexo feminino e perda acima de 10% do peso como os preditores mais fortes."}</P>
+
       <H2 id="temporaria-ou-permanente">{"A queda de cabelo pela caneta emagrecedora é temporária ou permanente?"}</H2>
       <P>{"Na maioria dos casos, a queda associada à caneta emagrecedora é temporária. O eflúvio telógeno não destrói o folículo. Ele só antecipa a troca de um grupo grande de fios ao mesmo tempo. Quando o peso estabiliza e a alimentação volta a ter proteína e nutrientes suficientes, os folículos tendem a retomar o ciclo normal."}</P>
       <P>{"O ritmo costuma seguir mais ou menos esta ordem, com variação de pessoa para pessoa:"}</P>
@@ -80,6 +82,8 @@ export default function Article() {
         <LI>{"Rarefação que já vinha sendo notada antes de começar o tratamento para emagrecer."}</LI>
       </UL>
       <P>{"Se você se identificou, o artigo sobre "}<Link href="/blog/alopecia-androgenetica" className="underline">{"alopecia androgenética"}</Link>{" explica o mecanismo em detalhe. A boa notícia é que a calvície genética tem controle clínico, e quanto mais cedo começa o acompanhamento, mais fios dá para preservar."}</P>
+
+      <P>{"O mesmo fenômeno aparece depois da cirurgia bariátrica. Uma meta-análise de 18 estudos com 2.538 pacientes encontrou queda de cabelo em 57% após a cirurgia, mais comum em mulheres jovens e associada a níveis baixos de zinco, ácido fólico e ferritina, o que reforça a importância de checar esses exames."}</P>
 
       <H2 id="o-que-fazer">{"O que fazer se o cabelo começou a cair com a caneta emagrecedora?"}</H2>
       <P>{"O primeiro passo é não interromper o medicamento por conta própria por causa do cabelo. A decisão sobre manter, ajustar ou suspender a caneta é do médico que a prescreveu, que avalia o quadro como um todo. O papel da avaliação capilar é outro: entender o tipo de queda e proteger o folículo enquanto o emagrecimento acontece."}</P>
@@ -126,6 +130,14 @@ export default function Article() {
       <P>{"A queda de cabelo que aparece durante o uso de caneta emagrecedora é, na maior parte das vezes, uma reação temporária ao emagrecimento rápido e à alimentação reduzida, e tende a melhorar quando o peso estabiliza e os nutrientes são repostos. A situação que merece mais atenção é a de quem já tinha calvície genética: nesse caso, o eflúvio só antecipa algo que vai continuar avançando se não for tratado. Se a queda está durando, se as entradas ou a coroa ficaram mais evidentes ou se há casos de calvície na família, uma avaliação capilar ajuda a entender o que está acontecendo e a proteger os fios enquanto você cuida da saúde."}</P>
 
       <Callout>{"Este conteúdo é educativo e não substitui uma consulta médica. Ele não traz recomendação de uso, dose ou suspensão de canetas emagrecedoras, que devem ser sempre orientadas pelo médico que as prescreveu. A causa da queda de cabelo e o tratamento indicado variam de paciente para paciente e dependem de avaliação individual."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42966951/" className="underline" target="_blank" rel="noopener noreferrer">{"Ganjre S, Borah L, Khardenavis A. Cutaneous Adverse Events With Semaglutide: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Cureus, 2026."}</a> <a href="https://doi.org/10.7759/cureus.117270" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42873315/" className="underline" target="_blank" rel="noopener noreferrer">{"Leite Júnior AC, Ribeiro Junior HL. GLP-1 receptor agonists and hair loss: adverse effect, epiphenomenon, or therapeutic paradox? Acta Diabetol, 2026."}</a> <a href="https://doi.org/10.1007/s00592-026-02812-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33675022/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhang W et al. Hair Loss After Metabolic and Bariatric Surgery: a Systematic Review and Meta-analysis. Obes Surg, 2021."}</a> <a href="https://doi.org/10.1007/s11695-021-05311-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Quer saber se a sua queda é só uma fase do emagrecimento ou se existe calvície por trás dela? Agende uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{". Para acompanhar mais conteúdos sobre saúde capilar, siga também o "}<a href={INSTAGRAM_URL} className="underline" target="_blank" rel="noopener noreferrer">{"Instagram do Dr. Vitor"}</a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia completo sobre calvície masculina"}</Link>{"."}</P>

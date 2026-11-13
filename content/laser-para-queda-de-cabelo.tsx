@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Laser para queda de cabelo funciona? Entenda como age o laser de baixa intensidade, o que mostra a evidência científica e quando ele realmente faz diferença.",
   publishedAt: "2026-09-04",
-  updatedAt: "2026-09-04",
+  updatedAt: "2026-11-12",
   readingTime: 9,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -40,6 +40,8 @@ export default function Article() {
       <P>{"O tamanho do efeito, porém, costuma ser menor do que o observado com minoxidil ou finasterida isolados. Nos Estados Unidos, o laser de baixa intensidade é hoje a única opção não farmacológica com autorização da FDA (agência regulatória americana) para o tratamento da alopecia androgenética, o que reforça a segurança do método, sem significar que o resultado seja garantido ou equivalente ao dos medicamentos."}</P>
       <P>{"Vale uma ressalva importante: muitos estudos são financiados ou conduzidos pelos próprios fabricantes dos aparelhos, o que exige cautela na interpretação. Estudos independentes, com amostras maiores e acompanhamento mais longo, ainda são relativamente escassos para essa tecnologia."}</P>
 
+      <P>{"Os dados mais recentes vêm de meta-análises. Uma revisão de 2025 com 7 ensaios randomizados mostrou que associar o laser de baixa intensidade ao minoxidil tópico aumentou mais a densidade capilar e o diâmetro dos fios do que o minoxidil sozinho, com satisfação maior dos pacientes e sem diferença nos efeitos adversos. Um estudo brasileiro de 2025 com 9 mulheres, em que só um lado do couro cabeludo recebia o laser, viu queda maior da proporção de fios em fase de repouso no lado tratado, em 12,5 semanas."}</P>
+
       <H2 id="capacete-de-laser-realmente-funciona">{"Capacete de laser realmente funciona?"}</H2>
       <P>{"O capacete (também chamado de laser cap) tem a vantagem prática de cobrir todo o couro cabeludo de uma vez, sem exigir que o paciente passe o aparelho manualmente região por região. Isso costuma melhorar a adesão ao tratamento, que é um dos fatores mais determinantes do resultado nesse tipo de terapia."}</P>
       <P>{"A eficácia depende do número real de diodos emissores de laser (não de LEDs comuns, que emitem luz difusa e não colimada), da potência de cada um e do tempo de exposição recomendado pelo fabricante. Capacetes com poucos diodos ou tempo de sessão muito curto tendem a entregar menos energia efetiva ao couro cabeludo do que o protocolo testado nos estudos clínicos."}</P>
@@ -64,6 +66,8 @@ export default function Article() {
       <H2 id="quanto-tempo-até-perceber-resultado">{"Quanto tempo até perceber resultado?"}</H2>
       <P>{"Os protocolos estudados envolvem sessões regulares, geralmente de três a cada semana, com duração de alguns minutos a pouco mais de meia hora por sessão dependendo do aparelho, mantidas por no mínimo três a seis meses antes de qualquer avaliação de resultado. Isso segue o mesmo princípio de outros tratamentos capilares: o ciclo do folículo é lento, e mudanças visíveis levam meses para aparecer."}</P>
       <P>{"Fotografias padronizadas, no mesmo ângulo e iluminação, ajudam a comparar a evolução de forma mais confiável do que a percepção subjetiva no espelho. Tricoscopia também pode mostrar aumento de calibre dos fios antes de uma mudança perceptível a olho nu."}</P>
+
+      <P>{"Outra família de aparelhos, o laser fracionado, foi avaliada numa meta-análise de 2026 com 15 estudos e 1.097 pacientes: houve aumento significativo da densidade capilar em relação aos controles, e os efeitos adversos foram de leves a moderados, como vermelhidão, dor e coceira, todos com resolução espontânea."}</P>
 
       <H2 id="o-laser-tem-efeitos-colaterais">{"O laser tem efeitos colaterais?"}</H2>
       <P>{"O perfil de segurança do laser de baixa intensidade é considerado bom. Os efeitos relatados costumam ser leves: ressecamento ou sensibilidade temporária do couro cabeludo, e eventual desconforto pelo peso ou calor de aparelhos tipo capacete usados por tempo prolongado."}</P>
@@ -101,6 +105,14 @@ export default function Article() {
       <P>{"Enquanto o objetivo for manter o benefício, o uso costuma precisar continuar, de forma parecida com o que acontece ao interromper o minoxidil. Parar geralmente significa perder o ganho obtido ao longo do tempo."}</P>
 
       <Callout>{"Este conteúdo é educativo e não substitui consulta, diagnóstico ou prescrição médica individual. A indicação de laser, medicamentos ou transplante capilar depende de avaliação presencial, considerando o estágio da calvície, o histórico de saúde e os objetivos de cada paciente. Resultados variam de pessoa para pessoa."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40826200/" className="underline" target="_blank" rel="noopener noreferrer">{"Mawu FO et al. Comparative efficacy and safety of low-level laser therapy and topical Minoxidil combination vs. topical Minoxidil monotherapy in androgenetic alopecia management: a systematic review and meta-analysis of randomized controlled trials. Lasers Med Sci, 2025."}</a> <a href="https://doi.org/10.1007/s10103-025-04593-7" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42121331/" className="underline" target="_blank" rel="noopener noreferrer">{"Chen C et al. Efficacy and Safety of Fractional Laser Therapy for Androgenetic Alopecia: A Systematic Review and Meta-Analysis. J Cosmet Dermatol, 2026."}</a> <a href="https://doi.org/10.1111/jocd.70909" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41369788/" className="underline" target="_blank" rel="noopener noreferrer">{"Ferreira Rodrigues D et al. Photobiomodulation therapy and 5% minoxidil in female pattern hair loss: a case series focusing on hair growth phases over a shorter timeframe. Lasers Med Sci, 2025."}</a> <a href="https://doi.org/10.1007/s10103-025-04780-6" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer se aprofundar, veja também nossos artigos sobre "}<Link href="/blog/minoxidil-para-queda-de-cabelo" className="underline">{"minoxidil para queda de cabelo"}</Link>{" e sobre as "}<Link href="/blog/tecnologias-transplante-capilar" className="underline">{"tecnologias usadas no transplante capilar"}</Link>{". Para entender se o laser faz sentido no seu caso, ou se já é hora de discutir outras etapas do tratamento, o próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia sobre tratamentos capilares"}</Link>{"."}</P>

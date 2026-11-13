@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Alimentação interfere na calvície? Entenda o que a dieta pode e não pode fazer pela queda de cabelo genética, quais nutrientes importam e quando investigar.",
   publishedAt: "2026-08-22",
-  updatedAt: "2026-08-22",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"O fio de cabelo é feito majoritariamente de queratina, uma proteína, e sua produção depende de um suprimento constante de aminoácidos, energia e micronutrientes vindos da dieta. O folículo capilar está entre os tecidos de maior atividade metabólica do corpo, dividindo células o tempo todo para sustentar o crescimento. Quando falta matéria-prima, o corpo prioriza órgãos vitais e reduz recursos para tecidos não essenciais, como o folículo, e o cabelo é um dos primeiros sinais visíveis dessa economia interna."}</P>
       <P>{"Isso significa que a alimentação atua como suporte para o cabelo crescer no seu potencial máximo, não como interruptor que liga ou desliga a calvície. Uma dieta adequada mantém o ciclo capilar funcionando dentro do esperado; uma dieta deficiente pode empurrar fios saudáveis para a fase de queda antes da hora, um quadro chamado eflúvio telógeno, que já detalhei no artigo sobre "}<Link href="/blog/queda-de-cabelo-e-normal" className="underline">{"queda de cabelo e o ciclo capilar"}</Link>{"."}</P>
 
+      <P>{"Uma revisão sistemática de 2025 com 17 estudos e 61.332 participantes, a maioria mulheres, encontrou relação inversa entre níveis mais altos de vitamina D e ferro e alopecia. O consumo maior de bebidas alcoólicas e açucaradas, ao contrário, se associou a mais queda de cabelo."}</P>
+
       <H2 id="quais-nutrientes-fazem-diferenca-real-para-o-cabelo">{"Quais nutrientes fazem diferença real para o cabelo?"}</H2>
       <P>{"A literatura sobre nutrição e cabelo aponta um grupo relativamente pequeno de nutrientes com evidência consistente de impacto capilar quando estão em falta:"}</P>
       <UL>
@@ -51,6 +53,8 @@ export default function Article() {
       <H2 id="existe-alimento-que-reverte-ou-impede-a-calvicie-genetica">{"Existe alimento que reverte ou impede a calvície genética?"}</H2>
       <P>{"Não, e é importante ser direto sobre isso porque esse é o mito mais vendido em torno de alimentação e cabelo. Nenhum alimento, chá, suco ou combinação de nutrientes bloqueia a enzima 5-alfa-redutase (responsável por converter testosterona em DHT) na dose necessária para impedir a miniaturização folicular genética. Estudos que associam determinados compostos a alguma redução da atividade dessa enzima usam concentrações muito acima do que se obtém pela dieta normal, geralmente em contexto de suplemento isolado e ainda assim com resultado inferior aos tratamentos médicos com eficácia comprovada."}</P>
       <P>{"Já abordei esse ponto de outro ângulo no artigo sobre "}<Link href="/blog/calvicie-tem-cura" className="underline">{"se a calvície tem cura"}</Link>{": o tratamento eficaz para a calvície genética passa por medicação (minoxidil, finasterida) ou cirurgia, não por ajuste de dieta isolado. A alimentação entra como suporte, nunca como substituto."}</P>
+
+      <P>{"Uma revisão de 2024 com 49 artigos sobre micronutrientes na calvície genética concluiu que deficiências de vitaminas B e D, ferro, selênio e zinco podem contribuir para o problema, mas que a evidência ainda não é totalmente consistente. Já uma revisão sistemática de 2024 com 141 estudos sobre o tratamento da alopecia androgenética destacou que o melhor resultado vem de uma abordagem combinada e individualizada."}</P>
 
       <H2 id="suplementos-alimentares-substituem-tratamento-medico-da-calvicie">{"Suplementos alimentares substituem o tratamento médico da calvície?"}</H2>
       <P>{"Não substituem, e o motivo é simples: suplemento corrige uma deficiência quando ela existe, mas não interrompe um processo hormonal e genético que não depende de deficiência nenhuma. Já expliquei o funcionamento de fórmulas de nutracêuticos específicas no artigo sobre "}<Link href="/blog/nutraceuticos-para-queda-de-cabelo" className="underline">{"nutracêuticos para queda de cabelo"}</Link>{": elas podem ajudar como suporte complementar em alguns perfis de paciente, mas a literatura não sustenta o uso isolado como tratamento principal da alopecia androgenética."}</P>
@@ -88,6 +92,14 @@ export default function Article() {
       <P>{"Costuma levar de dois a quatro meses para a queda diminuir de forma perceptível depois da correção nutricional, seguindo o mesmo ritmo do ciclo capilar. Isso vale para eflúvio de causa nutricional, não para calvície genética, que não responde só a ajuste de dieta."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A relação entre alimentação e queda de cabelo, assim como a indicação de suplementação, depende de avaliação individual com exames laboratoriais quando necessário."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40836838/" className="underline" target="_blank" rel="noopener noreferrer">{"Gomes N, Silva N, Teixeira B. Assessing the relationship between dietary factors and hair health: A systematic review. Nutr Health, 2025."}</a> <a href="https://doi.org/10.1177/02601060251367206" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39440586/" className="underline" target="_blank" rel="noopener noreferrer">{"Wang R et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Mol Nutr Food Res, 2024."}</a> <a href="https://doi.org/10.1002/mnfr.202400652" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38852607/" className="underline" target="_blank" rel="noopener noreferrer">{"Rosenthal A et al. Management of androgenic alopecia: a systematic review of the literature. J Cosmet Laser Ther, 2024."}</a> <a href="https://doi.org/10.1080/14764172.2024.2362126" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você já cuida da alimentação e a queda de cabelo continua, pode haver um componente genético ou clínico por trás disso. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{" para investigar a causa real."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>

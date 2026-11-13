@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Deficiência de vitamina D causa queda de cabelo? Entenda o papel da vitamina no ciclo capilar, quem tem mais risco e quando vale investigar com exame.",
   publishedAt: "2026-08-26",
-  updatedAt: "2026-08-27",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"O exame de sangue que mede o estoque de vitamina D é a 25-hidroxivitamina D, também chamada de calcidiol. As faixas de referência mais usadas na prática clínica brasileira classificam valores abaixo de 20 ng/mL como deficiência, entre 20 e 30 ng/mL como insuficiência, e acima de 30 ng/mL como suficiência, embora sociedades médicas divirjam um pouco sobre o ponto de corte ideal e sobre se vale a pena tratar a insuficiência isolada em quem não tem sintoma nenhum."}</P>
       <P>{"Para queda de cabelo especificamente, alguns estudos observacionais associam níveis mais baixos de vitamina D a quadros de eflúvio telógeno e a formas de alopecia mais intensas, mas a relação de causa e efeito ainda não está totalmente estabelecida. Isso significa que corrigir a vitamina D pode ajudar quando ela está de fato baixa, sem ser uma garantia de reverter uma queda que tem outra origem."}</P>
 
+      <P>{"Na alopecia areata, a associação é mais forte. Uma meta-análise de 2025 com 34 estudos e 4.931 participantes encontrou níveis mais baixos de vitamina D e de zinco em quem tem a doença, e a deficiência de vitamina D esteve ligada a um risco 2,48 vezes maior de alopecia areata."}</P>
+
       <H2 id="quem-tem-mais-risco-de-deficiencia-de-vitamina-d">{"Quem tem mais risco de deficiência de vitamina D, mesmo em cidade ensolarada?"}</H2>
       <P>{"Morar em Vitória, com sol praticamente o ano inteiro, não é garantia de vitamina D adequada. A produção da vitamina depende de exposição solar direta na pele, sem protetor solar, por tempo suficiente, algo que a rotina urbana moderna reduz bastante. Os grupos de maior risco incluem:"}</P>
       <UL>
@@ -47,6 +49,8 @@ export default function Article() {
       <H2 id="deficiencia-de-vitamina-d-causa-calvicie-genetica-ou-so-piora-a-queda">{"Deficiência de vitamina D causa calvície genética, ou só piora a queda temporária?"}</H2>
       <P>{"Só piora, não causa. Como já expliquei no artigo sobre "}<Link href="/blog/alopecia-androgenetica" className="underline">{"o que é a alopecia androgenética"}</Link>{", o motor da calvície hereditária é a ação da DHT sobre folículos geneticamente sensíveis, um processo hormonal que a vitamina D não ativa em quem não carrega essa predisposição. A deficiência de vitamina D, isoladamente, tende a se manifestar como um eflúvio, uma queda mais difusa e reversível quando o nível volta ao normal."}</P>
       <P>{"O problema aparece quando as duas coisas coexistem: alguém já com miniaturização genética discreta desenvolve, paralelamente, um nível baixo de vitamina D por algum dos fatores de risco acima. A queda parece piorar de forma abrupta, mas na prática são dois processos se sobrepondo. Corrigir a vitamina D melhora a parte do eflúvio, sem interromper a calvície genética de base, que continua exigindo tratamento próprio."}</P>
+
+      <P>{"Na calvície genética, a evidência é mais fraca. Uma revisão sistemática de 2024 com 49 artigos considera a vitamina D um dos micronutrientes importantes para o cabelo, mas aponta resultados inconsistentes entre os estudos. Uma revisão de 2025 com 17 estudos e 61.332 participantes encontrou relação inversa entre níveis mais altos de vitamina D e alopecia."}</P>
 
       <H2 id="como-diagnosticar-a-deficiencia-de-vitamina-d-na-investigacao-da-queda">{"Como diagnosticar a deficiência de vitamina D na investigação da queda de cabelo?"}</H2>
       <P>{"O roteiro geral de exames para queda de cabelo já está detalhado em "}<Link href="/blog/exames-para-queda-de-cabelo" className="underline">{"outro artigo"}</Link>{", mas quando a suspeita recai sobre a vitamina D, a investigação costuma seguir esta sequência:"}</P>
@@ -85,6 +89,14 @@ export default function Article() {
       <P>{"Em geral sim, não há interação relevante conhecida entre eles, mas a combinação de tratamentos deve ser sempre avaliada e prescrita pelo médico que acompanha o caso."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico de deficiência de vitamina D e a indicação de tratamento, incluindo dose de suplementação, dependem de avaliação individual com exames laboratoriais."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39739356/" className="underline" target="_blank" rel="noopener noreferrer">{"Wu R et al. Association Between Serum Trace Elements Level and Alopecia Areata: A Systematic Review and Meta-Analysis. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.16740" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39440586/" className="underline" target="_blank" rel="noopener noreferrer">{"Wang R et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Mol Nutr Food Res, 2024."}</a> <a href="https://doi.org/10.1002/mnfr.202400652" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40836838/" className="underline" target="_blank" rel="noopener noreferrer">{"Gomes N, Silva N, Teixeira B. Assessing the relationship between dietary factors and hair health: A systematic review. Nutr Health, 2025."}</a> <a href="https://doi.org/10.1177/02601060251367206" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se a sua queda de cabelo pode estar relacionada a um nível baixo de vitamina D e você quer confirmar isso com exames direcionados, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>

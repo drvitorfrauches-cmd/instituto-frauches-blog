@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Deficiência de ferro causa queda de cabelo? Entenda como a ferritina baixa afeta o folículo, quem tem mais risco e quando investigar com exames de sangue.",
   publishedAt: "2026-08-20",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"A ferritina é a proteína que armazena ferro no corpo, e seu valor no exame de sangue reflete o estoque disponível, não apenas se existe anemia declarada. Laboratórios costumam considerar "}<Strong>{"normal"}</Strong>{" qualquer valor acima de 10 a 15 ng/mL em mulheres e 20 a 30 ng/mL em homens, mas parte da literatura sobre queda de cabelo aponta que o folículo pode já estar em sofrimento com ferritina abaixo de 40 a 70 ng/mL, mesmo sem anemia no hemograma."}</P>
       <P>{"Essa é uma das razões pelas quais pacientes com queda de cabelo às vezes ouvem "}<Strong>{"seu exame está normal"}</Strong>{" e continuam perdendo fios: o corte usado para diagnosticar anemia não é o mesmo corte relevante para saúde capilar. A interpretação correta depende do contexto clínico completo, não apenas do valor isolado no laudo."}</P>
 
+      <P>{"Uma revisão sistemática de 2024 com 49 artigos sobre micronutrientes e alopecia androgenética apontou ferro, zinco e vitaminas B e D como os nutrientes de papel mais importante no crescimento do cabelo, mas destacou que os resultados ainda não são totalmente consistentes. Outra revisão de 2025, com 17 estudos e 61.332 participantes, encontrou relação inversa entre níveis mais altos de ferro e alopecia."}</P>
+
       <H2 id="quem-tem-mais-risco-de-deficiencia-de-ferro">{"Quem tem mais risco de deficiência de ferro?"}</H2>
       <P>{"Alguns grupos concentram a maior parte dos casos de deficiência de ferro relacionada à queda de cabelo:"}</P>
       <UL>
@@ -43,6 +45,8 @@ export default function Article() {
         <LI><Strong>{"Pessoas com doenças gastrointestinais:"}</Strong>{" quadros como doença celíaca, gastrite crônica ou cirurgia bariátrica reduzem a absorção intestinal de ferro."}</LI>
         <LI><Strong>{"Praticantes de exercício de alta intensidade:"}</Strong>{" perda de ferro pelo suor e microtraumas intestinais associados a corridas longas são descritos como fator de risco adicional."}</LI>
       </UL>
+
+      <P>{"Um exemplo prático é a queda após a cirurgia bariátrica: numa meta-análise de 18 estudos com 2.538 pacientes, a ferritina baixa, mas não o ferro sérico, esteve associada à queda de cabelo, que atingiu 57% dos operados."}</P>
 
       <H2 id="sintomas-alem-da-queda-de-cabelo">{"Quais sintomas além da queda de cabelo indicam deficiência de ferro?"}</H2>
       <P>{"A queda de cabelo raramente aparece sozinha. Vale prestar atenção a outros sinais que costumam acompanhar a ferritina baixa:"}</P>
@@ -102,6 +106,14 @@ export default function Article() {
       <P>{"Pode reduzir a absorção quando consumido muito próximo das refeições ricas em ferro. Uma orientação prática comum é espaçar o consumo de café e chá preto em relação às principais refeições, mas o ajuste específico deve ser discutido na consulta."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O diagnóstico de deficiência de ferro e a indicação de tratamento, incluindo dose e forma de suplementação, dependem de avaliação individual com exames laboratoriais."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39440586/" className="underline" target="_blank" rel="noopener noreferrer">{"Wang R et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Mol Nutr Food Res, 2024."}</a> <a href="https://doi.org/10.1002/mnfr.202400652" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40836838/" className="underline" target="_blank" rel="noopener noreferrer">{"Gomes N, Silva N, Teixeira B. Assessing the relationship between dietary factors and hair health: A systematic review. Nutr Health, 2025."}</a> <a href="https://doi.org/10.1177/02601060251367206" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/33675022/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhang W et al. Hair Loss After Metabolic and Bariatric Surgery: a Systematic Review and Meta-analysis. Obes Surg, 2021."}</a> <a href="https://doi.org/10.1007/s11695-021-05311-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se a sua queda de cabelo pode estar relacionada a ferritina baixa e você quer confirmar isso com exames direcionados, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>
