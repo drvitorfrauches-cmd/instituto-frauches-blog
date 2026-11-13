@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Shampoo faz nascer cabelo de verdade? Entenda o que a ciência diz sobre shampoos antiqueda, o que eles fazem pelo couro cabeludo e quando procurar tratamento.",
   publishedAt: "2026-08-03",
-  updatedAt: "2026-09-15",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -48,6 +48,8 @@ export default function Article() {
       <H2 id="existe-evidencia-cientifica">{"Existe evidência científica sobre shampoo e crescimento capilar?"}</H2>
       <P>{"Existe, mas em volume e qualidade bem menores do que a de tratamentos como minoxidil e finasterida. Os estudos mais sólidos sobre shampoo capilar avaliam desfechos como espessura do fio, quantidade de fios em fase de queda e sintomas de couro cabeludo (oleosidade, coceira, descamação), não o surgimento de fio em área já sem crescimento. Quando um estudo relata melhora de densidade com shampoo, em geral está medindo o efeito sobre fios finos e ainda ativos, não regeneração de folículo que já parou de produzir."}</P>
       <P>{"Isso não torna o shampoo antiqueda inútil. Torna a categoria um produto de suporte, com efeito real, porém limitado e centrado em manter o couro cabeludo saudável e preservar o fio que ainda está em atividade, não em reverter uma calvície já instalada."}</P>
+
+      <P>{"A evidência sobre shampoo é dividida. Um consenso canadense de 2025 sobre alopecia androgenética recomendou, com quase consenso, o shampoo de cetoconazol como parte de um tratamento, e não recomendou a cafeína nem shampoos e loções com cafeína. Uma revisão sistemática de 2025 sobre cafeína encontrou 9 estudos, 5 deles randomizados, com resultados favoráveis à cafeína tópica, mas nenhum usou área marcada do couro cabeludo para contar os fios, o que limita a confiança. Num ensaio de 24 semanas com 154 homens, um shampoo com cafeína e dimetilglicina reduziu os fios que saem no teste de tração em relação ao placebo."}</P>
 
       <H2 id="lavar-o-cabelo-todo-dia-causa-queda">{"Lavar o cabelo todo dia causa queda de cabelo?"}</H2>
       <P>{"Não. Essa é uma das dúvidas mais comuns no consultório, e a confusão tem uma explicação simples: o cabelo passa por um ciclo natural de crescimento, e todo fio na fase final desse ciclo (a fase telógena) cai em algum momento, com ou sem lavagem. Lavar todos os dias apenas antecipa a queda de fios que já estavam soltos e prestes a cair sozinhos, então parece que saem mais fios no banho quando na verdade é só o mesmo número, concentrado num único momento em vez de distribuído ao longo do dia."}</P>
@@ -90,6 +92,14 @@ export default function Article() {
       <P>{"Quando já testou produtos diferentes por meses sem resultado perceptível, quando há rarefação visível em entradas ou coroa, ou quando existe histórico familiar de calvície. Nesses casos, o próximo passo é diagnóstico com tricoscopia, não mais uma troca de produto."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A causa da queda de cabelo e o tratamento indicado variam de paciente para paciente, conforme avaliação individual."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40986632/" className="underline" target="_blank" rel="noopener noreferrer">{"Landells I et al. A Canadian Consensus on Androgenetic Alopecia: Approach and Management. J Cutan Med Surg, 2025."}</a> <a href="https://doi.org/10.1177/12034754251368849" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41187241/" className="underline" target="_blank" rel="noopener noreferrer">{"Ly et al. Caffeine Supplementation and Hair: A Systematic Review. J Drugs Dermatol, 2025."}</a> <a href="https://doi.org/10.36849/JDD.8902" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40820949/" className="underline" target="_blank" rel="noopener noreferrer">{"Celleno L et al. A Novel Approach Against Male Pattern Hair Loss With Topical Dimethylglycine Sodium Salt (DMG-Na) and Caffeine: Efficacy of a 24-Week, Double-Blind, Randomized, Placebo-Controlled Trial. J Cosmet Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/jocd.70390" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se a queda continua mesmo depois de trocar de shampoo, vale investigar a causa real. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia completo de tratamentos capilares"}</Link>{"."}</P>

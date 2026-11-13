@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Nadar após transplante capilar: veja por que piscina, mar e sauna precisam esperar, quanto tempo costuma levar e como voltar à água com segurança.",
   publishedAt: "2026-09-21",
-  updatedAt: "2026-09-22",
+  updatedAt: "2026-11-12",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -39,6 +39,8 @@ export default function Article() {
         <LI><Strong>{"Sol e calor:"}</Strong>{" quem vai à piscina ou à praia costuma ficar exposto ao sol, e a pele operada queima com facilidade e pode ficar manchada."}</LI>
       </UL>
       <P>{"Nenhum desses fatores age sozinho. O que torna a espera necessária é a soma deles em uma pele que ainda está se recuperando."}</P>
+
+      <P>{"Os estudos sobre complicações mostram por que os primeiros dias pedem cuidado. Uma revisão de escopo de 2024 encontrou infecção em até 11% e foliculite estéril em até 53,3% em algumas séries, com crostas em até 54,8%, embora as definições variem muito entre os estudos. Uma revisão sistemática de 2025 sobre a cicatrização da área doadora na FUE associou o cuidado precoce com a ferida a menos foliculite."}</P>
 
       <H2 id="piscina-cloro-e-touca">{"E a piscina: o cloro e a touca fazem mal?"}</H2>
       <P>{"Sim, nas primeiras semanas os dois são um problema. O cloro é um irritante conhecido para a pele e, sobre crostas e feridas pequenas, pode causar ardência, ressecamento e vermelhidão prolongada. A touca de natação, por sua vez, comprime a região operada e faz atrito a cada vez que é colocada ou retirada, o que é exatamente o tipo de trauma que se evita no início da recuperação."}</P>
@@ -111,6 +113,13 @@ export default function Article() {
       <P>{"Voltar à água é uma etapa esperada da recuperação, mas ela vem depois da cicatrização e da liberação da equipe. Esperar algumas semanas custa pouco perto do risco de infecção, de irritação e de perda de enxertos. Se você pratica natação, mora perto da praia ou tem uma viagem marcada, converse sobre isso antes de definir a data da cirurgia, para que o pós-operatório caiba na sua rotina sem improviso."}</P>
 
       <Callout>{"Este conteúdo é educativo e não substitui uma consulta médica. Os prazos de liberação para piscina, mar e atividades físicas variam de acordo com a cirurgia e com a cicatrização de cada paciente, e devem ser definidos pela equipe médica que o acompanha."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40920315/" className="underline" target="_blank" rel="noopener noreferrer">{"Arencibia Pérez N, Guerrero Roldán MJ. Donor site healing in follicular unit extraction hair transplantation: current evidence, cellular mechanisms, and future research directions. Cell Mol Biol (Noisy-le-grand), 2025."}</a> <a href="https://doi.org/10.14715/cmb/2025.71.8.14" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Quer entender como seria o seu pós-operatório e o que precisa ser planejado antes da cirurgia? O próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>

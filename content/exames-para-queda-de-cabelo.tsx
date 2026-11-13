@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda quais exames para queda de cabelo existem, como a tricoscopia funciona, quando pedir exames de sangue e quando a biópsia do couro cabeludo é indicada.",
   publishedAt: "2026-08-07",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -49,6 +49,8 @@ export default function Article() {
       </UL>
       <P>{"Esse padrão de miniaturização é justamente o que diferencia a "}<Link href="/blog/alopecia-androgenetica" className="underline">{"calvície (alopecia androgenética)"}</Link>{" de uma queda temporária: na queda temporária os fios que voltam a crescer mantêm o diâmetro original, enquanto na calvície cada ciclo capilar produz um fio progressivamente mais fino."}</P>
 
+      <P>{"A tricoscopia quantitativa ajuda a separar causas que parecem iguais a olho nu. Num estudo com 143 mulheres, ela diferenciou o eflúvio telógeno crônico da alopecia androgenética, sobretudo pela análise da região frontal. Outro estudo, com 151 mulheres com calvície feminina e 151 com eflúvio telógeno crônico, descreveu sinais na tricoscopia típicos da calvície e identificou o histórico familiar como o fator de risco mais forte."}</P>
+
       <H2 id="quais-exames-de-sangue-sao-pedidos">{"Quais exames de sangue são pedidos na investigação da queda de cabelo?"}</H2>
       <P>{"O painel de sangue não serve para confirmar calvície genética (isso é papel da tricoscopia), serve para descartar ou identificar causas associadas que agravam a queda ou explicam um quadro diferente. Os mais pedidos costumam ser:"}</P>
       <UL>
@@ -59,6 +61,8 @@ export default function Article() {
         <LI><Strong>{"Hormônios androgênicos:"}</Strong>{" em mulheres com sinais de calvície associados a outras alterações (acne, irregularidade menstrual, excesso de pelos), o médico pode investigar quadros hormonais como a síndrome dos ovários policísticos."}</LI>
       </UL>
       <P>{"Nem todo paciente precisa de todos esses exames. A escolha depende do que a história clínica e o exame físico já sugerem, então o painel é individualizado, não um pacote genérico pedido para qualquer pessoa que chega com queixa de queda."}</P>
+
+      <P>{"Uma revisão de 2026 sobre a avaliação da queda de cabelo recomenda, entre os exames de laboratório, o TSH, o hemograma e o perfil de ferro, e reserva a biópsia do couro cabeludo para confirmar alopecias cicatriciais."}</P>
 
       <H2 id="quando-a-biopsia-e-necessaria">{"Quando a biópsia do couro cabeludo é necessária?"}</H2>
       <P>{"A biópsia do couro cabeludo é indicada quando a tricoscopia e os exames de sangue não fecham o diagnóstico, ou quando existe suspeita de uma alopecia cicatricial (um grupo de condições em que o folículo é destruído de forma definitiva por um processo inflamatório, diferente da calvície comum)."}</P>
@@ -96,6 +100,14 @@ export default function Article() {
       <P>{"Não. Ferramentas caseiras não têm a mesma precisão de ampliação e padronização de um exame feito com equipamento clínico, interpretado por um médico especialista."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Apenas uma avaliação presencial, com histórico clínico completo e os exames pertinentes ao seu caso, pode confirmar a causa da sua queda de cabelo e indicar o tratamento adequado."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42809761/" className="underline" target="_blank" rel="noopener noreferrer">{"Pajaziti et al. Regional quantitative digital trichoscopy in female hair loss: a comparative study. Acta Dermatovenerol Alp Pannonica Adriat, 2026."}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41710524/" className="underline" target="_blank" rel="noopener noreferrer">{"Long B et al. Trichoscopic Features, Clinical Correlates, and Risk Prediction in Female Pattern Hair Loss: A Retrospective Case-Control Study. Clin Cosmet Investig Dermatol, 2026."}</a> <a href="https://doi.org/10.2147/CCID.S585446" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42647672/" className="underline" target="_blank" rel="noopener noreferrer">{"Walker et al. Hair loss: A systematic approach to evaluation, diagnosis, and management. JAAPA, 2026."}</a> <a href="https://doi.org/10.1097/01.JAA.0000000000000405" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer investigar sua queda de cabelo com uma avaliação completa, incluindo tricoscopia, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{" com o Dr. Vitor Frauches."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia completo sobre calvície masculina"}</Link>{"."}</P>

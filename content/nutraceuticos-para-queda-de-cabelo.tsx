@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que são nutracêuticos capilares como Actrisave, Bioarct, Bloome e Keranat, o que a evidência científica diz e quando complementam o tratamento.",
   publishedAt: "2026-07-27",
-  updatedAt: "2026-09-15",
+  updatedAt: "2026-11-12",
   readingTime: 6,
   category: "Tratamentos capilares",
   author: AUTHOR,
@@ -49,9 +49,13 @@ export default function Article() {
       <P>{"Onde a evidência costuma ser mais sólida é em outro cenário: pacientes com deficiência nutricional documentada por exame de sangue, como carência de ferro, zinco ou vitamina D. Nesses casos, corrigir a deficiência tem impacto real sobre a queda de cabelo, porque o problema de base é justamente a falta do nutriente. Já em quem não tem nenhuma carência, tomar mais desses nutrientes não costuma trazer ganho proporcional, porque o folículo já recebe o que precisa pela alimentação normal."}</P>
       <P>{"Isso não significa que nutracêuticos sejam inúteis. Significa que o benefício esperado é mais discreto e mais dependente do produto específico do que a publicidade costuma sugerir, e que vale sempre perguntar que tipo de estudo sustenta a alegação: laboratório, animal ou pessoa real, com ou sem grupo placebo."}</P>
 
+      <P>{"Os dados mais recentes vêm de uma meta-análise de 2026 com 14 estudos e 967 participantes sobre suplementos orais comerciais. Houve melhora em medidas como a densidade de fios em fase de crescimento e a proporção de fios em repouso, mas a contagem total de fios não mudou de forma significativa, e os autores pedem estudos mais rigorosos e independentes. Um consenso canadense de 2025 sobre alopecia androgenética, feito por 11 especialistas, não recomendou alguns desses produtos, como Nourkrin e suplementos de ceramida."}</P>
+
       <H2 id="quando-fazem-sentido-como-complemento">{"Quando um nutracêutico faz sentido no tratamento"}</H2>
       <P>{"Nutracêuticos capilares fazem mais sentido em dois cenários concretos: quando exames confirmam uma deficiência nutricional associada à queda, ou como suporte adicional junto de um tratamento de base já indicado, como minoxidil, finasterida ou dutasterida, durante o período em que o couro cabeludo está se recuperando de um transplante capilar."}</P>
       <P>{"Nesse segundo caso, o nutracêutico não substitui o tratamento principal. Ele entra como reforço, geralmente para dar suporte à qualidade do fio nativo enquanto o tratamento farmacológico atua sobre a causa hormonal da calvície. Por isso a "}<Link href="/blog/exames-antes-do-transplante-capilar" className="underline">{"avaliação com exames"}</Link>{" antes de qualquer decisão continua sendo o ponto de partida, e não a escolha da marca do frasco."}</P>
+
+      <P>{"Uma revisão sistemática de 2024 com 49 artigos sobre micronutrientes lembra que a evidência sobre vitaminas e minerais na calvície genética ainda é inconsistente, o que reforça investigar deficiências antes de suplementar."}</P>
 
       <H2 id="nutraceuticos-tem-risco">{"Nutracêuticos capilares têm risco?"}</H2>
       <P>{"Em geral são bem tolerados, mas não são isentos de risco só por serem vendidos sem receita. A biotina em dose alta, presente em muitas fórmulas capilares, pode interferir em exames de sangue comuns, como os de função da tireoide e alguns marcadores cardíacos, gerando resultados falsamente alterados. Vale avisar o laboratório e o médico que você toma o produto antes de qualquer exame."}</P>
@@ -81,6 +85,14 @@ export default function Article() {
       <P>{"Como qualquer intervenção sobre o ciclo capilar, o prazo costuma ser de meses, não de semanas. O próprio estudo citado pelo Keranat mediu resultado após 3 meses de uso contínuo, e não há motivo para esperar resposta mais rápida com outros produtos da categoria."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O resultado de qualquer tratamento, incluindo nutracêuticos, varia conforme diagnóstico, estado nutricional e avaliação individual de cada paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41954038/" className="underline" target="_blank" rel="noopener noreferrer">{"Alanazi et al. Evaluating the Effectiveness of Commercial Oral Supplements for Hair Growth: A Systematic Review and Meta-Analysis. J Cosmet Dermatol, 2026."}</a> <a href="https://doi.org/10.1111/jocd.70817" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40986632/" className="underline" target="_blank" rel="noopener noreferrer">{"Landells I et al. A Canadian Consensus on Androgenetic Alopecia: Approach and Management. J Cutan Med Surg, 2025."}</a> <a href="https://doi.org/10.1177/12034754251368849" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39440586/" className="underline" target="_blank" rel="noopener noreferrer">{"Wang R et al. Micronutrients and Androgenetic Alopecia: A Systematic Review. Mol Nutr Food Res, 2024."}</a> <a href="https://doi.org/10.1002/mnfr.202400652" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer saber se a sua queda de cabelo tem relação com deficiência nutricional ou com alopecia androgenética, e qual combinação de tratamentos faz sentido pro seu caso, o primeiro passo é uma avaliação médica. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-tratamentos-capilares" className="underline">{"guia sobre tratamentos capilares"}</Link>{"."}</P>

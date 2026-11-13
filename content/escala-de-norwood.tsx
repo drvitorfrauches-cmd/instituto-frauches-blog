@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o que é a escala de Norwood-Hamilton, como ela classifica os estágios da calvície masculina e por que ela orienta diagnóstico e planejamento capilar.",
   publishedAt: "2026-08-14",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -62,6 +62,8 @@ export default function Article() {
         <LI><Strong>{"Previsão de necessidade de mais de uma sessão cirúrgica:"}</Strong>{" em estágios muito avançados (VI e VII), a área a cobrir pode ser grande demais pra uma única cirurgia entregar a densidade desejada, o que já entra na conversa sobre planejamento de longo prazo."}</LI>
       </UL>
 
+      <P>{"A escala tem limites conhecidos. Um estudo de 2025 com inteligência artificial lembra que a classificação de Norwood-Hamilton e a classificação BASP dependem de avaliação subjetiva, o que reduz a precisão e a reprodutibilidade entre avaliadores, e propôs uma medida de área de perda calculada por imagem. A BASP já é usada em pesquisa: num acompanhamento de 99 homens tratados por 5 anos, ela permitiu medir a melhora em cada padrão de calvície."}</P>
+
       <H2 id="norwood-decide-tratamento">{"O estágio da escala decide sozinho o tratamento?"}</H2>
       <P>{"Não. A escala de Norwood descreve o padrão visual da calvície, mas não substitui uma avaliação médica completa. Dois pacientes no mesmo estágio podem receber recomendações bem diferentes, dependendo de fatores que a escala não capta:"}</P>
       <UL>
@@ -71,6 +73,8 @@ export default function Article() {
         <LI>{"As expectativas estéticas individuais, principalmente sobre desenho de linha frontal e densidade desejada."}</LI>
       </UL>
       <P>{"Por isso, no Protocolo Frauches Precision FUE®, o estágio de Norwood é só um dos pontos de partida da avaliação, não a conclusão dela. Um paciente em estágio III pode já ser candidato ideal à cirurgia, enquanto outro no mesmo estágio, mas com calvície ainda em progressão ativa, pode se beneficiar mais de começar pelo "}<Link href="/blog/quem-pode-fazer-transplante-capilar" className="underline">{"tratamento clínico antes de considerar a cirurgia"}</Link>{"."}</P>
+
+      <P>{"Para dar uma ideia de quantos homens chegam a algum estágio da escala: um estudo genômico com mais de 70.000 homens estimou que a calvície masculina atinge cerca de 50% dos homens até os 50 anos."}</P>
 
       <H2 id="escala-existe-para-mulheres">{"Existe uma escala equivalente para calvície feminina?"}</H2>
       <P>{"Existe, mas é outra: a escala de Ludwig, criada especificamente pra descrever o padrão mais comum de calvície em mulheres, que costuma ser difuso na região central do couro cabeludo em vez de seguir o recuo frontal e de coroa típico dos homens. A escala de Norwood é usada quase exclusivamente para padrões masculinos, embora alguns casos femininos com padrão mais próximo do masculino também possam ser descritos por ela em contextos clínicos específicos."}</P>
@@ -99,6 +103,14 @@ export default function Article() {
       <P>{"Pode indicar, dependendo da estabilidade da calvície e da avaliação da área doadora, mas não é uma regra automática. Alguns pacientes nesse estágio se beneficiam mais de começar pelo tratamento clínico antes de considerar a cirurgia."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A classificação do estágio de calvície e a indicação de tratamento clínico ou cirúrgico variam de paciente para paciente, conforme avaliação individual e presencial."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41184443/" className="underline" target="_blank" rel="noopener noreferrer">{"Xi et al. Enhanced stratification of male pattern hair loss using AI through novel loss region ratio analysis. Sci Rep, 2025."}</a> <a href="https://doi.org/10.1038/s41598-025-23561-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38321615/" className="underline" target="_blank" rel="noopener noreferrer">{"Choi S et al. Long-term efficacy and safety of dutasteride 0.5 mg in Korean men with androgenetic alopecia: 5-year data demonstrating clinical improvement with sustained efficacy. J Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/1346-8138.17138" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/29146897/" className="underline" target="_blank" rel="noopener noreferrer">{"Pirastu N et al. GWAS for male-pattern baldness identifies 71 susceptibility loci explaining 38% of the risk. Nat Commun, 2017."}</a> <a href="https://doi.org/10.1038/s41467-017-01490-8" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer saber com precisão em que estágio da escala de Norwood está e o que isso significa pro seu planejamento, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>

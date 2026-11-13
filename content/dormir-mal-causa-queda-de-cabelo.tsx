@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Dormir mal causa queda de cabelo? Entenda a relação entre sono, cortisol e o ciclo capilar, quando o eflúvio é reversível e quando buscar avaliação médica.",
   publishedAt: "2026-08-17",
-  updatedAt: "2026-08-18",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -33,6 +33,8 @@ export default function Article() {
       <P>{"Isoladamente, é incomum. A grande maioria dos casos de queda relacionada a sono ruim não vem do sono em si, vem do que costuma acompanhar meses de sono insuficiente: estresse elevado, rotina desregulada, alimentação pior, uso de álcool ou estimulantes e, em alguns casos, um evento de saúde que prejudicou o sono e também desencadeou a queda por outro caminho. Separar essas variáveis exige história clínica cuidadosa, não é possível concluir isso sozinho olhando o espelho."}</P>
       <P>{"Existe uma exceção mais direta: privação de sono muito intensa e prolongada, como a que ocorre em quadros de insônia grave, turnos de trabalho extenuantes ou situações de estresse agudo extremo, pode funcionar como o tipo de gatilho fisiológico que desencadeia eflúvio telógeno, o mesmo mecanismo por trás da queda que segue febre alta, cirurgia ou perda de peso rápida."}</P>
 
+      <P>{"Uma revisão sistemática de 2026 reuniu 29 estudos sobre sono e queda de cabelo e encontrou distúrbios do sono mais frequentes em pessoas com alopecia areata, alopecia androgenética e eflúvio telógeno. A qualidade geral da evidência foi de baixa a moderada, com predomínio de estudos transversais, e os autores descrevem a relação como provavelmente de mão dupla: o sono ruim pode piorar a queda, e a queda pode piorar o sono."}</P>
+
       <H2 id="o-que-e-o-eflúvio-por-privação-de-sono">{"O que é o eflúvio relacionado a sono ruim, e como reconhecer?"}</H2>
       <P>{"Já expliquei em detalhe o mecanismo do "}<Link href="/blog/queda-de-cabelo-e-normal" className="underline">{"eflúvio telógeno"}</Link>{" em outro artigo: um evento desencadeante empurra um número maior de folículos para a fase de repouso ao mesmo tempo, e a queda visível aparece semanas depois, difusa, sem formar falhas localizadas. Quando o gatilho é sono ruim persistente, o padrão costuma seguir essa mesma lógica: queda mais intensa que o habitual, espalhada por todo o couro cabeludo, sem áreas completamente lisas."}</P>
       <P>{"O ponto que mais confunde pacientes é o atraso. A queda por eflúvio não aparece na semana em que o sono piorou, ela aparece meses depois, o que dificulta enxergar a relação sem reconstruir a linha do tempo com cuidado na consulta."}</P>
@@ -41,9 +43,13 @@ export default function Article() {
       <P>{"Não causa, mas pode acelerar a percepção. Já detalhei no artigo sobre "}<Link href="/blog/alopecia-androgenetica" className="underline">{"o que é a alopecia androgenética"}</Link>{" que o mecanismo central da calvície genética é a miniaturização do folículo pela ação da DHT em quem tem predisposição herdada. Sono insuficiente não ativa esse mecanismo em quem não tem a predisposição. Mas em quem já tem, listei sono de má qualidade como um dos fatores que podem tornar a queda mais perceptível no artigo sobre "}<Link href="/blog/calvicie-piora-com-a-idade" className="underline">{"se a calvície piora com a idade"}</Link>{", junto com estresse crônico e tabagismo."}</P>
       <P>{"Na prática clínica, isso costuma aparecer assim: alguém com calvície genética discreta, ainda pouco perceptível, passa por uma fase prolongada de sono ruim, o eflúvio se soma à miniaturização já em curso, e a pessoa nota uma piora que parece súbita, mas na verdade é a soma de dois processos diferentes acontecendo ao mesmo tempo."}</P>
 
+      <P>{"Um estudo com universitários chineses encontrou o cronotipo vespertino, de quem dorme e acorda tarde, como fator de risco independente para a calvície genética, com sinais de alteração do ritmo circadiano nos casos mais graves."}</P>
+
       <H2 id="apneia-do-sono-tem-relação-com-a-queda">{"Apneia do sono tem relação com a queda de cabelo?"}</H2>
       <P>{"Existe uma associação observada, embora ainda em investigação. A apneia obstrutiva do sono reduz a oxigenação durante a noite e fragmenta o sono várias vezes por hora, mesmo sem o paciente perceber cada despertar. Isso combina dois fatores que já discutimos: menos sono profundo restaurador e mais estresse fisiológico sustentado. Pacientes com apneia não tratada também relatam com mais frequência sonolência diurna intensa, o que por si só já é um sinal de que o sono não está cumprindo sua função."}</P>
       <P>{"Ronco alto, pausas respiratórias percebidas por quem dorme ao lado, sonolência diurna e cansaço mesmo após oito horas na cama são sinais que justificam investigação com um especialista em sono, independentemente da queda de cabelo. Tratar a apneia tem benefício para a saúde geral que vai muito além do couro cabeludo."}</P>
+
+      <P>{"Um estudo brasileiro, com dados do EPISONO, o estudo epidemiológico do sono de São Paulo, comparou 64 homens com calvície a homens sem calvície. Antes de ajustar por idade, peso e síndrome metabólica, a apneia moderada a grave era mais comum no grupo com calvície; depois do ajuste, essa diferença desapareceu, e só os triglicerídeos altos continuaram associados à calvície. Ou seja, parte da relação entre apneia e queda pode vir da saúde metabólica."}</P>
 
       <H2 id="quantas-horas-de-sono-são-recomendadas">{"Quantas horas de sono são recomendadas para a saúde capilar?"}</H2>
       <P>{"Não existe um número mágico específico para cabelo. As recomendações gerais de sono para adultos, entre sete e nove horas por noite, valem também aqui, porque é o intervalo em que o corpo consegue completar os ciclos de sono profundo necessários para a produção hormonal e a renovação celular normal. Menos que isso de forma crônica é o cenário associado a mais estresse fisiológico, não uma noite isolada de seis horas antes de uma viagem."}</P>
@@ -80,6 +86,14 @@ export default function Article() {
       <P>{"Na maioria dos casos de eflúvio por sono ruim, sim, a queda tende a se normalizar meses depois de o padrão de sono melhorar, porque o folículo não foi destruído, apenas empurrado para repouso antes do esperado. Se a queda persistir mesmo com o sono já corrigido, isso é sinal de que outro fator, incluindo calvície genética, pode estar envolvido."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A relação entre sono e queda de cabelo varia de pessoa para pessoa, e o diagnóstico correto depende de avaliação individual e presencial."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41535530/" className="underline" target="_blank" rel="noopener noreferrer">{"Boghosian T et al. The Intersection of Sleep and Hair Loss: A Systematic Review. Dermatol Ther (Heidelb), 2026."}</a> <a href="https://doi.org/10.1007/s13555-025-01641-6" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40844134/" className="underline" target="_blank" rel="noopener noreferrer">{"Wu Q et al. Association between sleep patterns, circadian rhythms, and hair loss in young adults. Chronobiol Int, 2025."}</a> <a href="https://doi.org/10.1080/07420528.2025.2547938" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/42082887/" className="underline" target="_blank" rel="noopener noreferrer">{"Xerfan EMS et al. Dyslipidemia, hormonal profiles, and sleep characteristics in men with androgenetic alopecia: an analysis based on data from the EPISONO study. Hormones (Athens), 2026."}</a> <a href="https://doi.org/10.1007/s42000-025-00751-2" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se a sua queda de cabelo aumentou numa fase de sono ruim e você quer entender se é um processo reversível ou se existe calvície genética por trás, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>
