@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda o papel do microscópio no transplante capilar: como ele reduz a transecção folicular, ajuda na sobrevivência do enxerto e no resultado final.",
   publishedAt: "2026-07-29",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Tecnologia",
   author: AUTHOR,
@@ -40,9 +40,13 @@ export default function Article() {
       <P>{"A sobrevivência do enxerto depende de vários fatores somados: a técnica de extração, o tempo que o folículo passa fora do corpo, a temperatura de armazenamento e a habilidade de quem implanta. O microscópio entra nessa equação reduzindo o número de enxertos danificados que chegam até a fase de implante, já que folículos comprometidos são identificados e retirados do lote antes de ocupar um espaço na área receptora."}</P>
       <P>{"No Instituto Frauches, a alta taxa de sobrevivência observada está relacionada ao conjunto de cuidados adotados durante todas as etapas da cirurgia. Porém cada paciente tem uma resposta biológica própria, e o resultado depende também da avaliação do seu caso específico, da qualidade da sua área doadora e dos cuidados no pós-operatório."}</P>
 
+      <P>{"Os estudos que medem transecção usam justamente o microscópio para enxergá-la. Num estudo com 10 pacientes, as unidades extraídas foram conferidas ao microscópio e a transecção foi maior nas laterais do que no centro da nuca, chegando a 17,7% de um lado e 16,3% do outro. Outro estudo, que examinou o couro cabeludo com aumento de 20 vezes, encontrou a chamada transecção oculta, que fica sob a pele e não aparece no enxerto extraído: 2% com um cirurgião experiente e 8% com um iniciante."}</P>
+
       <H2 id="elimina-o-risco-de-transeccao">{"O microscópio elimina o risco de transecção folicular?"}</H2>
       <P>{"Não. Ele reduz o risco e permite detectar dano já ocorrido, mas não impede que a transecção aconteça durante a extração em si. A transecção depende principalmente da técnica de extração (o ângulo do punch, a tecnologia embarcada no motor extrator, a experiência de quem extrai) e das características anatômicas de cada paciente, como a curvatura natural do fio sob a pele. Alguns tipos de cabelo, como o cacheado e o afro, têm folículos com curvatura mais acentuada e exigem punches e ângulos específicos justamente para reduzir esse risco."}</P>
       <P>{"O papel real do microscópio aqui é de controle de qualidade: ele diz à equipe, com precisão, quantos enxertos vieram íntegros e quantos vieram parcial ou totalmente transeccionados. Essa informação alimenta o planejamento da própria cirurgia. No Instituto Frauches usamos o aplicativo Graftis para acompanhar todo o fluxo de extração (vide artigo específico). Isso ajuda a manter um padrão de qualidade da técnica ao longo do tempo."}</P>
+
+      <P>{"Em uma série de 37 pacientes com 6.947 enxertos, um sistema de extração FUE teve transecção média de 6,14%, variando de 1,7% a 15%, e o autor usou como parâmetro de comparação a dissecção tradicional dos enxertos ao microscópio."}</P>
 
       <H2 id="papel-no-momento-do-implante">{"Qual o papel da lupa de magnificação no momento do implante?"}</H2>
       <P>{"Na etapa de implantação, a classificação feita sob o microscópio determina onde cada unidade folicular vai. Isso segue uma lógica simples de planejamento estético:"}</P>
@@ -86,6 +90,14 @@ export default function Article() {
       <P>{"O princípio é o mesmo, mas cabelos cacheados ou afro exigem atenção extra na triagem, já que a curvatura do folículo sob a pele aumenta o risco de transecção durante a extração, o que o microscópio ajuda a identificar."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A sobrevivência dos enxertos e o resultado final do transplante capilar variam conforme a avaliação individual de cada paciente, a qualidade da área doadora e os cuidados no pós-operatório."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/31743575/" className="underline" target="_blank" rel="noopener noreferrer">{"Mohmand MH, Ahmad M. Transection rate at different areas of scalp during follicular unit extraction/excision (FUE). J Cosmet Dermatol, 2019."}</a> <a href="https://doi.org/10.1111/jocd.13191" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/27035500/" className="underline" target="_blank" rel="noopener noreferrer">{"Kim DY et al. Hidden Transection of Follicular Unit Extraction in Donor Site. Dermatol Surg, 2016."}</a> <a href="https://doi.org/10.1097/DSS.0000000000000631" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/16393599/" className="underline" target="_blank" rel="noopener noreferrer">{"Harris JA. New methodology and instrumentation for follicular unit extraction: lower follicle transection rates and expanded patient candidacy. Dermatol Surg, 2006."}</a> <a href="https://doi.org/10.1111/1524-4725.2006.32006" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender como o planejamento e o controle de qualidade funcionam no seu caso, o primeiro passo é uma avaliação médica com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

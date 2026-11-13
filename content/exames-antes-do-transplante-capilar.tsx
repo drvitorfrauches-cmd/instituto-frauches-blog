@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Veja quais exames laboratoriais, avaliações clínicas e cuidados pré-operatórios costumam ser pedidos antes de um transplante capilar.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 4,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -37,6 +37,8 @@ export default function Article() {
       <H2 id="avaliacao-cardiologica">{"Quando entra a avaliação cardiológica"}</H2>
       <P>{"Pacientes com histórico cardiovascular, mais de 45 anos, ou que vão passar por sedação venosa mais prolongada costumam precisar de uma avaliação cardiológica prévia, incluindo eletrocardiograma e, em alguns casos, avaliação com o cardiologista. Isso garante que o procedimento seja conduzido com segurança do ponto de vista anestésico, principalmente em cirurgias que podem durar várias horas."}</P>
 
+      <P>{"A literatura aponta por que a avaliação clínica pesa. Uma revisão de 2026 sobre complicações da FUE lista comorbidades, tabagismo e medicações em uso entre os fatores do paciente que influenciam o risco de complicação. Uma revisão de escopo de 2024 descreveu infecção em até 11% em algumas séries e sangramento que exigiu intervenção em até 8%, embora complicações graves sejam raras com cirurgiões experientes."}</P>
+
       <H2 id="por-que-essa-etapa-importa">{"Por que pular essa etapa é um risco"}</H2>
       <P>{"Clínicas que dispensam essa avaliação, ou que marcam a cirurgia sem pedir exames prévios, estão abrindo mão de uma camada de segurança que existe justamente para identificar riscos antes que eles se tornem um problema durante o procedimento. Uma condição não diagnosticada, como um distúrbio de coagulação, pode transformar uma cirurgia planejada e segura numa situação de risco desnecessário. A avaliação pré-operatória não é uma formalidade, é parte da segurança da cirurgia."}</P>
 
@@ -47,6 +49,8 @@ export default function Article() {
         <LI>{"Evitar cortes de cabelo muito curtos antes da avaliação, para facilitar o planejamento visual."}</LI>
         <LI>{"Comunicar qualquer sintoma novo (febre, infecção, mal-estar) antes da data marcada."}</LI>
       </UL>
+
+      <P>{"Uma revisão de 2025 sobre candidatura ao transplante destaca a otimização médica antes da cirurgia como parte da preparação, junto com os cuidados intraoperatórios e o manejo do pós-operatório."}</P>
 
       <H2 id="validade-dos-exames">{"Por quanto tempo os exames valem"}</H2>
       <P>{"A maioria dos exames laboratoriais tem validade de 30 a 90 dias, dependendo do protocolo da clínica e do tipo de exame. Se a cirurgia for remarcada para uma data muito posterior à avaliação inicial, pode ser necessário repetir alguns exames para garantir que os resultados ainda refletem o estado atual de saúde do paciente no dia do procedimento."}</P>
@@ -73,6 +77,14 @@ export default function Article() {
       <P>{"Isso varia conforme a clínica. Vale perguntar diretamente na consulta de orçamento se os exames estão incluídos ou são cobrados à parte."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A lista exata de exames e cuidados pré-operatórios é definida individualmente, conforme a saúde e o histórico de cada paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41709896/" className="underline" target="_blank" rel="noopener noreferrer">{"Romera de Blas C et al. Complications in follicular unit excision hair transplantation: current evidence and practical approaches. Front Med, 2026."}</a> <a href="https://doi.org/10.3389/fmed.2026.1750989" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39179656/" className="underline" target="_blank" rel="noopener noreferrer">{"Liu RH et al. A Scoping Review on Complications in Modern Hair Transplantation: More than Just Splitting Hairs. Aesthetic Plast Surg, 2024."}</a> <a href="https://doi.org/10.1007/s00266-024-04316-3" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40660483/" className="underline" target="_blank" rel="noopener noreferrer">{"Brinks AL et al. Hair Transplant: Patient Candidacy, Medical Optimization, and Surgical Considerations. Int J Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/ijd.17961" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você está pensando em fazer um transplante capilar e quer saber quais exames seriam pedidos no seu caso, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

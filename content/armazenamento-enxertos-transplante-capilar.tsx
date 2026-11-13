@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda como funciona o armazenamento dos enxertos no transplante capilar: solução, temperatura, tempo fora do corpo e o impacto na sobrevivência dos fios.",
   publishedAt: "2026-09-25",
-  updatedAt: "2026-09-26",
+  updatedAt: "2026-11-12",
   readingTime: 12,
   category: "Técnica FUE",
   author: AUTHOR,
@@ -58,6 +58,8 @@ export default function Article() {
       </UL>
       <P>{"Uma observação honesta: a literatura compara essas soluções há anos, e a diferença entre elas tende a aparecer mais quando o tempo fora do corpo é longo. Em cirurgias bem organizadas, com enxertos implantados num intervalo razoável, o que mais pesa costuma ser a forma como a equipe manipula o tecido, e não a marca do líquido."}</P>
 
+      <P>{"O tipo de solução já foi comparado em ensaio clínico. Num estudo randomizado de 2023 com 240 pacientes, os enxertos guardados numa solução de preservação específica mantiveram melhor estrutura e viabilidade celular do que os guardados em soro de Ringer. Nas cirurgias com 3.000 enxertos ou mais, a queda pós-operatória atingiu 73,81% dos pacientes no primeiro grupo e 95% no segundo, e o crescimento recomeçou mais cedo. A sobrevivência final dos enxertos, porém, foi igual nos dois grupos."}</P>
+
       <H2 id="qual-a-temperatura-ideal">{"Qual a temperatura ideal para armazenar os enxertos?"}</H2>
       <P>{"A maioria dos protocolos mantém os enxertos resfriados, em uma faixa de poucos graus acima de zero, parecida com a de uma geladeira, porque o frio reduz o metabolismo das células e, com isso, o consumo de energia durante a isquemia. É o mesmo princípio usado para transportar órgãos para transplante: desacelerar a célula para que ela aguente melhor a espera."}</P>
       <P>{"Resfriar, porém, não significa gelar ao extremo. O congelamento forma cristais de gelo dentro da célula e destrói o folículo. Por isso, o recipiente com os enxertos não deve encostar diretamente em gelo, e a temperatura precisa ser estável. Oscilações (esquentar e esfriar várias vezes, por exemplo, ao tirar e devolver a placa da bandeja fria) também prejudicam."}</P>
@@ -73,6 +75,8 @@ export default function Article() {
         <LI>{"Dimensionar a equipe para que a triagem acompanhe o ritmo da extração."}</LI>
       </UL>
       <P>{"No Instituto Frauches, a contagem de cada enxerto é registrada ao vivo durante a cirurgia, o que ajuda a equipe a enxergar o ritmo de extração e implante em tempo real. O funcionamento desse sistema está descrito no artigo sobre o "}<Link href="/blog/graftis-contagem-ao-vivo-transplante-capilar" className="underline">{"Graftis, nosso controle de qualidade no transplante capilar"}</Link>{"."}</P>
+
+      <P>{"Uma revisão de 2026 sobre complicações da FUE lista o manuseio dos enxertos e o tempo de isquemia, isto é, o tempo fora da circulação, entre as variáveis técnicas que influenciam as complicações. Para comparação, uma série de 248 pacientes operados por FUE com fios longos teve sobrevivência média de 93,1% dos enxertos aos 9 meses."}</P>
 
       <H2 id="ressecamento">{"O que é o ressecamento do enxerto e por que ele é tão perigoso?"}</H2>
       <P>{"Ressecamento (ou desidratação) é a perda de água do enxerto quando ele fica exposto ao ar, e é considerado uma das principais causas evitáveis de perda de folículos no transplante capilar. Diferente do tempo fora do corpo, que desgasta a célula aos poucos, o ressecamento pode causar dano em pouco tempo, sobretudo em enxertos pequenos, com pouco tecido ao redor para protegê-los."}</P>
@@ -125,6 +129,14 @@ export default function Article() {
       <P>{"Se você está pesquisando clínicas, inclua essas perguntas na sua consulta. E se quiser acompanhar mais bastidores de cirurgia e explicações sobre cada etapa, o conteúdo também é publicado no "}<a href={INSTAGRAM_URL} className="underline" target="_blank" rel="noopener noreferrer">{"Instagram do Dr. Vitor Frauches"}</a>{"."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A sobrevivência dos enxertos e o resultado de um transplante capilar variam conforme a avaliação individual de cada paciente, o padrão de calvície, a qualidade da área doadora e os cuidados no pós-operatório."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37036372/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhou Y et al. Evaluation of a Novel Graft-Holding Solution in Hair Transplantation: A Randomized Controlled Clinical Study. Dermatol Surg, 2023."}</a> <a href="https://doi.org/10.1097/DSS.0000000000003799" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/41709896/" className="underline" target="_blank" rel="noopener noreferrer">{"Romera de Blas C et al. Complications in follicular unit excision hair transplantation: current evidence and practical approaches. Front Med, 2026."}</a> <a href="https://doi.org/10.3389/fmed.2026.1750989" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Quer saber como seria o planejamento da sua cirurgia, do cálculo de enxertos até a forma como eles são preservados durante o procedimento? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>

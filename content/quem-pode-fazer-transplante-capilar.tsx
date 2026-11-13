@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Idade, grau da calvície, área doadora e casos que exigem tratamento prévio: entenda quem pode fazer transplante capilar e quando vale a pena esperar.",
   publishedAt: "2026-07-25",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 5,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -28,6 +28,8 @@ export default function Article() {
       <H2 id="idade">{"Idade"}</H2>
       <P>{"Não existe uma idade mínima rígida e universal, mas geralmente evitamos operar pacientes muito jovens, sobretudo antes dos 25 anos. O motivo é que a calvície ainda pode estar em evolução nessa faixa etária, e planejar uma linha frontal hoje sem saber como o padrão vai progredir nos próximos anos aumenta o risco de um resultado que pareça desalinhado com a calvície futura. Em pacientes mais jovens com queda ativa, costuma fazer mais sentido começar pelo tratamento clínico e reavaliar a cirurgia depois."}</P>
 
+      <P>{"O transplante funciona pelo princípio da dominância da área doadora: o fio transplantado mantém as características genéticas da região de onde veio. Uma revisão de 2025 que analisou 1.030 resumos de estudos dos últimos cinco anos considera a FUE e a FUT métodos atuais, e atribui parte da melhora dos resultados ao desenho cuidadoso da linha frontal e ao tratamento clínico associado."}</P>
+
       <H2 id="grau-da-calvicie">{"Grau da calvície"}</H2>
       <P>{"O padrão e o estágio da calvície (avaliados por escalas como a de Norwood, no caso masculino) ajudam a definir se o transplante já é indicado, e quantas sessões podem ser necessárias. Calvícies muito avançadas, com pouca área doadora disponível em relação à área a cobrir, exigem um planejamento mais cauteloso: às vezes o objetivo realista é reconstruir a região frontal com prioridade, não cobrir 100% do couro cabeludo numa única cirurgia."}</P>
 
@@ -44,6 +46,8 @@ export default function Article() {
         <LI>{"Pacientes com condições de couro cabeludo não diagnosticadas (infecções, dermatoses)."}</LI>
         <LI>{"Pacientes com expectativa de resultado incompatível com a área doadora disponível."}</LI>
       </UL>
+
+      <P>{"Uma revisão de 2025 sobre candidatura ao transplante lembra que ainda faltam diretrizes completas para a seleção de pacientes, e destaca a otimização do tratamento clínico antes da cirurgia. Uma revisão sistemática de 2024 com 141 estudos reforça que a abordagem combinada e individualizada é superior."}</P>
 
       <H2 id="saude-geral">{"Condições de saúde que entram na avaliação"}</H2>
       <P>{"Além do padrão de calvície, a avaliação pré-operatória considera a saúde geral do paciente, já que se trata de uma cirurgia com anestesia local e, na maioria dos casos, sedação venosa. Condições como diabetes não controlado, problemas de coagulação ou doenças cardiovasculares descompensadas podem exigir controle prévio, ou em alguns casos, contraindicar a cirurgia temporariamente até que a condição esteja estabilizada. O uso de determinados medicamentos também entra nessa conversa, porque alguns precisam ser ajustados ou suspensos antes do procedimento."}</P>
@@ -70,6 +74,14 @@ export default function Article() {
       <P>{"Não é o momento indicado. Gravidez e amamentação costumam ser motivo para adiar a cirurgia, tanto pela anestesia quanto pelas mudanças hormonais desse período, que podem alterar o padrão de queda temporariamente."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. Só uma avaliação presencial, com análise da área doadora e do padrão de calvície, define se e quando o transplante capilar é indicado para cada caso."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40354670/" className="underline" target="_blank" rel="noopener noreferrer">{"Queen D, Avram MR. Hair Transplantation: State of the Art. Dermatol Surg, 2025."}</a> <a href="https://doi.org/10.1097/DSS.0000000000004675" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40660483/" className="underline" target="_blank" rel="noopener noreferrer">{"Brinks AL et al. Hair Transplant: Patient Candidacy, Medical Optimization, and Surgical Considerations. Int J Dermatol, 2025."}</a> <a href="https://doi.org/10.1111/ijd.17961" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38852607/" className="underline" target="_blank" rel="noopener noreferrer">{"Rosenthal A et al. Management of androgenic alopecia: a systematic review of the literature. J Cosmet Laser Ther, 2024."}</a> <a href="https://doi.org/10.1080/14764172.2024.2362126" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"A forma mais segura de saber se você é candidato é uma avaliação médica individual, que já leva em conta seu histórico e o estágio atual da sua calvície. Se você já pesquisou sobre "}<Link href="/blog/transplante-capilar-fue-o-que-e" className="underline">{"como funciona a técnica FUE"}</Link>{" e quer saber se o seu caso se encaixa, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>
