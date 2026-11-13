@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "A calvície piora com a idade? Veja o que avança com o tempo, quando tende a estabilizar e como diferenciar calvície genética de envelhecimento capilar.",
   publishedAt: "2026-08-12",
-  updatedAt: "2026-09-15",
+  updatedAt: "2026-11-12",
   readingTime: 8,
   category: "Calvície e tricologia",
   author: AUTHOR,
@@ -39,6 +39,8 @@ export default function Article() {
       </UL>
       <P>{"Vale reforçar que esses são padrões observados na prática, não uma regra fixa. Uma pessoa com calvície genética de início tardio, por exemplo, pode ter uma progressão bem diferente dessa média."}</P>
 
+      <P>{"Os números de população confirmam a progressão com a idade: um estudo genômico com mais de 70.000 homens estimou que a calvície masculina atinge cerca de 50% dos homens até os 50 anos. Num estudo com 205.327 homens, os autores descrevem a calvície como uma característica ligada à idade, com herdabilidade estimada em 0,62 entre parentes próximos."}</P>
+
       <H2 id="existe-limite">{"Existe um limite? A calvície para de piorar em algum momento?"}</H2>
       <P>{"Sim, na maioria dos casos existe um ponto de relativa estabilidade, mas ele varia de pessoa para pessoa e normalmente só é alcançado depois que a maior parte dos folículos geneticamente sensíveis à DHT já completou a miniaturização. Nas escalas usadas para classificar o grau de calvície masculina e feminina, os estágios mais avançados representam justamente esse platô: a região afetada já perdeu praticamente todo o cabelo terminal, e o que resta ali costuma ser resistente ao processo (por isso essa mesma região, geralmente na lateral e na parte de trás da cabeça, é a área doadora usada em transplante capilar)."}</P>
       <P>{"Isso não quer dizer que a pessoa vai ficar totalmente careca. A grande maioria dos casos de calvície genética se estabiliza em um estágio intermediário, não no mais avançado da escala. E mesmo depois de estabilizada, a área já afetada raramente volta a produzir cabelo terminal sozinha, sem intervenção clínica ou cirúrgica."}</P>
@@ -62,6 +64,8 @@ export default function Article() {
 
       <H2 id="mulheres-envelhecimento">{"Em mulheres, a calvície piora mais depois da menopausa?"}</H2>
       <P>{"Em boa parte dos casos, sim, a queda de densidade costuma se tornar mais perceptível nesse período. A explicação está na queda dos níveis de estrogênio, um hormônio que em geral protege o folículo da ação relativa dos andrógenos. Com a menopausa, essa proteção hormonal diminui, e mulheres que já tinham uma predisposição genética discreta, às vezes nem percebida antes, podem notar um afinamento mais evidente no topo do couro cabeludo nessa fase. É outro exemplo de dois processos se somando: a predisposição de base, que já existia, e a mudança hormonal da idade, que reduz a proteção que vinha mascarando parte do efeito."}</P>
+
+      <P>{"O tratamento clínico pode frear essa progressão. Num acompanhamento de 99 homens que usaram dutasterida por pelo menos 5 anos, 93,9% não tiveram piora da calvície e 89,9% tiveram melhora clínica."}</P>
 
       <H2 id="quando-a-idade-pesa-na-decisao">{"A idade deve pesar na decisão entre tratamento clínico e cirurgia?"}</H2>
       <P>{"Sim, é um dos fatores que entram na avaliação, mas não da forma que muita gente imagina. Não existe uma idade mínima rígida nem uma idade máxima que impeça o transplante capilar; o que importa é o estágio da calvície e se ela já estabilizou o suficiente para um planejamento cirúrgico seguro."}</P>
@@ -95,6 +99,14 @@ export default function Article() {
       <P>{"Vale, sim. Mesmo nessa idade é possível diferenciar avanço da calvície genética de base do envelhecimento capilar comum, o que ajuda a definir se algum ajuste de tratamento faz sentido."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O ritmo de progressão da calvície e a indicação de tratamento clínico ou cirúrgico variam de paciente para paciente, conforme avaliação individual e presencial."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/29146897/" className="underline" target="_blank" rel="noopener noreferrer">{"Pirastu N et al. GWAS for male-pattern baldness identifies 71 susceptibility loci explaining 38% of the risk. Nat Commun, 2017."}</a> <a href="https://doi.org/10.1038/s41467-017-01490-8" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/30573740/" className="underline" target="_blank" rel="noopener noreferrer">{"Yap CX et al. Dissection of genetic variation and evidence for pleiotropy in male pattern baldness. Nat Commun, 2018."}</a> <a href="https://doi.org/10.1038/s41467-018-07862-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38321615/" className="underline" target="_blank" rel="noopener noreferrer">{"Choi S et al. Long-term efficacy and safety of dutasteride 0.5 mg in Korean men with androgenetic alopecia: 5-year data demonstrating clinical improvement with sustained efficacy. J Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/1346-8138.17138" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender em que estágio está sua calvície e como ela tende a evoluir no seu caso, "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"agende uma avaliação com o Dr. Vitor Frauches pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-calvicie-masculina" className="underline">{"guia sobre calvície masculina"}</Link>{"."}</P>
