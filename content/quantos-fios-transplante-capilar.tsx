@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda quantos fios são necessários no transplante capilar: como estágio da calvície, densidade desejada e área doadora definem esse número.",
   publishedAt: "2026-08-28",
-  updatedAt: "2026-08-28",
+  updatedAt: "2026-11-12",
   readingTime: 9,
   category: "Transplante capilar",
   author: AUTHOR,
@@ -48,12 +48,16 @@ export default function Article() {
       <P>{"Densidade capilar é a quantidade de folículos por centímetro quadrado de couro cabeludo. Uma pessoa sem histórico de calvície costuma ter entre 80 e 100 unidades foliculares por cm² na área doadora, mas essa densidade cai naturalmente quanto mais unidades são transplantadas para uma mesma superfície receptora, já que o objetivo nunca é replicar a densidade original fio a fio, e sim entregar cobertura visual convincente com o número de unidades disponível."}</P>
       <P>{"É por isso que um planejamento bem feito não tenta \"encher\" a área receptora ao máximo. Concentrar poucas unidades numa densidade muito alta reduz a sobrevivência do enxerto por falta de espaço e irrigação sanguínea suficiente entre os pontos de implante. Distribuir de forma mais gradual, com transição natural entre linha frontal e áreas mais densas atrás dela, costuma produzir resultado mais convincente do que perseguir um número de unidades por cm² fixo."}</P>
 
+      <P>{"A densidade também varia entre pessoas por motivos mensuráveis. Um estudo de 2025 com 5.735 pessoas, que mediu a densidade capilar por tricoscopia, encontrou associação da densidade de unidades foliculares e do número de fios por unidade com idade, sexo e índice de massa corporal, além de três regiões do genoma."}</P>
+
       <H2 id="tipo-de-fio">{"O tipo de fio muda quantas unidades são necessárias?"}</H2>
       <P>{"Sim, e bastante. Fios grossos e escuros criam mais contraste e cobertura visual por unidade folicular do que fios finos e claros, então um paciente com fio grosso pode alcançar boa cobertura com menos unidades do que outro, com fio fino, cobrindo a mesma área. Cabelos cacheados e afro também tendem a gerar mais volume aparente por folículo, já que a curvatura do fio ocupa mais espaço visual na superfície do couro cabeludo. Esses fatores fazem parte da avaliação individual e explicam por que comparar o \"número de fios\" entre pacientes diferentes, sem considerar essas variáveis, costuma levar a conclusões erradas."}</P>
 
       <H2 id="area-doadora-limite">{"A área doadora limita quantos fios posso transplantar?"}</H2>
       <P>{"Sim, e esse é um dos pontos mais importantes de todo o planejamento. A "}<Link href="/blog/area-doadora-transplante-capilar" className="underline">{"área doadora"}</Link>{" não é infinita: ela tem uma capacidade real de fornecer folículos sem perder densidade visível na própria região posterior e lateral da cabeça. Um paciente pode desejar um número alto de unidades foliculares para cobrir uma área extensa, mas se a área doadora não suportar essa extração com segurança, o planejamento precisa se ajustar à capacidade real, não ao número que o paciente imaginou antes da avaliação."}</P>
       <P>{"Extrair além do que a área doadora comporta é chamado de superextração e compromete tanto o resultado estético dessa região quanto a possibilidade de uma cirurgia futura. Por isso a capacidade doadora, medida por tricoscopia, é sempre um teto real do planejamento, não uma sugestão."}</P>
+
+      <P>{"Para dar uma ordem de grandeza: um estudo multicêntrico com 119 homens com alopecia androgenética propôs uma densidade de implante em torno de 30 unidades foliculares por centímetro quadrado na área calva, sem deixar a área doadora abaixo de 60 unidades por centímetro quadrado. Em uma série de 248 pacientes que refizeram a linha frontal, a densidade de implante foi planejada entre 50 e 70 unidades por centímetro quadrado, com média de cerca de 2.000 unidades por cirurgia."}</P>
 
       <H2 id="existe-numero-padrao">{"Existe um número padrão de fios por estágio de calvície?"}</H2>
       <P>{"Não existe um número fechado que sirva para todo mundo no mesmo estágio, mas é possível dar uma ideia de ordem de grandeza, sempre como referência geral, nunca como orçamento fechado de uma cirurgia específica:"}</P>
@@ -91,6 +95,14 @@ export default function Article() {
       <P>{"Varia conforme a capacidade da área doadora e o tempo cirúrgico disponível naquele dia, mas cirurgias de grande porte costumam comportar milhares de unidades numa única sessão. O número exato depende sempre do planejamento individual definido na avaliação."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. O número de unidades foliculares do seu planejamento só pode ser calculado com avaliação presencial e tricoscopia, considerando a sua área doadora e o seu padrão de calvície."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32375571/" className="underline" target="_blank" rel="noopener noreferrer">{"Sun B et al. Investigation of optimum transplant and extraction density based on the data from the donor area of Chinese androgenetic alopecia patients: a multicenter, retrospective study. J Cosmet Laser Ther, 2020."}</a> <a href="https://doi.org/10.1080/14764172.2020.1761550" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40251992/" className="underline" target="_blank" rel="noopener noreferrer">{"Qian Q et al. Genetic and environmental factors affecting hair density in East Asian populations. Br J Dermatol, 2025."}</a> <a href="https://doi.org/10.1093/bjd/ljaf149" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer saber quantas unidades foliculares seriam indicadas para o seu caso, o próximo passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

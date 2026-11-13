@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Transplante capilar dói? Entenda como funciona a anestesia, o que sentir durante e depois da cirurgia FUE e como é o controle da dor no pós-operatório.",
   publishedAt: "2026-07-24",
-  updatedAt: "2026-08-20",
+  updatedAt: "2026-11-12",
   readingTime: 2,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -28,8 +28,12 @@ export default function Article() {
       <H2 id="durante-a-cirurgia">{"Durante a cirurgia: anestesia e sedação"}</H2>
       <P>{"Antes de qualquer extração de folículo, a área doadora e as áreas receptoras recebem anestesia local. A sedação venosa entra para deixar o paciente relaxado durante as horas de cirurgia, que costuma ser longa por envolver centenas ou milhares de implantes individuais. Na prática, a maioria dos pacientes relata sonolência ou até cochila em parte do procedimento, e não dor. O uso de instrumentos de implantação como o IMPLANTER PEN®, que dispensa pinça, também ajuda a reduzir o trauma nos folículos durante a cirurgia, o que contribui pro conforto no pós-operatório."}</P>
 
+      <P>{"A parte mais sentida costuma ser a picada da anestesia local, e até isso pode ser reduzido. Num estudo de 2020 com 25 pacientes, em que cada lado do couro cabeludo recebeu uma solução anestésica diferente, a versão tamponada com bicarbonato baixou a dor média da injeção de 4,96 para 3,28 numa escala de 0 a 10."}</P>
+
       <H2 id="logo-apos">{"Logo depois da cirurgia"}</H2>
       <P>{"Quando o efeito da anestesia local passa, é comum sentir o couro cabeludo mais sensível, parecido com uma queimadura de sol leve. Isso é esperado e costuma ser controlado com a medicação analgésica prescrita pela equipe médica. Também pode aparecer um inchaço discreto na testa nos primeiros dias, que resolve sozinho."}</P>
+
+      <P>{"Os estudos confirmam que o desconforto existe, mas é manejável. Uma revisão sistemática com meta-análise de 2025, com 2.353 pacientes de estudos observacionais, apontou dor, inchaço e edema na área doadora como as queixas mais relatadas depois do transplante. Um ensaio clínico randomizado de 2024 com 98 participantes descreveu dor, coceira e dormência na área doadora como as principais queixas após a FUE e mostrou que acelerar a cicatrização dessa região reduz esses sintomas nos primeiros dias."}</P>
 
       <H2 id="dias-seguintes">{"Nos dias seguintes"}</H2>
       <P>{"A sensibilidade tende a diminuir rápido. A maior parte dos pacientes relata desconforto leve nos primeiros dois ou três dias, controlável com analgésico comum, e não dor limitante. Como a técnica FUE não usa corte nem pontos, não existe uma incisão grande para doer ou puxar durante a cicatrização, diferente do que acontecia nas técnicas mais antigas."}</P>
@@ -56,6 +60,14 @@ export default function Article() {
       <P>{"A medicação analgésica é prescrita pela equipe médica como parte da orientação pós-operatória, ajustada conforme a necessidade relatada por cada paciente."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A percepção de dor e o tempo de recuperação variam conforme cada paciente, e só uma avaliação individual permite orientações precisas."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/32304608/" className="underline" target="_blank" rel="noopener noreferrer">{"Mohmand MH, Ahmad M, Jabeen M. Pain perception of a new Ahmad-Humayun solution for local anesthesia in hair transplantation: One step ahead. J Cosmet Dermatol, 2020."}</a> <a href="https://doi.org/10.1111/jocd.13442" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/40913181/" className="underline" target="_blank" rel="noopener noreferrer">{"Khatib M, Skorochod R, Wolf Y. Complications Following Hair Transplantation: A Systematic Literature Review and Meta-Analysis. Aesthetic Plast Surg, 2025."}</a> <a href="https://doi.org/10.1007/s00266-025-05125-y" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39084027/" className="underline" target="_blank" rel="noopener noreferrer">{"Guo Z et al. A randomized controlled trial on hair follicular-derived microtissue for promoting wound healing and alleviating postoperative complications after hair transplantation. J Plast Reconstr Aesthet Surg, 2024."}</a> <a href="https://doi.org/10.1016/j.bjps.2024.07.003" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Quer entender como seria o seu procedimento e tirar essa e outras dúvidas com o Dr. Vitor Frauches? "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia sobre transplante capilar"}</Link>{"."}</P>

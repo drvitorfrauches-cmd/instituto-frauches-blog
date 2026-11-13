@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Entenda quanto tempo dura o transplante capilar, quais fatores mudam essa duração e como é organizado, na prática, o dia inteiro da cirurgia.",
   publishedAt: "2026-08-31",
-  updatedAt: "2026-09-01",
+  updatedAt: "2026-11-12",
   readingTime: 7,
   category: "Dúvidas frequentes",
   author: AUTHOR,
@@ -30,6 +30,8 @@ export default function Article() {
       <P>{"A resposta está na própria lógica da técnica FUE (Follicular Unit Extraction, ou extração de unidade folicular): cada unidade folicular é retirada individualmente da área doadora e depois implantada, também uma a uma, na região com calvície. Não existe atalho para isso. Uma cirurgia com 2.500 unidades foliculares significa, na prática, milhares de movimentos de precisão só na etapa de extração, e outros milhares na etapa de implantação. Imagine cirurgias de 5000 a 7000 UF."}</P>
       <P>{"Essa é justamente a diferença para a antiga técnica FUT, que removia uma faixa inteira de couro cabeludo de uma vez com bisturi. A FUT era mais rápida na extração, mas deixava uma cicatriz linear extensa. A FUE troca velocidade bruta por precisão folicular e por uma cicatrização muito mais discreta, e o tempo maior de cirurgia é o custo direto dessa troca."}</P>
       <P>{"Ainda dentro da extração, existe uma etapa intermediária que também consome tempo: cada folículo retirado precisa ser triado sob microscópio, separado por número de fios (unidades de um, dois ou três fios) e mantido em solução de preservação até o momento da implantação. Quanto maior o volume de folículos, maior também o tempo dessa triagem, que acontece em paralelo à extração mas exige uma equipe dedicada só para essa função."}</P>
+
+      <P>{"Os estudos dão uma ideia de escala. Em uma série de 248 pacientes que fizeram restauração da linha frontal com FUE de fios longos, cerca de 2.000 unidades foliculares por paciente, a extração levou em média 3,2 horas e a implantação, 3,8 horas. No transplante de sobrancelha, com cerca de 400 a 480 unidades, a cirurgia levou em média de 194 a 229 minutos."}</P>
 
       <H2 id="fatores-que-influenciam-a-duracao">{"Quais fatores influenciam a duração da cirurgia?"}</H2>
       <P>{"Cinco variáveis, principalmente, definem se uma cirurgia vai durar 6 ou 12 horas (ou mais):"}</P>
@@ -62,6 +64,8 @@ export default function Article() {
       <H2 id="a-duracao-influencia-o-resultado">{"Uma cirurgia mais longa significa um resultado melhor?"}</H2>
       <P>{"Não necessariamente, e essa é uma confusão comum. A duração reflete principalmente a quantidade de folículos e a complexidade do planejamento, não a qualidade técnica em si. Uma cirurgia mais rápida do que a média para o volume de folículos planejado pode até ser um sinal de alerta, porque pressa na extração tende a aumentar a taxa de transecção total e parcial, o que compromete a sobrevivência do enxerto. O objetivo nunca é terminar rápido, é terminar dentro do tempo necessário para preservar cada unidade folicular extraída."}</P>
 
+      <P>{"O tempo que o enxerto passa fora do corpo também é estudado. Em um ensaio randomizado de 2023 com 240 pacientes, guardar os enxertos numa solução de preservação específica, em vez de soro de Ringer, reduziu a queda pós-operatória de 95% para 73,81% dos pacientes nas cirurgias com 3.000 enxertos ou mais, embora a sobrevivência final tenha sido igual nos dois grupos."}</P>
+
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
       <H3>{"Existe um número fixo de horas para o transplante capilar?"}</H3>
       <P>{"Não. A faixa mais comum fica entre 8 e 12 horas, mas cirurgias com grande quantidade de folículos ou planejamento mais complexo podem ultrapassar esse intervalo. O tempo exato só é definido depois da avaliação individual."}</P>
@@ -79,6 +83,14 @@ export default function Article() {
       <P>{"Depende do objetivo da nova sessão. Uma cirurgia de reforço ou complementação, com menos folículos planejados do que a primeira, tende a ser mais curta. O tempo exato volta a depender da quantidade de unidades definida na nova avaliação."}</P>
 
       <Callout>{"Este conteúdo tem caráter educativo e não substitui uma consulta médica. A duração exata de uma cirurgia de transplante capilar depende da avaliação individual da área doadora, do grau de calvície e do planejamento estético de cada paciente."}</Callout>
+
+      <H2 id="referencias">{"Referências"}</H2>
+
+      <UL>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/38197285/" className="underline" target="_blank" rel="noopener noreferrer">{"Jin M et al. Long-hair follicular unit excision enhances the cosmetic results of hairline restoration: A retrospective study in Chinese recipients. J Cosmet Dermatol, 2024."}</a> <a href="https://doi.org/10.1111/jocd.16136" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/39321534/" className="underline" target="_blank" rel="noopener noreferrer">{"Cheng H et al. Periauricular hair transplantation enhances the cosmetic results of eyebrow transplantation: A retrospective study in Chinese recipients. J Plast Reconstr Aesthet Surg, 2024."}</a> <a href="https://doi.org/10.1016/j.bjps.2024.09.008" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+        <LI><a href="https://pubmed.ncbi.nlm.nih.gov/37036372/" className="underline" target="_blank" rel="noopener noreferrer">{"Zhou Y et al. Evaluation of a Novel Graft-Holding Solution in Hair Transplantation: A Randomized Controlled Clinical Study. Dermatol Surg, 2023."}</a> <a href="https://doi.org/10.1097/DSS.0000000000003799" className="underline" target="_blank" rel="noopener noreferrer">{"DOI"}</a></LI>
+      </UL>
 
       <P>{"Se você quer entender quanto tempo levaria uma cirurgia no seu caso e como seria o planejamento completo, o primeiro passo é uma avaliação com o Dr. Vitor Frauches. "}<a href={WHATSAPP_URL} className="underline" target="_blank" rel="noopener noreferrer"><Strong>{"Agende sua avaliação pelo WhatsApp"}</Strong></a>{"."}</P>
       <P>{"Este artigo faz parte do nosso "}<Link href="/blog/guia-transplante-capilar" className="underline">{"guia completo do transplante capilar"}</Link>{"."}</P>
