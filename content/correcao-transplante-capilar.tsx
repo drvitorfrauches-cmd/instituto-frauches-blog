@@ -6,10 +6,10 @@ import { AUTHOR, WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/blog/site";
 export const meta: PostMeta = {
   slug: "correcao-transplante-capilar",
   title: "Correção de transplante capilar: dá para consertar um antigo?",
-  description: "Correção de transplante capilar: como tratar plugs antigos, hairline artificial e cicatriz de FUT, o que a área doadora permite e quando a cirurgia de reparo faz sentido.",
+  description: "Correção de transplante capilar: como tratar enxertos múltiplos antigos, hairline artificial e cicatriz de FUT, o que a área doadora permite e quando a cirurgia de reparo faz sentido.",
   publishedAt: "2026-11-11",
-  updatedAt: "2026-11-11",
-  readingTime: 10,
+  updatedAt: "2026-11-18",
+  readingTime: 11,
   category: "Transplante capilar",
   author: AUTHOR,
   coverImage: {
