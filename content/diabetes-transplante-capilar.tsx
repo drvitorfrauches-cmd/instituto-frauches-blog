@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description: "Diabetes e transplante capilar: quando a cirurgia é possível, o peso do controle glicêmico na cicatrização e como funciona a avaliação antes de operar.",
   publishedAt: "2026-11-23",
   updatedAt: "2026-11-23",
-  readingTime: 12,
+  readingTime: 13,
   category: "Dúvidas frequentes",
   author: AUTHOR,
   coverImage: {
