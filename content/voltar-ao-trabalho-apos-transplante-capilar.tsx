@@ -9,7 +9,7 @@ export const meta: PostMeta = {
   description:
     "Voltar ao trabalho após transplante capilar depende da sua função, da raspagem e do inchaço. Veja prazos por tipo de trabalho e como planejar a folga.",
   publishedAt: "2026-11-20",
-  updatedAt: "2026-11-20",
+  updatedAt: "2026-11-23",
   readingTime: 14,
   category: "Transplante capilar",
   author: AUTHOR,
