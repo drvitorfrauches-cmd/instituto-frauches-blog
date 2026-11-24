@@ -41,9 +41,10 @@ da distribuição pretendida no DNA. A partir de agora:
 3. Dentro da subseção desse pilar, pegue o item mais antigo (primeiro da
    subseção) que ainda não tenha nota de "já coberto" ou "pular". Esse é o
    tema desta execução.
-   Exceção: itens do lote 2 (ids 201-300) com a linha **Prioridade** (muito
-   alta antes de alta) têm preferência sobre os demais da mesma subseção,
-   mesmo que estejam mais abaixo.
+   Exceção: itens com a linha **Prioridade** (lote 2, ids 201-300; lote 3,
+   ids 301+; e itens antigos que receberam essa linha depois, como o 114)
+   têm preferência sobre os demais da mesma subseção, mesmo que estejam mais
+   abaixo. Muito alta vem antes de alta.
 4. Se a subseção desse pilar não tiver nenhum item elegível no momento,
    passe pro próximo pilar mais atrasado na rotação.
 
@@ -155,6 +156,18 @@ Regras para escrever qualquer item do lote 2:
 - Evitar colisão de keyword primária com artigo já publicado (ver a nota do item
   272, por exemplo) e não comparar clínicas ou médicos pelo nome.
 - Após publicar, mover o item para "Já publicados" como de costume.
+
+## Lote 3 (2026-11-24): lacunas do Search Console
+
+Temas tirados do relatório do Search Console de 2026-11-24 (últimos 12
+meses): buscas em que o blog já recebe impressões mas não tem artigo próprio
+para a intenção. Cada item leva id 301+ e as consultas reais que motivaram o
+tema. Use essas consultas como keywords secundárias e perguntas do FAQ. Os
+volumes são pequenos (o blog teve ~4.700 impressões no período), então são
+um sinal do que o Google já associa ao blog, não uma medida de volume de busca.
+
+Também subiram de prioridade dois itens já existentes, pelo mesmo motivo:
+114 (cabelos crespos) e 287 (cicatrização da área doadora na FUE).
 
 ## Pilar 1 — Técnica FUE e tecnologia (~30% da fila)
 
@@ -442,6 +455,8 @@ Cronograma de cicatrização, cuidados práticos, quando o resultado aparece.
 ### 287. Como cicatriza a área doadora depois da FUE?
 - **Objetivo SEO**: cicatrização área doadora FUE
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): pontos avermelhados, marcas e evolução.
+- **Prioridade**: alta
+- Nota (2026-11-24): o Search Console mostra buscas por "fue cicatriz" sem artigo dedicado. Responder logo no início a pergunta "FUE deixa cicatriz?" (pontos puntiformes x cicatriz linear da FUT, quando ficam visíveis com cabelo raspado) e usar "FUE deixa cicatriz" como keyword secundária.
 
 ### 288. Espinhas na área doadora depois do transplante: o que pode ser?
 - **Objetivo SEO**: espinhas área doadora transplante
@@ -646,7 +661,22 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): prevenção, reversibilidade e transplante em casos tardios.
 - Nota (2026-10-03): `bone-causa-calvicie-masculina` tem um FAQ sobre elástico apertado e tração, e cita a página da AAD sobre penteados que puxam. Aprofundar a alopecia por tração (estágios, reversibilidade, transplante em casos tardios).
 
-### Medicamentos e tratamentos
+#### Lote 3, lacunas do Search Console em 2026-11-24 (ids 301+)
+
+### 302. Alopecia androgenética feminina: sinais, causas e tratamento
+- **Objetivo SEO**: alopecia androgenética feminina
+- **Consultas no Search Console**: alopecia androgenética feminina, alopecia androgenetica em mulheres, exames de sangue para queda de cabelo feminino.
+- **Briefing**: padrão de afinamento difuso no topo (escala de Ludwig/Sinclair), diferença para eflúvio telógeno, exames que costumam ser pedidos na mulher (ferritina, tireoide, hormônios), opções de tratamento clínico em linhas gerais e quando o transplante entra.
+- **Prioridade**: alta
+- Nota (2026-11-24): `calvicie-feminina-transplante-capilar` tem o ângulo cirúrgico e `alopecia-androgenetica` é geral. Este artigo é o clínico feminino e linka os dois. Os itens 228 (menopausa), 229 (SOP) e 230 (espironolactona) viram satélites dele.
+
+### 303. O que é alopecia? Tipos e como diferenciar
+- **Objetivo SEO**: o que é alopecia
+- **Consultas no Search Console**: o que é alopecia, o que é alopecia capilar, "que que é alopecia", sintomas de alopecia androgenética.
+- **Briefing**: artigo-mãe sobre alopecia: cicatricial x não cicatricial, androgenética, areata, eflúvio telógeno, tração, frontal fibrosante. Uma seção curta por tipo, com link para o artigo próprio quando existir.
+- **Prioridade**: alta
+- Nota (2026-11-24): não repetir a keyword de `alopecia-androgenetica`. Este artigo deve reforçar aquele, que hoje está mal posicionado (posição ~47).
+
 
 ### 41. Dutasterida funciona melhor que Finasterida?
 - Nota (2026-09-04): reavaliado antes de escrever o item 48. O artigo
@@ -794,6 +824,21 @@ frentes que se alternam (ver regra de escolha no topo desta seção).
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): progressão, adesão, diagnóstico e expectativas. Excelente AEO.
 - Nota (2026-10-03): Pode linkar com o item 218 (como saber se o tratamento está funcionando) e com o item 44 da fila antiga. Cuidado para não sugerir troca de medicação por conta própria.
 
+#### Lote 3, lacunas do Search Console em 2026-11-24 (ids 301+)
+
+### 301. Injeção para queda de cabelo: quais aplicações no couro cabeludo existem?
+- **Objetivo SEO**: aplicação no couro cabeludo para queda de cabelo
+- **Consultas no Search Console**: injeção capilar, injeção de vitaminas no couro cabeludo, aplicação no couro cabeludo para nascer cabelo, intradermoterapia capilar, enzima capilar injetável, injeção para crescer cabelo, mmp e mesoterapia.
+- **Briefing**: comparação das aplicações que existem (MMP, mesoterapia/intradermoterapia, PRP, exossomos, dutasterida injetável): o que cada uma entrega, o que a evidência sustenta, como fica junto com o tratamento oral/tópico e por que nenhuma substitui o diagnóstico.
+- **Prioridade**: alta
+- Nota (2026-11-24): várias dessas consultas já aparecem na posição ~3, mas com 0 cliques, porque nenhuma página atende a intenção de comparar. Este artigo é o hub que linka `mmp-capilar`, `mesoterapia-capilar`, `prp-para-queda-de-cabelo` e `exossomos-para-queda-de-cabelo`, sem repetir o texto deles. Sem preços (compliance do `DNA.md`).
+
+### 304. Finasterida é hormônio? Como ela age na testosterona
+- **Objetivo SEO**: finasterida é hormônio
+- **Consultas no Search Console**: finasterida é hormônio, testosterona y calvicie.
+- **Briefing**: finasterida não é hormônio, é inibidora da 5-alfa-redutase. O que acontece com testosterona e DHT, por que isso não equivale a "tirar hormônio", e mitos comuns.
+- Nota (2026-11-24): `finasterida-para-calvicie` e `testosterona-causa-calvicie-masculina` tocam no assunto. Responder a pergunta de forma direta e linkar os dois. Não orientar dose nem suspensão.
+
 ## Pilar 5 — Casos especiais e público específico (~10% da fila)
 
 Tipos de cabelo, transplante de barba/sobrancelha, público fora de
@@ -804,6 +849,9 @@ Vitória/ES, correção de cirurgias anteriores.
 ### 112. Transplante após micropigmentação
 ### 113. Transplante em cabelos cacheados
 ### 114. Transplante em cabelos crespos
+- **Objetivo SEO**: transplante capilar cabelo crespo / afro
+- **Prioridade**: alta
+- Nota (2026-11-24): o Search Console mostra buscas em formato de pergunta de IA ("clínicas de transplante capilar em Vitória especializadas em cabelo afro") com o blog na posição ~3 e sem artigo dedicado. Cobrir a curvatura do folículo abaixo da pele, a transecção na FUE, a densidade visual alta com poucos enxertos e a hairline em cabelo afro.
 ### 115. Transplante em cabelos grisalhos
 ### 116. Pacientes internacionais: como funciona
 ### 117. Como é a consulta para transplante capilar
@@ -846,6 +894,33 @@ Vitória/ES, correção de cirurgias anteriores.
 - **Objetivo SEO**: cicatriz FUT correção
 - **Briefing** (ângulo sugerido pelo Dr. Vitor): FUE sobre cicatriz, camuflagem e limitações.
 - Nota (2026-10-03): `fue-ou-fut` e `sinais-transplante-capilar-mal-feito` citam a cicatriz da FUT. Foco aqui: opções de correção (FUE sobre cicatriz, camuflagem, limitações).
+
+#### Lote 3, lacunas do Search Console em 2026-11-24 (ids 301+)
+
+### 305. Pelos da barba no transplante capilar: quando a barba serve de área doadora
+- **Objetivo SEO**: barba como área doadora transplante capilar
+- **Consultas no Search Console**: fios da barba no transplante capilar, quem pode fazer transplante de barba.
+- **Briefing**: quando a barba entra como área doadora complementar, diferenças de calibre e ciclo, onde esses fios funcionam melhor (meio e coroa, não a hairline), cicatrização no rosto e limites.
+- Nota (2026-11-24): `body-hair-transplant` cobre pelos do corpo em geral, mas o título não fala de barba e o blog está na posição ~53 para essas buscas. Este artigo foca na barba e linka `body-hair-transplant`. Não confundir com `transplante-de-barba` (barba como área receptora).
+
+## Versão em inglês (fora da rotação automática)
+
+Itens para `content-en/`. **A skill `blog-post` não deve escolher estes
+itens** (ela escreve em português, em `content/`). Eles ficam aqui só como
+fila para quando o Dr. Vitor pedir artigos em inglês.
+
+### 306. Female hair transplant: recovery and results
+- **Objetivo SEO**: female hair transplant recovery
+- **Consultas no Search Console**: female hair transplant recovery (posição ~14, sem artigo próprio).
+- **Prioridade**: muito alta
+- **Briefing**: diferenças da recuperação em mulheres (FUE sem raspar ou raspagem parcial, shock loss mais comum, volta à rotina com o cabelo longo cobrindo) e uma linha do tempo de resultados.
+- Nota (2026-11-24): linkar `hair-transplant-recovery` e `hair-transplant-results-timeline`. Base em português: `calvicie-feminina-transplante-capilar`.
+
+### 307. Hair transplant week by week: weeks 3 to 8
+- **Objetivo SEO**: hair transplant week by week
+- **Consultas no Search Console**: 3 weeks after hair transplant, 4 weeks after, hair transplant day 15, 30 days, 60 days post hair transplant, hair transplant care after 15 days.
+- **Briefing**: continuação de `hair-transplant-recovery` (que para no dia 14): a fase de shedding, vermelhidão, foliculite, quando voltar a treinar, cortar o cabelo e usar boné, e o que esperar no dia 60.
+- Nota (2026-11-24): não repetir os 14 primeiros dias. Linkar o artigo atual e `hair-transplant-results-timeline`.
 
 ## Já publicados
 
