@@ -93,6 +93,7 @@ export default function Article() {
         <LI><Link href="/blog/transplante-de-sobrancelha" className="underline">{"Transplante de sobrancelha"}</Link>{": quem pode fazer, por que a direção dos fios é o ponto mais crítico e como é a recuperação."}</LI>
         <LI><Link href="/blog/body-hair-transplant" className="underline">{"Body hair transplant"}</Link>{": quando pelos da barba e do tórax entram como área doadora, e quais são os limites desse recurso."}</LI>
         <LI><Link href="/blog/transplante-capilar-apos-queimadura" className="underline">{"Transplante capilar após queimadura"}</Link>{": quando a cicatriz aceita enxertos, o que os estudos mostram e quando o caso pede outra abordagem."}</LI>
+        <LI><Link href="/blog/transplante-capilar-apos-micropigmentacao" className="underline">{"Transplante capilar após micropigmentação"}</Link>{": quando o pigmento pode ficar, quando sai antes com laser e como as duas técnicas se combinam."}</LI>
       </UL>
 
       <H2 id="perguntas-frequentes">{"Perguntas frequentes"}</H2>
