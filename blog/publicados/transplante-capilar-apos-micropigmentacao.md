@@ -1,0 +1,7 @@
+# 112. Transplante após micropigmentação
+- **Slug**: `transplante-capilar-apos-micropigmentacao`
+- **Título publicado**: Transplante capilar após micropigmentação: é possível fazer?
+- **Data**: 2026-11-25
+- **Pilar**: 5 (Casos especiais e público específico, `meta.category`: "Transplante capilar")
+- **Keyword primária**: transplante capilar após micropigmentação (fora da lista de primárias do DNA; sugerido adicionar às secundárias, junto com a pergunta GEO "Dá para fazer transplante capilar depois de micropigmentação?")
+- **Observações**: escolhido por rotação. Últimos pilares publicados: 5 (2026-11-11, `correcao-transplante-capilar`), 4 (11-13), 1 (11-17), 3 (11-20), 2 (11-23); o pilar 5 era o mais atrasado. O item 110 já está coberto por `correcao-transplante-capilar`. O item 111 ("Correção de hairline artificial"), mais antigo elegível, foi pulado nesta rodada pela sobreposição forte com `correcao-transplante-capilar` (H3 sobre camuflar e afinar a linha frontal) e com `hairline-natural-transplante-capilar` (H2 "Como corrigir hairline artificial?"); continua elegível se surgir um ângulo distinto. Aqui o foco é o pigmento: quando fica, quando sai com laser, planejamento, combinação das técnicas e micropigmentação na área doadora. Linka `hairline-natural-transplante-capilar`, `area-doadora-fraca-transplante-capilar` e `correcao-transplante-capilar`. Categorizado no `guia-transplante-capilar`, seção "Casos especiais".
