@@ -45,6 +45,7 @@ export default function Article() {
         <LI><Link href="/blog/testosterona-causa-calvicie-masculina" className="underline">{"Testosterona causa calvície masculina?"}</Link>{": o papel da DHT e da genética, o que os estudos mostram sobre níveis hormonais e o que muda para quem faz reposição."}</LI>
         <LI><Link href="/blog/caneta-emagrecedora-queda-de-cabelo" className="underline">{"Caneta emagrecedora causa queda de cabelo?"}</Link>{": por que Ozempic, Mounjaro e Wegovy podem levar a uma queda temporária pelo emagrecimento rápido e quando ela revela uma calvície genética."}</LI>
         <LI><Link href="/blog/calvicie-e-efluvio-telogeno" className="underline">{"Calvície e eflúvio telógeno ao mesmo tempo: é possível?"}</Link>{": como as duas condições se sobrepõem, o que a tricoscopia ajuda a separar e o que muda no tratamento."}</LI>
+        <LI><Link href="/blog/dermatite-seborreica-queda-de-cabelo" className="underline">{"Dermatite seborreica causa queda de cabelo?"}</Link>{": quando a inflamação do couro cabeludo derruba fios, como diferenciar da calvície genética e quando a suspeita vai além da dermatite."}</LI>
       </UL>
 
       <H2 id="tratamento-clinico">{"Tratamento clínico"}</H2>
